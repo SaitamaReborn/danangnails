@@ -1,0 +1,75 @@
+{
+ "fetchedAt": "2026-08-05",
+ "photos": {
+  "hero": {
+   "file": "hero.jpg",
+   "title": "Elegant hands resting on knees with stylish black tights and carefully manicured nails",
+   "licence": "BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "creator": "nenadstojkovicart",
+   "creatorUrl": "https://www.flickr.com/photos/202846129@N03",
+   "source": "https://www.flickr.com/photos/202846129@N03/54588403085",
+   "bytes": 78998
+  },
+  "art": {
+   "file": "art.jpg",
+   "title": "Simple and Easy Nail Art Designs: Teal Nail Ideas for Beginners",
+   "licence": "BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "creator": "DIYNailArtDesigns",
+   "creatorUrl": "https://www.flickr.com/photos/77063667@N06",
+   "source": "https://www.flickr.com/photos/77063667@N06/7115344629",
+   "bytes": 134631
+  },
+  "pedicure": {
+   "file": "pedicure.jpg",
+   "title": "5th January 5/365",
+   "licence": "BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "creator": "fifikins",
+   "creatorUrl": "https://www.flickr.com/photos/25925793@N00",
+   "source": "https://www.flickr.com/photos/25925793@N00/3169895744",
+   "bytes": 208457
+  },
+  "salon": {
+   "file": "salon.jpg",
+   "title": "String & Light, Glam 5, Designed by Haldane Martin, Photo Micky Hoyle",
+   "licence": "BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "creator": "HALDANE MARTIN",
+   "creatorUrl": "https://www.flickr.com/photos/52634191@N08",
+   "source": "https://www.flickr.com/photos/52634191@N08/16340512797",
+   "bytes": 203630
+  },
+  "hands": {
+   "file": "hands.jpg",
+   "title": "unhas decoradas nails art",
+   "licence": "BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "creator": "monibela",
+   "creatorUrl": "https://www.flickr.com/photos/31824034@N02",
+   "source": "https://www.flickr.com/photos/31824034@N02/3783354982",
+   "bytes": 40789
+  },
+  "polish": {
+   "file": "polish.jpg",
+   "title": "Anklet",
+   "licence": "BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "creator": "sk_vel",
+   "creatorUrl": "https://www.flickr.com/photos/65815788@N00",
+   "source": "https://www.flickr.com/photos/65815788@N00/2894293025",
+   "bytes": 231264
+  },
+  "danang": {
+   "file": "danang.jpg",
+   "title": "Public Domain: Marine in Da Nang, Vietnam by Unknown Photographer, August 1965 (NARA)",
+   "licence": "PDM 1.0",
+   "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+   "creator": "pingnews.com",
+   "creatorUrl": "https://www.flickr.com/photos/39735679@N00",
+   "source": "https://www.flickr.com/photos/39735679@N00/272804585",
+   "bytes": 178551
+  }
+ }
+}

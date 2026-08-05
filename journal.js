@@ -31,7 +31,7 @@ const JOURNAL = [
       p: ["Ask what removal costs · the answer should be immediate and under 100K. Ask whether the quoted price includes base, top coat and cuticle work · it should. Ask which gel brand the salon uses · a serious salon answers without hesitating, because the product is their pride.",
           "Any hesitation on those three is your signal to walk. Da Nang has too many good salons to settle."] },
     { h: "Where the deals genuinely are",
-      p: ["Move one or two streets inland from the beachfront and prices drop while the workmanship does not. The neighbourhood pages of this guide break down what to expect area by area · see <a href=\"/neighbourhoods/\">where to get your nails done in Da Nang</a>.",
+      p: ["Move one or two streets inland from the beachfront and prices drop while the workmanship does not. The neighbourhood pages of this guide break down what to expect area by area · see <a href=\"/salons/\">where to get your nails done in Da Nang</a>.",
           "And if a salon posts its full menu with prices in writing, treat that as the strongest quality signal there is. The confident ones have nothing to hide."] }
   ],
   faq: [
