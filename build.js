@@ -134,7 +134,7 @@ const S=buildSite({
  PAGES:[{path:"/prices/",nav:"Prices"},{path:"/choosing-a-salon/",nav:"How to choose"}],
 });
 
-const {page,head,nav,footer,pick,list,itemList,ranked,PLACES,PLACES_DATE,AREAS,STREETS,PHOTOS,featured,TODAY,urls,OUT}=S;
+const {page,head,nav,footer,pick,list,itemList,byGoogle,ranked,PLACES,PLACES_DATE,AREAS,STREETS,PHOTOS,featured,TODAY,urls,OUT}=S;
 const totalReviews=PLACES.reduce((s,p)=>s+p.reviews,0);
 const avg=PLACES.length?(PLACES.reduce((s,p)=>s+p.rating,0)/PLACES.length).toFixed(2):'—';
 const SWATCH=['#FF2E5B','#E0447F','#B9A6CE','#C9A227','#7A3B62','#F0708F'];
@@ -207,6 +207,21 @@ ${list(ranked)}
 <h2>By street</h2>
 <div class="chips">${STREETS.map(s=>`<a class="chip" href="/salons/street/${s.slug}/">${esc(s.name)}<b>${s.list.length}</b></a>`).join('')}</div>
 </section>`+footer(),'0.9',PLACES_DATE);
+
+
+/* ---------------- RAW GOOGLE ORDER (published so the ranking can be checked) ---------------- */
+page('/salons/by-google-rating',
+head(`Da Nang Nail Salons by Google Rating — the Raw Order | ${NAME}`,
+ `Every salon in Da Nang sorted strictly by Google rating and review count, with no editorial weighting — the data behind our ranking, published so you can check it.`,
+ SITE+'/salons/by-google-rating/')
++nav('/salons/')
++`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <a href="/salons/">All salons</a> → <span>By Google rating</span></nav></div>
+<section class="wrap">
+<header class="ph"><p class="eyebrow">Raw data · ${human(PLACES_DATE)}</p>
+<h1>Sorted by Google rating alone</h1>
+<p class="lede">No weighting, no editorial pick at the top — every salon in the order Google's own numbers put them. Our ranking on the <a href="/salons/">main list</a> weighs review volume as well, and this page is here so you can see exactly what that changes.</p></header>
+${list(byGoogle,true)}
+</section>`+footer(),'0.5',PLACES_DATE);
 
 /* ---------------- PRICES ---------------- */
 page('/prices',
