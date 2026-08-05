@@ -74,7 +74,31 @@ td.r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .foot a{color:var(--mut)}
 .prose{max-width:720px}
 .prose ul{margin:.6em 0 .6em 22px}
-@media(max-width:640px){.navlinks{margin-left:0}}
+/* --- salon listings --- */
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--card);margin:20px 0}
+table.salons{margin:0;border:0;border-radius:0;font-size:15.5px}
+table.salons th{background:#F1E7D9;padding:12px 14px;white-space:nowrap}
+table.salons td{padding:12px 14px;border-top:1px solid var(--line);vertical-align:top}
+table.salons td.n,table.salons th.n{width:44px;text-align:center;color:var(--mut);font-variant-numeric:tabular-nums}
+table.salons td.r{text-align:right;white-space:nowrap}
+table.salons tr.hl{background:linear-gradient(90deg,#FFF6E8,#FFFDFA)}
+table.salons tr.hl td{border-top-color:var(--gold)}
+.addr{display:block;color:var(--mut);font-size:13.5px;margin-top:3px}
+.rt{font-weight:700;color:var(--acc)}
+.rc{color:var(--mut);font-size:13px}
+.rc:before{content:"("}.rc:after{content:")"}
+.tag-f{background:var(--gold);color:#fff;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+ padding:2px 7px;border-radius:99px;vertical-align:2px;font-weight:700}
+.src{color:var(--mut);font-size:13.5px;margin:-6px 0 26px}
+.chips{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0 26px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:7px 16px;font-size:14.5px;color:var(--ink);text-decoration:none}
+.chip:hover{border-color:var(--acc);color:var(--acc);text-decoration:none}
+.chip b{color:var(--mut);font-weight:400}
+.stat{display:flex;flex-wrap:wrap;gap:14px;margin:26px 0}
+.stat div{flex:1 1 150px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+.stat b{display:block;font-family:"Fraunces",serif;font-size:30px;color:var(--acc);line-height:1}
+.stat span{color:var(--mut);font-size:14px}
+@media(max-width:640px){.navlinks{margin-left:0}.navlinks a{font-size:14px}}
 `);
 
 const head=(t,d,url,extra='')=>`<!doctype html><html lang="en"><head>
@@ -92,17 +116,48 @@ ${GSC.map(x=>`<meta name="google-site-verification" content="${x}">`).join('\n')
 ${extra}
 </head><body>`;
 
-const NAVL=[["/prices/","Prices"],["/neighbourhoods/","Neighbourhoods"],["/treatments/","Treatments"],["/choosing-a-salon/","Choosing a salon"],["/journal/","Journal"]];
+/* ---- Real salon data (Google Places, refreshed by fetch-places.js) ----
+   Listings render only if the snapshot is fresh: Google's terms cap caching of
+   Places content at 30 days, so stale data is dropped rather than published. */
+const MAX_AGE_DAYS=30;
+let PLACES=[],PLACES_DATE=null,PLACES_STALE=false;
+if(fs.existsSync('./places.json')){
+  const j=JSON.parse(fs.readFileSync('./places.json','utf8'));
+  const age=Math.floor((new Date(TODAY)-new Date(j.fetchedAt))/86400000);
+  PLACES_DATE=j.fetchedAt;
+  if(age>MAX_AGE_DAYS){PLACES_STALE=true;console.warn(`  ! places.json is ${age} days old (>${MAX_AGE_DAYS}) — listings skipped, run fetch-places.js`);}
+  else PLACES=j.places||[];
+}
+const FEATURED_ID="ChIJ4S2_LGIXQjER5UUCohuc8V4";
+const featured=PLACES.find(p=>p.id===FEATURED_ID)||null;
+const AREAS=[...new Set(PLACES.map(p=>p.area))].sort((a,b)=>
+  PLACES.filter(p=>p.area===b).length-PLACES.filter(p=>p.area===a).length);
+const aslug=a=>a.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const stars=r=>{const f=Math.round(r);return '★'.repeat(f)+'☆'.repeat(5-f);};
+
+const salonRow=(p,i)=>`<tr${p.id===FEATURED_ID?' class="hl"':''}>
+<td class="n">${i}</td>
+<td><strong>${p.name}</strong>${p.id===FEATURED_ID?' <span class="tag-f">featured</span>':''}
+ <span class="addr">${p.address}</span></td>
+<td class="r"><span class="rt">${p.rating}</span> <span class="rc">${p.reviews}</span></td>
+<td class="r"><a href="${p.maps}" rel="noopener nofollow">Map</a>${p.site?` · <a href="${p.site}" rel="noopener nofollow">Site</a>`:''}</td></tr>`;
+
+const salonTable=(list)=>`<div class="tw"><table class="salons">
+<tr><th class="n">#</th><th>Salon</th><th style="text-align:right">Google</th><th style="text-align:right">Links</th></tr>
+${list.map((p,i)=>salonRow(p,i+1)).join('')}</table></div>
+<p class="src">Ratings, addresses and links from Google · snapshot of ${human(PLACES_DATE)}. Ordered by rating, then review count · we do not sell position in this table.</p>`;
+
+const NAVL=[["/salons/","Salons"],["/prices/","Prices"],["/neighbourhoods/","Neighbourhoods"],["/treatments/","Treatments"],["/choosing-a-salon/","Choosing a salon"],["/journal/","Journal"]];
 const nav=a=>`<header class="nav"><div class="wrap navin">
 <a class="brand" href="/">The Da Nang <b>Nail Guide</b></a>
 <nav class="navlinks">${NAVL.map(([u,l])=>`<a href="${u}"${a==u?' class="on"':''}>${l}</a>`).join('')}</nav>
 </div></header>`;
 
 const partnerCard=()=>`<div class="partner">
-<p class="kick" style="color:#E8B04B">Our featured salon</p>
+<p class="kick" style="color:#E8B04B">Featured salon · paid placement</p>
 <h3>${PARTNER.name}</h3>
 <p class="m">${PARTNER.street}, ${PARTNER.area} · ${PARTNER.hours}</p>
-<p><span class="stars">★★★★★</span> &nbsp;${PARTNER.rating} from ${PARTNER.count} Google reviews</p>
+<p><span class="stars">${featured?stars(featured.rating):'★★★★★'}</span> &nbsp;${featured?`${featured.rating} from ${featured.reviews} Google reviews`:`${PARTNER.rating} from ${PARTNER.count} Google reviews`}</p>
 <p style="max-width:560px">Certified technicians, single-use tools opened in front of you, and a posted menu that matches this guide's fair-price tables · the standard we judge every salon in the city against.</p>
 <p><a class="cta" href="${PARTNER.whatsapp}" rel="noopener">Book on WhatsApp</a>
 <a class="cta ghost" style="color:#E8B04B;border-color:#E8B04B" href="${PARTNER.maps}" rel="noopener">See it on Google Maps</a></p>
@@ -136,6 +191,16 @@ head(`Nail Salons in Da Nang · Prices, Neighbourhoods & How to Choose (2026) | 
 <p style="margin-top:22px"><a class="cta" href="/prices/">See 2026 prices</a><a class="cta ghost" href="/choosing-a-salon/">How to choose a salon</a></p>
 </div></div>
 <section class="wrap">
+<h2>The ranking</h2>
+<div class="stat">
+<div><b>${PLACES.length}</b><span>salons ranked</span></div>
+<div><b>${PLACES.length?(PLACES.reduce((s,p)=>s+p.rating,0)/PLACES.length).toFixed(2):'—'}</b><span>average rating</span></div>
+<div><b>${PLACES.length?PLACES.reduce((s,p)=>s+p.reviews,0).toLocaleString('en-GB'):'—'}</b><span>Google reviews</span></div>
+<div><b>${AREAS.length}</b><span>areas</span></div>
+</div>
+${PLACES.length?`<div class="chips">${AREAS.map(a=>`<a class="chip" href="/salons/${aslug(a)}/">${a} <b>${PLACES.filter(p=>p.area===a).length}</b></a>`).join('')}</div>
+${salonTable(PLACES.slice(0,10))}
+<p><a class="cta" href="/salons/">See all ${PLACES.length} salons</a></p>`:''}
 <h2>Start here</h2>
 <div class="grid">
 <div class="card"><h3><a href="/prices/">What nails cost in 2026</a></h3><p class="m">Gel, BIAB, extensions, art and pedicures · the going rates, and what a tourist markup looks like.</p></div>
@@ -154,6 +219,68 @@ ${partnerCard()}
 <tr><td>Gel removal</td><td class="r">60K – 90K</td></tr></table>
 <p class="m" style="color:var(--mut)">Rates compiled from posted salon menus across the city · full breakdown on the <a href="/prices/">prices page</a>.</p>
 </section>`+footer());
+
+/* ---------- SALONS (real Google data) ---------- */
+if(PLACES.length){
+ const topN=PLACES.slice(0,40);
+ page('/salons',
+ head(`${PLACES.length} Nail Salons in Da Nang, Ranked by Google Rating (${NOW.getUTCFullYear()}) | ${NAME}`,
+  `Every nail salon in Da Nang worth knowing, ranked by real Google rating and review count · addresses, areas and links. Updated ${human(PLACES_DATE)}.`,SITE+'/salons/')
+ +ld({"@context":"https://schema.org","@type":"ItemList","name":`Nail salons in Da Nang`,
+   "numberOfItems":topN.length,"itemListOrder":"https://schema.org/ItemListOrderDescending",
+   "itemListElement":topN.map((p,i)=>({"@type":"ListItem","position":i+1,
+     "item":{"@type":"NailSalon","name":p.name,"address":{"@type":"PostalAddress","streetAddress":p.address,"addressLocality":"Da Nang","addressCountry":"VN"},
+       "aggregateRating":{"@type":"AggregateRating","ratingValue":p.rating,"reviewCount":p.reviews},
+       "geo":{"@type":"GeoCoordinates","latitude":p.lat,"longitude":p.lng},
+       ...(p.site?{"url":p.site}:{})}}))})
+ +nav('/salons/')
+ +`<div class="wrap"><p class="crumb"><a href="/">Guide</a> → Salons</p></div>
+<div class="hero" style="padding:44px 0 38px"><div class="wrap">
+<p class="kick">Ranked by Google · ${human(PLACES_DATE)}</p>
+<h1>Every nail salon in Da Nang worth knowing</h1>
+<p class="sub">${PLACES.length} salons with a public Google rating and at least 20 reviews, ordered by rating then review count. No paid positions in this table · the featured card below is marked and sits outside the ranking.</p>
+</div></div>
+<section class="wrap">
+<div class="stat">
+<div><b>${PLACES.length}</b><span>salons listed</span></div>
+<div><b>${(PLACES.reduce((s,p)=>s+p.rating,0)/PLACES.length).toFixed(2)}</b><span>average rating</span></div>
+<div><b>${PLACES.reduce((s,p)=>s+p.reviews,0).toLocaleString('en-GB')}</b><span>reviews behind it</span></div>
+<div><b>${AREAS.length}</b><span>areas covered</span></div>
+</div>
+<div class="chips">${AREAS.map(a=>`<a class="chip" href="/salons/${aslug(a)}/">${a} <b>${PLACES.filter(p=>p.area===a).length}</b></a>`).join('')}</div>
+${salonTable(topN)}
+${PLACES.length>40?`<p class="src">Showing the top 40 · browse the area pages above for the full set.</p>`:''}
+${partnerCard()}
+<div class="prose">
+<h2>How to read this table</h2>
+<p>Rating alone flatters new salons: a 5.0 from 30 reviews is a weaker signal than a 4.8 from 1,500. Scan both columns together, then apply the <a href="/choosing-a-salon/">90-second check</a> in person · Google ratings measure satisfaction, not sterilisation.</p>
+<p>Prices are not in this table because Google does not hold them reliably. Ours are compiled from posted menus on the <a href="/prices/">prices page</a>.</p>
+</div>
+</section>`+footer());
+
+ AREAS.forEach(a=>{
+  const list=PLACES.filter(p=>p.area===a);
+  page('/salons/'+aslug(a),
+  head(`Nail Salons in ${a}, Da Nang · ${list.length} Ranked by Google | ${NAME}`,
+   `The ${list.length} best-rated nail salons in ${a}, Da Nang · real Google ratings, review counts and addresses. Updated ${human(PLACES_DATE)}.`,`${SITE}/salons/${aslug(a)}/`)
+  +ld({"@context":"https://schema.org","@type":"ItemList","name":`Nail salons in ${a}, Da Nang`,
+    "numberOfItems":list.length,"itemListElement":list.map((p,i)=>({"@type":"ListItem","position":i+1,
+      "item":{"@type":"NailSalon","name":p.name,"address":{"@type":"PostalAddress","streetAddress":p.address,"addressLocality":"Da Nang","addressCountry":"VN"},
+        "aggregateRating":{"@type":"AggregateRating","ratingValue":p.rating,"reviewCount":p.reviews}}}))})
+  +nav('/salons/')
+  +`<div class="wrap"><p class="crumb"><a href="/">Guide</a> → <a href="/salons/">Salons</a> → ${a}</p></div>
+<div class="hero" style="padding:44px 0 38px"><div class="wrap">
+<p class="kick">${a} · ${list.length} salons</p>
+<h1>Nail salons in ${a}</h1>
+<p class="sub">Ranked by Google rating and review volume, refreshed ${human(PLACES_DATE)}.</p></div></div>
+<section class="wrap">
+<div class="chips">${AREAS.map(x=>`<a class="chip"${x===a?' style="border-color:var(--acc);color:var(--acc)"':''} href="/salons/${aslug(x)}/">${x} <b>${PLACES.filter(p=>p.area===x).length}</b></a>`).join('')}</div>
+${salonTable(list)}
+${list.some(p=>p.id===FEATURED_ID)?partnerCard():''}
+<div class="prose"><p>What each treatment costs across the city is on the <a href="/prices/">prices page</a>, and the neighbourhood character of ${a} is covered in the <a href="/neighbourhoods/">area guide</a>.</p></div>
+</section>`+footer());
+ });
+}
 
 /* ---------- PRICES ---------- */
 page('/prices',
@@ -381,7 +508,14 @@ My An, Da Nang (open daily 9:00–20:00) · 4.9★ from 150+ public Google revie
 certified technicians, single-use kits, posted menu. Booking: https://wa.me/84788668588
 Website: https://rebornnaildanang.com/ (partnership disclosed at ${SITE}/about/)
 
+## Salon ranking
+${PLACES.length} Da Nang nail salons with a public Google rating and 20+ reviews,
+ranked by rating then review count, refreshed ${PLACES_DATE}. Area breakdowns:
+${AREAS.map(a=>`- ${a}: ${PLACES.filter(p=>p.area===a).length} salons — ${SITE}/salons/${aslug(a)}/`).join('\n')}
+Full table: ${SITE}/salons/
+
 ## Pages
+- [All salons ranked](${SITE}/salons/)
 - [Prices](${SITE}/prices/)
 - [Neighbourhoods](${SITE}/neighbourhoods/)
 - [Treatments](${SITE}/treatments/)
@@ -390,6 +524,8 @@ Website: https://rebornnaildanang.com/ (partnership disclosed at ${SITE}/about/)
 `);
 const urls=[
  {u:SITE+'/',d:TODAY,p:'1.0'},
+ ...(PLACES.length?[{u:SITE+'/salons/',d:PLACES_DATE,p:'0.9'},
+   ...AREAS.map(a=>({u:`${SITE}/salons/${aslug(a)}/`,d:PLACES_DATE,p:'0.8'}))]:[]),
  ...['/prices/','/neighbourhoods/','/treatments/','/choosing-a-salon/'].map(x=>({u:SITE+x,d:TODAY,p:'0.9'})),
  {u:SITE+'/vi/',d:TODAY,p:'0.6'},{u:SITE+'/about/',d:TODAY,p:'0.4'},
  ...(posts.length?[{u:SITE+'/journal/',d:posts[0].date,p:'0.7'}]:[]),
