@@ -13,6 +13,9 @@ if(!KEY){console.error('GOOGLE_PLACES_KEY missing');process.exit(1);}
 const PHOTO_DIR='./assets/places';
 const MAX_PHOTOS=parseInt(process.env.MAX_PHOTOS||'3',10);
 const WIDTH=900;
+/* Rotating window over each place's photo set, so a refresh shows different
+   shots instead of re-downloading the same ones. */
+const OFFSET=parseInt(process.env.PHOTO_OFFSET||'0',10);
 
 const req=(opts,body)=>new Promise((res,rej)=>{
   const r=https.request(opts,x=>{
@@ -34,7 +37,18 @@ const details=id=>req({hostname:'places.googleapis.com',method:'GET',
 const photoBytes=name=>req({hostname:'places.googleapis.com',method:'GET',
   path:`/v1/${name}/media?maxWidthPx=${WIDTH}&key=${KEY}`,headers:{}});
 
+/* places.json is read once at start and written once at the end, so a discovery
+   run finishing mid-flight would be silently overwritten. Refuse to start while
+   one holds the lock, and hold it ourselves for the duration. */
+const LOCK='./.places.lock';
 (async()=>{
+  if(fs.existsSync(LOCK)){
+    const age=(Date.now()-fs.statSync(LOCK).mtimeMs)/60000;
+    if(age<90){console.error(`another places job has been running for ${age.toFixed(0)} min — refusing to race it`);process.exit(1);}
+    console.warn('stale lock, taking over');
+  }
+  fs.writeFileSync(LOCK,String(process.pid));
+  process.on('exit',()=>{try{fs.unlinkSync(LOCK)}catch(e){}});
   const db=JSON.parse(fs.readFileSync('./places.json','utf8'));
   fs.mkdirSync(PHOTO_DIR,{recursive:true});
   let withRev=0,withPhoto=0,shots=0;
@@ -62,7 +76,10 @@ const photoBytes=name=>req({hostname:'places.googleapis.com',method:'GET',
     if(p.reviewList.length) withRev++;
 
     p.photoList=[];
-    for(const ph of (d.photos||[]).slice(0,MAX_PHOTOS)){
+    const pool=d.photos||[];
+    const start=pool.length?(OFFSET*MAX_PHOTOS)%pool.length:0;
+    const picked=pool.length?[...pool.slice(start),...pool.slice(0,start)].slice(0,MAX_PHOTOS):[];
+    for(const ph of picked){
       const idx=p.photoList.length;
       const file=`${p.slug||p.id.slice(-8)}-${idx}.jpg`;
       try{

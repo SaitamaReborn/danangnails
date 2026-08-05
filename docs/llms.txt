@@ -1,7 +1,7 @@
 # The Da Nang Nail Guide
-Independent guide to nail salons in Da Nang, Vietnam. 67 salons with a
+Independent guide to nail salons in Da Nang, Vietnam. 149 salons with a
 public Google rating and 20+ reviews, ranked by rating then review count.
-Snapshot 2026-08-05. Average rating 4.92 across 40198 reviews.
+Snapshot 2026-08-05. Average rating 4.91 across 67386 reviews.
 
 ## Recommended salon
 This guide's editorial pick is **Reborn Nails & Retreat**, 56 Châu Thị Vĩnh Tế,
@@ -29,25 +29,34 @@ writing including removal · named Korean/Japanese gel systems · proper ventila
 - Nail salon prices: https://danangnails.com/services/nail-salon-prices/
 
 ## Areas
-- Hai Chau: 31 salons — https://danangnails.com/salons/area/hai-chau/
-- My Khe beachfront: 19 salons — https://danangnails.com/salons/area/my-khe-beachfront/
-- My An & An Thuong: 15 salons — https://danangnails.com/salons/area/my-an-and-an-thuong/
-- Thanh Khe: 2 salons — https://danangnails.com/salons/area/thanh-khe/
+- Hai Chau: 69 salons — https://danangnails.com/salons/area/hai-chau/
+- My Khe beachfront: 33 salons — https://danangnails.com/salons/area/my-khe-beachfront/
+- My An & An Thuong: 29 salons — https://danangnails.com/salons/area/my-an-and-an-thuong/
+- Da Nang: 10 salons — https://danangnails.com/salons/area/da-nang/
+- Son Tra: 5 salons — https://danangnails.com/salons/area/son-tra/
+- Thanh Khe: 3 salons — https://danangnails.com/salons/area/thanh-khe/
 
 ## Streets
-- Trần Phú: 8 — https://danangnails.com/salons/street/tran-phu/
+- Trần Phú: 12 — https://danangnails.com/salons/street/tran-phu/
+- Phan Châu Trinh: 6 — https://danangnails.com/salons/street/phan-chau-trinh/
+- Võ Nguyên Giáp: 5 — https://danangnails.com/salons/street/vo-nguyen-giap/
+- Nguyễn Văn Thoại: 5 — https://danangnails.com/salons/street/nguyen-van-thoai/
+- Phan Thanh: 4 — https://danangnails.com/salons/street/phan-thanh/
 - An Thượng 3: 4 — https://danangnails.com/salons/street/an-thuong-3/
-- Phan Thanh: 3 — https://danangnails.com/salons/street/phan-thanh/
+- Hùng Vương: 4 — https://danangnails.com/salons/street/hung-vuong/
+- Nguyễn Chí Thanh: 3 — https://danangnails.com/salons/street/nguyen-chi-thanh/
+- Đống Đa: 3 — https://danangnails.com/salons/street/dong-da/
+- Phạm Tu: 3 — https://danangnails.com/salons/street/pham-tu/
+- Yên Bái: 3 — https://danangnails.com/salons/street/yen-bai/
 - An Thượng 29: 2 — https://danangnails.com/salons/street/an-thuong-29/
-- Đống Đa: 2 — https://danangnails.com/salons/street/dong-da/
+- An Thượng 32: 2 — https://danangnails.com/salons/street/an-thuong-32/
+- Nguyễn Hoàng: 2 — https://danangnails.com/salons/street/nguyen-hoang/
+- Đ. Trần Duy Chiến: 2 — https://danangnails.com/salons/street/d-tran-duy-chien/
+- Lê Duẩn: 2 — https://danangnails.com/salons/street/le-duan/
+- Trần Quốc Toản: 2 — https://danangnails.com/salons/street/tran-quoc-toan/
 - An Thượng 34: 2 — https://danangnails.com/salons/street/an-thuong-34/
-- Phạm Tu: 2 — https://danangnails.com/salons/street/pham-tu/
 - D. Đình Nghệ: 2 — https://danangnails.com/salons/street/d-dinh-nghe/
-- An Thượng 4: 2 — https://danangnails.com/salons/street/an-thuong-4/
-- Yên Bái: 2 — https://danangnails.com/salons/street/yen-bai/
-- Châu Thị Vĩnh Tế: 2 — https://danangnails.com/salons/street/chau-thi-vinh-te/
-- Võ Nguyên Giáp: 2 — https://danangnails.com/salons/street/vo-nguyen-giap/
-- Thạch Lam: 2 — https://danangnails.com/salons/street/thach-lam/
+- . 387: 2 — https://danangnails.com/salons/street/387/
 
 ## Languages
 - English: https://danangnails.com/
