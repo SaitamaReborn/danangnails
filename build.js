@@ -125,7 +125,8 @@ const S=buildSite({
  ITEM_TYPE:"NailSalon",ITEM_NOUN:"Nail salon",
  FEATURED_ID:"ChIJ4S2_LGIXQjER5UUCohuc8V4",
  PICK_EYEBROW:"Our pick",PICK_BADGE:"Our pick",
- PICK_TEXT:"Certified technicians, single-use tools opened in front of you, a menu posted in writing and one of the widest treatment ranges in the city — from a 200K gel colour to a 75-minute signature pedicure ritual. It is the salon we send people to when they ask, and the standard the rest of this guide is measured against.",
+ PICK_ONELINE:"and the reviews are written in English by visitors who name the owner and the technicians — which tells you more about a salon than any rating does.",
+ PICK_TEXT:"Read its reviews and a pattern shows up that most Da Nang salons cannot match: they are written in English, by visitors from half a dozen countries, and they name people — Fiona the owner, Giang, the technician who checked the pressure was right. That only happens where staff and guests can actually talk to each other, and it is the single thing that most often goes wrong here. Add single-use tools, a menu posted in writing, and a range running from a 200K gel colour to a 75-minute signature pedicure, and it is the salon we send people to when they ask.",
  KW_SERVICES_LABEL:"By treatment",KW_AREA_PREFIX:"Nail salons in",
  CHECK_PATH:"/choosing-a-salon/",CHECK_LABEL:"90-second hygiene check",
  AREA_LEDE:(n,c)=>`${c} salons in ${n} hold a public Google rating with enough reviews to mean something. Ranked below with addresses, hours and maps.`,
@@ -371,6 +372,24 @@ head(`About This Guide | ${NAME}`,
 <h2>What we never do</h2>
 <p>We do not publish invented reviews, invented ratings or invented salons. Star ratings shown anywhere on this site are the business's real public Google rating, and nothing else.</p>
 </div></section>`+footer(),'0.4');
+
+
+/* ---------------- CREDITS ---------------- */
+{
+ const ph=Object.values(PHOTOS);
+ page('/credits',
+ head(`Photography Credits | ${NAME}`,
+  `Where the photographs on this guide come from, and the licence each one carries.`,SITE+'/credits/')
+ +nav('')
+ +`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <span>Credits</span></nav></div>
+<section class="wrap"><header class="ph"><h1>Photography credits</h1>
+<p class="lede">Salon photographs come from Google and carry their contributor's name beside each image. The editorial photographs below are used under Creative Commons or public-domain licences.</p></header>
+<div class="prose">
+${ph.length?`<table class="data"><tr><th>Photograph</th><th>By</th><th style="text-align:right">Licence</th></tr>
+${ph.map(x=>`<tr><td>${esc(x.title||x.file)}</td><td><a href="${x.creatorUrl||x.source}" rel="noopener nofollow">${esc(x.creator)}</a></td><td class="r"><a href="${x.licenceUrl}" rel="noopener nofollow">${esc(x.licence)}</a></td></tr>`).join('')}</table>`:'<p>No editorial photography in use.</p>'}
+<p class="m">Salon and spa photographs are served from the Google Places API and are attributed to their contributors beside each image, as Google requires. Ratings and review text likewise come from Google and are reproduced unedited.</p>
+</div></section>`+footer(),'0.2');
+}
 
 /* ---------------- JOURNAL ---------------- */
 const posts=JOURNAL.filter(a=>a.date<=TODAY).sort((a,b)=>b.date.localeCompare(a.date));
