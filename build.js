@@ -186,6 +186,10 @@ const S=buildSite({
  AREA_LEDE:(n,c)=>`${c} salons in ${n} hold a public Google rating with enough reviews to mean something. Ranked below with addresses, hours and maps.`,
  FOOT_NOTE:"Prices are compiled from menus posted publicly by salons and shown in thousands of VND (“200K” = 200,000 ₫).",
  BESTOF, LOCALES,
+ /* Not featured in the guide's own selection. They remain in the full
+    directory and in the raw Google order — this list only governs the
+    curated best-of pages. */
+ EXCLUDE_FROM_PICKS:["ChIJAQDnG3sXQjERCiTkaiQXxO0"],
  PAGES:[{path:"/best-nail-salon-da-nang/",nav:"Best salons"},{path:"/prices/",nav:"Prices"},{path:"/choosing-a-salon/",nav:"How to choose"}],
 });
 
