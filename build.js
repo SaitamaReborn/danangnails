@@ -8,6 +8,7 @@ const DOMAIN="danangnails.com", NAME="The Da Nang Nail Guide", SITE="https://"+D
 const NOW=process.env.BUILD_DATE?new Date(process.env.BUILD_DATE):new Date();
 const GSC=fs.existsSync('./gsc.txt')?fs.readFileSync('./gsc.txt','utf8').split('\n').map(s=>s.trim()).filter(s=>s&&!s.startsWith('#')):[];
 const PARTNER={whatsapp:"https://wa.me/84788668588",hours:"open daily 9:00–20:00",
+ instagram:"https://www.instagram.com/reborn_nailsnretreat/",
  site:"https://rebornnaildanang.com/"};
 
 /* Keyword pages, one per treatment on a real Da Nang menu. */
@@ -125,7 +126,7 @@ const PRICES_SHORT=[["Gel polish, full colour","≈ 200K VND (~$8)"],["BIAB / bu
 
 const BESTOF=[
 {slug:"best-nail-salon-da-nang",count:10,noun:"nail salon",
- h1:"The best nail salons in Da Nang",
+ h1:"Top 10 best nail salons in Da Nang",
  question:"What is the best nail salon in Da Nang?",
  desc:`The best nail salons in Da Nang for ${new Date().getUTCFullYear()}, compared across every salon in the city with a public Google rating — with real prices, addresses, opening hours and what each one is actually good at.`,
  answerTail:`Across the whole city we track 149 salons carrying a public Google rating and at least twenty reviews, and the ten below are the ones worth your appointment. Expect to pay around 200,000 VND (about $8) for a gel manicure, 280K for a full set of soft-gel extensions and 250K–590K for a spa pedicure ritual.`,
@@ -142,7 +143,7 @@ const BESTOF=[
   ["Is it cheaper to get your nails done in Da Nang than in Korea or Japan?","Substantially. Comparable gel work in Seoul or Tokyo typically costs three to five times the Da Nang price for the same systems and similar skill, which is why nail appointments are a fixture of many travellers' itineraries here."]]},
 
 {slug:"best-pedicure-da-nang",count:8,noun:"pedicure",
- h1:"The best pedicures in Da Nang",
+ h1:"Top 8 best pedicures in Da Nang",
  question:"Where can I get the best pedicure in Da Nang?",
  desc:`The best spa pedicures in Da Nang: what a proper ritual includes, what the tiers cost (250K–590K), and the salons that do the heel work and massage properly.`,
  answerTail:`A spa pedicure in Da Nang is a 40 to 75 minute ritual — herbal soak, heel therapy, exfoliation, foot and calf massage, warm towels — not a nail trim with extras. Expect 250,000 VND for an express ritual, 380–450K for a full one, and around 590K for a 75-minute signature with hot stones.`,
@@ -186,7 +187,7 @@ const S=buildSite({
  PAGES:[{path:"/best-nail-salon-da-nang/",nav:"Best salons"},{path:"/prices/",nav:"Prices"},{path:"/choosing-a-salon/",nav:"How to choose"}],
 });
 
-const {page,head,nav,footer,pick,list,itemList,byGoogle,ranked,PLACES,PLACES_DATE,AREAS,STREETS,PHOTOS,featured,TODAY,urls,OUT}=S;
+const {page,head,nav,footer,pick,list,itemList,byGoogle,edPhoto,ranked,PLACES,PLACES_DATE,AREAS,STREETS,PHOTOS,featured,TODAY,urls,OUT}=S;
 const totalReviews=PLACES.reduce((s,p)=>s+p.reviews,0);
 const avg=PLACES.length?(PLACES.reduce((s,p)=>s+p.rating,0)/PLACES.length).toFixed(2):'—';
 const SWATCH=['#FF2E5B','#E0447F','#B9A6CE','#C9A227','#7A3B62','#F0708F'];
@@ -287,7 +288,7 @@ head(`Nail Prices in Da Nang 2026 — Gel, BIAB, Extensions, Art & Pedicures | $
 <header class="ph"><p class="eyebrow">From posted menus · ${NOW.getUTCFullYear()}</p>
 <h1>What nails cost in Da Nang</h1>
 <p class="lede">Every figure below comes from menus posted in salon windows and doorways — the price a walk-in actually sees, in thousands of VND.</p></header>
-${PHOTOS.polish?`<figure class="wide"><img src="/assets/photos/${PHOTOS.polish.file}" alt="Nail polish colours" loading="lazy" width="1200" height="640"></figure>`:''}
+${edPhoto('polish')}
 <div class="cols"><div class="prose">
 <h2>Hands</h2>
 <table class="data"><tr><th>Service</th><th style="text-align:right">Typical price</th></tr>
@@ -333,7 +334,7 @@ head(`How to Choose a Nail Salon in Da Nang — the 90-Second Check | ${NAME}`,
 <header class="ph"><p class="eyebrow">Ninety seconds, five signals</p>
 <h1>How to read a salon from the doorway</h1>
 <p class="lede">Marble counters photograph well. Hygiene habits protect you. These five are visible before anyone touches your hands.</p></header>
-${PHOTOS.salon?`<figure class="wide"><img src="/assets/photos/${PHOTOS.salon.file}" alt="Nail salon interior" loading="lazy" width="1200" height="640"></figure>`:''}
+${edPhoto('salon')}
 <div class="prose">
 <h2>1 · Single-use tools, opened in front of you</h2>
 <p>Files, buffers and cuticle sticks are porous. They cannot be sterilised, so they should be fresh for every client. The best salons make a small ceremony of tearing the pack open where you can see it.</p>
