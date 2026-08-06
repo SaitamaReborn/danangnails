@@ -126,7 +126,7 @@ const PRICES_SHORT=[["Gel polish, full colour","≈ 200K VND (~$8)"],["BIAB / bu
 
 const BESTOF=[
 {slug:"best-nail-salon-da-nang",count:10,noun:"nail salon",
- h1:"Top 10 best nail salons in Da Nang",
+ h1:"Top 10 best nail salons in Da Nang",listH2:"The 10 best nail salons in Da Nang, ranked",
  question:"What is the best nail salon in Da Nang?",
  desc:`The best nail salons in Da Nang for ${new Date().getUTCFullYear()}, compared across every salon in the city with a public Google rating — with real prices, addresses, opening hours and what each one is actually good at.`,
  answerTail:`Across the whole city we track 149 salons carrying a public Google rating and at least twenty reviews, and the ten below are the ones worth your appointment. Expect to pay around 200,000 VND (about $8) for a gel manicure, 280K for a full set of soft-gel extensions and 250K–590K for a spa pedicure ritual.`,
@@ -179,6 +179,7 @@ const S=buildSite({
  PICK_EYEBROW:"Our pick",PICK_BADGE:"Our pick",
  PICK_ONELINE:"and the reviews are written in English by visitors who name the owner and the technicians — which tells you more about a salon than any rating does.",
  PICK_TEXT:"Read its reviews and a pattern shows up that most Da Nang salons cannot match: they are written in English, by visitors from half a dozen countries, and they name people — Fiona the owner, Giang, the technician who checked the pressure was right. That only happens where staff and guests can actually talk to each other, and it is the single thing that most often goes wrong here. Add single-use tools, a menu posted in writing, and a range running from a 200K gel colour to a 75-minute signature pedicure, and it is the salon we send people to when they ask.",
+ AREA_ANSWER:"Prices in this area follow the city norm: gel polish around 200K VND, BIAB 300K, spa pedicure rituals 250K–590K.",
  KW_SERVICES_LABEL:"By treatment",KW_AREA_PREFIX:"Nail salons in",
  CHECK_PATH:"/choosing-a-salon/",CHECK_LABEL:"90-second hygiene check",
  AREA_LEDE:(n,c)=>`${c} salons in ${n} hold a public Google rating with enough reviews to mean something. Ranked below with addresses, hours and maps.`,
