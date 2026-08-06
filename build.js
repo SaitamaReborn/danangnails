@@ -2,6 +2,7 @@
 const fs=require('fs');
 const {buildSite,esc,slugify,human,ld,stars}=require('./lib/engine.js');
 const css=require('./lib/css-nails.js');
+const {LOCALES}=require('./lib/i18n.js');
 const {JOURNAL}=fs.existsSync('./journal.js')?require('./journal.js'):{JOURNAL:[]};
 
 const DOMAIN="danangnails.com", NAME="The Da Nang Nail Guide", SITE="https://"+DOMAIN;
@@ -143,7 +144,7 @@ const BESTOF=[
   ["Is it cheaper to get your nails done in Da Nang than in Korea or Japan?","Substantially. Comparable gel work in Seoul or Tokyo typically costs three to five times the Da Nang price for the same systems and similar skill, which is why nail appointments are a fixture of many travellers' itineraries here."]]},
 
 {slug:"best-pedicure-da-nang",count:8,noun:"pedicure",
- h1:"Top 8 best pedicures in Da Nang",
+ h1:"Top 8 best pedicures in Da Nang",listH2:"The 8 best pedicures in Da Nang, ranked",
  question:"Where can I get the best pedicure in Da Nang?",
  desc:`The best spa pedicures in Da Nang: what a proper ritual includes, what the tiers cost (250K–590K), and the salons that do the heel work and massage properly.`,
  answerTail:`A spa pedicure in Da Nang is a 40 to 75 minute ritual — herbal soak, heel therapy, exfoliation, foot and calf massage, warm towels — not a nail trim with extras. Expect 250,000 VND for an express ritual, 380–450K for a full one, and around 590K for a 75-minute signature with hot stones.`,
@@ -184,7 +185,7 @@ const S=buildSite({
  CHECK_PATH:"/choosing-a-salon/",CHECK_LABEL:"90-second hygiene check",
  AREA_LEDE:(n,c)=>`${c} salons in ${n} hold a public Google rating with enough reviews to mean something. Ranked below with addresses, hours and maps.`,
  FOOT_NOTE:"Prices are compiled from menus posted publicly by salons and shown in thousands of VND (“200K” = 200,000 ₫).",
- BESTOF,
+ BESTOF, LOCALES,
  PAGES:[{path:"/best-nail-salon-da-nang/",nav:"Best salons"},{path:"/prices/",nav:"Prices"},{path:"/choosing-a-salon/",nav:"How to choose"}],
 });
 
