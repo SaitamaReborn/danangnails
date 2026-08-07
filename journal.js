@@ -8,6 +8,49 @@
 
 const JOURNAL = [
 {
+  slug: "gel-nails-beach-holiday-da-nang",
+  title: "Gel nails and a week at My Khe: book the hands last, the toes first",
+  desc: "Salt water is not what kills a manicure on a Da Nang beach holiday. Sand, sunscreen and hot pavement are · and the order you book things in matters more than the salon you pick.",
+  date: "2026-08-10",
+  cat: "Guides",
+  read: 6,
+  tldr: [
+    "Cured gel is waterproof the moment you leave the lamp. The 24-hour rule belongs to air-dry polish.",
+    "Toes on arrival, hands in the last 48 hours · toenails grow about a third as fast, so a pedicure outlives the trip.",
+    "Sunscreen is why a white French goes cream by day five. Mid-tone colours do not show it.",
+    "Swimming twice a day? Order BIAB (≈300K) rather than plain gel (≈200K), and skip the 3D work."
+  ],
+  body: [
+    { h: "Cured is not drying",
+      p: ["Gel polymerises under the lamp. It is hard when you stand up, which means you can walk out of a salon on Võ Nguyên Giáp and be in the water twenty minutes later. The twenty-four-hour caution people carry into Vietnam belongs to air-dry lacquer, not to anything cured. Lifeguards at My Khe are on duty from 5am to 8pm according to published beach guides, so the same-day swim is yours to take.",
+          "What decides whether your set survives the week is not the water, it is the seal. Ask the technician to cap the free edge · a thin line of gel run over the tip of the nail rather than stopping short of it. It costs nothing, most good salons here do it without being asked, and it is worth roughly an extra week of wear on a beach trip."] },
+    { h: "The sand is the problem, not the sea",
+      p: ["Warm salt water does nothing to cured gel. Published guides to My Khe put the summer sea at 27–30°C, and at that temperature it is a bath, not a solvent. Sand is another matter. It is an abrasive, and a towel loaded with it is a buffing block you are rubbing over your top coat twice a day.",
+          "High-shine finishes show it first. A cat-eye or chrome full set runs about 180K and it is exactly the finish that looks tired by day five, because the effect lives in the reflectivity of the surface and the surface is what the sand takes off. Matte and satin tops age more gracefully on a beach week, which is the opposite of what most people assume.",
+          "Then there is the thermal cycle: air-conditioned room, 35°C pavement, sea, back to air conditioning, four times a day. Lifting starts at the cuticle line, and that daily expansion is what starts it."] },
+    { h: "Sunscreen, and why the white French goes cream",
+      p: ["Chemical UV filters are the usual explanation for pale gel picking up a yellow cast over a fortnight in the sun. It does not dissolve anything · the colour simply shifts, and it shifts most on white French tips, milky nudes, baby pink and pale grey. Anything mid-tone or deeper hides it completely. If you are on the sand daily and you want the set to look the same on the flight home as it did in the chair, that is your whole colour brief.",
+          "The other sunscreen problem is adhesion. Do not put cream on your hands the morning of an appointment. A careful salon wipes the nail plate with alcohol before base coat anyway, but starting from clean dry hands is free and removes the variable."] },
+    { h: "Toes first, hands last",
+      p: ["Here is the ordering rule, and it is the one thing in this article worth arguing about: book the pedicure on your first or second day and leave the manicure until the final forty-eight hours.",
+          "Toenails grow at roughly a third the rate of fingernails, and your feet do not open packaging, scrub sand out of a swimsuit or scrape a hire-bike lock. Gel polish for toes sits around 180K on top of a spa pedicure, and a set applied on day one of a two-week trip still reads as new when you land back home. Do it early and you get the benefit for the entire holiday · including the heel work, which is the part that actually matters after a week of sandals and hot pavement. The <a href=\"/services/spa-pedicure/\">tiers run 250K to 590K</a> and are separated by minutes, not adjectives.",
+          "Fingers invert the logic. A 200K gel set that meets six days of My Khe looks its age by the end, and you will have paid full price to watch it degrade. Book it for the day before you fly and it travels home intact. The exception is honest: if the nails are for photographs taken during the trip rather than after it, do them early and accept that you may be paying about 55K for a single tip repair somewhere in the middle. That is a fair trade, not a failure · <a href=\"/prices/\">the price tables</a> are there so you can make it with your eyes open."] },
+    { h: "If you are in the water twice a day, order something else",
+      p: ["Plain gel is the wrong product for a swimmer. It is a colour layer, not a structural one, and the free edge is where it goes first. <a href=\"/services/biab-builder-gel/\">BIAB at around 300K</a> adds a builder layer that stops the tip splitting and refills at three to four weeks rather than being redone. GelX sits near 280K and gives you length that flexes instead of snapping.",
+          "Shape short. Almond or squoval, filed level with the fingertip or barely past it. Long stiletto tips and a swimsuit strap are not compatible, and neither are long tips and the zip of a dry bag.",
+          "And leave the 3D work for the city half of the trip. Charms, pearls and gel flowers are billed at 20K to 80K per nail here, which makes them tempting, and they are precisely the elements that catch on a towel and come off. Flat art survives the beach; anything with height does not."] },
+    { h: "After August, none of this applies",
+      p: ["Da Nang's dry season runs roughly February to August. From September the climate tables put the city at fifteen to twenty rain days a month, and October is the wet peak. The sea turns over, the beach empties, and the entire reason to delay your manicure disappears. This advice has a shelf life measured in weeks.",
+          "Capacity is the August counterweight. Vietnamese press reported 7.74 million overnight visitors to the city in the first five months of 2026, up nearly 21% year on year, and the beachfront band is where that lands: 33 of the salons in this guide sit in the My Khe beachfront zone against 29 in My An and An Thượng. Evening slots there go. Book a day ahead for anything after 5pm, or ride ten minutes inland to <a href=\"/salons/area/hai-chau/\">Hai Châu, where 69 of them are</a> and the same work is cheaper. Whichever you pick, run the <a href=\"/choosing-a-salon/\">90-second check</a> at the door · a beach-side address guarantees a view, nothing more."] }
+  ],
+  faq: [
+    ["Can I swim with gel nails?", "Yes, and immediately. Cured gel is waterproof from the moment you leave the lamp, so the 24-hour wait people apply to air-dry polish is unnecessary. Sea water does not dissolve it. What actually shortens a set on a beach holiday is sand abrasion on the top coat and sunscreen discolouring pale colours."],
+    ["How long do gel nails last on a beach holiday in Da Nang?", "Two to three weeks under normal wear, closer to ten to fourteen days with daily sand and sea. Toe gel lasts far longer — often the whole trip and several weeks after — because toenails grow roughly a third as fast as fingernails."],
+    ["Does sunscreen ruin gel nails?", "It does not damage the gel, but chemical UV filters are the usual explanation for pale gel picking up a yellow cast over a beach week. White French tips, milky nudes and baby pinks show it; mid-tone and dark colours do not. Separately, avoid putting cream on your hands right before an appointment, because it interferes with adhesion."],
+    ["Should I get my nails done at the start or the end of my Da Nang trip?", "Toes at the start, hands at the end. A pedicure done on arrival still looks new on the flight home and you get the heel work for the whole holiday. A fingernail set done on day one has been through six days of sand by the time you leave, so book it for the final 48 hours instead."]
+  ]
+},
+{
   slug: "gel-manicure-da-nang-what-to-pay",
   title: "Gel manicure in Da Nang: what you should actually pay",
   desc: "The going rate for a gel manicure in Da Nang, what pushes the price up, and the three questions that separate a fair bill from a tourist bill.",
