@@ -277,6 +277,12 @@ page('/salons/by-google-rating',
 head(`Da Nang Nail Salons by Google Rating — the Raw Order | ${NAME}`,
  `Every salon in Da Nang sorted strictly by Google rating and review count, with no editorial weighting — the data behind our ranking, published so you can check it.`,
  SITE+'/salons/by-google-rating/')
++ld({"@context":"https://schema.org","@type":"ItemList",
+  "name":"Da Nang nail salons by Google rating",
+  "description":"Every salon sorted strictly by Google rating and review count, with no editorial weighting.",
+  "numberOfItems":byGoogle.length,
+  "itemListElement":byGoogle.slice(0,60).map((p,i)=>({"@type":"ListItem","position":i+1,
+    "url":`${SITE}/salons/${p.slug}/`,"name":p.name}))})
 +nav('/salons/')
 +`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <a href="/salons/">All salons</a> → <span>By Google rating</span></nav></div>
 <section class="wrap">
@@ -436,6 +442,8 @@ ${list(ranked.slice(0,20))}
 page('/about',
 head(`About This Guide | ${NAME}`,
  `How The Da Nang Nail Guide compiles its prices and rankings, its editorial rules, and its relationship with the salon it recommends.`,SITE+'/about/')
++ld({"@context":"https://schema.org","@type":"AboutPage","name":"About this guide",
+  "url":SITE+"/about/","isPartOf":{"@type":"WebSite","name":NAME,"url":SITE+"/"}})
 +nav('')
 +`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <span>About</span></nav></div>
 <section class="wrap"><header class="ph"><h1>About this guide</h1>
@@ -458,6 +466,8 @@ head(`About This Guide | ${NAME}`,
  page('/credits',
  head(`Photography Credits | ${NAME}`,
   `Where the photographs on this guide come from, and the licence each one carries.`,SITE+'/credits/')
+ +ld({"@context":"https://schema.org","@type":"WebPage","name":"Photography credits",
+   "url":SITE+"/credits/","isPartOf":{"@type":"WebSite","name":NAME,"url":SITE+"/"}})
  +nav('')
  +`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <span>Credits</span></nav></div>
 <section class="wrap"><header class="ph"><h1>Photography credits</h1>
