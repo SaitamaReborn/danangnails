@@ -8,6 +8,46 @@
 
 const JOURNAL = [
 {
+  slug: "da-nang-ward-names-salon-addresses",
+  title: "Mỹ An is not an address any more: finding a salon after the ward reshuffle",
+  desc: "Da Nang deleted its districts on 1 July 2025, Mỹ An stopped being a ward, and the city now legally reaches 30 km south. What that changes when you are looking for a nail salon · and what it does not.",
+  date: "2026-08-13",
+  cat: "Guides",
+  read: 6,
+  tldr: [
+    "Da Nang has no districts. Quận Ngũ Hành Sơn is gone · Ngũ Hành Sơn is now a ward, and a much smaller thing than the word used to mean.",
+    "Mỹ An kept its name and lost its address. 35 of the 149 salons in this guide now read Ngũ Hành Sơn; exactly two still say Mỹ An.",
+    "Đà Nẵng now includes Hội An and Điện Bàn. A result labelled Da Nang can sit 17 km down the coast.",
+    "Save the pin, not the text. Street names and house numbers survived the reform untouched · ward names did not."
+  ],
+  body: [
+    { h: "The district tier was deleted, not renamed",
+      p: ["On 1 July 2025 Vietnam moved to two-tier local government and the district level stopped existing nationwide. Not merged, not relabelled · removed. Đà Nẵng absorbed the whole of Quảng Nam province in the same movement, under Resolution 1659/NQ-UBTVQH15 passed by the National Assembly Standing Committee that June, and the enlarged city came out the other side as 23 wards, 70 communes and one special zone. Ninety-four units in total.",
+          "Seven of the old Da Nang district names were then recycled as ward names: Hải Châu, Thanh Khê, Sơn Trà, Ngũ Hành Sơn, Liên Chiểu and Cẩm Lệ wards, plus Hòa Vang commune. That single decision is why this article needs to exist. The words on the page did not change. What they point at did, and it shrank."] },
+    { h: "Mỹ An kept its name and lost its address",
+      p: ["Mỹ An ward, along with Khuê Mỹ, Hòa Hải and Hòa Quý, was folded into one Ngũ Hành Sơn ward. So the quarter that every hotel, every taxi driver and every listicle calls Mỹ An has no administrative existence at all. It survives the way neighbourhoods usually do · on shopfronts, in conversation, on the alley signs.",
+          "You can watch the changeover inside this guide's own data. Of the 149 salons listed, 35 addresses now end in Ngũ Hành Sơn and precisely two still carry Mỹ An, both as part of a street reference rather than a ward. Not one address in the set still contains the word Quận. Google's address layer has converted; the salons' own Facebook pages, printed menus and name cards mostly have not, and that gap is not sloppiness.",
+          "The beach side did the same thing. An Hải Bắc, An Hải Tây, An Hải Đông and Phước Mỹ collapsed into a single An Hải ward, and 33 addresses here now read An Hải. What that tidiness hides is that the new line does not follow the neighbourhood: seven salons this guide files under the <a href=\"/salons/area/my-khe-beachfront/\">My Khe beachfront</a> carry Ngũ Hành Sơn addresses, and two in the <a href=\"/salons/area/my-an-and-an-thuong/\">My An and An Thượng cluster</a> carry An Hải ones. The area pages here are drawn around where you would actually walk, which is exactly why they did not move on 1 July."] },
+    { h: "“Da Nang” now reaches thirty kilometres south",
+      p: ["Hội An stopped being a city on the same morning. It is now Phường Hội An, Hội An Tây, Hội An Đông and Xã Tân Hiệp · four units inside Đà Nẵng. Điện Bàn, the coastal strip between the two, broke into wards of its own.",
+          "The practical consequence is a search-result problem. As an administrative label, Da Nang now covers ground half an hour's drive past Ngũ Hành Sơn, so a listicle, a maps result or a booking confirmation saying Da Nang no longer promises you are anywhere near My Khe. One entry in this guide is addressed Võ Nguyên Giáp, Điện Bàn Đông · a street name that also exists on the Da Nang beachfront, on a salon sitting 17 km from My Khe in a straight line. The label is correct. It is also useless to anyone staying in An Thượng."] },
+    { h: "Book the pin. The text will disagree with itself all year.",
+      p: ["Street names and house numbers came through the reform untouched, and that is the entire workaround: the part of a Vietnamese address a driver actually uses did not change, and the part that changed is the part nobody navigates by.",
+          "So keep the pin. When a salon sends a location on Zalo or Messenger, save the pin rather than retyping the address, and when you order a Grab, route to the pin rather than to the ward. In the An Thượng grid the problem barely arises, because there the address is the alley number · this guide has salons on An Thượng 3, 5, 9, 14, 26, 27, 29, 32, 34 and 37, with <a href=\"/salons/street/an-thuong-3/\">four of them on An Thượng 3</a> alone. Say the alley number to a driver and you are finished.",
+          "Expect the written record to contradict itself for the rest of the year. Vietnamese tech press reported Google Maps still serving Vietnamese addresses in the old four-tier format months after the switch, with the district line only due to start disappearing from mid-February. Hotel confirmations, e-visa forms, Booking listings and Maps are each converting on their own schedule. A mismatch between two of them is not evidence that a salon moved."] },
+    { h: "The ward name is now the least useful field in the address",
+      p: ["Worth saying plainly: the ward was never a useful way to choose a salon, and now it is not even stable. Nothing in an administrative label predicts the work or the bill. Distance from the sand does · the same treatment one street back from the beach runs 10–30% under the beachfront rate, and the city norm for plain gel colour is still about 200K. That gradient is rent and geography. It did not notice the reform, and <a href=\"/prices/\">the price tables</a> are unchanged.",
+          "What predicts the work is what you can see from the door: single-use files, a steriliser with its light on, a menu written down. That is a <a href=\"/choosing-a-salon/\">ninety-second check</a> and it beats any amount of address forensics.",
+          "One thing I would change in how you search, though. Stop typing ward names into Google. Type the street. “nail An Thượng 32” finds what you want; “nail Mỹ An ward” finds a ward that no longer exists, plus a lot of blog posts from 2023."] }
+  ],
+  faq: [
+    ["Is Hoi An part of Da Nang now?", "Yes. On 1 July 2025 Hội An stopped being a separate city and was reorganised into Phường Hội An, Hội An Tây, Hội An Đông and Xã Tân Hiệp, all inside Đà Nẵng. It is still roughly 30 km south of the Da Nang beach strip, so a salon labelled Da Nang is not necessarily near My Khe · check the map pin before you book."],
+    ["Why does my Da Nang nail salon's address say Ngũ Hành Sơn instead of Mỹ An?", "Because Mỹ An ward no longer exists. It was merged with Khuê Mỹ, Hòa Hải and Hòa Quý into one Ngũ Hành Sơn ward on 1 July 2025, and Ngũ Hành Sơn is now a ward rather than the district it used to be. The salon has not moved. Google's address data updated; most salons' own pages and printed cards have not."],
+    ["Do I need the new ward names to book a Grab in Da Nang?", "No. Street names and house numbers did not change in the 2025 reform, and that is what a driver navigates by. Route to the saved map pin and give the street plus the number. Ward names are the one part of a Vietnamese address currently in flux across Maps, hotel confirmations and government forms."],
+    ["Did the 2025 merger change nail salon prices in Da Nang?", "No. Prices track distance from the beach rather than administrative boundaries · plain gel colour sits around 200K city-wide, with roughly a 10–30% premium along the beachfront strip. The ward reshuffle moved none of those numbers."]
+  ]
+},
+{
   slug: "gel-nails-beach-holiday-da-nang",
   title: "Gel nails and a week at My Khe: book the hands last, the toes first",
   desc: "Salt water is not what kills a manicure on a Da Nang beach holiday. Sand, sunscreen and hot pavement are · and the order you book things in matters more than the salon you pick.",
