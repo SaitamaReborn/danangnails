@@ -8,6 +8,52 @@
 
 const JOURNAL = [
 {
+  slug: "nail-salon-opening-hours-da-nang",
+  title: "Nine to nine, seven days, no lunch: the Da Nang nail week by the clock",
+  desc: "143 of the 145 salons in this guide that publish hours never take a day off. The city's nail capacity halves between eight and nine in the evening · and most of what stays open past ten is not a nail salon.",
+  date: "2026-08-15",
+  cat: "Guides",
+  read: 6,
+  tldr: [
+    "Sunday is a normal working day. 143 of the 145 salons publishing hours are open all seven.",
+    "The city opens at nine. 133 are open at 9am, only 40 at 8am, and seven do not start before ten.",
+    "Not one of the 145 takes a lunch break, which makes 1pm the emptiest hour on the board.",
+    "After eight it collapses: 100 open at 8pm, 56 at 9pm, 40 at 10pm · and only 18 of that forty are nail salons."
+  ],
+  body: [
+    { h: "Seven days, and not one lunch break",
+      p: ["Of the 149 salons in this guide, 145 publish opening hours on Google. One hundred and forty-three of those 145 open every day of the week. The exceptions are two: one shop closed on Sundays, and one that lists Wednesday and Thursday as its only trading days while carrying the words <em>mở cửa 24/24</em> · open around the clock · in its own business name. Hold that second one in mind. It is the single best illustration of how much attention the hours field on a Google listing gets.",
+          "Not one salon in the set publishes a midday closure. Zero of 145. That is worth sitting with if you are arriving from a country where the beauty trade takes Mondays off and the neighbourhood shuts between twelve and two: the Vietnamese shophouse model runs one long shift, and the nail trade runs it seven days.",
+          "So the question in Da Nang is never whether a salon is open today. It is whether the technician you want is free, which is a different problem with a different solution. The one week a year this all stops being true is Tết, when the family businesses close for days and the ones that stay open charge a holiday rate. Nothing in August comes close."] },
+    { h: "The city opens at nine",
+      p: ["Nine o'clock is not a convention here, it is the convention. 133 of the 145 are open at 9am. At 8am the number is 40. Only seven salons in the entire set do not open until ten or later, and the latest first opening on record is half past eleven.",
+          "The nine o'clock chair is the best-value hour in the day and almost nobody books it. The technician has not yet done six sets, the shop is quiet enough to actually discuss what you want, and you get the rest of the day back. The arithmetic is friendly too: <a href=\"/services/spa-pedicure/\">an express pedicure ritual runs about forty minutes at ≈250K, the seventy-five-minute signature ≈590K</a>. Start the signature at nine and you are out at a quarter past ten, before the pavement gets serious about the heat."] },
+    { h: "One in the afternoon, when nobody is there",
+      p: ["The lunch finding is the most useful thing in this article. Around it, half the small food economy of An Thượng and the Hải Châu shophouse streets goes quiet for an hour or two in the early afternoon. The salons do not. Every one of the 145 runs straight through, and the boards between roughly one and three are as empty as they get.",
+          "That is the underused slot in this city. If you want a walk-in with a real choice of technician rather than whoever is free, go at one. It is also, in August, the correct place to spend an hour: mid-afternoon on a beach-road pavement is not a rest, and an air-conditioned chair with your feet in a herbal soak is a better use of the same sixty minutes than a fourth coffee."] },
+    { h: "Between eight and ten, the city halves twice",
+      p: ["Here is the evening, hour by hour, across the 145: 134 open at 7pm, 100 at 8pm, 56 at 9pm, 40 at 10pm, 27 at 11pm. It does not taper. It falls off a shelf between eight and nine and again between nine and ten.",
+          "What changes with it is the composition, and that is the part no listicle tells you. Google types 109 of these businesses as nail salons proper; the rest are spas, massage shops, barbers and beauticians that carry nails on the menu. At 7pm, 101 of the 134 open are nail salons. At 10pm, 18 of the 40 are. Of the thirteen shops that publish a genuine after-midnight closing time · one to four in the morning, on the beach roads mostly · ten have Spa or Massage in the name. The late-night hours on the map belong to the massage economy, not the nail economy.",
+          "Which brings me to the eleven listings in this set that simply say <em>Open 24 hours</em>. Treat that as an unedited field rather than an offer. One of the eleven is also listed as closed on Sundays, which cannot both be true, and nobody is filing a set at four in the morning on Nguyễn Văn Thoại. If you need a late slot, ring the shop.",
+          "The reason six to eight is the only genuinely contested window in the day is arithmetic on the demand side. Da Nang reported close to 9.8 million visitors in the first half of 2026, up 22.5% year on year, with international arrivals near 5.2 million, or 52.8% of overnight visitors. Those people are sightseeing until dinner and free after it. Everyone wants the same two hours."] },
+    { h: "The beachfront works later. Hải Châu goes to bed.",
+      p: ["Split the same data by area and the map does something clean. Median closing time on the <a href=\"/salons/area/my-khe-beachfront/\">My Khe beachfront</a> is 10pm. In <a href=\"/salons/area/hai-chau/\">Hải Châu</a> and in My An & An Thượng it is half past eight. Sơn Trà closes at eight.",
+          "In counts: 19 of the 30 beachfront salons with published hours close at 10pm or later, against 13 of 64 in Hải Châu. An hour and a half of median difference across four kilometres is not a coincidence · it is who walks past the door after dark, and it is the same footfall that puts the beachfront 10–30% above the city rate for the identical treatment.",
+          "The practical version: before nine in the evening, ride inland. Hải Châu holds 69 of the 149 salons in this guide and charges less for the same work. After nine, the beach roads are your list, and you are paying the strip premium for the privilege of it being open. Both of those are fine trades as long as you know which one you are making."] },
+    { h: "Work backwards from the closing time, not from your flight",
+      p: ["The last-evening appointment is where visitors get burned, and the fix is a single change of reference point. Do not calculate from when you need to leave. Calculate from when the salon shuts.",
+          "The durations are not mysterious. A proper soak-off removal is ten to fifteen minutes in foil. A plain gel colour with shaping and cuticle work is about an hour. <a href=\"/services/gelx-nail-extensions/\">A GelX full set is roughly an hour</a> because the tips arrive pre-shaped. A detailed hand-painted set is two to three hours of someone's undivided attention. Pedicure rituals are forty to seventy-five minutes.",
+          "So against a board that says 20:30, the last honest start for gel-with-removal is seven o'clock, and for hand-painted work it was half past five. This is the opinion I will defend: the final hour before closing is the worst hour in the week to buy anything <a href=\"/services/nail-art/\">priced per nail</a>. Per-nail work is billed by complexity and delivered by patience, and the one thing you cannot ask a technician to do well at 20:15 is take their time. Order the plain colour, or come back at nine tomorrow morning.",
+          "And if the shop is quoting you into a slot that clearly does not fit, that is data. A salon that will start a three-hour set forty minutes before it locks up is telling you something about its standards · the same way the <a href=\"/choosing-a-salon/\">things you can see from the doorway</a> do, and the same way <a href=\"/prices/\">a menu written down</a> does."] }
+  ],
+  faq: [
+    ["Are nail salons open on Sunday in Da Nang?", "Almost all of them. Of the 145 salons in this guide that publish opening hours, 143 trade seven days a week · only one is closed on Sundays. Sunday is a normal working day for the Vietnamese nail trade, and no salon in the set takes a midday break either. The annual exception is Tết, when family-run shops close for several days."],
+    ["What time do nail salons open in Da Nang?", "Nine in the morning is the city standard: 133 of 145 are open at 9am. Around 40 open at 8am, and only seven do not start until ten or later. The 9am slot is the quietest of the day and rarely booked, which makes it the easiest walk-in and the calmest appointment."],
+    ["Can I get my nails done late at night in Da Nang?", "Until about ten, realistically. 100 salons are open at 8pm, 56 at 9pm and 40 at 10pm · but only 18 of that last forty are nail salons proper. The rest are spas and massage shops with nails on the menu. The genuinely late options sit on the My Khe beachfront, where the median closing time is 10pm against 8:30pm inland. Eleven listings claim 24-hour opening; ring before you plan around one."],
+    ["Do I need to book a nail appointment in Da Nang, or can I walk in?", "Walk in between 9 and 11am or between 1 and 4pm and you will almost always be seated. Book for anything between 6 and 8pm, which is the only busy window in the day, and book for extensions or detailed art regardless of the hour, since those need two to three hours the salon has to reserve."]
+  ]
+},
+{
   slug: "da-nang-ward-names-salon-addresses",
   title: "Mỹ An is not an address any more: finding a salon after the ward reshuffle",
   desc: "Da Nang deleted its districts on 1 July 2025, Mỹ An stopped being a ward, and the city now legally reaches 30 km south. What that changes when you are looking for a nail salon · and what it does not.",
