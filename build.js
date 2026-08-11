@@ -167,11 +167,15 @@ const LANGS=[
  {code:"zh",path:"/zh/",native:"中文"},
  {code:"ja",path:"/ja/",native:"日本語"},
  {code:"ru",path:"/ru/",native:"Русский"},
+ {code:"fr",path:"/fr/",native:"Français"},
+ {code:"de",path:"/de/",native:"Deutsch"},
+ {code:"es",path:"/es/",native:"Español"},
+ {code:"th",path:"/th/",native:"ไทย"},
 ];
 
 const S=buildSite({
  DOMAIN,NAME,SITE,NOW,GSC,PARTNER,LANGS,SERVICES,css,
- EMOJI:"💅",BRAND:"Da Nang Nail Guide",
+ EMOJI:"💅",BRAND:"Da Nang Nail Guide",THEME:"#150F1B",
  FONTS:"https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
  TAGLINE:"an independent guide to nail salons, prices and treatments in Da Nang, Vietnam",
  LISTING:{path:"/salons/",navLabel:"All salons"},
