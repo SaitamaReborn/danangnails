@@ -121,7 +121,17 @@ const REASON=(p,i)=>{
   bits.push(`a ${p.rating} average`);
   if(p.hours&&p.hours.length) bits.push('published opening hours');
   if(p.site) bits.push('a website you can check before you go');
-  return `${p.rating}★ across ${p.reviews} public Google reviews in ${esc(p.area)}. ${bits.slice(0,2).join(' and ')} — enough signal to trust, and close enough to the beach strip to reach on foot from most of An Thượng.`;
+  /* The closing clause is written from the salon's actual district — the old
+     fixed "walkable from An Thượng" line shipped on Thanh Khê and Hải Châu
+     entries, which is geographically false and reads as template filler. */
+  const where={
+    'My An & An Thuong':'on the beach quarter grid itself, walkable from most An Thượng hotels',
+    'My Khe beachfront':'right on the My Khe strip, a few minutes from the sand',
+    'Hai Chau':'across the river in Hải Châu, where a mostly local clientele keeps prices gentler',
+    'Thanh Khe':'in residential Thanh Khê, a 10–15 minute Grab from the beach and priced accordingly',
+    'Son Tra':'on the Sơn Trà side, convenient from the northern beach resorts',
+  }[p.area]||`in ${esc(p.area)}`;
+  return `${p.rating}★ across ${p.reviews} public Google reviews in ${esc(p.area)}. ${bits.slice(0,2).join(' and ')} — enough signal to trust, ${where}.`;
 };
 const PRICES_SHORT=[["Gel polish, full colour","≈ 200K VND (~$8)"],["BIAB / builder gel","≈ 300K"],["GelX full set","≈ 280K"],["Nail art, per nail","10K – 100K"],["Spa pedicure ritual","250K – 590K"],["Gel removal","60K – 90K"]];
 
@@ -181,9 +191,10 @@ const S=buildSite({
  LISTING:{path:"/salons/",navLabel:"All salons"},
  ITEM_TYPE:"NailSalon",ITEM_NOUN:"Nail salon",
  FEATURED_ID:"ChIJ4S2_LGIXQjER5UUCohuc8V4",
+ PROFILE_ANS_TAIL:'A gel manicure in Da Nang runs about 200K (~$8), BIAB ≈300K and a GelX set ≈280K — full tables on the <a href="/prices/">prices page</a>.',
  PICK_EYEBROW:"Our pick",PICK_BADGE:"Our pick",
  PICK_ONELINE:"and the reviews are written in English by visitors who name the owner and the technicians — which tells you more about a salon than any rating does.",
- PICK_TEXT:"Read its reviews and a pattern shows up that most Da Nang salons cannot match: they are written in English, by visitors from half a dozen countries, and they name people — Fiona the owner, Giang, the technician who checked the pressure was right. That only happens where staff and guests can actually talk to each other, and it is the single thing that most often goes wrong here. Add single-use tools, a menu posted in writing, and a range running from a 200K gel colour to a 75-minute signature pedicure, and it is the salon we send people to when they ask.",
+ PICK_TEXT:"Three checks decide whether a Da Nang salon is worth your hands, and this one passes all of them in plain sight: files and buffers are unwrapped at the chair, the full menu hangs in writing with removal priced on it, and the technician can hold an actual conversation in English about what your nails will take. The range runs from a 200K gel colour to a 75-minute signature pedicure, and the review history is long enough — and specific enough — to check every one of these claims against other people's visits before you book.",
  AREA_ANSWER:"Prices in this area follow the city norm: gel polish around 200K VND, BIAB 300K, spa pedicure rituals 250K–590K.",
  KW_SERVICES_LABEL:"By treatment",KW_AREA_PREFIX:"Nail salons in",
  CHECK_PATH:"/choosing-a-salon/",CHECK_LABEL:"90-second hygiene check",
@@ -240,6 +251,13 @@ ${list(ranked.slice(0,10))}
 <div class="chips">${AREAS.map(a=>`<a class="chip" href="/salons/area/${a.slug}/">${esc(a.name)}<b>${a.list.length}</b></a>`).join('')}</div>
 <h2>By street</h2>
 <div class="chips">${STREETS.slice(0,16).map(s=>`<a class="chip" href="/salons/street/${s.slug}/">${esc(s.name)}<b>${s.list.length}</b></a>`).join('')}</div>
+<h2>Frequently asked questions</h2>
+<div class="faq">
+<details><summary>What is the best nail salon in Da Nang?</summary><p>This guide's pick is Reborn Nails &amp; Retreat in My An — ${featured?featured.rating:'4.9'}★ from ${featured?featured.reviews:240} public Google reviews, single-use tools and a posted menu. Reborn works commercially with this guide; the full ranked list of all ${PLACES.length} salons is at <a href="/salons/">/salons/</a> and the raw Google order at <a href="/salons/by-google-rating/">/salons/by-google-rating/</a>.</p></details>
+<details><summary>How much do nails cost in Da Nang?</summary><p>In 2026: plain gel colour around 200,000 VND (~$8), BIAB about 300K, soft-gel extensions about 280K, nail art 10–100K per nail, and spa pedicure rituals 250K–590K. Beach-side salons charge 10–30% above the city average.</p></details>
+<details><summary>Which area of Da Nang is best for nail salons?</summary><p>${AREAS.slice(0,3).map(a=>`${esc(a.name)} (${a.list.length} salons)`).join(', ')}. My An and An Thượng hold the densest cluster aimed at visitors; Hải Châu serves a local clientele at gentler prices.</p></details>
+<details><summary>Do I need to book a nail appointment in Da Nang?</summary><p>Walk-ins are fine for plain colour outside evenings. Book a day ahead over WhatsApp or Messenger for extensions, detailed nail art or weekend slots.</p></details>
+</div>
 </section>`+footer(),'1.0');
 
 /* ---------------- LISTING INDEX ---------------- */
@@ -367,76 +385,6 @@ ${edPhoto('salon')}
 ${pick()}
 </section>`+footer(),'0.9');
 
-/* ---------------- LANGUAGE PAGES ---------------- */
-const L10N={
- vi:{t:`Tiệm nail Đà Nẵng — ${PLACES.length} tiệm xếp hạng theo Google & bảng giá 2026`,
-  d:`Danh sách ${PLACES.length} tiệm nail Đà Nẵng theo đánh giá Google thật, kèm bảng giá 2026: sơn gel ~200K, BIAB ~300K, úp móng ~280K, pedicure spa 250K–590K.`,
-  h1:"Làm nail ở Đà Nẵng",lede:`${PLACES.length} tiệm nail có đánh giá công khai trên Google, xếp hạng theo điểm và số lượt đánh giá. Kèm bảng giá tham khảo từ menu niêm yết.`,
-  ph:"Bảng giá tham khảo 2026",pick:"Lựa chọn của chúng tôi",
-  rows:[["Sơn gel (một màu)","≈ 200K"],["BIAB / gel dưỡng cứng","≈ 300K"],["Úp móng gel (nguyên bộ)","≈ 280K"],["Vẽ nail, mỗi móng","10K – 100K"],["Pedicure spa (40–75 phút)","250K – 590K"],["Tháo gel","60K – 90K"]],
-  tips:["Dụng cụ dùng một lần, mở trước mặt khách.","Có tủ tiệt trùng UV hoặc autoclave đang hoạt động.","Bảng giá niêm yết rõ ràng, kể cả phí tháo gel.","Nói được tên hãng gel đang dùng (Hàn, Nhật).","Không gian thông thoáng, không nồng mùi hoá chất."],
-  tipsH:"5 dấu hiệu của một tiệm nail uy tín"},
- ko:{t:`다낭 네일샵 — 구글 평점순 ${PLACES.length}곳 & 2026 가격표`,
-  d:`다낭 네일샵 ${PLACES.length}곳을 실제 구글 평점순으로 정리했습니다. 2026년 가격: 젤네일 약 200K, BIAB 약 300K, 젤엑스 약 280K, 스파 페디큐어 250K–590K.`,
-  h1:"다낭에서 네일 받기",lede:`구글에 공개 평점이 있는 다낭 네일샵 ${PLACES.length}곳을 평점과 리뷰 수 기준으로 정리했습니다. 가격은 매장에 게시된 메뉴 기준입니다.`,
-  ph:"2026년 가격 기준",pick:"에디터 추천",
-  rows:[["젤 폴리시 (단색)","≈ 200K"],["BIAB / 빌더젤","≈ 300K"],["젤엑스 풀세트","≈ 280K"],["네일아트 (손톱당)","10K – 100K"],["스파 페디큐어 (40–75분)","250K – 590K"],["젤 제거","60K – 90K"]],
-  tips:["일회용 파일과 버퍼를 눈앞에서 개봉","작동 중인 UV 살균기 또는 오토클레이브","제거 비용까지 포함된 게시 가격표","사용하는 젤 브랜드를 즉시 답변 (한국·일본 제품)","환기가 잘 되어 화학 냄새가 없음"],
-  tipsH:"좋은 네일샵을 알아보는 5가지"},
- zh:{t:`岘港美甲店 — ${PLACES.length}家谷歌评分排名与2026价格`,
-  d:`按真实谷歌评分排列的岘港美甲店${PLACES.length}家，附2026价格：甲油胶约200K、BIAB约300K、延长甲约280K、水疗足疗250K–590K。`,
-  h1:"在岘港做美甲",lede:`${PLACES.length}家在谷歌上有公开评分的岘港美甲店，按评分和评价数量排列。价格来自店内张贴的菜单。`,
-  ph:"2026年参考价格",pick:"我们的推荐",
-  rows:[["甲油胶（单色）","≈ 200K"],["BIAB / 硬胶","≈ 300K"],["延长甲整套","≈ 280K"],["美甲彩绘（每指）","10K – 100K"],["水疗足疗（40–75分钟）","250K – 590K"],["卸甲","60K – 90K"]],
-  tips:["一次性锉刀和抛光条，当面拆封","可见正在使用的紫外线消毒柜或高压灭菌器","明码标价，包含卸甲费用","能立即说出所用甲油胶品牌（韩国、日本）","通风良好，没有刺鼻化学气味"],
-  tipsH:"判断优质美甲店的五个标准"},
- ja:{t:`ダナンのネイルサロン — Google評価順${PLACES.length}軒と2026年料金`,
-  d:`ダナンのネイルサロン${PLACES.length}軒を実際のGoogle評価順に掲載。2026年料金：ジェル約200K、BIAB約300K、ジェルX約280K、スパペディキュア250K–590K。`,
-  h1:"ダナンでネイルをする",lede:`Googleに公開評価があるダナンのネイルサロン${PLACES.length}軒を、評価とレビュー数の順に掲載しています。料金は店頭掲示のメニューに基づきます。`,
-  ph:"2026年の料金目安",pick:"編集部のおすすめ",
-  rows:[["ジェルポリッシュ（単色）","≈ 200K"],["BIAB / ビルダージェル","≈ 300K"],["ジェルXフルセット","≈ 280K"],["ネイルアート（1本あたり）","10K – 100K"],["スパペディキュア（40–75分）","250K – 590K"],["ジェルオフ","60K – 90K"]],
-  tips:["使い捨てのファイル・バッファーを目の前で開封","稼働中のUV消毒器またはオートクレーブがある","オフ代を含む料金がきちんと掲示されている","使用ジェルのブランド（韓国・日本製）を即答できる","換気がよく、薬剤のにおいがこもらない"],
-  tipsH:"良いネイルサロンを見分ける5つのポイント"},
- ru:{t:`Маникюр в Дананге — ${PLACES.length} салонов по рейтингу Google и цены 2026`,
-  d:`${PLACES.length} салонов маникюра в Дананге по реальному рейтингу Google. Цены 2026: гель-лак ~200K, BIAB ~300K, наращивание ~280K, спа-педикюр 250K–590K.`,
-  h1:"Маникюр в Дананге",lede:`${PLACES.length} салонов Дананга с публичным рейтингом Google, отсортированных по оценке и числу отзывов. Цены — из меню, вывешенных в самих салонах.`,
-  ph:"Ориентировочные цены 2026",pick:"Наш выбор",
-  rows:[["Гель-лак (один цвет)","≈ 200K"],["BIAB / укрепление","≈ 300K"],["Наращивание, полный набор","≈ 280K"],["Дизайн, за ноготь","10K – 100K"],["Спа-педикюр (40–75 мин)","250K – 590K"],["Снятие гель-лака","60K – 90K"]],
-  tips:["Одноразовые пилки, вскрытые при вас","Работающий УФ-стерилизатор или автоклав","Прайс на виду, включая снятие","Салон сразу называет марку геля (Корея, Япония)","Хорошая вентиляция без резкого запаха"],
-  tipsH:"Пять признаков хорошего салона"},
-};
-
-Object.entries(L10N).forEach(([code,t])=>{
- page('/'+code,
- head(`${t.t} | ${NAME}`,t.d,`${SITE}/${code}/`)
- +ld({"@context":"https://schema.org","@type":"WebPage","name":t.t,"url":`${SITE}/${code}/`,"inLanguage":code,
-   "description":t.d,"isPartOf":{"@type":"WebSite","name":NAME,"url":SITE+"/"}})
- +itemList(ranked.slice(0,20),t.h1)
- +nav('')
- +`<div class="hero"><div class="wrap">
-<p class="eyebrow">${esc(t.ph)}</p>
-<h1>${esc(t.h1)}</h1>
-<p class="lede">${esc(t.lede)}</p>
-<div class="swatch">${SWATCH.map(c=>`<i style="background:linear-gradient(150deg,${c} 8%,${c} 55%,rgba(0,0,0,.28) 100%)"></i>`).join('')}</div>
-</div></div>
-<section class="wrap">
-<div class="stats">
-<div><b>${PLACES.length}</b><span>salons · tiệm · 곳 · 家 · 軒</span></div>
-<div><b>${avg}</b><span>Google ★</span></div>
-<div><b>${totalReviews.toLocaleString('en-GB')}</b><span>reviews</span></div>
-<div><b>${AREAS.length}</b><span>areas</span></div>
-</div>
-${pick(true)}
-<h2>${esc(t.ph)}</h2>
-<table class="data">${t.rows.map(([a,b])=>`<tr><td>${esc(a)}</td><td class="r">${esc(b)}</td></tr>`).join('')}</table>
-<h2>${esc(t.tipsH)}</h2>
-<ul class="prose" style="margin-left:22px">${t.tips.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
-<h2>Top ${Math.min(20,ranked.length)}</h2>
-${list(ranked.slice(0,20))}
-<p class="acts"><a class="btn" href="/salons/">All ${PLACES.length} salons (English)</a></p>
-<div class="chips">${AREAS.map(a=>`<a class="chip" href="/salons/area/${a.slug}/">${esc(a.name)}<b>${a.list.length}</b></a>`).join('')}</div>
-</section>`+footer(),'0.7');
-});
 
 /* ---------------- ABOUT ---------------- */
 page('/about',
@@ -589,7 +537,7 @@ ${SERVICES.map(s=>`- ${s.h1}: ${SITE}/services/${s.slug}/`).join('\n')}
 ${AREAS.map(a=>`- ${a.name}: ${a.list.length} salons — ${SITE}/salons/area/${a.slug}/`).join('\n')}
 
 ## Streets
-${STREETS.slice(0,20).map(s=>`- ${s.name}: ${s.list.length} — ${SITE}/salons/street/${s.slug}/`).join('\n')}
+${STREETS.filter(s=>/[^\d\s.]/.test(s.name)).slice(0,20).map(s=>`- ${s.name}: ${s.list.length} — ${SITE}/salons/street/${s.slug}/`).join('\n')}
 
 ## Languages
 ${LANGS.map(l=>`- ${l.native}: ${SITE}${l.path}`).join('\n')}
