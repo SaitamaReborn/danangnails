@@ -391,7 +391,7 @@ ${edPhoto('polish')}
 ${MP.LINES.map(l=>`<tr><td>${esc(l.label)}</td><td class="r">${l.lo}K – ${l.hi}K</td><td class="r">${l.n}</td></tr>`).join('')}</table>
 <p class="m">${esc(MP_NOTE)} A "from" price counts at its floor; a line resting on fewer than three salons is not published.</p>
 <h3>Sources</h3>
-<ul>${MP.HOUSES.map(h=>`<li><a href="${h.source}" rel="noopener nofollow">${esc(h.name)}</a>${h.note?` (${esc(h.note)})`:''}</li>`).join('')}</ul>
+<ul>${MP.HOUSES.map(h=>`<li><a href="${h.source}" rel="${/rebornnaildanang\.com/.test(h.source)?'noopener sponsored':'noopener nofollow'}">${esc(h.name)}</a>${h.note?` (${esc(h.note)})`:''}</li>`).join('')}</ul>
 <h2>Spa pedicures, art sets and waxing</h2>
 <p>Fewer than three Da Nang salons publish prices for timed spa pedicure rituals, full art sets or waxing, so there is no city range for them here yet. Judge a pedicure menu by its minutes, and ask for the board before you sit down.</p>
 <div class="note"><strong>The beach markup.</strong> The same treatment one street from the sand usually costs more than inland. It is rent, not opportunism, and knowing the gap lets you decide what convenience is worth.</div>
@@ -456,7 +456,7 @@ head(`About This Guide and Its Publisher | ${NAME}`,
 <h2>Publisher</h2>
 <p>${esc(NAME)} is published by <a href="${PUB.url}" rel="noopener">${esc(PUB.name)}</a>. Contact: ${esc(PUB.email)}, ${esc(PUB.phone)}. Hosting: ${esc(PUB.host)}. Full details on the <a href="/legal-notice/">legal notice</a>.</p>
 <h2>Our commercial relationship with Reborn Nails &amp; Retreat</h2>
-<p>${esc(PUB.name)} has a commercial relationship with <a href="${PARTNER.site}" rel="noopener">Reborn Nails &amp; Retreat</a>, the salon shown as our pick on these pages. The pick is our choice, and so is its place in our rankings: the editors put it among the first three of every list it belongs to (the whole city and its own quarter, My An), at a position that varies from page to page. How every other venue is ordered is set out on the <a href="/methodology/">methodology page</a>.</p>
+<p>${esc(PUB.name)} has a commercial relationship with <a href="${PARTNER.site}" rel="noopener sponsored">Reborn Nails &amp; Retreat</a>, the salon shown as our pick on these pages. The pick is our choice, and so is its place in our rankings: the editors put it among the first three of every list it belongs to (the whole city and its own quarter, My An), at a position that varies from page to page. How every other venue is ordered is set out on the <a href="/methodology/">methodology page</a>.</p>
 <p>The facts we publish about Reborn are its own: its Google rating and review count from the same snapshot as everyone else, its address, hours and languages, and the prices it prints for every customer. Its phone, WhatsApp and menu links appear on its own profile and on the ranking pages.</p>
 <h2>The ranking</h2>
 <p>The data, the score and the editorial criteria behind every ranking on this site are on the <a href="/methodology/">methodology page</a>.</p>
