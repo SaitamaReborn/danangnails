@@ -205,16 +205,14 @@
   "name": "1993 Nails",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": "/salons/area/my-an-and-an-thuong/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/1996-nail-studio-kw9t6o/": {
   "id": "ChIJvZglXgAXQjER6WVOakw9T6o",
   "name": "1996 Nail Studio",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": "/salons/area/my-an-and-an-thuong/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/1998-nailsroom-aqm-k4/": {
   "id": "ChIJr4gMX4MZQjERdynX4AQM-K4",
@@ -316,7 +314,7 @@
  },
  "/salons/azit-nail-rnoqlk/": {
   "id": "ChIJ7bWmTP8ZQjERFtBCkrnoqLk",
-  "name": "Azit Nail 아지트네일 디자인 각질제거",
+  "name": "Azit Nail 지트네일 디자인 각질제거",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
   "to": null
@@ -342,8 +340,7 @@
   "name": "Bảo-Hân (Nail Bar)",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/beauty-center-by-thu-unie-gxomii/": {
   "id": "ChIJ3Wo9CgAXQjERk3CSBGXomiI",
@@ -454,16 +451,14 @@
   "name": "Chic nails",
   "area": "Thanh Khe",
   "up": "/salons/area/thanh-khe/",
-  "to": "/salons/area/thanh-khe/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/chik-nails-ipa8jq/": {
   "id": "ChIJlyStr7AZQjER4Yv_AipA8JQ",
   "name": "Chik Nails",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": "/salons/area/my-khe-beachfront/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/choco-nails-xuu-l0/": {
   "id": "ChIJnTpiIAAZQjER656ghXUU-L0",
@@ -571,16 +566,14 @@
   "name": "DzonDzon Nails",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/ehi-nails-dfr0t8/": {
   "id": "ChIJeU_KBAAZQjERhqNTuDfr0T8",
   "name": "Ehi Nails",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/eira-nails-da-nang-zh9ajg/": {
   "id": "ChIJU50MLwAZQjER5WpLmzh9AJg",
@@ -780,8 +773,7 @@
   "name": "Huỳnh Beauty",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": "/salons/area/my-an-and-an-thuong/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/hya-nail-da-nang-s2l7ae/": {
   "id": "ChIJ1QzXOQAZQjERnLoiHs2l7AE",
@@ -872,8 +864,7 @@
   "name": "Kira Nail Lab",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": "/salons/area/da-nang/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/kitty-kat-nail-salon-and-spa-an-thuong-da-nang-3ap1fg/": {
   "id": "ChIJDVqIKWsXQjERI-oIP3AP1Fg",
@@ -902,8 +893,7 @@
   "name": "L.A Nails Design",
   "area": "Thanh Khe",
   "up": "/salons/area/thanh-khe/",
-  "to": "/salons/area/thanh-khe/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/la-ni-beauty-eyelash-brows-nails-foot-massage-pedicure-menicure-sdqxf4/": {
   "id": "ChIJUWh1egAXQjERoOY5fSDqXf4",
@@ -918,8 +908,7 @@
   "name": "La spa",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": "/salons/area/my-an-and-an-thuong/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/lalla-nail-branch-1-iqxxo0/": {
   "id": "ChIJAQDnG3sXQjERCiTkaiQXxO0",
@@ -1057,8 +1046,7 @@
   "name": "Lu-nailroom",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/lumi-spa-ahpy84/": {
   "id": "ChIJm1KtNwAXQjERtSDELAHPy84",
@@ -1072,8 +1060,7 @@
   "name": "Lyn Nail Pmu - GỘI ĐẦU - NAIL - PHUN XĂM THẨM MỸ",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": "/salons/area/da-nang/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/lynn-nailandshampoo-yj2buw/": {
   "id": "ChIJ0_YCsX4ZQjERpGR7SYJ2buw",
@@ -1131,16 +1118,14 @@
   "name": "Mia - Nail & Eyelash",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": "/salons/area/da-nang/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/miko-home-nails-service-ecjise/": {
   "id": "ChIJ-5fMZgAXQjERQn2qlEcJiSE",
   "name": "Miko Home Nails Service",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": "/salons/area/my-khe-beachfront/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/min-beauty-cqr5sg/": {
   "id": "ChIJHb5Q174ZQjERdCEcwcqr5Sg",
@@ -1176,8 +1161,7 @@
   "name": "MIRA B Nails",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": "/salons/area/my-khe-beachfront/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/missha-2-nail-and-relaxing-beauty-spa-bx30i8/": {
   "id": "ChIJq60trk8XQjERtFSxRbX30I8",
@@ -1250,8 +1234,7 @@
   "name": "Mỹ Duyên Nail",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": "/salons/area/da-nang/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/my-khe-beachfront/": {
   "name": "My Khe beachfront",
@@ -1294,8 +1277,15 @@
   "name": "Nail Bơ – Nail Đẹp Bắc Sơn Đà Nẵng",
   "area": "Thanh Khe",
   "up": "/salons/area/thanh-khe/",
-  "to": "/salons/area/thanh-khe/",
+  "to": "/salons/nail-bo-tiem-nail-dep-bac-son-da-nang-3x6sj4/",
   "since": "2026-10-02"
+ },
+ "/salons/nail-bo-tiem-nail-dep-bac-son-da-nang-3x6sj4/": {
+  "id": "ChIJ-xNZPgAZQjERrIekc3x6sJ4",
+  "name": "Nail Bơ - Tiệm Nail Đẹp Bắc Sơn Đà Nẵng",
+  "area": "Thanh Khe",
+  "up": "/salons/area/thanh-khe/",
+  "to": null
  },
  "/salons/nail-by-nho-studio-xkps9c/": {
   "id": "ChIJrblsU_UZQjER3ie21xKPS9c",
@@ -1325,8 +1315,7 @@
   "name": "Nail Hà Tiên",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": "/salons/area/da-nang/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/nail-san-nails-and-beauty-3wxdji/": {
   "id": "ChIJkw3RYsEZQjERchLF43wxdjI",
@@ -1370,16 +1359,14 @@
   "name": "Nhỏ Xíu Nail & Spa",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": "/salons/area/my-an-and-an-thuong/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/nhung-brows-and-nails-syd4se/": {
   "id": "ChIJs9_AXgAZQjERS55N9sYd4sE",
   "name": "Nhung Brows & Nails",
   "area": "Thanh Khe",
   "up": "/salons/area/thanh-khe/",
-  "to": "/salons/area/thanh-khe/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/no-nail-studio-ja4lrw/": {
   "id": "ChIJ52OjVrkXQjER4ZW6djA4Lrw",
@@ -1409,8 +1396,7 @@
   "name": "NONI NAILS - 노니네일",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-09-12"
+  "to": null
  },
  "/salons/ntn-academy-nails-beauty-ntogqi/": {
   "id": "ChIJidt8RecZQjER7TftVNtOgQI",
@@ -1462,8 +1448,7 @@
   "name": "P.nailstudio",
   "area": "Thanh Khe",
   "up": "/salons/area/thanh-khe/",
-  "to": "/salons/area/thanh-khe/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/pink-nail-studio-z4lwly/": {
   "id": "ChIJfc4_08oZQjERwqT-Iz4LwlY",
@@ -1499,8 +1484,7 @@
   "name": "Quin Quin Nail",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/quin-quin-nails-room-huaf0k/": {
   "id": "ChIJB-3LxyEZQjERkin_7hUAf0k",
@@ -1610,8 +1594,14 @@
   "name": "S.O.Cnail",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
+ },
+ "/salons/saigon-nail-art-t-i0mq/": {
+  "id": "ChIJ6-QySq0XQjER-0wlWT-I0mQ",
+  "name": "Saigon Nail Art",
+  "area": "My Khe beachfront",
+  "up": "/salons/area/my-khe-beachfront/",
+  "to": null
  },
  "/salons/sammi-nail-nvk5ai/": {
   "id": "ChIJLyNs8XUZQjERJa_dKNVk5aI",
@@ -1654,8 +1644,7 @@
   "name": "Shin Nail",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/shop-phuong-trinh-mo-cua-24-24--98ipq/": {
   "id": "ChIJA6BhUAAXQjERIOrk5-98iPQ",
@@ -1752,8 +1741,7 @@
   "name": "Châu Thị Vĩnh Tế",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": "/salons/area/my-an-and-an-thuong/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/street/d-dinh-nghe/": {
   "name": "D. Đình Nghệ",
@@ -1772,8 +1760,7 @@
   "name": "D. Tụ Quán",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": "/salons/area/my-an-and-an-thuong/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/street/dang-vu-hy/": {
   "name": "Đặng Vũ Hỷ",
@@ -1819,12 +1806,17 @@
   "up": "/salons/area/hai-chau/",
   "to": null
  },
+ "/salons/street/nguyen-duy-hieu/": {
+  "name": "Nguyễn Duy Hiệu",
+  "area": "My Khe beachfront",
+  "up": "/salons/area/my-khe-beachfront/",
+  "to": null
+ },
  "/salons/street/nguyen-hoang/": {
   "name": "Nguyễn Hoàng",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/street/nguyen-thai-hoc/": {
   "name": "Nguyễn Thái Học",
@@ -1842,15 +1834,13 @@
   "name": "Nguyễn Xuân Khoát",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": "/salons/area/my-khe-beachfront/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/street/ong-ich-khiem/": {
   "name": "Ông Ích Khiêm",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/street/pham-phu-thu/": {
   "name": "Phạm Phú Thứ",
@@ -1893,10 +1883,9 @@
  },
  "/salons/street/tran-cao-van/": {
   "name": "Trần Cao Vân",
-  "area": "Thanh Khe",
-  "up": "/salons/area/thanh-khe/",
-  "to": "/salons/area/thanh-khe/",
-  "since": "2026-10-02"
+  "area": "Hai Chau",
+  "up": "/salons/area/hai-chau/",
+  "to": null
  },
  "/salons/street/tran-phu/": {
   "name": "Trần Phú",
@@ -2001,8 +1990,7 @@
   "name": "The Lush Da Nang",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/ther-nail-room-vgkyq4/": {
   "id": "ChIJO45-GgAZQjERkCuzOvGKYQ4",
@@ -2037,8 +2025,7 @@
   "name": "Tiệm Nail Con Ong ( Nail-Gội đầu-Uốn mi)",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": "/salons/area/da-nang/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/tiem-nail-ms-q-xinhru/": {
   "id": "ChIJcc3A7vsXQjER-i5VgXInhrU",
@@ -2074,8 +2061,14 @@
   "name": "Timi Nail",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
+ },
+ "/salons/tina-nails-sggkde/": {
+  "id": "ChIJGfJXFgAXQjER1tuhpsGgKDE",
+  "name": "TiNa Nails",
+  "area": "My Khe beachfront",
+  "up": "/salons/area/my-khe-beachfront/",
+  "to": null
  },
  "/salons/tourane-spa-and-nails-csilss/": {
   "id": "ChIJ1TykQdwZQjER9jKWUcsilss",
@@ -2090,16 +2083,14 @@
   "name": "Trà Beauty - Nail & Shampoo",
   "area": "Thanh Khe",
   "up": "/salons/area/thanh-khe/",
-  "to": "/salons/area/thanh-khe/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/trang-sala-nail-academy-oknm3q/": {
   "id": "ChIJ2-rHBGEbQjER_SNGcoknm3Q",
   "name": "TRANG SALA NAIL ACADEMY",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": "/salons/area/da-nang/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/tt95-nail-my-khe-beach-danang-5wjffk/": {
   "id": "ChIJ_4Y2tuAZQjER03Aja5wJffk",
@@ -2114,8 +2105,7 @@
   "name": "TUYEN NAILS & SPA DANANG - 투옌 다낭 네일 & 스파 - トゥエン・ダナン ネイル＆スパ - Tuyen岘港美甲SPA",
   "area": "Son Tra",
   "up": "/salons/area/son-tra/",
-  "to": "/salons/area/son-tra/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/twinkle-nail-5sdu8w/": {
   "id": "ChIJIeA_aDIZQjERCIcs85sdu8w",
@@ -2152,8 +2142,7 @@
   "name": "Xuân Lan Nail & Beauty",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": "/salons/area/da-nang/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/yame-nail-cmjrci/": {
   "id": "ChIJOxlCrZgZQjERTfq4_cMJrcI",
@@ -2175,8 +2164,7 @@
   "name": "Yen Spa - Nail & Facial",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": "/salons/area/hai-chau/",
-  "since": "2026-10-02"
+  "to": null
  },
  "/salons/yumi-nails-studio-fsw6b4/": {
   "id": "ChIJX-bcaAAZQjERtXtwHFsW6b4",
