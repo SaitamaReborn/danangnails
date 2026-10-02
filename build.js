@@ -17,103 +17,136 @@ const PARTNER={whatsapp:"https://wa.me/84788668588",hours:"open daily 9:00–20:
  instagram:"https://www.instagram.com/reborn_nailsnretreat/",
  site:"https://rebornnaildanang.com/",siteLabel:"Menu & prices"};
 
-/* Keyword pages, one per treatment on a real Da Nang menu. */
+/* Keyword pages, one per treatment. Every "typical" price is a range computed
+   from the salons that publish theirs (lib/market-prices.js), with the number
+   of salons behind it; nothing here is one salon's menu passed off as the
+   city's. Services without a sourced range carry no figure. */
+const MP=require('./lib/market-prices.js');
+const MPL=Object.fromEntries(MP.LINES.map(l=>[l.key,l]));
+const MP_ROW=k=>[MPL[k].label,MP.range[k]];
+const MP_NOTE=`From the public price lists of ${MP.N} Da Nang salons (${MP.HOUSES.map(h=>h.name).join(', ')}), checked ${human(MP.CHECKED)}.`;
+const MP_SENTENCE=`Across ${MP.N} Da Nang salons that publish their prices (checked ${human(MP.CHECKED)}): gel polish ${MP.range.gel} VND, BIAB or builder gel ${MP.range.biab}, a full set of extensions ${MP.range.ext}, a pedicure with gel colour ${MP.range.pedi}, gel removal ${MP.range.removal} and nail art ${MP.range.art} per nail.`;
 const SERVICES=[
 {slug:"gel-nails",kw:"Gel nails Da Nang",eyebrow:"Two to three weeks of wear",h1:"Gel nails & gel polish",photo:"gel",
  lede:"The default choice in Da Nang, and the one most visitors get wrong at removal time.",
- desc:"Gel manicure prices in Da Nang (2026): plain colour ≈200K, skittle sets ≈250K, removal 60K. What gel is, how long it lasts and where to have it done.",
- prices:[["Gel polish, full colour","≈ 200K"],["Base + top coat only","≈ 100K"],["Classic polish","≈ 100K"],["Skittle (multi-colour)","≈ 250K"],["Hard gel strengthening layer","from 60K"],["Gel colour removal","60K – 90K"]],
- body:`<h2>What you get for 200K</h2>
-<p>Colour cured hard under a lamp, mirror shine for two to three weeks, and nails that survive salt water, sunscreen and a fortnight of holiday abuse. Around 200,000 VND across most of the city — under nine dollars — and materially more within a block of the beach.</p>
+ desc:`Gel manicure prices in Da Nang (2026), from ${MP.N} salons that publish theirs: full colour ${MP.range.gel}, removal ${MP.range.removal}. What gel is, how long it lasts and where to have it done.`,
+ prices:[MP_ROW('gel'),MP_ROW('removal')],
+ body:`<h2>What a gel manicure buys</h2>
+<p>Colour cured hard under a lamp, mirror shine for two to three weeks, and nails that survive salt water, sunscreen and a fortnight of holiday abuse. Across the salons that publish prices it costs ${MP.range.gel} VND for a full colour: the low end is a neighbourhood shop, the high end a spa near the resorts.</p>
 <p>A serious gel service includes shaping, cuticle work, base, colour, top coat and a consultation where the technician tells you what your nails can actually take. If any of those are being charged separately, the headline price is not the price.</p>
 <h2>Korean and Japanese systems, and why they matter</h2>
 <p>The quality end of the Da Nang market runs on imported Korean and Japanese gel. It cures harder, keeps colour truer over three weeks and soaks off cleanly. Ask which brand a salon uses. The good ones answer instantly and with some pride; anonymous decanted pots are the answer you walk away from.</p>
 <h2>Removal is where nails get wrecked</h2>
-<p>Gel does not peel off. It soaks off, in foil, over ten to fifteen minutes, and anyone levering it with a metal tool is removing layers of your nail plate with it. Budget 60–90K for proper removal and ask the price before the first coat goes on — it is the line dishonest salons keep off the board.</p>
+<p>Gel does not peel off. It soaks off, in foil, over ten to fifteen minutes, and anyone levering it with a metal tool is removing layers of your nail plate with it. Proper removal costs ${MP.range.removal} across the salons that publish prices; ask before the first coat goes on, because it is the line dishonest salons keep off the board.</p>
 <p>If your nails are already thin from a bad removal, skip straight to <a href="/services/biab-builder-gel/">BIAB</a>: it rebuilds structure while it grows out.</p>`,
- faq:[["How much is a gel manicure in Da Nang?","Around 200,000 VND (roughly $8) for a full colour in 2026. Base and top coat alone runs about 100K, a multi-colour skittle set about 250K, and removal 60–90K. Beach-side salons typically charge 10–30% above the city average."],
+ faq:[["How much is a gel manicure in Da Nang?",`${MP.range.gel} VND for a full colour across the ${MP.N} salons that publish their prices (checked ${human(MP.CHECKED)}). Gel removal costs ${MP.range.removal}.`],
       ["How long does gel polish last?","Two to three weeks with normal wear. Professional Korean and Japanese systems hold their shine longest; heat, sunscreen and sea water shorten it slightly."],
       ["Does gel damage your nails?","The gel does not. Bad removal does. Insist on a proper soak-off rather than any scraping or peeling, and your nail plate comes through intact."]]},
 
 {slug:"biab-builder-gel",kw:"BIAB Da Nang",eyebrow:"Structure, not length",h1:"BIAB & builder gel",photo:"hands",
- lede:"The fix for nails that split at the first beach day — and the most misunderstood item on the menu.",
- desc:"BIAB and builder gel in Da Nang: ≈300K for builder-in-a-bottle, 400K on natural nails, refills 380K. What it is, who needs it and how it differs from acrylic.",
- prices:[["BIAB (builder in a bottle)","≈ 300K"],["Builder gel on natural nails","≈ 400K"],["Builder gel refill","≈ 380K"],["Short extension","≈ 500K"],["Long extension","≈ 550K"],["Single tip repair","≈ 55K"],["Builder gel removal","≈ 90K"]],
+ lede:"The fix for nails that split at the first beach day, and the most misunderstood item on the menu.",
+ desc:`BIAB and builder gel in Da Nang: ${MP.range.biab} on natural nails across the salons that publish prices. What it is, who needs it and how it differs from acrylic.`,
+ prices:[MP_ROW('biab'),MP_ROW('removal')],
  body:`<h2>What BIAB actually is</h2>
 <p>Builder-in-a-bottle is a thickened, soakable gel applied as a structural layer over your own nail. It is not length and it is not acrylic. It is a splint that lets a weak nail grow past the point where it usually snaps, and it reads entirely natural from a metre away.</p>
 <h2>Who it is for</h2>
 <p>Anyone whose nails peel, split at the free edge or bend under light pressure. Anyone who has worn acrylic for years and wants out without a six-month ugly phase. And anyone on a long trip who would rather refill every three or four weeks than repair a break in a beach town.</p>
 <h2>BIAB versus acrylic, honestly</h2>
-<p>Acrylic is stronger and cheaper to repair; it is also heavier, needs more filing of your natural nail, and removal is a genuinely destructive process. BIAB is lighter, gentler, soaks off without trauma and costs about 300K here. For most people on holiday, BIAB is the correct answer. For someone who works with their hands and breaks a tip weekly, acrylic still wins.</p>
+<p>Acrylic is stronger and cheaper to repair; it is also heavier, needs more filing of your natural nail, and removal is a genuinely destructive process. BIAB is lighter, gentler and soaks off without trauma; across the salons that publish prices it costs ${MP.range.biab} here. For most people on holiday, BIAB is the correct answer. For someone who works with their hands and breaks a tip weekly, acrylic still wins.</p>
 <h2>Refills, not redos</h2>
-<p>At three to four weeks you refill (≈380K), you do not start again. A salon that insists on full removal and rebuild every single time is either not confident with the product or is billing you twice.</p>`,
- faq:[["What is BIAB and is it better than acrylic?","BIAB is a soakable builder gel that strengthens the natural nail with a natural look. It is lighter and gentler than acrylic and removal does not damage the nail plate — but acrylic remains stronger for heavy manual work."],
-      ["How much does BIAB cost in Da Nang?","About 300,000 VND for builder-in-a-bottle, 400K for builder gel on natural nails, and 380K for a refill at three to four weeks."],
-      ["How often do I need a BIAB refill?","Every three to four weeks. It is a refill, not a rebuild — full removal each time is unnecessary."]]},
+<p>At three to four weeks you refill, you do not start again. A salon that insists on full removal and rebuild every single time is either not confident with the product or is billing you twice.</p>`,
+ faq:[["What is BIAB and is it better than acrylic?","BIAB is a soakable builder gel that strengthens the natural nail with a natural look. It is lighter and gentler than acrylic and removal does not damage the nail plate, but acrylic remains stronger for heavy manual work."],
+      ["How much does BIAB cost in Da Nang?",`${MP.range.biab} VND on natural nails across the salons that publish their prices (checked ${human(MP.CHECKED)}).`],
+      ["How often do I need a BIAB refill?","Every three to four weeks. It is a refill, not a rebuild: full removal each time is unnecessary."]]},
 
 {slug:"gelx-nail-extensions",kw:"Nail extensions Da Nang",eyebrow:"Instant length",h1:"GelX & nail extensions",photo:"art",
  lede:"Full-cover soft gel tips: a whole set in about an hour, light enough to forget you are wearing them.",
- desc:"Nail extensions in Da Nang: GelX full set ≈280K, sculpted long extensions 500–550K. How long they last, how they come off and what to ask for.",
- prices:[["GelX full set","≈ 280K"],["Short extension","≈ 500K"],["Long extension","≈ 550K"],["Single tip (extension)","≈ 55K"],["Press-on removal","≈ 70K"]],
+ desc:`Nail extensions in Da Nang: ${MP.range.ext} for a full set across the salons that publish prices, from soft-gel tips to sculpted builder gel. How long they last and how they come off.`,
+ prices:[MP_ROW('ext'),MP_ROW('removal')],
  body:`<h2>Soft gel, not plastic tips</h2>
-<p>GelX and its equivalents are full-cover soft gel tips bonded with gel and cured under a lamp. They arrive pre-shaped, which is why a full set takes about an hour rather than three, and they flex with your nail instead of fighting it. About 280K for a set in Da Nang.</p>
+<p>GelX and its equivalents are full-cover soft gel tips bonded with gel and cured under a lamp. They arrive pre-shaped, which is why a full set takes about an hour rather than three, and they flex with your nail instead of fighting it. Across the salons that publish prices a full set of extensions costs ${MP.range.ext}: soft-gel tips sit at the low end, sculpted builder gel at the top.</p>
 <h2>Three to four weeks, then off cleanly</h2>
-<p>Normal wear gets you three to four weeks. Because they are soft gel rather than acrylic, they soak off in fifteen minutes and leave the nail underneath intact — the reason they have taken over the holiday market here.</p>
+<p>Normal wear gets you three to four weeks. Because they are soft gel rather than acrylic, they soak off in fifteen minutes and leave the nail underneath intact, the reason they have taken over the holiday market here.</p>
 <h2>Sculpted extensions, when you want drama</h2>
-<p>For real length and a custom shape, sculpted builder-gel extensions run 500–550K and take proper time in the chair. Bring photographs. Da Nang technicians match a reference image far more precisely than a verbal description, and the language gap disappears entirely once a picture is on the table.</p>
+<p>For real length and a custom shape, sculpted builder-gel extensions sit at the top of that range and take proper time in the chair. Bring photographs. Da Nang technicians match a reference image far more precisely than a verbal description, and the language gap disappears entirely once a picture is on the table.</p>
 <h2>The practical warning</h2>
 <p>Long nails and a motorbike do not mix, and neither do long nails and packing a suitcase. If you are three days from a flight home, get the short set.</p>`,
  faq:[["How long do GelX extensions last?","Typically three to four weeks with normal wear. They are light, flexible and kind to the natural nail underneath."],
-      ["How much are nail extensions in Da Nang?","A GelX full set is about 280,000 VND. Sculpted short extensions run around 500K and long extensions around 550K."],
+      ["How much are nail extensions in Da Nang?",`${MP.range.ext} VND for a full set across the salons that publish their prices (checked ${human(MP.CHECKED)}), from soft-gel tips at the low end to sculpted builder gel at the top.`],
       ["Do extensions ruin your natural nails?","Soft gel extensions removed by soaking do not. Damage comes from filing the natural nail too aggressively at application, or from prying tips off."]]},
 
 {slug:"nail-art",kw:"Nail art Da Nang",eyebrow:"Priced per nail",h1:"Nail art & design",photo:"art",
- lede:"Da Nang's per-nail pricing makes elaborate work absurdly accessible — and the technicians can genuinely paint.",
- desc:"Nail art prices in Da Nang: stickers from 10K per nail, hand-painted 15–100K, cat-eye or chrome full set ≈180K, ombré and French ≈220K.",
- prices:[["Cat eye / chrome · full set","≈ 180K"],["Ombré / French · full set","≈ 220K"],["Hand-painted design, per nail","15K – 100K"],["3D chrome art, per nail","40K – 80K"],["3D gel flowers, per nail","40K – 70K"],["Pearls, charms, glitter, per nail","20K – 80K"],["Stickers, per nail","10K – 40K"]],
+ lede:"Da Nang's per-nail pricing makes elaborate work absurdly accessible, and the technicians can genuinely paint.",
+ desc:`Nail art prices in Da Nang: ${MP.range.art} per nail across the salons that publish prices, from stickers to hand-painted designs. What to ask for and how long it takes.`,
+ prices:[MP_ROW('art')],
  body:`<h2>Why art is cheap here and expensive at home</h2>
-<p>Nail art is labour, and labour is what Vietnam prices differently. A hand-painted design that would carry a three-figure charge in London or Sydney is billed at 15K to 100K per nail here — a full custom set for the price of a takeaway. The skill is not discounted; the hour is.</p>
+<p>Nail art is labour, and labour is what Vietnam prices differently. A hand-painted design that would carry a three-figure charge in London or Sydney is billed at ${MP.range.art} per nail here, across the salons that publish prices. The skill is not discounted; the hour is.</p>
 <h2>Know the vocabulary before you point</h2>
-<p>Cat-eye uses magnetic gel dragged into a moving band of light. Chrome is powder burnished into a mirror finish. Ombré is a gradient blended wet. French is the classic tip, which in Da Nang is very often done in colour rather than white. A full set of any of these lands between 180K and 220K.</p>
+<p>Cat-eye uses magnetic gel dragged into a moving band of light. Chrome is powder burnished into a mirror finish. Ombré is a gradient blended wet. French is the classic tip, which in Da Nang is very often done in colour rather than white.</p>
 <h2>Bring pictures, confirm the total</h2>
-<p>Per-nail pricing multiplies quickly across ten fingers, and the difference between a 20K sticker and an 80K hand-painted flower is not obvious to everyone at the point of ordering. Agree the whole number before the first brushstroke — every honest salon expects the question and answers it flatly.</p>
+<p>Per-nail pricing multiplies quickly across ten fingers, and the difference between a sticker and a hand-painted flower is not obvious to everyone at the point of ordering. Agree the whole number before the first brushstroke; every honest salon expects the question and answers it flatly.</p>
 <h2>Time is the real constraint</h2>
 <p>A detailed set is two to three hours of someone's undivided attention. Book it, do not walk in at seven in the evening expecting miracles, and eat first.</p>`,
- faq:[["How much does nail art cost in Da Nang?","Stickers start around 10K per nail and hand-painted designs run 15–100K depending on complexity. A full cat-eye or chrome set is about 180K, ombré or French about 220K."],
-      ["Can Da Nang technicians copy a photo?","Yes, and it is the most reliable way to communicate what you want. Bring reference images on your phone — the results are typically very close."],
+ faq:[["How much does nail art cost in Da Nang?",`${MP.range.art} VND per nail across the salons that publish their prices (checked ${human(MP.CHECKED)}), from stickers at the low end to hand-painted designs at the top.`],
+      ["Can Da Nang technicians copy a photo?","Yes, and it is the most reliable way to communicate what you want. Bring reference images on your phone; the results are typically very close."],
       ["How long does a full nail art set take?","Simple full-set finishes like chrome or ombré take about an hour. Detailed hand-painted or 3D work runs two to three hours; book ahead."]]},
 
 {slug:"spa-pedicure",kw:"Pedicure Da Nang",eyebrow:"Forty minutes to an hour and a quarter",h1:"Spa pedicure",photo:"pedicure",
- lede:"Not a pedicure with extra steps — a different product entirely, and the best-value hour in the city.",
- desc:"Spa pedicure prices in Da Nang: express rituals from 250K, full rituals 380–450K, signature with hot stones ≈590K. What each tier actually includes.",
- prices:[["Express ritual · ≈40 min","≈ 250K"],["Relaxing ritual · ≈55 min","≈ 380K"],["Deep care · ≈65 min","≈ 450K"],["Signature · ≈75 min","≈ 590K"],["Hot stone add-on","≈ 80K"],["Gel polish for toes","≈ 180K"],["Foot & calf massage · 30 min","≈ 190K"]],
+ lede:"Not a pedicure with extra steps: a different product entirely, and the best-value hour in the city.",
+ desc:`Spa pedicure in Da Nang: what a 40 to 75 minute ritual includes, how to judge a menu by its minutes, and what a pedicure with gel colour costs (${MP.range.pedi}) across the salons that publish prices.`,
+ prices:[MP_ROW('pedi')],
  body:`<h2>What separates it from a nail trim</h2>
 <p>A herbal foot soak, cuticle care and shaping, heel buffing and intensive heel treatment, exfoliation, a hydrating mask, foot and calf massage, warm towel wrap, nourishing oils. Forty minutes at the short end, seventy-five at the long, and every minute of it hands-on.</p>
 <h2>Judge the tier by minutes, not adjectives</h2>
-<p>Menus reach for words like "luxury" and "signature" at every price point. The number that tells you what you are buying is the duration. An express ritual at 250K gives you forty minutes; a 590K signature gives you seventy-five plus hot stones. Both are honest prices for what they contain.</p>
+<p>Menus reach for words like "luxury" and "signature" at every price point. The number that tells you what you are buying is the duration: an express ritual gives you forty minutes, a signature seventy-five plus hot stones, and each is priced accordingly. A plain pedicure with gel colour costs ${MP.range.pedi} across the salons that publish prices.</p>
 <h2>Heels, specifically</h2>
 <p>Sandal season plus salt water plus hot pavement destroys heels, which is why Da Nang salons treat heel work as a discipline rather than an afterthought. If cracked heels are the reason you booked, say so at the start so the technician allocates the time.</p>
 <h2>The best-value hour in Da Nang</h2>
-<p>Nothing else in the city returns as much comfort per đồng. Comparable rituals in Seoul, Tokyo or any Western capital cost several times as much for the same sequence and often less care. See how it slots against everything else on the <a href="/prices/">prices page</a>.</p>`,
- faq:[["What does a spa pedicure in Da Nang include?","A herbal soak, cuticle care and shaping, heel treatment, exfoliation, mask, foot and calf massage and warm towels — 40 to 75 minutes depending on the tier."],
-      ["How much is a pedicure in Da Nang?","Express rituals start around 250K, full rituals run 380–450K, and a 75-minute signature with hot stones is about 590K. Gel polish for toes adds roughly 180K."],
+<p>Nothing else in the city returns as much comfort per đồng. See how it slots against everything else on the <a href="/prices/">prices page</a>.</p>`,
+ faq:[["What does a spa pedicure in Da Nang include?","A herbal soak, cuticle care and shaping, heel treatment, exfoliation, mask, foot and calf massage and warm towels: 40 to 75 minutes depending on the tier."],
+      ["How much is a pedicure in Da Nang?",`A pedicure with gel colour costs ${MP.range.pedi} VND across the salons that publish their prices (checked ${human(MP.CHECKED)}); longer spa rituals are priced by their minutes.`],
       ["Is a spa pedicure worth it over a basic one?","If you have been walking a beach town in sandals, yes. The heel work and massage are the parts a basic trim skips entirely."]]},
 
-{slug:"nail-salon-prices",kw:"Nail prices Da Nang",eyebrow:"Every treatment, every tier",h1:"Nail salon prices",photo:"polish",
- lede:"One table for the whole city, compiled from menus posted in salon windows.",
- desc:"Complete 2026 price list for nail salons in Da Nang — gel, BIAB, extensions, art, pedicures and removal, plus the beach-side markup explained.",
- prices:[["Gel polish, full colour","≈ 200K"],["BIAB / builder gel","≈ 300K"],["GelX full set","≈ 280K"],["Nail art, per nail","10K – 100K"],["Spa pedicure ritual","250K – 590K"],["Gel removal","60K – 90K"]],
+{slug:"nail-salon-prices",kw:"Nail prices Da Nang",eyebrow:"Ranges from published menus",h1:"Nail salon prices",photo:"polish",
+ lede:`One table for the city, built from the ${MP.N} salons that publish their prices.`,
+ desc:`Nail salon prices in Da Nang 2026 from ${MP.N} salons' public menus: gel ${MP.range.gel}, BIAB ${MP.range.biab}, extensions ${MP.range.ext}, pedicure with gel ${MP.range.pedi}, removal ${MP.range.removal}.`,
+ prices:MP.LINES.map(l=>[l.label,MP.range[l.key]]),
  body:`<h2>Reading a Vietnamese menu</h2>
 <p>Prices are written in thousands. "200" or "200K" means 200,000 VND, a little under nine US dollars. Menus are usually posted at the door, and a salon that posts nothing is telling you something.</p>
+<h2>Where these figures come from</h2>
+<p>${MP_NOTE} Each line of the table rests on at least three of them; a line with fewer is not published.</p>
 <h2>The beach markup is real and it is not a scam</h2>
-<p>The same treatment one street from the sand runs 10–30% above the city average. That is rent, not opportunism. Knowing the gap simply lets you decide what convenience is worth on a given day — full breakdown by area on the <a href="/salons/">ranked list</a>.</p>
+<p>The same treatment one street from the sand usually costs more than inland. That is rent, not opportunism. Knowing the gap simply lets you decide what convenience is worth on a given day; full breakdown by area on the <a href="/salons/">ranked list</a>.</p>
 <h2>The three questions that keep a bill honest</h2>
-<p>What does removal cost? Does the quoted price include base, top coat and cuticle work? Which gel brand do you use? Three straight answers means you are in a serious salon. Hesitation on any of them is your cue to keep walking — there are sixty-odd alternatives in this city.</p>`,
- faq:[["How much do nails cost in Da Nang in 2026?","Plain gel colour around 200K, BIAB about 300K, soft-gel extensions about 280K, nail art 10–100K per nail, and spa pedicure rituals 250–590K."],
-      ["Why are nails so cheap in Vietnam?","Lower rent and wages, plus enormous competition — Da Nang has dozens of well-reviewed salons within a few square kilometres. The skill level is not what is being discounted."],
+<p>What does removal cost? Does the quoted price include base, top coat and cuticle work? Which gel brand do you use? Three straight answers means you are in a serious salon. Hesitation on any of them is your cue to keep walking.</p>`,
+ faq:[["How much do nails cost in Da Nang in 2026?",MP_SENTENCE],
+      ["Why are nails so cheap in Vietnam?","Lower rent and wages, plus enormous competition: Da Nang has dozens of well-reviewed salons within a few square kilometres. The skill level is not what is being discounted."],
       ["Should I tip at a nail salon in Vietnam?","Tipping is not expected and no salon should pressure you. After a long ritual a small tip is a kind gesture, never an obligation."]]},
 ];
 
+
+
+/* The localised price tables and price answers come from the same public-menu
+   ranges as the English pages: no locale keeps one salon's menu as the norm. */
+const MP_L={
+ en:{l:{gel:"Gel polish, full colour",biab:"BIAB / builder gel",ext:"Extensions, full set",pedi:"Pedicure with gel colour",removal:"Gel removal",art:"Nail art, per nail"},f:"Across {n} Da Nang salons that publish their prices (checked {d}): gel polish {gel}, BIAB or builder gel {biab}, a full set of extensions {ext}, a pedicure with gel colour {pedi}, gel removal {removal} VND."},
+ vi:{l:{gel:"Sơn gel một màu",biab:"BIAB / gel dưỡng cứng",ext:"Nối móng nguyên bộ",pedi:"Pedicure kèm sơn gel",removal:"Tháo gel",art:"Vẽ nail, mỗi móng"},f:"Theo bảng giá công khai của {n} tiệm ở Đà Nẵng (kiểm tra {d}): sơn gel {gel}, BIAB {biab}, nối móng nguyên bộ {ext}, pedicure kèm sơn gel {pedi}, tháo gel {removal} đồng."},
+ ko:{l:{gel:"젤 폴리시 (단색)",biab:"BIAB / 빌더젤",ext:"연장 풀세트",pedi:"젤 페디큐어",removal:"젤 제거",art:"네일아트 (손톱당)"},f:"가격을 공개한 다낭 네일샵 {n}곳 기준({d} 확인): 젤 폴리시 {gel}, BIAB {biab}, 연장 풀세트 {ext}, 젤 페디큐어 {pedi}, 젤 제거 {removal}동."},
+ zh:{l:{gel:"单色甲油胶",biab:"BIAB / 建构胶",ext:"延长甲全套",pedi:"足部甲油胶",removal:"卸甲",art:"美甲彩绘（每指）"},f:"根据岘港{n}家公开价目的美甲店（{d}核对）：甲油胶{gel}，BIAB{biab}，延长甲全套{ext}，足部甲油胶{pedi}，卸甲{removal}越南盾。"},
+ ja:{l:{gel:"ジェル（単色）",biab:"BIAB / ビルダージェル",ext:"長さ出しフルセット",pedi:"フットジェル",removal:"ジェルオフ",art:"ネイルアート（1本）"},f:"料金を公開しているダナンの{n}店舗（{d}確認）では、ジェル{gel}、BIAB{biab}、長さ出しフルセット{ext}、フットジェル{pedi}、ジェルオフ{removal}ドン。"},
+ ru:{l:{gel:"Гель-лак, однотонный",biab:"BIAB / билдер-гель",ext:"Наращивание, полный комплект",pedi:"Педикюр с гель-лаком",removal:"Снятие гель-лака",art:"Дизайн, за ноготь"},f:"По открытым прайсам {n} салонов Дананга (проверено {d}): гель-лак {gel}, BIAB {biab}, наращивание {ext}, педикюр с гель-лаком {pedi}, снятие {removal} донгов."},
+ fr:{l:{gel:"Vernis semi-permanent uni",biab:"BIAB / gel de construction",ext:"Extensions, pose complète",pedi:"Pédicure avec vernis gel",removal:"Dépose du gel",art:"Nail art, par ongle"},f:"D'après les tarifs publics de {n} salons de Da Nang (vérifiés le {d}) : semi-permanent {gel}, BIAB {biab}, extensions {ext}, pédicure avec gel {pedi}, dépose {removal} dongs."},
+ de:{l:{gel:"Gellack, einfarbig",biab:"BIAB / Aufbaugel",ext:"Verlängerung, komplettes Set",pedi:"Pediküre mit Gellack",removal:"Gel-Entfernung",art:"Nail Art, pro Nagel"},f:"Nach den öffentlichen Preislisten von {n} Studios in Da Nang (geprüft am {d}): Gellack {gel}, BIAB {biab}, Verlängerung {ext}, Pediküre mit Gellack {pedi}, Entfernung {removal} Dong."},
+ es:{l:{gel:"Esmalte en gel, un color",biab:"BIAB / gel constructor",ext:"Extensiones, juego completo",pedi:"Pedicura con gel",removal:"Retirada de gel",art:"Nail art, por uña"},f:"Según las tarifas públicas de {n} salones de Da Nang (revisadas el {d}): gel {gel}, BIAB {biab}, extensiones {ext}, pedicura con gel {pedi}, retirada {removal} dongs."},
+ th:{l:{gel:"สีเจล (สีเดียว)",biab:"BIAB / บิลเดอร์เจล",ext:"ต่อเล็บทั้งชุด",pedi:"ทำเล็บเท้าพร้อมสีเจล",removal:"ล้างเจล",art:"เพ้นท์เล็บ (ต่อเล็บ)"},f:"จากราคาที่เปิดเผยของ {n} ร้านในดานัง (ตรวจสอบ {d}): สีเจล {gel} BIAB {biab} ต่อเล็บ {ext} เล็บเท้าพร้อมสีเจล {pedi} ล้างเจล {removal} ดอง"}
+};
+for(const [c,L] of Object.entries(LOCALES)){
+  const X=MP_L[c]; if(!X) continue;
+  let d=MP.CHECKED; try{d=new Date(MP.CHECKED+'T00:00:00Z').toLocaleDateString(c==='zh'?'zh-CN':c,{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});}catch(e){}
+  const f=X.f.replace(/\{(\w+)\}/g,(m,k)=>k==='n'?MP.N:k==='d'?d:(MP.range[k]||m));
+  L.t.rows=MP.LINES.map(l=>[X.l[l.key],MP.range[l.key]]);
+  L.t.faq=L.t.faq.map(([q,a],i)=>i===0?[q,f]:[q,a]);
+}
 
 /* Pages that answer the exact question people type into an answer engine.
    One per query family; each is built from the same Google data as the rest
@@ -138,18 +171,18 @@ const REASON=(p,i)=>{
   }[p.area]||`in ${esc(p.area)}`;
   return `${p.rating}★ across ${p.reviews} public Google reviews in ${esc(p.area)}. ${bits.slice(0,2).join(' and ')} — enough signal to trust, ${where}.`;
 };
-const PRICES_SHORT=[["Gel polish, full colour","≈ 200K VND (~$8)"],["BIAB / builder gel","≈ 300K"],["GelX full set","≈ 280K"],["Nail art, per nail","10K – 100K"],["Spa pedicure ritual","250K – 590K"],["Gel removal","60K – 90K"]];
+const PRICES_SHORT=MP.LINES.map(l=>[l.label,MP.range[l.key]]);
 
 const BESTOF=[
 {slug:"best-nail-salon-da-nang",count:10,noun:"nails",what:"a nail salon",
  h1:"Top 10 best nail salons in Da Nang",listH2:"The 10 best nail salons in Da Nang, ranked",
  question:"What is the best nail salon in Da Nang?",
  desc:`The best nail salons in Da Nang for ${new Date().getUTCFullYear()}, compared across every salon in the city with a public Google rating — with real prices, addresses, opening hours and what each one is actually good at.`,
- answerTail:`Across the whole city we track {n} salons carrying a public Google rating and at least twenty reviews, and the ten below are the ones worth your appointment. Expect to pay around 200,000 VND (about $8) for a gel manicure, 280K for a full set of soft-gel extensions and 250K–590K for a spa pedicure ritual.`,
+ answerTail:`Across the whole city we track {n} salons carrying a public Google rating and at least twenty reviews, and the ten below are the ones worth your appointment. Across the salons that publish prices, a gel manicure costs ${MP.range.gel} VND, a full set of extensions ${MP.range.ext} and a pedicure with gel colour ${MP.range.pedi}.`,
  intro:`There is no shortage of nail salons in Da Nang — we track {n} of them with enough public reviews to mean something. The difficulty is that almost all of them sit between 4.7 and 5.0 stars, which on its own tells you very little. The ten below are where we would book, and the <a href="/choosing-a-salon/">90-second check</a> covers what no rating can show you.`,
  prices:PRICES_SHORT,reason:REASON,
  faq:[
-  ["How much does a manicure cost in Da Nang?","Around 200,000 VND (roughly $8) for gel polish in a full colour. Classic polish is about 100K, BIAB around 300K, a GelX full set about 280K, and gel removal 60–90K. Salons within a block of My Khe Beach typically charge 10–30% above the city average."],
+  ["How much does a manicure cost in Da Nang?",MP_SENTENCE],
   ["Which area of Da Nang has the best nail salons?","My An and An Thượng hold the densest cluster aimed at visitors, with English menus and Korean or Japanese gel systems as the norm. Hải Châu, across the river, serves a mostly local clientele at gentler prices. The beach road charges a premium for its postcode rather than for better work."],
   ["Are nail salons in Da Nang hygienic?","The well-run ones are exemplary: single-use files and buffers opened in front of you, metal tools from a sealed pouch or a working steriliser, and named Korean or Japanese gel. Standards vary widely across the city, so run a quick visual check before you sit down rather than relying on the star rating alone."],
   ["Do I need to book a nail appointment in Da Nang?","For a plain gel colour you can usually walk in outside evenings. Book a day ahead over WhatsApp or Messenger for extensions, detailed hand-painted art, or any weekend slot — the good salons fill up."],
@@ -158,16 +191,16 @@ const BESTOF=[
 {slug:"best-pedicure-da-nang",count:10,noun:"pedicure",what:"a spa pedicure",
  h1:"Top 10 best pedicures in Da Nang",listH2:"The 10 best pedicures in Da Nang, ranked",
  question:"Where can I get the best pedicure in Da Nang?",
- desc:`The best spa pedicures in Da Nang: what a proper ritual includes, what the tiers cost (250K–590K), and the salons that do the heel work and massage properly.`,
- answerTail:`A spa pedicure in Da Nang is a 40 to 75 minute ritual — herbal soak, heel therapy, exfoliation, foot and calf massage, warm towels — not a nail trim with extras. Expect 250,000 VND for an express ritual, 380–450K for a full one, and around 590K for a 75-minute signature with hot stones.`,
+ desc:`The best spa pedicures in Da Nang: what a proper ritual includes, how to judge it by its minutes, and the salons that do the heel work and massage properly.`,
+ answerTail:`A spa pedicure in Da Nang is a 40 to 75 minute ritual — herbal soak, heel therapy, exfoliation, foot and calf massage, warm towels — not a nail trim with extras. A pedicure with gel colour costs ${MP.range.pedi} VND across the salons that publish prices; longer rituals are priced by their minutes.`,
  intro:`Pedicure is the treatment Da Nang does best and visitors under-order. What is sold elsewhere as a fifteen-minute tidy-up is, here, a properly sequenced ritual with a herbal soak, real heel work and a foot and calf massage built in — for a fraction of what the same hour costs anywhere else. The salons below are where we would book one.`,
- prices:[["Express pedicure ritual · ≈40 min","≈ 250K VND"],["Relaxing ritual · ≈55 min","≈ 380K"],["Deep care ritual · ≈65 min","≈ 450K"],["Signature ritual · ≈75 min","≈ 590K"],["Hot stone add-on","≈ 80K"],["Gel polish for toes","≈ 180K"]],
+ prices:[[MPL.pedi.label,MP.range.pedi]],
  reason:REASON,
  faq:[
-  ["How much is a pedicure in Da Nang?","Express rituals start around 250,000 VND for about forty minutes. A full 55–65 minute ritual runs 380–450K, and a 75-minute signature with hot stones about 590K. Gel polish for toes adds roughly 180K."],
+  ["How much is a pedicure in Da Nang?",`A pedicure with gel colour costs ${MP.range.pedi} VND across the salons that publish their prices (checked ${human(MP.CHECKED)}); longer spa rituals of 40 to 75 minutes are priced by their minutes.`],
   ["What does a spa pedicure in Da Nang include?","A warm herbal foot soak, cuticle care and nail shaping, heel buffing and intensive heel treatment, exfoliation, a hydrating mask, foot and calf massage, a warm towel wrap and nourishing oils. Longer tiers add hot stones and more massage time."],
   ["Is a spa pedicure worth it over a basic one?","If you have been walking a beach city in sandals, yes. The heel therapy and the massage are exactly the parts a basic trim skips, and they are the reason the ritual takes forty minutes rather than fifteen."],
-  ["Do pedicures in Da Nang include a foot massage?","In any proper spa pedicure ritual, yes — foot and calf massage is part of the sequence from about 250K upward, not a separate charge. Check what the ritual contains before paying for a massage on top."]]}
+  ["Do pedicures in Da Nang include a foot massage?","In any proper spa pedicure ritual, yes — foot and calf massage is part of the sequence, not a separate charge. Check what the ritual contains before paying for a massage on top."]]}
 ];
 
 const LANGS=[
@@ -191,15 +224,16 @@ const S=buildSite({
  LISTING:{path:"/salons/",navLabel:"All salons"},
  ITEM_TYPE:"NailSalon",ITEM_NOUN:"Nail salon",
  FEATURED_ID:"ChIJ4S2_LGIXQjER5UUCohuc8V4",
- PROFILE_ANS_TAIL:'A gel manicure in Da Nang runs about 200K (~$8), BIAB ≈300K and a GelX set ≈280K — full tables on the <a href="/prices/">prices page</a>.',
+ PROFILE_ANS_TAIL:`Across Da Nang salons that publish prices, a gel manicure costs ${MP.range.gel} VND; the full table is on the <a href="/prices/">prices page</a>.`,
  PICK_EYEBROW:"Our pick",PICK_BADGE:"Our pick",
  PICK_ONELINE:"and the reviews are written in English by visitors who name the owner and the technicians — which tells you more about a salon than any rating does.",
  PICK_TEXT:"Three checks decide whether a Da Nang salon is worth your hands, and this one passes all of them in plain sight: files and buffers are unwrapped at the chair, the full menu hangs in writing with removal priced on it, and the technician can hold an actual conversation in English about what your nails will take. The range runs from a 200K gel colour to a 75-minute signature pedicure, and the review history is long enough — and specific enough — to check every one of these claims against other people's visits before you book.",
- AREA_ANSWER:"Prices in this area follow the city norm: gel polish around 200K VND, BIAB 300K, spa pedicure rituals 250K–590K.",
+ AREA_ANSWER:`Across the city's salons that publish prices, gel polish costs ${MP.range.gel} VND and a pedicure with gel colour ${MP.range.pedi}.`,
  KW_SERVICES_LABEL:"By treatment",KW_AREA_PREFIX:"Nail salons in",
  CHECK_PATH:"/choosing-a-salon/",CHECK_LABEL:"90-second hygiene check",
  AREA_LEDE:(n,c)=>`${c} salons in ${n} hold a public Google rating with enough reviews to mean something. Ranked below with addresses, hours and maps.`,
- FOOT_NOTE:"Prices are compiled from menus posted publicly by salons and shown in thousands of VND (“200K” = 200,000 ₫).",
+ FOOT_NOTE:`City-wide price ranges come from the public menus of ${MP.N} Da Nang salons, in thousands of VND (“200K” = 200,000 ₫).`,
+ PRICE_NOTE:MP_NOTE,
  BESTOF, LOCALES,
  /* Not featured in the guide's own selection. They remain in the full
     directory and in the raw Google order — this list only governs the
@@ -245,7 +279,7 @@ head(`Nail Salons in Da Nang — ${PLACES.length} Ranked, Priced & Mapped (${NOW
  "description":"Guide to nail salons, prices and treatments in Da Nang, Vietnam.","publisher":PUB_LD})
 +ld({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
  {"@type":"Question","name":"What is the best nail salon in Da Nang?","acceptedAnswer":{"@type":"Answer","text":BEST_ANSWER}},
- {"@type":"Question","name":"How much do nails cost in Da Nang?","acceptedAnswer":{"@type":"Answer","text":"In 2026: plain gel colour around 200,000 VND (~$8), BIAB about 300K, soft-gel extensions about 280K, nail art 10–100K per nail, and spa pedicure rituals 250K–590K. Beach-side salons charge 10–30% above the city average."}},
+ {"@type":"Question","name":"How much do nails cost in Da Nang?","acceptedAnswer":{"@type":"Answer","text":MP_SENTENCE}},
  {"@type":"Question","name":"Which area of Da Nang is best for nail salons?","acceptedAnswer":{"@type":"Answer","text":`${AREAS.slice(0,3).map(a=>`${a.name} (${a.list.length} salons)`).join(', ')}. My An and An Thượng hold the densest cluster aimed at visitors; Hải Châu serves a local clientele at gentler prices.`}},
  {"@type":"Question","name":"Do I need to book a nail appointment in Da Nang?","acceptedAnswer":{"@type":"Answer","text":"Walk-ins are fine for plain colour outside evenings. Book a day ahead over WhatsApp or Messenger for extensions, detailed nail art or weekend slots."}}]})
 +nav('')
@@ -279,7 +313,7 @@ ${conclEN('/')}
 <h2>Frequently asked questions</h2>
 <div class="faq">
 <details><summary>What is the best nail salon in Da Nang?</summary><p>${esc(BEST_ANSWER)} The pick's full menu is on <a href="/salons/${featured?featured.slug:''}/">its profile</a>, the ranking of all ${PLACES.length} salons at <a href="/salons/">/salons/</a> and the raw Google order at <a href="/salons/by-google-rating/">/salons/by-google-rating/</a>.</p></details>
-<details><summary>How much do nails cost in Da Nang?</summary><p>In 2026: plain gel colour around 200,000 VND (~$8), BIAB about 300K, soft-gel extensions about 280K, nail art 10–100K per nail, and spa pedicure rituals 250K–590K. Beach-side salons charge 10–30% above the city average.</p></details>
+<details><summary>How much do nails cost in Da Nang?</summary><p>${esc(MP_SENTENCE)} Full table on the <a href="/prices/">prices page</a>.</p></details>
 <details><summary>Which area of Da Nang is best for nail salons?</summary><p>${AREAS.slice(0,3).map(a=>`${esc(a.name)} (${a.list.length} salons)`).join(', ')}. My An and An Thượng hold the densest cluster aimed at visitors; Hải Châu serves a local clientele at gentler prices.</p></details>
 <details><summary>Do I need to book a nail appointment in Da Nang?</summary><p>Walk-ins are fine for plain colour outside evenings. Book a day ahead over WhatsApp or Messenger for extensions, detailed nail art or weekend slots.</p></details>
 </div>
@@ -341,34 +375,26 @@ ${list(byGoogle,true)}
 /* ---------------- PRICES ---------------- */
 page('/prices',
 head(`Nail Prices in Da Nang 2026 — Gel, BIAB, Extensions, Art & Pedicures | ${NAME}`,
- `The complete 2026 price list for Da Nang nail salons: gel ≈200K, BIAB ≈300K, GelX ≈280K, art 10–100K per nail, spa pedicures 250–590K, removal 60–90K.`,SITE+'/prices/')
+ `Nail prices in Da Nang 2026 from the public menus of ${MP.N} salons: gel ${MP.range.gel}, BIAB ${MP.range.biab}, extensions ${MP.range.ext}, pedicure with gel ${MP.range.pedi}.`,SITE+'/prices/')
 +ld({"@context":"https://schema.org","@type":"Article","headline":"Nail prices in Da Nang, 2026","dateModified":TODAY,
  "mainEntityOfPage":SITE+"/prices/","author":{"@type":"Organization","name":NAME,"url":SITE+"/"}})
 +nav('/prices/')
 +`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <span>Prices</span></nav></div>
 <section class="wrap">
-<header class="ph"><p class="eyebrow">From posted menus · ${NOW.getUTCFullYear()}</p>
+<header class="ph"><p class="eyebrow">${MP.N} public menus · checked ${human(MP.CHECKED)}</p>
 <h1>What nails cost in Da Nang</h1>
-<p class="lede">Every figure below comes from menus posted in salon windows and doorways — the price a walk-in actually sees, in thousands of VND.</p></header>
+<p class="lede">Ranges built from the salons that publish their prices, in thousands of VND. Each line says how many salons it rests on.</p></header>
 ${edPhoto('polish')}
 <div class="cols"><div class="prose">
-<h2>Hands</h2>
-<table class="data"><tr><th>Service</th><th style="text-align:right">Typical price</th></tr>
-${[["Classic polish","≈ 100K"],["Gel polish, full colour","≈ 200K"],["Skittle / multi-colour gel","≈ 250K"],["BIAB (builder in a bottle)","≈ 300K"],["Builder gel on natural nails","≈ 400K"],["Builder gel refill","≈ 380K"],["GelX full set","≈ 280K"],["Short extension","≈ 500K"],["Long extension","≈ 550K"],["Single tip repair","≈ 55K"],["Gel removal","60K – 90K"]]
-.map(([a,b])=>`<tr><td>${a}</td><td class="r">${b}</td></tr>`).join('')}</table>
-<h2>Art</h2>
-<table class="data"><tr><th>Style</th><th style="text-align:right">Typical price</th></tr>
-${[["Stickers, per nail","10K – 40K"],["Hand-painted design, per nail","15K – 100K"],["Cat-eye / chrome, full set","≈ 180K"],["Ombré / French, full set","≈ 220K"],["3D chrome art, per nail","40K – 80K"],["3D gel flowers, per nail","40K – 70K"],["Pearls, charms & glitter, per nail","20K – 80K"]]
-.map(([a,b])=>`<tr><td>${a}</td><td class="r">${b}</td></tr>`).join('')}</table>
-<h2>Feet</h2>
-<table class="data"><tr><th>Service</th><th style="text-align:right">Typical price</th></tr>
-${[["Express pedicure ritual · ≈40 min","≈ 250K"],["Relaxing ritual · ≈55 min","≈ 380K"],["Deep care ritual · ≈65 min","≈ 450K"],["Signature ritual · ≈75 min","≈ 590K"],["Hot stone add-on","≈ 80K"],["Gel polish for toes","≈ 180K"],["Foot & calf massage · 30 min","≈ 190K"]]
-.map(([a,b])=>`<tr><td>${a}</td><td class="r">${b}</td></tr>`).join('')}</table>
-<h2>Waxing, while you are there</h2>
-<table class="data"><tr><th>Area</th><th style="text-align:right">Typical price</th></tr>
-${[["Upper lip","≈ 90K"],["Underarms","≈ 120K"],["Half arms","≈ 180K"],["Full arms","≈ 350K"],["Half legs","≈ 250K"],["Full legs","≈ 480K"]]
-.map(([a,b])=>`<tr><td>${a}</td><td class="r">${b}</td></tr>`).join('')}</table>
-<div class="note"><strong>The beach markup.</strong> The same treatment priced one street from the sand typically runs 10–30% above the city average. It is rent, not opportunism — but knowing the gap lets you decide what convenience is worth.</div>
+<h2>City ranges</h2>
+<table class="data"><tr><th>Service</th><th style="text-align:right">Range</th><th style="text-align:right">Salons</th></tr>
+${MP.LINES.map(l=>`<tr><td>${esc(l.label)}</td><td class="r">${l.lo}K – ${l.hi}K</td><td class="r">${l.n}</td></tr>`).join('')}</table>
+<p class="m">${esc(MP_NOTE)} A "from" price counts at its floor; a line resting on fewer than three salons is not published.</p>
+<h3>Sources</h3>
+<ul>${MP.HOUSES.map(h=>`<li><a href="${h.source}" rel="noopener nofollow">${esc(h.name)}</a>${h.note?` (${esc(h.note)})`:''}</li>`).join('')}</ul>
+<h2>Spa pedicures, art sets and waxing</h2>
+<p>Fewer than three Da Nang salons publish prices for timed spa pedicure rituals, full art sets or waxing, so there is no city range for them here yet. Judge a pedicure menu by its minutes, and ask for the board before you sit down.</p>
+<div class="note"><strong>The beach markup.</strong> The same treatment one street from the sand usually costs more than inland. It is rent, not opportunism, and knowing the gap lets you decide what convenience is worth.</div>
 <h2>Three questions before you sit down</h2>
 <p>What does removal cost? Is base, top coat and cuticle work included? Which gel brand do you use? Straight answers to all three mean you are in a serious salon.</p>
 </div>
@@ -435,7 +461,7 @@ head(`About This Guide and Its Publisher | ${NAME}`,
 <h2>The ranking</h2>
 <p>The data, the score and the editorial criteria behind every ranking on this site are on the <a href="/methodology/">methodology page</a>.</p>
 <h2>Prices</h2>
-<p>City-wide figures are compiled from menus posted publicly by venues. They are typical ranges, not quotes; every salon sets its own. The prices on our pick's profile are its own printed menu.</p>
+<p>City-wide figures are ranges built from the public price lists of ${MP.N} salons, listed on the <a href="/prices/">prices page</a>. They are not quotes; every salon sets its own. The prices on our pick's profile are its own printed menu.</p>
 <h2>What we never do</h2>
 <p>We do not publish invented reviews, invented ratings or invented venues. Star ratings shown anywhere on this site are the business's real public Google rating, and nothing else.</p>
 </div></section>`+footer(),'0.4');
@@ -462,7 +488,7 @@ head(`How This Guide Ranks Nail Salons | ${NAME}`,`How {NAME} builds its ranking
 <h2>The raw order</h2>
 <p>Google's own order, rating then review count with no weighting, is published at <a href="/salons/by-google-rating/">/salons/by-google-rating/</a>.</p>
 <h2>Prices</h2>
-<p>City-wide price figures are compiled from menus posted publicly by salons; the prices on our pick's profile are its own printed menu.</p>
+<p>City-wide price figures are ranges built from the public price lists of ${MP.N} Da Nang salons, each listed with its source on the <a href="/prices/">prices page</a>; a line resting on fewer than three salons is not published. The prices on our pick's profile are its own printed menu.</p>
 </div></section>`+footer(),'0.3');
 
 /* ---------------- LEGAL NOTICE ---------------- */
@@ -551,7 +577,7 @@ fs.writeFileSync(OUT+'/robots.txt',`User-agent: *\nAllow: /\n\nSitemap: ${SITE}/
 const both=FACTS&&FACTS.bothTop;
 fs.writeFileSync(OUT+'/llms.txt',`# ${NAME}
 
-> Direct answers first. Ratings come from a Google Places snapshot of ${PLACES_DATE}; city-wide prices from posted menus, in thousands of VND (100K ≈ $4).
+> Direct answers first. Ratings come from a Google Places snapshot of ${PLACES_DATE}; city-wide price ranges from the public menus of ${MP.N} salons (sources on ${SITE}/prices/), in thousands of VND (100K ≈ $4).
 
 ## What is the best nail salon in Da Nang?
 ${BEST_ANSWER}
@@ -562,7 +588,7 @@ Full ranking of all ${PLACES.length}: ${SITE}/best-nail-salon-da-nang/
 
 ## Where can I get the best pedicure in Da Nang?
 Same pick, Reborn Nails & Retreat. Its spa pedicure menu: Soft Touch 40 min 250K · Relaxing Pedicure Ritual 55 min 380K · Deep Care 65 min 450K (best seller: ${PP.rituals[0].steps}) · Reborn Signature 75 min 590K · hot stones +80K · gel polish for toes 180K.
-City-wide, a spa pedicure is a 40 to 75 minute ritual priced 250K to 590K. Comparison: ${SITE}/best-pedicure-da-nang/
+City-wide, a pedicure with gel colour costs ${MP.range.pedi} across the salons that publish prices; longer spa rituals are priced by their minutes. Comparison: ${SITE}/best-pedicure-da-nang/
 
 ## Where to get nails done in Da Nang?
 My An and An Thượng, behind My Khe Beach, hold the densest cluster aimed at visitors (English menus, Korean and Japanese gel). Hải Châu, across the river, serves a mostly local clientele at gentler prices. The guide's pick in My An is Reborn Nails & Retreat (${r1(featured.rating)}★, ${featured.reviews} Google reviews, ${PP.hours.human}). Areas: ${SITE}/salons/
@@ -571,8 +597,8 @@ My An and An Thượng, behind My Khe Beach, hold the densest cluster aimed at v
 ${both?`Reborn Nails & Retreat scores highest of the ${FACTS.both} Da Nang venues listed both in this guide and in our head-spa guide: nails, spa pedicure and a Vietnamese herbal head spa (120K for 25 min to 850K for 105 min) under one roof; ${PP.together}.`:`Reborn Nails & Retreat does nails, spa pedicure and a Vietnamese herbal head spa (120K for 25 min to 850K for 105 min) under one roof; ${PP.together}.`} ${PICK_URL}
 
 ## How much do nails cost in Da Nang?
-Gel polish ≈200K VND (~$8) · BIAB ≈300K · GelX full set ≈280K · nail art 10K–100K per nail · spa pedicure rituals 250K–590K · gel removal 60K–90K.
-Salons within a block of My Khe Beach charge 10–30% above the city average.
+${MP_SENTENCE} Sources: ${MP.HOUSES.map(h=>h.name).join(', ')}.
+Salons near My Khe Beach usually charge more than inland ones.
 
 ## How is this guide's ranking built?
 ${PLACES.length} salons from the Google Places API, all with a public rating and 20+ reviews. The base is a Bayesian average of Google ratings; data, score and editorial criteria: ${SITE}/methodology/. The untouched Google order is at ${SITE}/salons/by-google-rating/.
