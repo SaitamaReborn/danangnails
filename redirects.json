@@ -228,7 +228,8 @@
   "name": "88 SPA AND NAIL 88이발관앤네일 미케비치점 THE BLACK",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/alina-nailandspa-danang-8jnv9o/": {
   "id": "ChIJb8Pomt-HUEIRZSoOR8JNV9o",
@@ -257,14 +258,16 @@
   "name": "Ánh Nails",
   "area": "Son Tra",
   "up": "/salons/area/son-tra/",
-  "to": null
+  "to": "/salons/area/son-tra/",
+  "since": "2026-10-02"
  },
  "/salons/ansoul-spa-and-nails-cylztg/": {
   "id": "ChIJ87cjIMcXQjERiPiBDCYLztg",
   "name": "AnSoul Spa & Nails",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/area/da-nang/": {
   "name": "Da Nang",
@@ -363,14 +366,16 @@
   "name": "Bee Honey Spa Danang",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/bee-nail-kyfog4/": {
   "id": "ChIJe5ofsgwZQjER9yODPkYfoG4",
   "name": "Bee Nail",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": null
+  "to": "/salons/area/da-nang/",
+  "since": "2026-10-02"
  },
  "/salons/bijou-nails-studio-ku38ly/": {
   "id": "ChIJK9pNfiIZQjERiafHCKu38lY",
@@ -398,7 +403,8 @@
   "name": "Casa Leafy Spa & Beauty",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/casa-nail-spa-enp8gy/": {
   "id": "ChIJ3W9pg0oXQjERMa_TieNP8gY",
@@ -506,7 +512,8 @@
   "name": "CoCo Nail Studio",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/cong-nail-da-nang-lnppyu/": {
   "id": "ChIJof6RH3kZQjERNr3hnLnPPyU",
@@ -535,7 +542,8 @@
   "name": "Đà Nẵng Forest Massage & Nail",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": null
+  "to": "/salons/area/my-an-and-an-thuong/",
+  "since": "2026-10-02"
  },
  "/salons/da-nang-nail-hair-liti-uyrjjg/": {
   "id": "ChIJ6aP2Ey0ZQjERSIyUsUYrJJg",
@@ -609,7 +617,8 @@
   "name": "GiangGiang Nail Phụ Kiện Nail Đà Nẵng",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": null
+  "to": "/salons/area/da-nang/",
+  "since": "2026-10-02"
  },
  "/salons/golden-swan-nail-studio-v8jrqk/": {
   "id": "ChIJr1FNZacZQjERUUZeFV8JrQk",
@@ -636,14 +645,16 @@
   "name": "HAIR SALON & NAIL 2CE",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": null
+  "to": "/salons/area/da-nang/",
+  "since": "2026-10-02"
  },
  "/salons/han-spa-massage-and-nail-8dnh0y/": {
   "id": "ChIJc_yfNIsZQjERw9mgb8dNH0Y",
   "name": "Han Spa Massage & Nail 다낭 한시장 마사지 네일 한스파 본점",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/hani-nail-studio-rr5hak/": {
   "id": "ChIJCbjxAKkXQjERhA2A-rr5HAk",
@@ -708,7 +719,8 @@
   "name": "Himee Academy - Eyelashes & Nails - Nối mi chuyên nghiệp",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": null
+  "to": "/salons/area/my-an-and-an-thuong/",
+  "since": "2026-10-02"
  },
  "/salons/himee-nail-and-eyelashes-shampoo-lkhp6u/": {
   "id": "ChIJZZibxMoXQjERyUhLblKHP6U",
@@ -736,7 +748,8 @@
   "name": "HQ Nail & Massage Da Nang",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": null
+  "to": "/salons/area/my-an-and-an-thuong/",
+  "since": "2026-10-02"
  },
  "/salons/hq-nail-massage-goi-dau-da-nang--cr-ig/": {
   "id": "ChIJ9-4CckYZQjERFE3KG-Cr-Ig",
@@ -791,7 +804,8 @@
   "name": "Jeju Spa – Massage & Nail | 제주 스파 네일 & 마사지 | | 济州岛水疗美甲按摩 |",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/jennie-nail-u8toiy/": {
   "id": "ChIJf6dOFLsXQjERTehwxU8tOIY",
@@ -820,14 +834,16 @@
   "name": "Jumy Nails",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/ka-ka-nails-salon-yi0v-e/": {
   "id": "ChIJy-CtxF8ZQjERz5mRQYI0v-E",
   "name": "Ka Ka Nails Salon",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/kel-art-nail-da-nang-eyelash-head-spa-massage-6wkypy/": {
   "id": "ChIJ-TD4FQAXQjERET8hc6wKYPY",
@@ -848,7 +864,8 @@
   "name": "Kimmy Nails Studio Đà Nẵng",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": null
+  "to": "/salons/area/my-an-and-an-thuong/",
+  "since": "2026-10-02"
  },
  "/salons/kira-nail-lab-zoivy0/": {
   "id": "ChIJv07yFwAZQjERs706izoivy0",
@@ -931,7 +948,8 @@
   "name": "Lê Yến Nails & Eyelash",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/lee-nails-and-spa-ilxgc8/": {
   "id": "ChIJJWOvwZAXQjERPbj76Ilxgc8",
@@ -953,7 +971,8 @@
   "name": "Len Spa ( Shampoo - Nails - Massage )",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/lena-nails-and-beauty-7zcc28/": {
   "id": "ChIJyfeTQz4XQjERfW-gc7zcc28",
@@ -988,7 +1007,8 @@
   "name": "LiLi Nail & Spa",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/liti-msojcs/": {
   "id": "ChIJKXvmjqMXQjERa324HMsoJCs",
@@ -1081,14 +1101,16 @@
   "name": "Maison Spa",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/maya-spa-massage-and-nail-da-nang-uujqwy/": {
   "id": "ChIJEw2DqEQZQjERCwsMTuUjqWY",
   "name": "Maya Spa Massage & Nail Da Nang",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/mei-nail-5vfwbs/": {
   "id": "ChIJZfdGvfcXQjERsRJUF5VfWBs",
@@ -1146,7 +1168,8 @@
   "name": "MinHy Nails",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/mira-b-nails-szcwm0/": {
   "id": "ChIJibnwVjcXQjERtKcqxSzCWM0",
@@ -1168,7 +1191,8 @@
   "name": "명품토탈케어 MITI Nail & Spa",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/mk-nails-beauty-zffqg0/": {
   "id": "ChIJc8mRoOkXQjER8nFlAZFfQG0",
@@ -1189,7 +1213,8 @@
   "name": "MONKEY NAIL & SPA 네일 - 마사지 - 헤어 샴푸 - 페이셜 - 왁싱 - 속눈썹 연장",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": null
+  "to": "/salons/area/da-nang/",
+  "since": "2026-10-02"
  },
  "/salons/moon-nails-48-dang-vu-hy-sjl3ku/": {
   "id": "ChIJ48MgLAAXQjERL8_2Hsjl3kU",
@@ -1211,7 +1236,8 @@
   "name": "Moringa Spa & Nail (모링가 스파 & 네일)",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/my-an-and-an-thuong/": {
   "name": "My An & An Thuong",
@@ -1260,7 +1286,8 @@
   "name": "Nail & Mi Hạnh Lee",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/nail-bo-nail-dep-bac-son-da-nang-3x6sj4/": {
   "id": "ChIJ-xNZPgAZQjERrIekc3x6sJ4",
@@ -1313,7 +1340,8 @@
   "name": "NAIL SPA MASSAGE SACHI",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/nail-sweet-6-idz0/": {
   "id": "ChIJ6QkrHaQXQjERDiI8L6-Idz0",
@@ -1373,7 +1401,8 @@
   "name": "Nối Studio ( Hair - Nail - Makeup )",
   "area": "Thanh Khe",
   "up": "/salons/area/thanh-khe/",
-  "to": null
+  "to": "/salons/area/thanh-khe/",
+  "since": "2026-10-02"
  },
  "/salons/noni-nails-wba4ke/": {
   "id": "ChIJTxNzVAwZQjERWjGb0WBa4KE",
@@ -1409,14 +1438,16 @@
   "name": "Oasis Spa & Nail - Body & Foot Massage ( 温泉 - 온천 - スパ - 身体按摩 - 바디 마사지- ボディマッサージ)",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/ocean-spa-nail-uxfqqu/": {
   "id": "ChIJUc6RuwMXQjERyDtc5uxfqQU",
   "name": "Ocean Spa Nail 오션 스파 마사지 다낭",
   "area": "My An & An Thuong",
   "up": "/salons/area/my-an-and-an-thuong/",
-  "to": null
+  "to": "/salons/area/my-an-and-an-thuong/",
+  "since": "2026-10-02"
  },
  "/salons/orchid-s-nail-art-m8hqve/": {
   "id": "ChIJK-LqowgXQjEROnFdam8hqvE",
@@ -1460,7 +1491,8 @@
   "name": "PuPuNail & Spa",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/quin-quin-nail-cqjsvc/": {
   "id": "ChIJ58DJXQAZQjERgp7UwCQJSVc",
@@ -1482,7 +1514,8 @@
   "name": "Quỳnh Nails Art",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": null
+  "to": "/salons/area/da-nang/",
+  "since": "2026-10-02"
  },
  "/salons/r-nail-and-spa-1-nail-eyelash-eyebrow-shampoo-waxing-pjmfqa/": {
   "id": "ChIJ3TIj7rsXQjERSDekIpJMFqA",
@@ -1496,7 +1529,8 @@
   "name": "R Nail & Spa 3 ( Nail - Massage- Eyelash- Heel Scrub)",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/rabbit-and-co-nails-iv-uuu/": {
   "id": "ChIJIy7tZQAXQjERzNHRYiv-uuU",
@@ -1568,7 +1602,8 @@
   "name": "S’ Nails Beauty ( Sương Nails )",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/s-o-cnail-woh9xa/": {
   "id": "ChIJh3CsZHMZQjERbQopmwOh9xA",
@@ -1627,7 +1662,8 @@
   "name": "SHOP PHUONG TRINH @ MỞ CỬA 24/24",
   "area": "Da Nang",
   "up": "/salons/area/da-nang/",
-  "to": null
+  "to": "/salons/area/da-nang/",
+  "since": "2026-10-02"
  },
  "/salons/shyn-nail-studio-rfvx-w/": {
   "id": "ChIJK6OPEiAZQjERxHVUTRFvx-w",
@@ -1649,7 +1685,8 @@
   "name": "Silky nail & spa massage",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/sister-nails-art-da-nang-afoeqi/": {
   "id": "ChIJ_YHZoYcZQjERfE4TFAfoEQI",
@@ -1670,7 +1707,8 @@
   "name": ". 387",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/street/an-nhon-6/": {
   "name": "An Nhơn 6",
@@ -1721,7 +1759,8 @@
   "name": "D. Đình Nghệ",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/street/d-tran-duy-chien/": {
   "name": "Đ. Trần Duy Chiến",
@@ -1752,7 +1791,8 @@
   "name": "Hùng Vương",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/street/le-duan/": {
   "name": "Lê Duẩn",
@@ -1770,7 +1810,8 @@
   "name": "Mỹ Khê 6",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/street/nguyen-chi-thanh/": {
   "name": "Nguyễn Chí Thanh",
@@ -1801,13 +1842,15 @@
   "name": "Nguyễn Xuân Khoát",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/street/ong-ich-khiem/": {
   "name": "Ông Ích Khiêm",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/street/pham-phu-thu/": {
   "name": "Phạm Phú Thứ",
@@ -1826,7 +1869,8 @@
   "name": "Phan Bôi",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/street/phan-chau-trinh/": {
   "name": "Phan Châu Trinh",
@@ -1851,7 +1895,8 @@
   "name": "Trần Cao Vân",
   "area": "Thanh Khe",
   "up": "/salons/area/thanh-khe/",
-  "to": null
+  "to": "/salons/area/thanh-khe/",
+  "since": "2026-10-02"
  },
  "/salons/street/tran-phu/": {
   "name": "Trần Phú",
@@ -1863,7 +1908,8 @@
   "name": "Trần Quốc Toản",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/street/vo-nguyen-giap/": {
   "name": "Võ Nguyên Giáp",
@@ -1882,7 +1928,8 @@
   "name": "Sun Spa & Nail",
   "area": "My Khe beachfront",
   "up": "/salons/area/my-khe-beachfront/",
-  "to": null
+  "to": "/salons/area/my-khe-beachfront/",
+  "since": "2026-10-02"
  },
  "/salons/sunam-nail-and-spa-danang-and-hlbti4/": {
   "id": "ChIJPa6eb3UZQjER7eqXjhlbTI4",
@@ -2019,7 +2066,8 @@
   "name": "Tiệm Ruby Nails _Đà Nẵng",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/timi-nail-fwghls/": {
   "id": "ChIJr3MPRwAZQjERkG6zAFWGHls",
@@ -2034,7 +2082,8 @@
   "name": "Tourane Spa & Nails",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/tra-beauty-nail-and-shampoo-bectnc/": {
   "id": "ChIJLWSucQAZQjERHVFZfbEcTNc",
@@ -2087,7 +2136,8 @@
   "name": "Viet Charm Nails & Spa 비엣 참 네일 & 스파",
   "area": "Hai Chau",
   "up": "/salons/area/hai-chau/",
-  "to": null
+  "to": "/salons/area/hai-chau/",
+  "since": "2026-10-02"
  },
  "/salons/vy-2-spa-nail-massage-vk6uq4/": {
   "id": "ChIJNQszNgAXQjERswll5vk6UQ4",

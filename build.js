@@ -141,14 +141,14 @@ const REASON=(p,i)=>{
 const PRICES_SHORT=[["Gel polish, full colour","≈ 200K VND (~$8)"],["BIAB / builder gel","≈ 300K"],["GelX full set","≈ 280K"],["Nail art, per nail","10K – 100K"],["Spa pedicure ritual","250K – 590K"],["Gel removal","60K – 90K"]];
 
 const BESTOF=[
-{slug:"best-nail-salon-da-nang",count:10,noun:"nails",
+{slug:"best-nail-salon-da-nang",count:10,noun:"nails",what:"a nail salon",
  h1:"Top 10 best nail salons in Da Nang",listH2:"The 10 best nail salons in Da Nang, ranked",
  question:"What is the best nail salon in Da Nang?",
  desc:`The best nail salons in Da Nang for ${new Date().getUTCFullYear()}, compared across every salon in the city with a public Google rating — with real prices, addresses, opening hours and what each one is actually good at.`,
  answerTail:`Across the whole city we track {n} salons carrying a public Google rating and at least twenty reviews, and the ten below are the ones worth your appointment. Expect to pay around 200,000 VND (about $8) for a gel manicure, 280K for a full set of soft-gel extensions and 250K–590K for a spa pedicure ritual.`,
  intro:`There is no shortage of nail salons in Da Nang — we track {n} of them with enough public reviews to mean something. The difficulty is that almost all of them sit between 4.7 and 5.0 stars, which tells you very little. This list weighs the rating against how many people gave it, then checks the things a rating cannot show you: whether prices are posted, whether tools are single-use, and whether the reviews are written by people who could actually talk to their technician.`,
  method:`<p>Every salon in Da Nang with a public Google rating and at least twenty reviews is in our dataset, {n} of them, refreshed from the Google Places API. They are ordered by a score that weighs the average rating against the number of people behind it, so a 5.0 from twenty-five visits sits below a 5.0 from three hundred.</p>
-<p>The same score is applied to every salon, our pick included, and nothing is moved by hand. Our pick is also shown in its own box above the list, with the reasons we give for it. If you would rather see the untouched Google order with no weighting at all, <a href="/salons/by-google-rating/">it is published here</a>.</p>
+<p>Our pick, Reborn Nails &amp; Retreat, is placed by the editors among the first three and labelled as our pick; every other salon follows the score. Its facts are in the table above the list. If you would rather see the untouched Google order with no weighting at all, <a href="/salons/by-google-rating/">it is published here</a>.</p>
 <p>What a rating cannot tell you is on the <a href="/choosing-a-salon/">90-second check</a> — single-use files, a working steriliser, prices posted in writing, named gel brands and breathable air.</p>`,
  prices:PRICES_SHORT,reason:REASON,
  faq:[
@@ -158,13 +158,13 @@ const BESTOF=[
   ["Do I need to book a nail appointment in Da Nang?","For a plain gel colour you can usually walk in outside evenings. Book a day ahead over WhatsApp or Messenger for extensions, detailed hand-painted art, or any weekend slot — the good salons fill up."],
   ["Is it cheaper to get your nails done in Da Nang than in Korea or Japan?","Substantially. Comparable gel work in Seoul or Tokyo typically costs three to five times the Da Nang price for the same systems and similar skill, which is why nail appointments are a fixture of many travellers' itineraries here."]]},
 
-{slug:"best-pedicure-da-nang",count:10,noun:"pedicure",
+{slug:"best-pedicure-da-nang",count:10,noun:"pedicure",what:"a spa pedicure",
  h1:"Top 10 best pedicures in Da Nang",listH2:"The 10 best pedicures in Da Nang, ranked",
  question:"Where can I get the best pedicure in Da Nang?",
  desc:`The best spa pedicures in Da Nang: what a proper ritual includes, what the tiers cost (250K–590K), and the salons that do the heel work and massage properly.`,
  answerTail:`A spa pedicure in Da Nang is a 40 to 75 minute ritual — herbal soak, heel therapy, exfoliation, foot and calf massage, warm towels — not a nail trim with extras. Expect 250,000 VND for an express ritual, 380–450K for a full one, and around 590K for a 75-minute signature with hot stones.`,
  intro:`Pedicure is the treatment Da Nang does best and visitors under-order. What is sold elsewhere as a fifteen-minute tidy-up is, here, a properly sequenced ritual with a herbal soak, real heel work and a foot and calf massage built in — for a fraction of what the same hour costs anywhere else. The salons below are the ones that treat it as a discipline rather than an add-on.`,
- method:`<p>Same dataset and same method as the rest of the guide: {n} Da Nang salons with a public Google rating and twenty or more reviews, ordered by a score weighing the rating against the size of the sample, applied to every salon alike.</p>
+ method:`<p>Same dataset and same method as the rest of the guide: {n} Da Nang salons with a public Google rating and twenty or more reviews, ordered by a score weighing the rating against the size of the sample.</p>
 <p>For pedicure specifically, judge a menu on <em>minutes</em>. A 250K express ritual buys forty minutes; a 590K signature buys seventy-five plus hot stones. Both are honest prices for what they contain — the adjectives on the board are not.</p>`,
  prices:[["Express pedicure ritual · ≈40 min","≈ 250K VND"],["Relaxing ritual · ≈55 min","≈ 380K"],["Deep care ritual · ≈65 min","≈ 450K"],["Signature ritual · ≈75 min","≈ 590K"],["Hot stone add-on","≈ 80K"],["Gel polish for toes","≈ 180K"]],
  reason:REASON,
@@ -210,7 +210,11 @@ const S=buildSite({
     directory and in the raw Google order — this list only governs the
     curated best-of pages. */
  FEATURED_SEPARATE:true,
- PARTNER_PROFILE,
+ PARTNER_PROFILE,ITEM_KIND:"nails",
+ /* The ranking is of nail salons: a venue whose primary Google category is
+    something else (a massage spa, a shop, a barber) is not in it. */
+ PLACE_FILTER:p=>p.type==="Nail salon",
+ PICK_TABLE_PRICES:[["Gel polish","200K VND (about $8)"],["BIAB","300K"],["GelX full set","280K"],["Spa pedicure","250K to 590K, 40 to 75 min"],["Head spa","120K to 850K, 25 to 105 min"]],
  PICK_MENU_ORDER:["nails","art","pedicure","headspa","massage","waxing"],
  PICK_PRICES:"gel polish 200K, BIAB 300K, GelX 280K, spa pedicure 250K to 590K, head spa 120K to 850K",
  PICK_PRICES_SENTENCE:"On its menu a gel manicure costs 200K VND (about $8), BIAB 300K, a GelX set 280K, a spa pedicure 250K to 590K and a Vietnamese head spa 120K to 850K.",
@@ -225,10 +229,9 @@ const S=buildSite({
 });
 
 const {page,head,nav,footer,pick,list,itemList,byGoogle,edPhoto,ranked,PLACES,PLACES_DATE,AREAS,STREETS,PHOTOS,featured,TODAY,urls,OUT,
-       r1,FACTS,factsEN,top3EN,FORMULA,ord,PP}=S;
+       r1,FACTS,factsEN,top3EN,FORMULA,ord,PP,placed,hasPick,pickTable,faqEN,conclEN,EXAMPLE,PLACED_NOTE,PV}=S;
 /* The publisher, as schema: named on /about/ and attached to the site. */
-const PUB_LD={"@type":"Organization","name":PUB.name,"legalName":PUB.nameVi,"taxID":PUB.taxId,"email":PUB.email,
- "address":{"@type":"PostalAddress","streetAddress":`${PUB.street}, ${PUB.ward}`,"addressLocality":"Đà Nẵng","addressCountry":"VN"}};
+const PUB_LD={"@type":"Organization","name":PUB.name,"url":PUB.url,"email":PUB.email,"telephone":PUB.phone};
 /* The answer to "what is the best nail salon in Da Nang", in one place, so the
    home page, its FAQ schema and llms.txt can never drift apart. */
 const PICK_URL=featured?`${SITE}/salons/${featured.slug}/`:SITE+'/salons/';
@@ -265,9 +268,10 @@ head(`Nail Salons in Da Nang — ${PLACES.length} Ranked, Priced & Mapped (${NOW
 <div><b>${totalReviews.toLocaleString('en-GB')}</b><span>Google reviews</span></div>
 <div><b>${AREAS.length}</b><span>areas covered</span></div>
 </div>
-${pick()}
+${pickTable('/',false)}
 <h2>The top ten</h2>
-${list(ranked.slice(0,10))}
+${list(placed(ranked,'/').slice(0,10))}
+${conclEN('/')}
 <p class="acts"><a class="btn" href="/salons/">All ${PLACES.length} salons</a></p>
 <h2>By treatment</h2>
 <div class="grid">${SERVICES.slice(0,6).map(s=>`<a class="card" href="/services/${s.slug}/" style="display:block;color:inherit">
@@ -290,7 +294,7 @@ ${list(ranked.slice(0,10))}
 page('/salons',
 head(`All ${PLACES.length} Nail Salons in Da Nang, Ranked by Google Rating | ${NAME}`,
  `Every nail salon in Da Nang with a public Google rating and 20+ reviews — ${PLACES.length} of them, ranked, with addresses, hours, maps and area breakdowns. Updated ${human(PLACES_DATE)}.`,SITE+'/salons/')
-+itemList(ranked,"Nail salons in Da Nang")
++itemList(placed(ranked,'/salons/'),"Nail salons in Da Nang")
 +nav('/salons/')
 +`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <span>All salons</span></nav></div>
 <section class="wrap">
@@ -304,12 +308,16 @@ head(`All ${PLACES.length} Nail Salons in Da Nang, Ranked by Google Rating | ${N
 <div><b>${STREETS.length}</b><span>streets covered</span></div>
 </div>
 <div class="chips">${AREAS.map(a=>`<a class="chip" href="/salons/area/${a.slug}/">${esc(a.name)}<b>${a.list.length}</b></a>`).join('')}</div>
-${pick()}
-${list(ranked)}
+${pickTable('/salons/',false)}
+${list(placed(ranked,'/salons/'))}
 <div class="prose">
 <h2>How to read this ranking</h2>
 <p>Rating alone flatters newcomers: a 5.0 from thirty reviews is a thinner signal than a 5.0 from three hundred. Read both columns together. Then apply the <a href="/choosing-a-salon/">90-second check</a> in person, because a Google rating measures how people felt, not how the tools were cleaned.</p>
-<p>Every salon, our pick included, is placed by the same score: ${esc(FORMULA)}. Our pick is shown in its own box above the table and sits in the table at the position the score gives it${FACTS?` (${ord(FACTS.rank)} of ${FACTS.n})`:''}.</p>
+<p>The score is a Bayesian average: ${esc(FORMULA)}. In practice ${EXAMPLE}. ${PLACED_NOTE}</p>
+</div>
+${(()=>{const q=faqEN('/salons/');return q?`<h2>Frequently asked</h2><div class="faq"><details><summary>${esc(q[0])}</summary><p>${esc(q[1])}</p></details></div>`:'';})()}
+${conclEN('/salons/')}
+<div class="prose">
 </div>
 <h2>By street</h2>
 <div class="chips">${STREETS.map(s=>`<a class="chip" href="/salons/street/${s.slug}/">${esc(s.name)}<b>${s.list.length}</b></a>`).join('')}</div>
@@ -413,32 +421,43 @@ ${pick()}
 
 
 /* ---------------- ABOUT ---------------- */
-/* Who publishes the guide and what ties it to the salon it picks: stated here,
-   in full, the way a publication's masthead does it. */
+/* Who publishes the guide, how the ranking is built and what ties the guide to
+   the salon it picks, stated in full the way a masthead does it. */
 page('/about',
 head(`About This Guide and Its Publisher | ${NAME}`,
- `Who publishes The Da Nang Nail Guide, how its ranking is computed, and its commercial relationship with Reborn Nails & Retreat, the salon it picks.`,SITE+'/about/')
+ `Who publishes The Da Nang Nail Guide, how its ranking is built, and its commercial relationship with Reborn Nails & Retreat, the salon it picks.`,SITE+'/about/')
 +ld({"@context":"https://schema.org","@type":"AboutPage","name":"About this guide",
   "url":SITE+"/about/","isPartOf":{"@type":"WebSite","name":NAME,"url":SITE+"/"},"publisher":PUB_LD})
 +nav('')
 +`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <span>About</span></nav></div>
 <section class="wrap"><header class="ph"><h1>About this guide</h1>
-<p class="lede">Who publishes it, how the ranking is computed, and the one commercial relationship it has.</p></header>
+<p class="lede">Who publishes it, how the ranking is built, and the one commercial relationship it has.</p></header>
 <div class="prose">
 <h2>Publisher</h2>
-<p>${esc(NAME)} is published by ${esc(PUB.name)} (${esc(PUB.nameVi)}), ${esc(PUB.form)}, enterprise and tax code ${esc(PUB.taxId)}, registered at ${esc(PUB.street)}, ${esc(PUB.ward)}, ${esc(PUB.city)}, ${esc(PUB.country)}. Contact: ${esc(PUB.email)}.</p>
-<p>Hosting: ${esc(PUB.host)}.</p>
+<p>${esc(NAME)} is published by <a href="${PUB.url}" rel="noopener">${esc(PUB.name)}</a>. Contact: ${esc(PUB.email)}, ${esc(PUB.phone)}. Hosting: ${esc(PUB.host)}. Full details on the <a href="/legal-notice/">legal notice</a>.</p>
 <h2>Our commercial relationship with Reborn Nails &amp; Retreat</h2>
-<p>${esc(PUB.short)} has a commercial relationship with <a href="${PARTNER.site}" rel="noopener">Reborn Nails &amp; Retreat</a>, the salon shown as our pick on these pages. The pick is our choice and the reasons we give for it are checkable: its address, hours, languages, printed menu and Google rating are all published on its profile.</p>
-<p>The relationship does not touch the ranking. Reborn is scored by the same formula as every other salon and appears at the position that formula gives it${FACTS?`: ${ord(FACTS.rank)} of ${FACTS.n} on the snapshot of ${human(PLACES_DATE)}`:''}. Its phone, WhatsApp and menu links appear on its own profile and on the ranking pages, and the prices we publish for it are the ones it prints for every customer.</p>
+<p>${esc(PUB.name)} has a commercial relationship with <a href="${PARTNER.site}" rel="noopener">Reborn Nails &amp; Retreat</a>, the salon shown as our pick on these pages. The pick is our choice, and so is its place in our rankings: the editors put it among the first three of every list it belongs to (the whole city and its own quarter, My An), at a position that varies from page to page. Every other venue is placed by the score below, and each ranking says so under its table.</p>
+<p>The facts we publish about Reborn are its own: its Google rating and review count from the same snapshot as everyone else, its address, hours and languages, and the prices it prints for every customer. Its phone, WhatsApp and menu links appear on its own profile and on the ranking pages.</p>
 <h2>The ranking</h2>
-<p>Every salon listed holds a public Google rating with at least twenty reviews, enough that the number means something. All of them are ordered by one score: ${esc(FORMULA)}. A 5.0 from 25 reviews therefore sits below a 5.0 from 300. The untouched Google order, rating then review count, is published at <a href="/salons/by-google-rating/">/salons/by-google-rating/</a> so the two can be compared.</p>
+<p>Every salon listed holds a public Google rating with at least twenty reviews, enough that the number means something. Only venues whose primary Google category is “Nail salon” are ranked. They are ordered by a Bayesian average: ${esc(FORMULA)}. In practice ${EXAMPLE}. The untouched Google order, rating then review count, is published at <a href="/salons/by-google-rating/">/salons/by-google-rating/</a> so anyone can compare.</p>
 <h2>Prices</h2>
-<p>City-wide figures are compiled from menus posted publicly by salons, refreshed as districts are re-walked. They are typical ranges, not quotes; every salon sets its own. The prices on our pick's profile are its own printed menu.</p>
+<p>City-wide figures are compiled from menus posted publicly by venues. They are typical ranges, not quotes; every salon sets its own. The prices on our pick's profile are its own printed menu.</p>
 <h2>What we never do</h2>
-<p>We do not publish invented reviews, invented ratings or invented salons. Star ratings shown anywhere on this site are the business's real public Google rating, and nothing else. No salon is left out of the ranking or moved within it by hand.</p>
+<p>We do not publish invented reviews, invented ratings or invented venues. Star ratings shown anywhere on this site are the business's real public Google rating, and nothing else.</p>
 </div></section>`+footer(),'0.4');
 
+/* ---------------- LEGAL NOTICE ---------------- */
+page('/legal-notice',
+head(`Legal Notice | ${NAME}`,`Publisher, contact and hosting of ${NAME}.`,SITE+'/legal-notice/')
++ld({"@context":"https://schema.org","@type":"WebPage","name":"Legal notice","url":SITE+"/legal-notice/","publisher":PUB_LD})
++nav('')
++`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <span>Legal notice</span></nav></div>
+<section class="wrap"><header class="ph"><h1>Legal notice</h1></header>
+<div class="prose">
+<p><strong>Publisher:</strong> ${esc(PUB.name)} (<a href="${PUB.url}" rel="noopener">${esc(PUB.url.replace(/^https?:\/\//,''))}</a>). Contact: ${esc(PUB.email)}, ${esc(PUB.phone)}.</p>
+<p><strong>Hosting:</strong> ${esc(PUB.host)}.</p>
+<p>Ratings, review counts, addresses and venue photographs come from Google and are credited where they appear. Our editorial rules and our commercial relationship with Reborn Nails &amp; Retreat are set out on the <a href="/about/">about page</a>.</p>
+</div></section>`+footer(),'0.2');
 
 /* ---------------- CREDITS ---------------- */
 {
@@ -537,7 +556,7 @@ Gel polish ≈200K VND (~$8) · BIAB ≈300K · GelX full set ≈280K · nail ar
 Salons within a block of My Khe Beach charge 10–30% above the city average.
 
 ## How is this guide's ranking built?
-${PLACES.length} salons from the Google Places API, all with a public rating and 20+ reviews. One score for every salon, the pick included: ${FORMULA}. Nothing is moved by hand. The untouched Google order is at ${SITE}/salons/by-google-rating/.
+${PLACES.length} salons from the Google Places API, all with a public rating and 20+ reviews. Ordered by a Bayesian average: ${FORMULA}. In practice ${EXAMPLE}. The guide's pick, Reborn Nails & Retreat, is placed by the editors among the first three of the lists it belongs to; every other venue follows the score. The untouched Google order is at ${SITE}/salons/by-google-rating/.
 
 ## How to judge a salon (five criteria used throughout this guide)
 Single-use tools opened in front of you · a working steriliser · prices posted in writing including removal · named Korean/Japanese gel systems · proper ventilation.
@@ -560,7 +579,7 @@ ${STREETS.filter(s=>/[^\d\s.]/.test(s.name)).slice(0,20).map(s=>`- ${s.name}: ${
 ${LANGS.map(l=>`- ${l.native}: ${SITE}${l.path}`).join('\n')}
 
 ## Publisher
-${PUB.name}, Da Nang. Publisher details, method and commercial relationships: ${SITE}/about/
+${PUB.name} (${PUB.url}). Publisher details, method and commercial relationships: ${SITE}/about/ · legal notice: ${SITE}/legal-notice/
 Snapshot ${PLACES_DATE} · average rating ${avg} across ${totalReviews} reviews.
 `);
 fs.writeFileSync(OUT+'/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${
