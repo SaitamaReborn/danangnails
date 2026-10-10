@@ -9,6 +9,93 @@
 
 const JOURNAL = [
 {
+    "slug": "mobile-nail-service-da-nang-hotel",
+    "title": "Tận nơi: three ways a Da Nang salon comes to you, and the only one that is free",
+    "desc": "Thirteen of the 715 reviews behind this guide mention a hotel. Five describe a technician actually arriving at one, and all five belong to the same listing. Meanwhile a salon on Phan Bôi publishes the exact rule for its free car · two services, four kilometres · and hardly anybody uses it.",
+    "date": "2026-10-13",
+    "cat": "Guides",
+    "read": 7,
+    "tldr": [
+      "Three unrelated things are sold here as coming to you. One is a technician who shows up at your room with a case. Then there is a salon car that collects you and drives you back, and a small studio trading inside a hotel. Only the car comes with a published rule: <a href=\"/salons/sunam-nail-and-spa-danang-and-hlbti4/\">SuNam Nail &amp; Spa, 12 Phan Bôi</a> says on its own site that pick-up or drop-off costs nothing within four kilometres when you book two services or more.",
+      "Four kilometres covers most of the market. Measure from that door against the coordinates in this guide and 128 of the 151 Da Nang nail salons land inside the radius: all 64 in Hải Châu, all 32 along My Khe, all 26 in Mỹ An and An Thượng. Hàn Market sits 1.1km away, over the Dragon Bridge. What drops out is the airport, at 4.6km.",
+      "Mobile does exist here, and it runs one listing deep. Thirteen of the 715 public reviews behind this guide name a hotel, Airbnb or apartment, spread over ten of the 151 salons. Five describe a technician turning up, and all five belong to <a href=\"/salons/miko-home-nails-service-ecjise/\">Miko Home Nails Service, 48 Hà Bổng</a> (68 reviews, five stars, listed as open twenty-four hours). One of them puts a gel removal, a nail art set and a gel pedicure at two hours. None of the five says what any of it cost.",
+      "This piece's opinion: a hotel room has no steriliser cabinet, no extraction at the table and no front door to walk back through on day four. Give the room visit the easy work (polish, a pedicure, a soak you would rather nobody watched), and take anything built on top of your nail to a shop that owes you a repair."
+    ],
+    "body": [
+      {
+        "h": "Thirteen reviews mention a hotel. Five describe someone arriving.",
+        "p": [
+          "Da Nang put nearly 15.9 million overnight visitors through its accommodation in the first nine months of 2026, 26.4 per cent up on last year, 7.73 million of them foreign. Those are the city's own numbers, reported on 6 October. Most of those people slept within a three-minute walk of a nail salon and had no idea.",
+          "Run a search of the 715 public reviews behind this guide for a hotel, an Airbnb, an apartment or a resort, and thirteen come back, spread across ten of the 151 salons. Sorted by what actually happened, those thirteen break the category into four. Five are a technician coming to the room. Three are a salon sending a car. One is a studio working inside a hotel building. The other four are simply people mentioning that the shop happened to be near where they were sleeping, which in this city is not a coincidence worth reporting.",
+          "Where the 151 salons sit explains why. Sixty-four of them are in Hải Châu, thirty-two along the My Khe beachfront, twenty-six in Mỹ An and An Thượng, ten in Thanh Khê, four in Sơn Trà. <a href=\"/neighbourhoods/\">The beachfront strip alone has a salon every couple of hundred metres</a>, so what anybody buys with come to me is almost never distance. It is the twenty minutes of getting dressed, or a sleeping child, or just the wish not to be looked at."
+        ]
+      },
+      {
+        "h": "The car is free, and one salon prints the rule",
+        "p": [
+          "SuNam Nail &amp; Spa at 12 Phan Bôi (629 reviews) publishes the condition instead of hinting at it: pick-up or drop-off is complimentary within a four-kilometre radius, and you need to book at least two services to trigger it. That is the entire deal. It sits in writing on the salon's own site. Two services is a low bar on a menu where SuNam prices gel colour at 250K and its nail and pedi care line (remove, cut, file, buff, oil) at 100K for fifteen to twenty-five minutes. A 250K line plus a 100K line clears it.",
+          "A visitor who used it describes arranging the appointment over WhatsApp, the free collection and return, and snacks arriving both before and after the work. The dataset's other shuttle belongs to <a href=\"/salons/-knuzzs/\">오드리네일앤스파 at 49-51 Mỹ Khê 6</a>, which has 3,284 reviews, the second-biggest count among the 151 salons here. Its reviewer's entire note is that they ran a shuttle from her hotel and every style she brought in was possible. Two salons, three reviews, out of 715.",
+          "Four kilometres from 12 Phan Bôi reaches further than it sounds. Check it against the coordinates this guide already stores and 128 of the 151 nail salons fall inside that circle, as do Hàn Market at 1.1km and the Dragon Bridge at 1.06km. The Phạm Văn Đồng and My Khe fronts are both in it. An Thượng 29, deep in the expat end, is 2.77km. The first landmark that misses is Da Nang airport, at 4.63km.",
+          "That makes the car the most underused free thing in the Da Nang nail trade. Nobody is charging for it, two of the busiest beachfront salons offer it, and three customers out of 715 thought to mention it. If you are staying anywhere between the bridge and An Thượng, the line to put in your booking message is whether they collect."
+        ]
+      },
+      {
+        "h": "Open twenty-four hours, which no shop is",
+        "p": [
+          "Miko Home Nails Service is listed at 48 Hà Bổng in An Hải, under a kilometre back from the Phạm Văn Đồng beach end, and the address is almost beside the point. There is no website. The contact is a Facebook page and a mobile number. The hours say open twenty-four hours, seven days.",
+          "That line is the tell. Nine of the 151 nail salons in this guide carry a twenty-four-hour listing, and <a href=\"/journal/nail-salon-opening-hours-da-nang/\">the Da Nang norm is nine to nine with no lunch break</a>. A technician with a case and a scooter has no shutters to pull down, so the hours field becomes a statement about availability rather than about premises. For a 7am flight or a 10pm arrival, that is the entire proposition.",
+          "Five reviews, every one of them five stars. Three of the five volunteer that she arrived on time, something people only bother writing when they had braced for the opposite. One describes her setting up and checking the customer was comfortable before she began. Another times the visit: previous gel removed, nail art designed, gel pedicure done, two hours door to door. A further one mentions in passing that the price was good and then never says what it was.",
+          "Read together, those five praise a person, not a place. No review mentions a steriliser, a brand of gel, a lamp or a chair, since there is nothing to mention: the kit comes in a bag and leaves in the same bag. That is the trade. You are buying the technician without the shop around her, and in this city the shop is where most of the quality signals live."
+        ]
+      },
+      {
+        "h": "Nobody here publishes a price for coming to you",
+        "p": [
+          "This is the gap, and it is worth saying plainly: no Da Nang operator I could find publishes an at-home nail price, and none publishes a travel fee. Every Vietnamese listicle that mentions a Da Nang shop taking jobs at the customer's place does it in a clause, with no number attached.",
+          "The nearest public at-home price list belongs to a different city. DIVA MAKEUP, an at-home service based in Gò Vấp in Ho Chi Minh City, prints a full tận nơi menu: plain polish 200,000đ a set, gel 200,000đ a set, gel removal 200,000đ a set, art tips with the polish included 600,000đ, a hand massage 200,000đ, one to two hours per set depending on what you ask for. The same page states outright that at-home nail work usually costs more than a regular salon does. That is Saigon and a different business, so treat it as a shape rather than a quote.",
+          "Even so, lay that shape over <a href=\"/prices/\">the Da Nang ranges</a> and the interesting part is where the premium sits. Across the six Da Nang salons with public menus, gel removal runs 10K to 150K, which puts a 200,000đ at-home removal above the top of that range. Gel colour here runs 70K to 300K. A 200,000đ at-home gel therefore lands mid-table and looks almost ordinary. The surcharge is not spread evenly over the menu: it piles up on the cheap, fiddly, time-expensive lines (removal above all), because those are where the shop's equipment was doing the work.",
+          "Get the number, then, before she gets on the scooter. <a href=\"/journal/book-nail-appointment-da-nang/\">The booking in this city happens by message, not by phone call</a>. That is convenient, since a message is the right place to ask three things: the total rather than the rate, whether travel is included, and what happens if the set lifts on Thursday."
+        ]
+      },
+      {
+        "h": "The studio in the hotel, and the shop on the walk home",
+        "p": [
+          "A quieter third option, which almost nobody plans for, sits between the car and the room visit. One visitor describes M Nail &amp; Spa at 238 Võ Nguyên Giáp (185 reviews) as a clean little studio in the hotel, where two technicians did her manicure and pedicure for a fair price and asked more than once whether she was happy. Its menu lives on a link-in-bio page. The listing name itself advertises half price on massage between noon and six, which tells you the business is built around guests with an afternoon to fill.",
+          "Then there is the option that costs nothing at all: walking. At Lee Nails &amp; Spa, 74 Tô Hiến Thành, 441 reviews, a customer notes it is within walking distance of many Da Nang hotels and cheaper than other salons in the area, and says she added a hair wash and a scalp massage while in the chair. Lena Nails and Beauty at 68/4 Bạch Đằng (61 reviews) was found on the walk back to a hotel by someone who had been hunting for a salon that still does regular polish rather than gel, which is harder to find here than you would think.",
+          "The best version of that story is at CHUBBY NAILS, 73 Nguyễn Thị Minh Khai, 244 reviews. A customer who spends roughly half the year in Da Nang says she originally picked the place because it was close to her hotel, then kept going back for a year with the whole city available to her. Her reasoning is worth copying: she prefers the small shops to the big well-known touristy ones, because she finds the skill sits with the smaller teams. She also notes the owner swapped the pedicure chairs for couches, which in a shop that size is somebody spending money on a thing nobody demanded.",
+          "Proximity, in other words, is already free and already everywhere. If you are paying a premium, be clear that you are paying it for privacy or for the clock, because you are certainly not paying it for distance."
+        ]
+      },
+      {
+        "h": "What a hotel room does not have",
+        "p": [
+          "Here is what you give up when the salon arrives instead of you. There is no UV cabinet or autoclave behind a desk to glance at. There is no dust extraction at the table, which matters the moment anyone files acrylic. There is no ventilation you would have chosen, and <a href=\"/journal/nail-salon-hygiene-checklist-da-nang/\">the ninety-second read you can run from a salon doorway</a> does not work in your own bedroom, because there is no doorway and nothing to read. The only check left is to ask whether the metal tools come out of a sealed pouch, and then to watch whether they do.",
+          "The repair is the bigger loss. <a href=\"/journal/how-long-gel-nails-last-da-nang/\">Several Da Nang shops treat a free fix window as standard</a>, and that promise comes attached to an address you can turn up at. A technician who came to your room on Monday owes you the same thing in principle, but in practice that means a second trip across town, a harder ask and a slower one. If you are three days into a two-week stay, that difference is the entire decision.",
+          "Four situations flip it the other way, and they are all specific. <a href=\"/journal/group-nail-booking-da-nang/\">A group of six in one villa</a>, where the room visit replaces the logistics rather than the salon. <a href=\"/journal/kids-nails-da-nang-nail-salon/\">A child who naps at two</a>, which no salon can work around and a mobile technician schedules around easily. A slot outside nine to nine, which is where that twenty-four-hour listing stops being a curiosity. And October, when <a href=\"/journal/da-nang-nail-salon-rainy-season/\">the rain here arrives in quantities that make a 400-metre walk a genuine problem</a> and wet gel and a scooter do not mix.",
+          "Outside those four, book the car. It is published, it is free, it covers 128 of the 151 salons in this guide from a single door on Phan Bôi, and it brings you to the lamp, the cabinet and the shop that has to see you again."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Can I get my nails done in my hotel room in Da Nang?",
+        "Yes, and in the 715 public reviews behind this guide the mobile category is one listing deep. Miko Home Nails Service, registered at 48 Hà Bổng in An Hải with 68 Google reviews and a five-star average, is the only name whose reviewers describe a technician arriving at a hotel room or an Airbnb · five of them do, all five stars, three of the five noting she was on time. The contact is a Facebook page and a mobile number rather than a website, and the listing says open twenty-four hours, seven days. One review times the visit at two hours for a gel removal, a nail art set and a gel pedicure. Expect to ask for the price yourself: none of the five reviews names a figure, and no Da Nang mobile operator publishes a menu or a travel fee."
+      ],
+      [
+        "Do Da Nang nail salons pick you up from your hotel?",
+        "Two beachfront salons in this guide do, and one of them publishes the rule. SuNam Nail &amp; Spa at 12 Phan Bôi states on its own site that pick-up or drop-off is complimentary within four kilometres as long as you book two services or more. A customer who used it arranged the appointment over WhatsApp and mentions the free collection and return, plus snacks served before and after. 오드리네일앤스파 at 49-51 Mỹ Khê 6, the second most-reviewed salon in this guide at 3,284 reviews, also ran a shuttle from a reviewer's hotel. Four kilometres from Phan Bôi takes in 128 of the 151 salons in this guide, Hàn Market at 1.1km and the whole My Khe and An Thượng stretch. Only three reviews in 715 mention a shuttle at all. Assume it exists, and ask."
+      ],
+      [
+        "How much does a mobile nail service cost in Da Nang?",
+        "Nobody publishes it, which is the honest answer. No Da Nang at-home operator lists prices or a travel fee anywhere public, and none of the five reviews describing a room visit gives a number. The nearest published at-home list is in another city: DIVA MAKEUP, a tận nơi service in Gò Vấp, Ho Chi Minh City, prints plain polish at 200,000đ a set, gel at 200,000đ a set, gel removal at 200,000đ a set and art tips with polish included at 600,000đ, one to two hours per set, and its own page says at-home work generally costs more than a salon. Set that against the Da Nang ranges on this guide's price page · gel 70K to 300K, removal 10K to 150K across six public menus · and the premium clearly lands hardest on the cheap time-heavy lines rather than on the headline colour. Ask for the total by message before anyone sets out."
+      ],
+      [
+        "Is it better to go to the salon or have someone come to my hotel?",
+        "Go to the salon for anything built on your nail, and use the room visit for polish and pedicures. A hotel room has no steriliser cabinet to look at, no dust extraction at the table and no address you can return to when a nail lifts four days later, and several Da Nang shops treat a free fix window as part of the service. Four cases justify the room: a group sharing one villa, a child who naps mid-afternoon, a slot outside the local nine-to-nine norm, and an October downpour that makes walking 400 metres with fresh gel a bad idea. If none of those apply, ask whether the salon collects instead. In this part of the city the car is free and the lamp, the cabinet and the staff who owe you a repair stay where they are."
+      ]
+    ]
+  },
+{
   slug: "nail-extensions-da-nang-up-mong",
   title: "Úp móng or đắp bột: why \"extensions\" runs 60K at one Da Nang salon and 550K at another",
   desc: "Twenty-seven of the 715 reviews behind this guide ask for extensions. Six of them say which kind. On the public menus the city price table rests on, that one word spans 60,000 to 550,000 đồng · a nine-fold gap hiding two completely different products.",
