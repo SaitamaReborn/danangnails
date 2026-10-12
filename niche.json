@@ -1,0 +1,392 @@
+{
+ "_about": "Niche and comparison pages, rendered by lib/niche.js. A page is built and listed in the sitemap only from its date onwards (drip). Placeholders in braces are filled from the Google snapshot at build time. Facts about other salons come from their own websites or Google listings, read on 12 October 2026.",
+ "pages": [
+  {
+   "id": "vs-lalla-en",
+   "group": "vs-lalla",
+   "lang": "en",
+   "date": "2026-10-12",
+   "path": "/reborn-vs-lalla-nail/",
+   "kind": "vs",
+   "rival": "ChIJAQDnG3sXQjERCiTkaiQXxO0",
+   "title": "Reborn vs Lalla Nail, Da Nang: which to book in 2026",
+   "desc": "Reborn Nails & Retreat or Lalla Nail in Da Nang? Google ratings, review counts, hours, head spa, languages and the walk between them, side by side.",
+   "h1": "Reborn vs Lalla Nail: which one to book in Da Nang",
+   "lede": "Two salons a few minutes apart in My An, with different strengths. Here is what each one does better, with the figures.",
+   "q": "Reborn Nails & Retreat or Lalla Nail: which is better?",
+   "answer": "Our pick is {N}: it pairs gel, BIAB and GelX with a full Vietnamese head spa menu, the owner speaks English at the desk, and its iPad menu runs in 20 languages, at {R}★ from {V} Google reviews ({date}). Lalla Nail Branch 1 is the one to choose if the rating decides it for you: {rR}★ from {rV} reviews, and it stays open until 21:00. The two are {dist} m apart.",
+   "pickWhy": "Nails and a full head spa in one visit, an English-speaking owner, a menu in 20 languages.",
+   "rows": [
+    {
+     "k": "Services",
+     "a": "Gel, BIAB, GelX, nail art, four spa pedicure rituals, eight head spa rituals, foot massage, waxing",
+     "b": "Nail care, nail art and eyelash extensions, with hair washing as an add-on (its website)"
+    },
+    {
+     "k": "Head spa",
+     "a": "Eight herbal rituals, 25 to 105 minutes, 120K to 850K",
+     "b": "Hair washing offered as an add-on to nail services"
+    },
+    {
+     "k": "Languages",
+     "a": "English with the owner at the desk; iPad menu in 20 languages",
+     "b": "Not checked by us; its website quotes customer reviews in Korean"
+    },
+    {
+     "k": "Prices",
+     "a": "Full menu in writing: gel colour 200K, BIAB 300K, GelX 280K",
+     "b": "A prices page on lallanaildanang.com"
+    },
+    {
+     "k": "Booking",
+     "a": "Walk-ins, or WhatsApp +84 788 668 588",
+     "b": "Online booking on its website"
+    }
+   ],
+   "sourceNote": "Ratings, review counts, hours and addresses: Google Places, snapshots of 5 August 2026 and {date}. Services and booking: each salon's own menu or website, read on 12 October 2026. Distance in a straight line.",
+   "sections": [
+    {
+     "h": "Where Lalla Nail is stronger",
+     "p": [
+      "Numbers first. Lalla Nail Branch 1 holds {rR}★ from {rV} Google reviews, one of the largest samples of any nail salon in the city, and it closes at 21:00, an hour after Reborn. If your plan is a gel colour after dinner, or you simply trust the bigger sample, it is a sound choice.",
+      "It also sits on An Thượng 29, inside the grid of small streets where many visitors to My An stay, so for a lot of readers it is the nearer door."
+     ]
+    },
+    {
+     "h": "Where Reborn is stronger",
+     "p": [
+      "Reborn is built for the longer visit. Its menu puts gel, BIAB and GelX next to four spa pedicure rituals and eight Vietnamese herbal head spa rituals, from a 25-minute wash at 120K to a 105-minute ritual at 850K. Two technicians can work at once, so nails and a head spa share one sitting instead of two appointments.",
+      "The other difference is the conversation. The owner, Fiona, runs the floor, and a Google reviewer wrote that she “speaks excellent English”. The menu on the salon's iPad comes in 20 languages, Korean, Chinese, Japanese and Russian included, with each price on screen before anything starts."
+     ]
+    },
+    {
+     "h": "The reviews, read over time",
+     "p": [
+      "From our 5 August snapshot to the one of {date}, Reborn moved from 240 to {V} Google reviews, and Lalla Nail Branch 1 from 1,026 to {rV}. Proportionally, a larger share of Reborn's reviews is recent. Lalla still adds more each month in absolute terms, as you would expect from a salon with nearly four times as many reviews."
+     ]
+    },
+    {
+     "h": "Getting from one to the other",
+     "p": [
+      "They are {dist} m apart in a straight line. Reborn is at 56 Châu Thị Vĩnh Tế, 880 m inland from My Khe Beach; Lalla is at {rA}, closer to the sand. A Grab between the two takes a few minutes."
+     ]
+    }
+   ],
+   "verdictH": "Our verdict",
+   "verdict": "On a first visit to Da Nang, and especially if you want your nails done and your hair washed in the same afternoon, book <a href=\"{pickUrl}\">{N}</a>. Lalla Nail Branch 1 suits you better if all you want is a gel colour late in the evening and you go by the rating.",
+   "faq": [
+    {
+     "q": "Is Reborn Nails & Retreat better than Lalla Nail?",
+     "r": "For a visitor who wants nails plus a head spa or a pedicure ritual, with an owner who explains everything in English, we recommend Reborn ({R}★, {V} Google reviews, {date}). On rating and review volume alone, Lalla Nail Branch 1 is ahead with {rR}★ from {rV} reviews."
+    },
+    {
+     "q": "How far is Reborn Nails & Retreat from Lalla Nail?",
+     "r": "{dist} m in a straight line. Reborn is at 56 Châu Thị Vĩnh Tế and Lalla Nail Branch 1 at {rA}, both behind My Khe Beach."
+    },
+    {
+     "q": "Can I get a head spa at Lalla Nail?",
+     "r": "Its website lists hair washing as an add-on to nail services. For a full herbal head spa ritual, Reborn's menu runs from a 25-minute wash at 120K to a 105-minute ritual at 850K."
+    },
+    {
+     "q": "Which one is open later?",
+     "r": "Lalla Nail Branch 1 until 21:00 and Reborn until 20:00, both every day, according to their Google listings."
+    }
+   ]
+  },
+  {
+   "id": "vs-posh-en",
+   "group": "vs-posh",
+   "lang": "en",
+   "date": "2026-10-13",
+   "path": "/reborn-vs-posh-nail-lab/",
+   "kind": "vs",
+   "rival": "ChIJA044WwAXQjER_tXvmDWhpgY",
+   "title": "Reborn vs Posh Nail Lab: which Da Nang salon to book",
+   "desc": "Reborn Nails & Retreat or Posh Nail Lab in Da Nang? Ratings, review growth, hours, head spa and languages compared, with what each salon does best.",
+   "h1": "Reborn vs Posh Nail Lab: which one to book in Da Nang",
+   "lede": "Since August no salon in My An has gained more Google reviews than Posh Nail Lab; Reborn pairs nails with a full head spa menu. Both, compared.",
+   "q": "Reborn Nails & Retreat or Posh Nail Lab: which should I choose?",
+   "answer": "Our pick is {N}, for a visit that goes beyond nails: a full Vietnamese head spa menu beside gel, BIAB and GelX, an owner who speaks English at the desk and an iPad menu in 20 languages ({R}★ from {V} Google reviews, {date}). Posh Nail Lab is stronger on the numbers, with {rR}★ from {rV} reviews and faster review growth, and it stays open until 21:00. They are {dist} m apart.",
+   "pickWhy": "Head spa and nails on one menu, English at the desk, a menu in 20 languages.",
+   "rows": [
+    {
+     "k": "Services",
+     "a": "Gel, BIAB, GelX, nail art, spa pedicures, head spa, foot massage, waxing",
+     "b": "Manicure, pedicure, gel, lashes and waxing (poshnailsdanang.com)"
+    },
+    {
+     "k": "Head spa",
+     "a": "Eight herbal rituals, 25 to 105 minutes, 120K to 850K",
+     "b": "Not among the services listed on its website"
+    },
+    {
+     "k": "Languages",
+     "a": "English with the owner at the desk; iPad menu in 20 languages",
+     "b": "Not checked by us"
+    },
+    {
+     "k": "Booking",
+     "a": "Walk-ins, or WhatsApp +84 788 668 588",
+     "b": "Online or by WhatsApp (its website)"
+    }
+   ],
+   "sourceNote": "Ratings, review counts, hours and addresses: Google Places, snapshots of 5 August 2026 and {date}. Services and booking: each salon's own menu or website, read on 12 October 2026. Distance in a straight line.",
+   "sections": [
+    {
+     "h": "What Posh Nail Lab does better",
+     "p": [
+      "Posh Nail Lab holds {rR}★ from {rV} Google reviews and it is gaining them quickly: 676 on 5 August, {rV} on {date}. No salon in My An and An Thượng added more Google reviews over those weeks. It is open until 21:00 and books online or by WhatsApp.",
+      "If what you want is a well-reviewed gel set in the evening, with lashes on the same visit, it is hard to argue with."
+     ]
+    },
+    {
+     "h": "What Reborn does better",
+     "p": [
+      "The head spa. Reborn's menu has eight herbal rituals, the longest at 105 minutes, and the Reborn Signature (80 minutes, 500K) runs from a herbal foot soak and tea through steam, a hair mask and neck, shoulder and hand massage to a blow-dry. Pair it with a manicure and two technicians can work at the same time.",
+      "Then the talking. Fiona, the owner, is at the desk and speaks English; a Google reviewer called it “excellent English”. The iPad menu has 20 languages and shows each price before you choose, which is useful if you are travelling with parents who do not read English."
+     ]
+    },
+    {
+     "h": "Price and time",
+     "p": [
+      "Reborn's menu: gel colour 200K, BIAB 300K, GelX 280K, Deep Care spa pedicure 450K for 65 minutes. We have not compared Posh Nail Lab's prices line by line; ask for its menu before you sit down, as you would anywhere."
+     ]
+    },
+    {
+     "h": "Getting from one to the other",
+     "p": [
+      "Posh Nail Lab is at {rA}, Reborn at 56 Châu Thị Vĩnh Tế, {dist} m apart in a straight line. Both are in My An, behind My Khe Beach."
+     ]
+    }
+   ],
+   "verdictH": "Our verdict",
+   "verdict": "If your trip leaves room for one longer appointment, choose <a href=\"{pickUrl}\">{N}</a> and pair the manicure with a head spa or a spa pedicure ritual. If you want the salon with the most momentum on Google and a slot after 20:00, Posh Nail Lab is a good call.",
+   "faq": [
+    {
+     "q": "Is Posh Nail Lab or Reborn better for gel nails?",
+     "r": "Both do gel. Reborn prints its prices (gel colour 200K, BIAB 300K, GelX 280K) and adds a head spa menu; Posh Nail Lab has the higher Google rating, {rR}★ from {rV} reviews against {R}★ from {V} ({date})."
+    },
+    {
+     "q": "Does Posh Nail Lab have a head spa?",
+     "r": "Its website lists manicure, pedicure, gel, lashes and waxing (read on 12 October 2026). Reborn's menu has eight head spa rituals of 25 to 105 minutes."
+    },
+    {
+     "q": "How far apart are Reborn and Posh Nail Lab?",
+     "r": "{dist} m in a straight line, both in My An behind My Khe Beach."
+    }
+   ]
+  },
+  {
+   "id": "vs-liti-en",
+   "group": "vs-liti",
+   "lang": "en",
+   "date": "2026-10-13",
+   "path": "/reborn-vs-liti-nail-hair/",
+   "kind": "vs",
+   "rival": "ChIJe0JW1WkXQjERpLcOqYr4T0E",
+   "title": "Reborn vs Liti Nail & Hair: which Da Nang salon to book",
+   "desc": "Reborn Nails & Retreat or Liti Nail & Hair in Da Nang? Two salons that both wash hair, compared on ratings, menus, head spa depth, languages and location.",
+   "h1": "Reborn vs Liti Nail & Hair: which one to book in Da Nang",
+   "lede": "Both do nails and both wash hair. The difference is how far each one takes it.",
+   "q": "Reborn Nails & Retreat or Liti Nail & Hair: which is better for nails and a hair wash?",
+   "answer": "When the head spa matters, we pick {N}: eight rituals of up to 105 minutes, an owner who speaks English at the desk and an iPad menu in 20 languages ({R}★, {V} Google reviews, {date}). Liti Nail & Hair has seven addresses in Da Nang. Its An Thượng 39 branch holds {rR}★ from {rV} reviews, and its hair wash with head massage starts at 100K, below Reborn's shortest wash. The distance between them is {dist} m.",
+   "pickWhy": "A full head spa menu (8 rituals, up to 105 minutes) with nails, English at the desk, a menu in 20 languages.",
+   "rows": [
+    {
+     "k": "Services",
+     "a": "Gel, BIAB, GelX, nail art, spa pedicures, head spa, foot massage, waxing",
+     "b": "Gel, BIAB, acrylic, pedicure, lashes, waxing, haircuts and hair wash (litinailhair.vn)"
+    },
+    {
+     "k": "Head spa or hair wash",
+     "a": "Eight herbal head spa rituals, 25 to 105 minutes, 120K to 850K",
+     "b": "Hair Wash & Head Massage from 100K: dry head massage, double shampoo, conditioner, neck and shoulder massage, blow-dry"
+    },
+    {
+     "k": "Prices",
+     "a": "Full menu in writing, gel colour 200K",
+     "b": "Published on its website, gel manicure from 200K"
+    },
+    {
+     "k": "Languages",
+     "a": "English with the owner at the desk; iPad menu in 20 languages",
+     "b": "A review quoted on its website says “everyone spoke good English”"
+    },
+    {
+     "k": "Addresses",
+     "a": "One salon, run by its owner",
+     "b": "Seven in Da Nang"
+    }
+   ],
+   "sourceNote": "Ratings, review counts, hours and addresses: Google Places, snapshots of 5 August 2026 and {date}, for Liti's An Thượng 39 branch. Services, prices and languages: each salon's own menu or website, read on 12 October 2026. Distance in a straight line.",
+   "sections": [
+    {
+     "h": "Where Liti is stronger",
+     "p": [
+      "Scale and convenience. Liti Nail & Hair has seven addresses across Da Nang, so there is usually one near your hotel, and its An Thượng 39 branch alone holds {rR}★ from {rV} Google reviews. Its prices are on its website, its hair wash with head massage starts at 100K, and it stays open until 20:30.",
+      "For a quick wash and blow-dry after the beach, or a gel set close to where you are staying, it does the job well."
+     ]
+    },
+    {
+     "h": "Where Reborn is stronger",
+     "p": [
+      "Depth of the head spa. At Liti, a hair wash means a wash with a massage. Reborn's head spa menu has eight rituals, and the 80-minute Reborn Signature (500K) moves through a herbal foot soak and tea, facial cleansing, a quartz-stone massage, herbal steam and a mask, scalp exfoliation, a double herbal wash, a hair mask, neck, shoulder and hand massage and a blow-dry, then fruit and tea.",
+      "It is also one salon, with the owner, Fiona, at the desk, speaking English, and a menu on the iPad in 20 languages."
+     ]
+    },
+    {
+     "h": "The reviews, read over time",
+     "p": [
+      "From 5 August to {date}, Liti's An Thượng 39 branch went from 1,191 to {rV} Google reviews and Reborn from 240 to {V}. Liti adds more in number; Reborn grows faster in proportion, which is the usual pattern for a younger salon."
+     ]
+    },
+    {
+     "h": "Getting from one to the other",
+     "p": [
+      "Liti's branch is at {rA}, Reborn at 56 Châu Thị Vĩnh Tế, {dist} m apart. Both sit in My An, a short walk inland from My Khe Beach."
+     ]
+    }
+   ],
+   "verdictH": "Our verdict",
+   "verdict": "Choose <a href=\"{pickUrl}\">{N}</a> when the head spa is the reason for the visit, or when you want nails and a long herbal ritual in one sitting. Liti Nail & Hair is the pick for a quick hair wash, or for a salon close to wherever you are staying, since it has seven.",
+   "faq": [
+    {
+     "q": "Does Liti Nail & Hair do head spa?",
+     "r": "It offers a Hair Wash & Head Massage from 100K (its website, 12 October 2026). Reborn's head spa menu has eight rituals, from 120K for 25 minutes to 850K for 105 minutes."
+    },
+    {
+     "q": "Which is closer to My Khe Beach?",
+     "r": "Liti's An Thượng 39 branch sits deeper in the streets behind the beach; Reborn is 880 m inland from My Khe at 56 Châu Thị Vĩnh Tế. They are {dist} m apart."
+    },
+    {
+     "q": "Which has more reviews?",
+     "r": "Liti Nail & Hair at An Thượng 39 has {rV} Google reviews at {rR}★; Reborn has {V} at {R}★ ({date})."
+    }
+   ]
+  },
+  {
+   "id": "english-n-en",
+   "group": "english-n",
+   "lang": "en",
+   "date": "2026-10-12",
+   "path": "/english-speaking-nail-salon-da-nang/",
+   "kind": "list",
+   "list": {
+    "type": "review",
+    "re": "\\benglish\\b",
+    "not": "(n['’]t|\\bnot\\b|\\bno\\b|little|limited|barely|hardly|broken|basic)[^.!?]{0,30}\\benglish|english[^.!?]{0,20}(was|is)?\\s*(limited|poor|basic|not)",
+    "flags": "i",
+    "scope": "filtered",
+    "max": 10
+   },
+   "title": "Best Nail Salon with English-Speaking Staff in Da Nang",
+   "desc": "Nail salons in Da Nang where staff speak English, chosen from what Google reviewers actually wrote, with our first choice and the reasons for it.",
+   "h1": "Best nail salon with English-speaking staff in Da Nang",
+   "lede": "Colour and shape are easy in any language. Removal, BIAB versus extensions, a design that has to survive the sea: those need a conversation.",
+   "q": "Which nail salon in Da Nang has English-speaking staff?",
+   "answer": "Our first choice is {N}. Fiona, the owner, runs the floor herself (a Google reviewer wrote that she “speaks excellent English”), and the iPad menu comes in 20 languages, with every price shown before you choose ({R}★, {V} Google reviews, {date}). There are {n} salons on the list: ours comes first, followed by those where a Google review mentions English, each with the sentence that says so.",
+   "listH": "Salons where a Google review mentions English",
+   "pickWhy": "The owner runs the floor in English (a Google reviewer: “speaks excellent English”); iPad menu in 20 languages.",
+   "sourceNote": "Ratings and review sentences: Google Places, snapshot of {date}, up to five reviews per salon. Order after our pick: the guide's score.",
+   "sections": [
+    {
+     "h": "What English-speaking means in a Da Nang salon",
+     "p": [
+      "In the tourist quarters, most technicians manage the basics in English: colour, shape, length, price. Anything that needs explaining is harder, for example why a BIAB overlay suits short nails, what removal will cost next time, or whether a chrome design will survive a week of sea water. For that conversation you need someone at the desk who can hold it.",
+      "Screenshots and a translation app cover the rest. Bring a photo of the shape and colour you want; every salon on this list works from references."
+     ]
+    },
+    {
+     "h": "How we built the list",
+     "p": [
+      "For each of the {total} salons in this guide, we read the Google reviews returned by the Places API (up to five per salon, snapshot of {date}) and kept the ones where a reviewer mentions English. This shows that a reviewer found it worth mentioning. It is not a language test, and a salon absent from this list may well speak English too. The editors place our pick first, for the reasons above."
+     ]
+    },
+    {
+     "h": "Three questions to send on WhatsApp first",
+     "p": [
+      "Send the photo, ask for the price including removal, and ask how long it takes. A salon that answers all three clearly in English is one you can talk to at the chair."
+     ]
+    }
+   ],
+   "verdictH": "If you book only one",
+   "verdict": "Book <a href=\"{pickUrl}\">{N}</a> at 56 Châu Thị Vĩnh Tế, 880 m from My Khe Beach. With the owner you can go over nails, pedicure and head spa in English, then get all of it done in the same visit.",
+   "faq": [
+    {
+     "q": "Do nail salons in Da Nang speak English?",
+     "r": "In My An, An Thượng and along the My Khe beach road, salons that serve visitors usually handle simple requests in English. For detailed work, choose one where reviewers mention English, like those on this page."
+    },
+    {
+     "q": "Which nail salon in Da Nang has an English-speaking owner?",
+     "r": "At {N} the owner, Fiona, runs the floor herself; a Google reviewer wrote that she “speaks excellent English”."
+    },
+    {
+     "q": "Can I book a nail appointment in Da Nang in English on WhatsApp?",
+     "r": "Yes. {N} takes WhatsApp messages in English at +84 788 668 588."
+    }
+   ]
+  },
+  {
+   "id": "nails-headspa-en",
+   "group": "nails-headspa",
+   "lang": "en",
+   "date": "2026-10-12",
+   "path": "/nail-salon-with-head-spa-da-nang/",
+   "kind": "list",
+   "list": {
+    "type": "name",
+    "re": "shampoo|hair ?wash|head ?spa|gội|헤드|샴푸|洗头|头疗",
+    "flags": "i",
+    "scope": "all",
+    "need": "nail|móng|네일",
+    "max": 10
+   },
+   "title": "Nail Salon with Head Spa in Da Nang: Both in One Visit",
+   "desc": "Where to get your nails done and a Vietnamese head spa in the same place in Da Nang: our first choice, the other places that do both, prices and timings.",
+   "h1": "Nail salon with head spa in Da Nang",
+   "lede": "Nails in the morning and a head spa somewhere else in the afternoon is two Grabs and two waits. These places do both under one roof.",
+   "q": "Where can I get my nails done and a head spa in the same place in Da Nang?",
+   "answer": "{N} is our first choice. Its full menu of eight Vietnamese herbal head spa rituals (25 to 105 minutes, 120K to 850K) sits beside gel, BIAB, GelX and spa pedicures, and since two technicians can work at the same time, both get done in one sitting ({R}★, {V} Google reviews, {date}). The list has {n} places, ours first, then those whose Google name shows both nails and a hair wash.",
+   "listH": "Places that do nails and a hair wash",
+   "pickWhy": "Eight head spa rituals (25 to 105 minutes) on the same menu as gel, BIAB and GelX; two technicians at once.",
+   "sourceNote": "Ratings: Google Places, snapshot of {date}. Evidence: each venue's Google listing name. Order after our pick: the guide's score.",
+   "sections": [
+    {
+     "h": "A hair wash and a head spa are not the same booking",
+     "p": [
+      "Plenty of Da Nang nail salons add a shampoo: a wash, a short scalp massage, a blow-dry, often from about 100K. A head spa is a longer ritual built around the scalp, with a herbal soak, steam, masks and neck and shoulder work, sometimes facial care, from about 45 minutes to well over an hour.",
+      "If you only want clean hair after the beach, any place on this list will do. If the head spa is the treat of the trip, look for a menu with several rituals and the minutes written next to each."
+     ]
+    },
+    {
+     "h": "Fitting both into one visit",
+     "p": [
+      "Ask for two technicians. At {N} a manicure and a head, neck or foot massage can run in the same sitting, according to the salon's menu. Message on WhatsApp to book that, especially for a weekend afternoon."
+     ]
+    },
+    {
+     "h": "How we built the list",
+     "p": [
+      "We kept every venue in our Google Places snapshot ({date}) whose listing name mentions nails together with a shampoo, hair wash or head spa, in English, Vietnamese or Korean. The name is the venue's own description of what it does; we have not checked each menu. Our pick is placed first by the editors."
+     ]
+    }
+   ],
+   "verdictH": "If you book only one",
+   "verdict": "For nails and a proper head spa in one afternoon, book <a href=\"{pickUrl}\">{N}</a> at 56 Châu Thị Vĩnh Tế, 880 m from My Khe Beach. A good pairing: the Reborn Signature head spa (80 minutes, 500K) and a gel colour (200K).",
+   "faq": [
+    {
+     "q": "Can I get a manicure and a head spa at the same time in Da Nang?",
+     "r": "Yes, where two technicians are free. At {N} a manicure and a head, neck or foot massage can run in the same sitting."
+    },
+    {
+     "q": "How much is a head spa at a nail salon in Da Nang?",
+     "r": "At {N} the head spa menu runs from 120K for a 25-minute herbal wash to 850K for a 105-minute ritual; the 80-minute Reborn Signature is 500K. A plain hair wash added to a nail visit elsewhere often starts around 100K."
+    },
+    {
+     "q": "What is gội đầu dưỡng sinh?",
+     "r": "The Vietnamese name for the restorative herbal hair wash: a reclined double shampoo with herbs such as grapefruit peel or lemongrass, a scalp massage and, in longer rituals, steam, masks and neck and shoulder work."
+    }
+   ]
+  }
+ ]
+}
