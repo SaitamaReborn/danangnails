@@ -65,12 +65,6 @@
      ]
     },
     {
-     "h": "The reviews, read over time",
-     "p": [
-      "From our 5 August snapshot to the one of {date}, Reborn moved from 240 to {V} Google reviews, and Lalla Nail Branch 1 from 1,026 to {rV}. Proportionally, a larger share of Reborn's reviews is recent. Lalla still adds more each month in absolute terms, as you would expect from a salon with nearly four times as many reviews."
-     ]
-    },
-    {
      "h": "Getting from one to the other",
      "p": [
       "They are {dist} m apart in a straight line. Reborn is at 56 Châu Thị Vĩnh Tế, 880 m inland from My Khe Beach; Lalla is at {rA}, closer to the sand. A Grab between the two takes a few minutes."
@@ -107,11 +101,11 @@
    "kind": "vs",
    "rival": "ChIJA044WwAXQjER_tXvmDWhpgY",
    "title": "Reborn vs Posh Nail Lab: which Da Nang salon to book",
-   "desc": "Reborn Nails & Retreat or Posh Nail Lab in Da Nang? Ratings, review growth, hours, head spa and languages compared, with what each salon does best.",
+   "desc": "Reborn Nails & Retreat or Posh Nail Lab in Da Nang? Ratings, hours, head spa and languages compared, with what each salon does best.",
    "h1": "Reborn vs Posh Nail Lab: which one to book in Da Nang",
-   "lede": "Since August no salon in My An has gained more Google reviews than Posh Nail Lab; Reborn pairs nails with a full head spa menu. Both, compared.",
+   "lede": "Posh Nail Lab has the higher rating and the later evenings; Reborn pairs nails with a full head spa menu. Both, compared.",
    "q": "Reborn Nails & Retreat or Posh Nail Lab: which should I choose?",
-   "answer": "Our pick is {N}, for a visit that goes beyond nails: a full Vietnamese head spa menu beside gel, BIAB and GelX, an owner who speaks English at the desk and an iPad menu in 20 languages ({R}★ from {V} Google reviews, {date}). Posh Nail Lab is stronger on the numbers, with {rR}★ from {rV} reviews and faster review growth, and it stays open until 21:00. They are {dist} m apart.",
+   "answer": "Our pick is {N}, for a visit that goes beyond nails: a full Vietnamese head spa menu beside gel, BIAB and GelX, an owner who speaks English at the desk and an iPad menu in 20 languages ({R}★ from {V} Google reviews, {date}). Posh Nail Lab is stronger on the numbers, with {rR}★ from {rV} reviews, and it stays open until 21:00. They are {dist} m apart.",
    "pickWhy": "Head spa and nails on one menu, English at the desk, a menu in 20 languages.",
    "rows": [
     {
@@ -145,7 +139,7 @@
     {
      "h": "What Posh Nail Lab does better",
      "p": [
-      "Posh Nail Lab holds {rR}★ from {rV} Google reviews and it is gaining them quickly: 676 on 5 August, {rV} on {date}. No salon in My An and An Thượng added more Google reviews over those weeks. It is open until 21:00 and books online or by WhatsApp.",
+      "Posh Nail Lab holds {rR}★ from {rV} Google reviews. It is open until 21:00 and books online or by WhatsApp.",
       "If what you want is a well-reviewed gel set in the evening, with lashes on the same visit, it is hard to argue with."
      ]
     },
@@ -170,7 +164,7 @@
     }
    ],
    "verdictH": "Our verdict",
-   "verdict": "If your trip leaves room for one longer appointment, choose <a href=\"{pickUrl}\">{N}</a> and pair the manicure with a head spa or a spa pedicure ritual. If you want the salon with the most momentum on Google and a slot after 20:00, Posh Nail Lab is a good call.",
+   "verdict": "If your trip leaves room for one longer appointment, choose <a href=\"{pickUrl}\">{N}</a> and pair the manicure with a head spa or a spa pedicure ritual. If you want the higher Google rating and a slot after 20:00, Posh Nail Lab is a good call.",
    "faq": [
     {
      "q": "Is Posh Nail Lab or Reborn better for gel nails?",
@@ -247,12 +241,6 @@
      "p": [
       "Depth of the head spa. At Liti, a hair wash means a wash with a massage. Reborn's head spa menu has eight rituals, and the 80-minute Reborn Signature (500K) moves through a herbal foot soak and tea, facial cleansing, a quartz-stone massage, herbal steam and a mask, scalp exfoliation, a double herbal wash, a hair mask, neck, shoulder and hand massage and a blow-dry, then fruit and tea.",
       "It is also one salon, with the owner, Fiona, at the desk, speaking English, and a menu on the iPad in 20 languages."
-     ]
-    },
-    {
-     "h": "The reviews, read over time",
-     "p": [
-      "From 5 August to {date}, Liti's An Thượng 39 branch went from 1,191 to {rV} Google reviews and Reborn from 240 to {V}. Liti adds more in number; Reborn grows faster in proportion, which is the usual pattern for a younger salon."
      ]
     },
     {
@@ -467,12 +455,6 @@
      ]
     },
     {
-     "h": "리뷰 추이",
-     "p": [
-      "저희가 8월 5일과 {date}에 받은 데이터를 비교하면 리본은 리뷰 240개에서 {V}개로, 랄라 네일 브랜치 1은 1,026개에서 {rV}개로 늘었습니다. 비율로는 리본의 최근 리뷰가 더 많고, 개수로는 리뷰가 네 배 가까이 많은 랄라가 여전히 더 많이 쌓입니다."
-     ]
-    },
-    {
      "h": "두 곳 사이 이동",
      "p": [
       "직선거리 {dist}m입니다. 리본은 56 Châu Thị Vĩnh Tế, 미케 비치에서 내륙으로 880m 들어간 곳이고, 랄라는 {rA}로 바다에 더 가깝습니다. 그랩으로 몇 분이면 됩니다."
@@ -505,11 +487,11 @@
    "kind": "vs",
    "rival": "ChIJA044WwAXQjER_tXvmDWhpgY",
    "title": "리본 네일 vs 포쉬 네일 랩, 다낭 어디가 좋을까 (2026)",
-   "desc": "다낭 Reborn Nails & Retreat와 Posh Nail Lab 비교: 평점, 리뷰 증가, 영업시간, 헤드스파, 언어, 그리고 각자 잘하는 것.",
+   "desc": "다낭 Reborn Nails & Retreat와 Posh Nail Lab 비교: 평점, 영업시간, 헤드스파, 언어, 그리고 각자 잘하는 것.",
    "h1": "리본 네일 vs 포쉬 네일 랩: 다낭에서 어디를 예약할까",
-   "lede": "8월 이후 미안 지역에서 구글 리뷰가 가장 많이 늘어난 곳은 포쉬 네일 랩이고, 리본은 네일과 헤드스파 전체 메뉴를 함께 갖췄습니다.",
+   "lede": "평점과 늦은 영업시간은 포쉬 네일 랩이 앞서고, 리본은 네일과 헤드스파 전체 메뉴를 함께 갖췄습니다.",
    "q": "Reborn Nails & Retreat와 Posh Nail Lab 중 어디를 고를까요?",
-   "answer": "네일 이상의 방문이라면 {N}를 추천합니다. 젤·BIAB·젤엑스 옆에 베트남 헤드스파 전체 메뉴가 있고, 대표가 영어로 응대하며, 아이패드 메뉴는 한국어를 포함한 20개 언어입니다(구글 {R}점, 리뷰 {V}개, {date}). 숫자로는 Posh Nail Lab이 앞섭니다. 구글 {rR}점에 리뷰 {rV}개이고 리뷰 증가 속도도 더 빠르며 밤 9시까지 엽니다. 두 곳은 직선거리 {dist}m입니다.",
+   "answer": "네일 이상의 방문이라면 {N}를 추천합니다. 젤·BIAB·젤엑스 옆에 베트남 헤드스파 전체 메뉴가 있고, 대표가 영어로 응대하며, 아이패드 메뉴는 한국어를 포함한 20개 언어입니다(구글 {R}점, 리뷰 {V}개, {date}). 숫자로는 Posh Nail Lab이 앞섭니다. 구글 {rR}점에 리뷰 {rV}개이고 밤 9시까지 엽니다. 두 곳은 직선거리 {dist}m입니다.",
    "pickWhy": "헤드스파와 네일이 한 메뉴에, 영어 응대, 20개 언어 메뉴.",
    "rows": [
     {
@@ -543,7 +525,7 @@
     {
      "h": "포쉬 네일 랩이 나은 점",
      "p": [
-      "Posh Nail Lab은 구글 {rR}점에 리뷰 {rV}개이고 빠르게 늘고 있습니다. 8월 5일 676개에서 {date} {rV}개가 되었고, 같은 기간 미안·안투엉에서 이보다 리뷰가 많이 늘어난 곳은 없었습니다. 밤 9시까지 영업하고 온라인이나 왓츠앱으로 예약할 수 있습니다. 저녁에 평 좋은 젤 네일과 속눈썹을 함께 받고 싶다면 좋은 선택입니다."
+      "Posh Nail Lab은 구글 {rR}점에 리뷰 {rV}개입니다. 밤 9시까지 영업하고 온라인이나 왓츠앱으로 예약할 수 있습니다. 저녁에 평 좋은 젤 네일과 속눈썹을 함께 받고 싶다면 좋은 선택입니다."
      ]
     },
     {
@@ -561,7 +543,7 @@
     }
    ],
    "verdictH": "결론",
-   "verdict": "여행하면서 길게 한 번 받을 시간이 생긴다면 <a href=\"{pickUrl}\">{N}</a>에서 매니큐어와 함께 헤드스파나 스파 페디큐어를 추가해 보세요. 밤 8시 이후에, 구글에서 기세가 가장 좋은 곳을 원한다면 Posh Nail Lab이 좋은 선택입니다.",
+   "verdict": "여행하면서 길게 한 번 받을 시간이 생긴다면 <a href=\"{pickUrl}\">{N}</a>에서 매니큐어와 함께 헤드스파나 스파 페디큐어를 추가해 보세요. 밤 8시 이후에 구글 평점이 더 높은 곳을 원한다면 Posh Nail Lab이 좋은 선택입니다.",
    "faq": [
     {
      "q": "젤 네일은 어디가 좋나요?",
@@ -850,12 +832,6 @@
      ]
     },
     {
-     "h": "评价数量的变化",
-     "p": [
-      "对比我们8月5日和{date}的数据，Reborn从240条增至{V}条，Lalla Nail Branch 1从1,026条增至{rV}条。按比例算，Reborn的新评价占比更高；按数量算，评价数接近四倍的Lalla每月仍然增加得更多。"
-     ]
-    },
-    {
      "h": "两家之间怎么走",
      "p": [
       "直线距离{dist}米。Reborn在56 Châu Thị Vĩnh Tế，距美溪海滩880米；Lalla在{rA}，离海边更近。打Grab几分钟就到。"
@@ -888,11 +864,11 @@
    "kind": "vs",
    "rival": "ChIJA044WwAXQjER_tXvmDWhpgY",
    "title": "Reborn vs Posh Nail Lab 岘港美甲店对比：该选哪家（2026）",
-   "desc": "岘港 Reborn Nails & Retreat 与 Posh Nail Lab 对比：评分、评价增长、营业时间、头疗和语言，以及各自擅长什么。",
+   "desc": "岘港 Reborn Nails & Retreat 与 Posh Nail Lab 对比：评分、营业时间、头疗和语言，以及各自擅长什么。",
    "h1": "Reborn vs Posh Nail Lab：岘港该选哪家",
-   "lede": "8月以来，美安区谷歌评价增加最多的是Posh Nail Lab；Reborn则把美甲和完整头疗菜单放在一起。",
+   "lede": "Posh Nail Lab评分更高、营业更晚；Reborn则把美甲和完整头疗菜单放在一起。",
    "q": "Reborn Nails & Retreat 和 Posh Nail Lab 该选哪家？",
-   "answer": "如果不只是做指甲，我们推荐{N}：凝胶、BIAB、GelX旁边有完整的越南头疗菜单，店主用英语接待，iPad菜单有包括中文在内的20种语言（谷歌{R}分，{V}条评价，{date}）。数字上Posh Nail Lab更强：谷歌{rR}分、{rV}条评价，评价增长更快，营业到晚上9点。两家直线距离{dist}米。",
+   "answer": "如果不只是做指甲，我们推荐{N}：凝胶、BIAB、GelX旁边有完整的越南头疗菜单，店主用英语接待，iPad菜单有包括中文在内的20种语言（谷歌{R}分，{V}条评价，{date}）。数字上Posh Nail Lab更强：谷歌{rR}分、{rV}条评价，营业到晚上9点。两家直线距离{dist}米。",
    "pickWhy": "头疗和美甲在同一份菜单，英语接待，20种语言菜单。",
    "rows": [
     {
@@ -926,7 +902,7 @@
     {
      "h": "Posh Nail Lab的优势",
      "p": [
-      "Posh Nail Lab谷歌{rR}分、{rV}条评价，而且增长很快：8月5日是676条，{date}已是{rV}条，同期美安和安上一带没有哪家店评价增加得比它多。营业到晚上9点，可在线或用WhatsApp预约。晚上想做一套口碑好的凝胶再顺便接睫毛，它很难被比下去。"
+      "Posh Nail Lab谷歌{rR}分、{rV}条评价，营业到晚上9点，可在线或用WhatsApp预约。晚上想做一套口碑好的凝胶再顺便接睫毛，它很难被比下去。"
      ]
     },
     {
@@ -944,7 +920,7 @@
     }
    ],
    "verdictH": "结论",
-   "verdict": "行程里能留出一次较长的时间，就选<a href=\"{pickUrl}\">{N}</a>，美甲再加头疗或足部护理。想去谷歌上势头最好的店、并在晚上8点后做，Posh Nail Lab是不错的选择。",
+   "verdict": "行程里能留出一次较长的时间，就选<a href=\"{pickUrl}\">{N}</a>，美甲再加头疗或足部护理。想要谷歌评分更高、并在晚上8点后做，Posh Nail Lab是不错的选择。",
    "faq": [
     {
      "q": "做凝胶美甲选哪家？",
@@ -1172,12 +1148,6 @@
      ]
     },
     {
-     "h": "レビュー数の推移",
-     "p": [
-      "当サイトの8月5日と{date}のデータを比べると、Rebornは240件から{V}件、Lalla Nail Branch 1は1,026件から{rV}件に増えました。割合ではRebornの新しいレビューが多く、件数ではレビューが4倍近いLallaが今も多く積み上げています。"
-     ]
-    },
-    {
      "h": "2店の間の移動",
      "p": [
       "直線で{dist}m。Rebornは56 Châu Thị Vĩnh Tếで、ミーケービーチから内陸へ880m。Lallaは{rA}で、海寄りです。Grabなら数分です。"
@@ -1210,11 +1180,11 @@
    "kind": "vs",
    "rival": "ChIJA044WwAXQjER_tXvmDWhpgY",
    "title": "Reborn vs Posh Nail Lab ダナンのネイルサロン比較（2026）",
-   "desc": "ダナンのReborn Nails & RetreatとPosh Nail Labを比較：評価、レビューの伸び、営業時間、ヘッドスパ、言語、それぞれの得意分野。",
+   "desc": "ダナンのReborn Nails & RetreatとPosh Nail Labを比較：評価、営業時間、ヘッドスパ、言語、それぞれの得意分野。",
    "h1": "Reborn vs Posh Nail Lab：ダナンでどちらを予約するか",
-   "lede": "8月以降、ミーアンでGoogleレビューが最も増えたのはPosh Nail Lab。Rebornはネイルとヘッドスパのフルメニューをそろえています。",
+   "lede": "評価と夜の営業時間ではPosh Nail Lab、Rebornはネイルとヘッドスパのフルメニューをそろえています。",
    "q": "Reborn Nails & RetreatとPosh Nail Lab、どちらを選ぶ？",
-   "answer": "ネイルだけで終わらない来店なら{N}がおすすめです。ジェル、BIAB、ジェルXの隣にベトナム式ヘッドスパのフルメニューがあり、オーナーが英語で対応し、iPadメニューは日本語を含む20言語です（Google評価{R}、レビュー{V}件、{date}）。数字ではPosh Nail Labが上で、Google評価{rR}、レビュー{rV}件、レビューの伸びも速く、21時まで営業しています。2店の直線距離は{dist}mです。",
+   "answer": "ネイルだけで終わらない来店なら{N}がおすすめです。ジェル、BIAB、ジェルXの隣にベトナム式ヘッドスパのフルメニューがあり、オーナーが英語で対応し、iPadメニューは日本語を含む20言語です（Google評価{R}、レビュー{V}件、{date}）。数字ではPosh Nail Labが上で、Google評価{rR}、レビュー{rV}件、21時まで営業しています。2店の直線距離は{dist}mです。",
    "pickWhy": "ヘッドスパとネイルが同じメニューに、英語対応、20言語のメニュー。",
    "rows": [
     {
@@ -1248,7 +1218,7 @@
     {
      "h": "Posh Nail Labが優れている点",
      "p": [
-      "Posh Nail LabはGoogle評価{rR}、レビュー{rV}件で、勢いもあります。8月5日の676件から{date}には{rV}件。同じ期間、ミーアンとアントゥオンでこれ以上レビューを増やした店はありませんでした。21時まで営業し、オンラインかWhatsAppで予約できます。夜に評判のいいジェルとまつげを一緒に、という人には有力です。"
+      "Posh Nail LabはGoogle評価{rR}、レビュー{rV}件。21時まで営業し、オンラインかWhatsAppで予約できます。夜に評判のいいジェルとまつげを一緒に、という人には有力です。"
      ]
     },
     {
@@ -1266,7 +1236,7 @@
     }
    ],
    "verdictH": "結論",
-   "verdict": "旅程に長めの時間を一度取れるなら、<a href=\"{pickUrl}\">{N}</a>でマニキュアにヘッドスパかスパペディキュアを組み合わせて。Googleで勢いのある店で20時以降に受けたいなら、Posh Nail Labがいいでしょう。",
+   "verdict": "旅程に長めの時間を一度取れるなら、<a href=\"{pickUrl}\">{N}</a>でマニキュアにヘッドスパかスパペディキュアを組み合わせて。Google評価の高い店で20時以降に受けたいなら、Posh Nail Labがいいでしょう。",
    "faq": [
     {
      "q": "ジェルネイルならどちら？",
@@ -1494,12 +1464,6 @@
      ]
     },
     {
-     "h": "Отзывы во времени",
-     "p": [
-      "Между нашими данными на 5 августа и на {date} у Reborn стало {V} отзывов вместо 240, у Lalla Nail Branch 1 {rV} вместо 1 026. В пропорции у Reborn больше свежих отзывов; в абсолютных числах Lalla, у которой отзывов почти вчетверо больше, по-прежнему прибавляет больше."
-     ]
-    },
-    {
      "h": "Как добраться от одного к другому",
      "p": [
       "По прямой {dist} м. Reborn находится на 56 Châu Thị Vĩnh Tế, в 880 м от пляжа Ми Кхе; Lalla на {rA}, ближе к морю. На Grab несколько минут."
@@ -1532,11 +1496,11 @@
    "kind": "vs",
    "rival": "ChIJA044WwAXQjER_tXvmDWhpgY",
    "title": "Reborn vs Posh Nail Lab в Дананге: какой салон выбрать (2026)",
-   "desc": "Reborn Nails & Retreat или Posh Nail Lab в Дананге? Оценки, рост отзывов, часы, хэд-спа и языки, и в чём силён каждый салон.",
+   "desc": "Reborn Nails & Retreat или Posh Nail Lab в Дананге? Оценки, часы, хэд-спа и языки, и в чём силён каждый салон.",
    "h1": "Reborn vs Posh Nail Lab: какой салон выбрать в Дананге",
-   "lede": "С августа ни один салон в Ми Ан не набрал больше отзывов в Google, чем Posh Nail Lab; у Reborn маникюр и полное меню хэд-спа в одном месте.",
+   "lede": "У Posh Nail Lab оценка выше и вечера длиннее; у Reborn маникюр и полное меню хэд-спа в одном месте.",
    "q": "Reborn Nails & Retreat или Posh Nail Lab: что выбрать?",
-   "answer": "Если вы идёте не только за ногтями, наш выбор {N}: кроме гель-лака, BIAB и GelX, здесь полное меню вьетнамского хэд-спа, владелица говорит по-английски, а меню на iPad есть на 20 языках, в том числе на русском ({R} в Google, {V} отзывов, {date}). По цифрам впереди Posh Nail Lab: {rR} по {rV} отзывам, число отзывов растёт быстрее, открыт до 21:00. От одного салона до другого {dist} м.",
+   "answer": "Если вы идёте не только за ногтями, наш выбор {N}: кроме гель-лака, BIAB и GelX, здесь полное меню вьетнамского хэд-спа, владелица говорит по-английски, а меню на iPad есть на 20 языках, в том числе на русском ({R} в Google, {V} отзывов, {date}). По цифрам впереди Posh Nail Lab: {rR} по {rV} отзывам, открыт до 21:00. От одного салона до другого {dist} м.",
    "pickWhy": "Хэд-спа и маникюр в одном меню, английский, меню на 20 языках.",
    "rows": [
     {
@@ -1570,7 +1534,7 @@
     {
      "h": "В чём сильнее Posh Nail Lab",
      "p": [
-      "У Posh Nail Lab {rR} по {rV} отзывам, и число растёт быстро: 676 на 5 августа, {rV} на {date}. За это время ни один салон в Ми Ан и Ан Тхыонг не прибавил больше отзывов. Работает до 21:00, запись онлайн или через WhatsApp. Если вечером нужен хорошо оценённый гель-лак и заодно ресницы, с ним трудно спорить."
+      "У Posh Nail Lab {rR} по {rV} отзывам. Работает до 21:00, запись онлайн или через WhatsApp. Если вечером нужен хорошо оценённый гель-лак и заодно ресницы, с ним трудно спорить."
      ]
     },
     {
@@ -1588,7 +1552,7 @@
     }
    ],
    "verdictH": "Наш вывод",
-   "verdict": "Когда в поездке есть время на один долгий визит, выбирайте <a href=\"{pickUrl}\">{N}</a> и дополните маникюр хэд-спа или спа-педикюром. Для тех, кому нужен салон с самым быстрым ростом отзывов в Google и запись после 20:00, Posh Nail Lab хороший вариант.",
+   "verdict": "Когда в поездке есть время на один долгий визит, выбирайте <a href=\"{pickUrl}\">{N}</a> и дополните маникюр хэд-спа или спа-педикюром. Для тех, кому нужен более высокая оценка в Google и запись после 20:00, Posh Nail Lab хороший вариант.",
    "faq": [
     {
      "q": "Где лучше гель-лак: в Posh Nail Lab или Reborn?",

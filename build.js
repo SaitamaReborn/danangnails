@@ -314,6 +314,7 @@ ${conclEN('/')}
 <p class="m" style="color:var(--lacquer-d);font-weight:600">${esc(s.prices[0][1])} ${esc(s.prices[0][0].toLowerCase())}</p></a>`).join('')}</div>
 <h2>Top 10 lists</h2>
 <div class="chips">${BESTOF.map(b=>`<a class="chip" href="/${b.slug}/">${esc(b.h1)}</a>`).join('')}</div>
+${S.nicheLinks('en')}
 <h2>By area</h2>
 <div class="chips">${AREAS.map(a=>`<a class="chip" href="/salons/area/${a.slug}/">${esc(a.name)}<b>${a.list.length}</b></a>`).join('')}</div>
 <h2>By street</h2>
