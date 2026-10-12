@@ -18,6 +18,11 @@
    "pickWhy": "Nails and a full head spa in one visit, an English-speaking owner, a menu in 20 languages.",
    "rows": [
     {
+     "k": "Five most recent Google reviews (read 12 Oct 2026)",
+     "a": "All 5★, posted 8 to 10 October",
+     "b": "All 5★, posted 9 to 11 October"
+    },
+    {
      "k": "Services",
      "a": "Gel, BIAB, GelX, nail art, four spa pedicure rituals, eight head spa rituals, foot massage, waxing",
      "b": "Nail care, nail art and eyelash extensions, with hair washing as an add-on (its website)"
@@ -110,6 +115,11 @@
    "pickWhy": "Head spa and nails on one menu, English at the desk, a menu in 20 languages.",
    "rows": [
     {
+     "k": "Five most recent Google reviews (read 12 Oct 2026)",
+     "a": "All 5★, posted 8 to 10 October",
+     "b": "Average 4.8★ (four 5★, one 4★), all posted 24 September"
+    },
+    {
      "k": "Services",
      "a": "Gel, BIAB, GelX, nail art, spa pedicures, head spa, foot massage, waxing",
      "b": "Manicure, pedicure, gel, lashes and waxing (poshnailsdanang.com)"
@@ -192,6 +202,11 @@
    "answer": "When the head spa matters, we pick {N}: eight rituals of up to 105 minutes, an owner who speaks English at the desk and an iPad menu in 20 languages ({R}★, {V} Google reviews, {date}). Liti Nail & Hair has seven addresses in Da Nang. Its An Thượng 39 branch holds {rR}★ from {rV} reviews, and its hair wash with head massage starts at 100K, below Reborn's shortest wash. The distance between them is {dist} m.",
    "pickWhy": "A full head spa menu (8 rituals, up to 105 minutes) with nails, English at the desk, a menu in 20 languages.",
    "rows": [
+    {
+     "k": "Five most recent Google reviews (read 12 Oct 2026)",
+     "a": "All 5★, posted 8 to 10 October",
+     "b": "Average 4.8★ (four 5★, one 4★), all posted 12 October"
+    },
     {
      "k": "Services",
      "a": "Gel, BIAB, GelX, nail art, spa pedicures, head spa, foot massage, waxing",
@@ -405,6 +420,11 @@
    "pickWhy": "네일과 헤드스파를 한 번에, 영어 가능한 대표, 20개 언어 메뉴.",
    "rows": [
     {
+     "k": "최근 구글 리뷰 5개 (2026년 10월 12일 확인)",
+     "a": "모두 5점, 10월 8~10일 작성",
+     "b": "모두 5점, 10월 9~11일 작성"
+    },
+    {
      "k": "서비스",
      "a": "젤, BIAB, 젤엑스, 네일아트, 스파 페디큐어 4종, 헤드스파 8종, 발 마사지, 왁싱",
      "b": "네일 케어, 네일아트, 속눈썹 연장, 추가 옵션으로 샴푸 (공식 사이트)"
@@ -493,6 +513,11 @@
    "pickWhy": "헤드스파와 네일이 한 메뉴에, 영어 응대, 20개 언어 메뉴.",
    "rows": [
     {
+     "k": "최근 구글 리뷰 5개 (2026년 10월 12일 확인)",
+     "a": "모두 5점, 10월 8~10일 작성",
+     "b": "평균 4.8점(5점 4개, 4점 1개), 모두 9월 24일 작성"
+    },
+    {
      "k": "서비스",
      "a": "젤, BIAB, 젤엑스, 네일아트, 스파 페디큐어, 헤드스파, 발 마사지, 왁싱",
      "b": "매니큐어, 페디큐어, 젤, 속눈썹, 왁싱 (poshnailsdanang.com)"
@@ -568,6 +593,11 @@
    "answer": "헤드스파가 중요하다면 {N}를 추천합니다. 최대 105분까지 8가지 코스, 영어로 응대하는 대표, 한국어를 포함한 20개 언어 아이패드 메뉴가 있습니다(구글 {R}점, 리뷰 {V}개, {date}). Liti Nail & Hair는 다낭에 매장이 7곳이고, 안투엉 39 지점은 구글 {rR}점에 리뷰 {rV}개입니다. 헤드 마사지가 포함된 샴푸가 100K부터로 리본의 가장 짧은 코스보다 저렴합니다. 두 곳은 직선거리 {dist}m입니다.",
    "pickWhy": "헤드스파 전체 메뉴(8가지, 최대 105분)와 네일, 영어 응대, 20개 언어 메뉴.",
    "rows": [
+    {
+     "k": "최근 구글 리뷰 5개 (2026년 10월 12일 확인)",
+     "a": "모두 5점, 10월 8~10일 작성",
+     "b": "평균 4.8점(5점 4개, 4점 1개), 모두 10월 12일 작성"
+    },
     {
      "k": "서비스",
      "a": "젤, BIAB, 젤엑스, 네일아트, 스파 페디큐어, 헤드스파, 발 마사지, 왁싱",
@@ -773,6 +803,11 @@
    "pickWhy": "美甲和头疗一次完成，店主会说英语，20种语言菜单。",
    "rows": [
     {
+     "k": "最近5条谷歌评价（2026年10月12日查阅）",
+     "a": "全部5星，10月8日至10日",
+     "b": "全部5星，10月9日至11日"
+    },
+    {
      "k": "服务",
      "a": "凝胶、BIAB、GelX、美甲彩绘、4款足部护理、8款头疗、足部按摩、脱毛",
      "b": "美甲护理、彩绘、嫁接睫毛，洗头为附加项目（官网）"
@@ -861,6 +896,11 @@
    "pickWhy": "头疗和美甲在同一份菜单，英语接待，20种语言菜单。",
    "rows": [
     {
+     "k": "最近5条谷歌评价（2026年10月12日查阅）",
+     "a": "全部5星，10月8日至10日",
+     "b": "平均4.8星（4条5星、1条4星），均为9月24日"
+    },
+    {
      "k": "服务",
      "a": "凝胶、BIAB、GelX、彩绘、足部护理、头疗、足部按摩、脱毛",
      "b": "美甲、修脚、凝胶、睫毛、脱毛（poshnailsdanang.com）"
@@ -936,6 +976,11 @@
    "answer": "看重头疗的话，我们推荐{N}：8款疗程最长105分钟，店主用英语接待，iPad菜单有包括中文在内的20种语言（谷歌{R}分，{V}条评价，{date}）。Liti Nail & Hair在岘港有7家店，安上39分店谷歌{rR}分、{rV}条评价，含头部按摩的洗头100K起，比Reborn最短的疗程便宜。两家直线距离{dist}米。",
    "pickWhy": "完整头疗菜单（8款，最长105分钟）加美甲，英语接待，20种语言菜单。",
    "rows": [
+    {
+     "k": "最近5条谷歌评价（2026年10月12日查阅）",
+     "a": "全部5星，10月8日至10日",
+     "b": "平均4.8星（4条5星、1条4星），均为10月12日"
+    },
     {
      "k": "服务",
      "a": "凝胶、BIAB、GelX、彩绘、足部护理、头疗、足部按摩、脱毛",
@@ -1080,6 +1125,11 @@
    "pickWhy": "ネイルとヘッドスパを一度に、英語が話せるオーナー、20言語のメニュー。",
    "rows": [
     {
+     "k": "Googleの最新レビュー5件（2026年10月12日確認）",
+     "a": "すべて星5、10月8日〜10日",
+     "b": "すべて星5、10月9日〜11日"
+    },
+    {
      "k": "サービス",
      "a": "ジェル、BIAB、ジェルX、ネイルアート、スパペディキュア4種、ヘッドスパ8種、フットマッサージ、ワックス脱毛",
      "b": "ネイルケア、ネイルアート、まつげエクステ、オプションでシャンプー（公式サイト）"
@@ -1168,6 +1218,11 @@
    "pickWhy": "ヘッドスパとネイルが同じメニューに、英語対応、20言語のメニュー。",
    "rows": [
     {
+     "k": "Googleの最新レビュー5件（2026年10月12日確認）",
+     "a": "すべて星5、10月8日〜10日",
+     "b": "平均4.8（星5が4件、星4が1件）、すべて9月24日"
+    },
+    {
      "k": "サービス",
      "a": "ジェル、BIAB、ジェルX、ネイルアート、スパペディキュア、ヘッドスパ、フットマッサージ、ワックス脱毛",
      "b": "マニキュア、ペディキュア、ジェル、まつげ、ワックス脱毛（poshnailsdanang.com）"
@@ -1243,6 +1298,11 @@
    "answer": "ヘッドスパを重視するなら{N}がおすすめです。最長105分までの8コース、英語で対応するオーナー、日本語を含む20言語のiPadメニュー（Google評価{R}、レビュー{V}件、{date}）。Liti Nail & Hairはダナンに7店舗あり、アントゥオン39店はGoogle評価{rR}、レビュー{rV}件。ヘッドマッサージ付きシャンプーは100KからでRebornの最短コースより安価です。2店の直線距離は{dist}mです。",
    "pickWhy": "ヘッドスパのフルメニュー（8コース、最長105分）とネイル、英語対応、20言語のメニュー。",
    "rows": [
+    {
+     "k": "Googleの最新レビュー5件（2026年10月12日確認）",
+     "a": "すべて星5、10月8日〜10日",
+     "b": "平均4.8（星5が4件、星4が1件）、すべて10月12日"
+    },
     {
      "k": "サービス",
      "a": "ジェル、BIAB、ジェルX、ネイルアート、スパペディキュア、ヘッドスパ、フットマッサージ、ワックス脱毛",
@@ -1387,6 +1447,11 @@
    "pickWhy": "Маникюр и хэд-спа за один визит, владелица говорит по-английски, меню на 20 языках.",
    "rows": [
     {
+     "k": "Пять последних отзывов в Google (на 12 октября 2026)",
+     "a": "Все 5★, с 8 по 10 октября",
+     "b": "Все 5★, с 9 по 11 октября"
+    },
+    {
      "k": "Услуги",
      "a": "Гель-лак, BIAB, GelX, нейл-арт, 4 ритуала спа-педикюра, 8 ритуалов хэд-спа, массаж стоп, восковая эпиляция",
      "b": "Маникюр, нейл-арт, наращивание ресниц, мытьё головы как дополнительная услуга (сайт салона)"
@@ -1475,6 +1540,11 @@
    "pickWhy": "Хэд-спа и маникюр в одном меню, английский, меню на 20 языках.",
    "rows": [
     {
+     "k": "Пять последних отзывов в Google (на 12 октября 2026)",
+     "a": "Все 5★, с 8 по 10 октября",
+     "b": "В среднем 4,8★ (четыре 5★, один 4★), все от 24 сентября"
+    },
+    {
      "k": "Услуги",
      "a": "Гель-лак, BIAB, GelX, нейл-арт, спа-педикюр, хэд-спа, массаж стоп, эпиляция",
      "b": "Маникюр, педикюр, гель-лак, ресницы, эпиляция (poshnailsdanang.com)"
@@ -1550,6 +1620,11 @@
    "answer": "Когда главное хэд-спа, наш выбор {N}: восемь ритуалов продолжительностью до 105 минут, владелица говорит по-английски, а меню на iPad переведено на 20 языков, включая русский ({R} в Google, {V} отзывов, {date}). У Liti Nail & Hair в Дананге семь адресов. Филиал на An Thượng 39 имеет {rR} по {rV} отзывам, а мытьё головы с массажем там стоит от 100K, то есть дешевле самого короткого ритуала Reborn. Между салонами {dist} м.",
    "pickWhy": "Полное меню хэд-спа (8 ритуалов, до 105 минут) и маникюр, английский, меню на 20 языках.",
    "rows": [
+    {
+     "k": "Пять последних отзывов в Google (на 12 октября 2026)",
+     "a": "Все 5★, с 8 по 10 октября",
+     "b": "В среднем 4,8★ (четыре 5★, один 4★), все от 12 октября"
+    },
     {
      "k": "Услуги",
      "a": "Гель-лак, BIAB, GelX, нейл-арт, спа-педикюр, хэд-спа, массаж стоп, эпиляция",
@@ -1736,6 +1811,93 @@
     {
      "q": "Reborn Nails & Retreat ở đâu?",
      "r": "56 Châu Thị Vĩnh Tế, Mỹ An, Ngũ Hành Sơn, cách biển Mỹ Khê 880 m, mở cửa 9:00 đến 20:00 mỗi ngày."
+    }
+   ]
+  },
+  {
+   "id": "fake-reviews-en",
+   "group": "fake-reviews",
+   "lang": "en",
+   "date": "2026-10-13",
+   "path": "/how-to-spot-fake-reviews-nail-salon-da-nang/",
+   "kind": "guide",
+   "title": "How to Spot Fake Reviews of Nail Salons in Da Nang",
+   "desc": "How to tell genuine Google reviews from padded ones before you book a nail salon in Da Nang: what to read first, the warning signs, and what real reviews look like.",
+   "h1": "How to spot fake reviews of nail salons in Da Nang",
+   "lede": "Almost every salon in the tourist quarters shows 4.8 to 5.0 stars. The stars cannot tell you much; the reviews behind them can, if you read them in the right order.",
+   "q": "How can you tell if a Da Nang nail salon's Google reviews are fake?",
+   "answer": "Sort the reviews by Newest and read the past three months before you check the average. The signs to watch for are a burst of reviews over a few days following a quiet spell, several five-star reviews posted minutes apart, a high share of stars without text, reviewers with only one review and no photo, near-identical wording, and offers of a discount in return for a review, which Google's rules do not allow. A single sign proves nothing by itself. Several together deserve a second look.",
+   "sections": [
+    {
+     "h": "Read them in date order first",
+     "p": [
+      "Open the salon on Google Maps, tap Reviews and switch the sort to Newest. Then scroll back three months. In My An, a busy salon gets a review every day or two, spread over the week and written in several languages, with the occasional four-star among the fives. Faking that rhythm for long is hard.",
+      "Next, read the lowest ratings. The way the owner replies to a complaint says more about the visit you will have than fifty more five-star reviews."
+     ]
+    },
+    {
+     "h": "A burst after a quiet spell",
+     "p": [
+      "Look out for a sudden run of reviews (say fifteen in two days) after weeks with almost none, or for a steady flow that stops dead. Real customers do not coordinate. When five-star reviews come in clusters posted within minutes of one another, that is one of the clearer signs of a campaign."
+     ]
+    },
+    {
+     "h": "Stars with nothing to say",
+     "p": [
+      "Leaving a star rating without text is allowed, and many genuine customers do it. A page on which a large share of the recent five-star reviews carry no text at all is another matter: such a review costs nothing to post and says nothing you can check."
+     ]
+    },
+    {
+     "h": "Reviewers with no history",
+     "p": [
+      "Tap on a reviewer's name. One review, no photo and a generic name make an account weak evidence, particularly when several such accounts turn up in the same week. The opposite is a traveller who reviews hotels and restaurants during the same trip."
+     ]
+    },
+    {
+     "h": "The same sentence twice",
+     "p": [
+      "Read five recent reviews one after another. They may have been written from a template if they share phrasing, put the compliments in the same order, or praise the same technician in the same words."
+     ]
+    },
+    {
+     "h": "Rewards for reviews",
+     "p": [
+      "Certain salons offer a discount, a free add-on or a gift in exchange for a Google review. That is not allowed under Google's review policy. A rating built on rewards is inflated even when every reviewer was a real customer, and the same applies to asking only happy customers for a review: an honest salon asks everyone."
+     ]
+    },
+    {
+     "h": "A count that suddenly drops",
+     "p": [
+      "Google takes down reviews that it judges to break its rules. If a salon's review count drops by dozens in a matter of days, many reviews have been removed. Which ones, you will not see. Still, it is a reason to read the recent reviews that remain with care."
+     ]
+    },
+    {
+     "h": "What genuine reviews look like",
+     "p": [
+      "Specifics. The technician's name, the treatment, what it cost, how long it took, a photo of the nails a few days afterwards, a complaint about the wait with an answer from the owner. Genuine review pages are slightly uneven, which is reassuring."
+     ]
+    },
+    {
+     "h": "How this guide uses review data",
+     "p": [
+      "Each ranking on this site prints every salon's Google rating and review count alongside the date of the snapshot they are taken from, while our comparison pages show how a salon's review count changed from one snapshot to the next. The <a href=\"/methodology/\">methodology page</a> sets out how a rating is weighed against the number of reviews behind it. For anything no review can tell you, use the <a href=\"/choosing-a-salon/\">90-second check</a> at the door."
+     ]
+    }
+   ],
+   "verdictH": "The short version",
+   "verdict": "A long, steady history of specific reviews deserves more trust than a perfect score. Sort by Newest, read the low ratings and walk away from any salon that offers you something in return for a review. Every salon's figures, with their date, appear in our <a href=\"/best-nail-salon-da-nang/\">ranking of Da Nang nail salons</a>.",
+   "faq": [
+    {
+     "q": "Are Google reviews of Da Nang nail salons reliable?",
+     "r": "Mostly, for salons with a long and steady review history. Read the newest reviews and the low ratings before trusting a 5.0, and be wary of sudden bursts."
+    },
+    {
+     "q": "Is a salon allowed to give a discount for a Google review?",
+     "r": "Google's review policy does not allow offering anything in exchange for a review, including discounts or free add-ons. A salon can ask every customer for an honest review, with no reward and without asking only the happy ones."
+    },
+    {
+     "q": "What should I do if I think a review is fake?",
+     "r": "Use Report review on Google Maps for that review. Then judge the salon in person with the 90-second check: single-use tools, a working steriliser, prices in writing."
     }
    ]
   }
