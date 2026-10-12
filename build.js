@@ -227,7 +227,7 @@ const S=buildSite({
  /* true takes the venues matching RIVALS out of every ranked list; they keep their own profile and their place in the raw Google order. */
  /* Pages that show the one-line reasons instead of the full list. */
  WHY_COMPACT:['/best-pedicure-da-nang/','/services/'],
- HIDE_RIVALS:false, RIVALS:/\b(lalla|posh nail|liti)\b/i,
+ HIDE_RIVALS:false, RIVALS:/\b(lalla|posh nails?|liti)\b/i,
  PROFILE_ANS_TAIL:`Across Da Nang salons that publish prices, a gel manicure costs ${MP.range.gel} VND; the full table is on the <a href="/prices/">prices page</a>.`,
  PICK_EYEBROW:"Our pick",PICK_BADGE:"Our pick",
  PICK_ONELINE:"and the reviews are written in English by visitors who name the owner and the technicians — which tells you more about a salon than any rating does.",
