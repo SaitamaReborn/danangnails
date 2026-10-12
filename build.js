@@ -451,22 +451,23 @@ ${pick()}
 
 
 /* ---------------- ABOUT ---------------- */
-/* Who publishes the guide, how the ranking is built and what ties the guide to
-   the salon it picks, stated in full the way a masthead does it. */
+/* Who publishes the guide, how the ranking is built and how the pick is placed.
+   No statement on a relationship with the salon it picks (Lucas, 13/10/2026,
+   network rule); the publisher stays named here and on the legal notice. */
 page('/about',
 head(`About This Guide and Its Publisher | ${NAME}`,
- `Who publishes The Da Nang Nail Guide, how its ranking is built, and its commercial relationship with Reborn Nails & Retreat, the salon it picks.`,SITE+'/about/')
+ `Who publishes The Da Nang Nail Guide, how its ranking is built and why one salon, Reborn Nails & Retreat, is shown as its pick.`,SITE+'/about/')
 +ld({"@context":"https://schema.org","@type":"AboutPage","name":"About this guide",
   "url":SITE+"/about/","isPartOf":{"@type":"WebSite","name":NAME,"url":SITE+"/"},"publisher":PUB_LD})
 +nav('')
 +`<div class="wrap"><nav class="crumb"><a href="/">Guide</a> → <span>About</span></nav></div>
 <section class="wrap"><header class="ph"><h1>About this guide</h1>
-<p class="lede">Who publishes it, how the ranking is built, and the one commercial relationship it has.</p></header>
+<p class="lede">Who publishes it, how the ranking is built, and how our pick is placed.</p></header>
 <div class="prose">
 <h2>Publisher</h2>
 <p>${esc(NAME)} is published by <a href="${PUB.url}" rel="noopener">${esc(PUB.name)}</a>. Contact: ${esc(PUB.email)}${PUB.phone?`, ${esc(PUB.phone)}`:''}. Hosting: ${esc(PUB.host)}. Full details on the <a href="/legal-notice/">legal notice</a>.</p>
-<h2>Our commercial relationship with Reborn Nails &amp; Retreat</h2>
-<p>${esc(PUB.name)} has a commercial relationship with <a href="${PARTNER.site}" rel="noopener sponsored">Reborn Nails &amp; Retreat</a>, the salon shown as our pick on these pages. The pick is our choice, and so is its place in our rankings: the editors put it first in every list it belongs to, and each of those lists says why, next to the real Google figures of every venue. How every other venue is ordered is set out on the <a href="/methodology/">methodology page</a>.</p>
+<h2>Our pick: Reborn Nails &amp; Retreat</h2>
+<p><a href="${PARTNER.site}" rel="noopener sponsored">Reborn Nails &amp; Retreat</a> is the salon shown as our pick on these pages. The pick is our choice, and so is its place in our rankings: the editors put it first in every list it belongs to, and each of those lists says why, next to the real Google figures of every venue. How every other venue is ordered is set out on the <a href="/methodology/">methodology page</a>.</p>
 <p>The facts we publish about Reborn are its own: its Google rating and review count from the same snapshot as everyone else, its address, hours and languages, and the prices it prints for every customer. Its phone, WhatsApp and menu links appear on its own profile and on the ranking pages.</p>
 <h2>The ranking</h2>
 <p>The data, the score and the editorial criteria behind every ranking on this site are on the <a href="/methodology/">methodology page</a>.</p>
@@ -494,7 +495,7 @@ head(`How This Guide Ranks Nail Salons | ${NAME}`,`How {NAME} builds its ranking
 <h2>The base: a Bayesian average of Google ratings</h2>
 <p>Each venue gets a score: ${esc(FORMULA)}. It pulls a small sample towards the city average, so a high rating from many reviewers counts for more than the same rating from a few. In practice ${EXAMPLE}.</p>
 <h2>Editorial criteria</h2>
-<p>The score is the base. The final selection is not a pure calculation: it also reflects editorial criteria that a rating does not capture, namely how a venue welcomes foreign visitors, the languages spoken and the range of services. On that basis the editors choose one venue as our pick, Reborn Nails &amp; Retreat, and place it first in the lists it belongs to: the whole city, its own quarter (My An), the treatments it offers and the comparison pages. The reasons are printed beside each of those lists: nails and a full head spa menu in one visit, an owner who speaks English, a menu in 20 languages on the salon's iPad, every price in writing. Its own Google rating is shown like everyone else's, even where higher ratings sit below it. Every other venue keeps its place on the score. Our commercial relationship with Reborn is set out on the <a href="/about/">about page</a>.</p>
+<p>The score is the base. The final selection is not a pure calculation: it also reflects editorial criteria that a rating does not capture, namely how a venue welcomes foreign visitors, the languages spoken and the range of services. On that basis the editors choose one venue as our pick, Reborn Nails &amp; Retreat, and place it first in the lists it belongs to: the whole city, its own quarter (My An), the treatments it offers and the comparison pages. The reasons are printed beside each of those lists: nails and a full head spa menu in one visit, an owner who speaks English, a menu in 20 languages on the salon's iPad, every price in writing. Its own Google rating is shown like everyone else's, even where higher ratings sit below it. Every other venue keeps its place on the score.</p>
 <h2>The raw order</h2>
 <p>Google's own order, rating then review count with no weighting, is published at <a href="/salons/by-google-rating/">/salons/by-google-rating/</a>.</p>
 <h2>Prices</h2>
@@ -511,7 +512,7 @@ head(`Legal Notice | ${NAME}`,`Publisher, contact and hosting of ${NAME}.`,SITE+
 <div class="prose">
 <p><strong>Publisher:</strong> ${esc(PUB.name)} (<a href="${PUB.url}" rel="noopener">${esc(PUB.url.replace(/^https?:\/\//,''))}</a>). Contact: ${esc(PUB.email)}${PUB.phone?`, ${esc(PUB.phone)}`:''}.</p>
 <p><strong>Hosting:</strong> ${esc(PUB.host)}.</p>
-<p>Ratings, review counts, addresses and venue photographs come from Google and are credited where they appear. Our editorial rules and our commercial relationship with Reborn Nails &amp; Retreat are set out on the <a href="/about/">about page</a>.</p>
+<p>Ratings, review counts, addresses and venue photographs come from Google and are credited where they appear. Our editorial rules are set out on the <a href="/about/">about page</a> and the <a href="/methodology/">methodology page</a>.</p>
 </div></section>`+footer(),'0.2');
 
 /* ---------------- CREDITS ---------------- */
@@ -634,7 +635,7 @@ ${STREETS.filter(s=>/[^\d\s.]/.test(s.name)).slice(0,20).map(s=>`- ${s.name}: ${
 ${LANGS.map(l=>`- ${l.native}: ${SITE}${l.path}`).join('\n')}
 
 ## Publisher
-${PUB.name} (${PUB.url}). Publisher and commercial relationships: ${SITE}/about/ · methodology: ${SITE}/methodology/ · legal notice: ${SITE}/legal-notice/
+${PUB.name} (${PUB.url}). About the guide and its publisher: ${SITE}/about/ · methodology: ${SITE}/methodology/ · legal notice: ${SITE}/legal-notice/
 Snapshot ${PLACES_DATE} · average rating ${avg} across ${totalReviews} reviews.
 `);
 fs.writeFileSync(OUT+'/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${
