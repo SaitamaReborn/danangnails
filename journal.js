@@ -9,6 +9,100 @@
 
 const JOURNAL = [
 {
+    "slug": "da-nang-nail-salon-chains-branches",
+    "title": "Chi nhánh: six Litis, four Lenas, and why you book a person rather than a brand",
+    "desc": "Eighteen of the 151 nail salons in this guide share a name with another address. Two of those names publish a five-day guarantee and a full price list. Neither can promise you the same pair of hands, because the hands move between branches and the reviews say so.",
+    "date": "2026-10-17",
+    "cat": "Guides",
+    "read": 8,
+    "tldr": [
+      "In this guide, six names appear at more than one address: Liti at six, Lena at four, Posh at two, <a href=\"/salons/ciao-nail-studio-gfwl0e/\">Ciao</a> at two, Quin Quin at two, Mei at two. Eighteen addresses out of 151. Together they account for 10,990 of the 53,433 Google reviews behind this guide, barely more than <a href=\"/salons/suzy-nails-and-foot-massage-esqerm/\">수지네일 Suzy Nails at 109 Trần Phú</a> holds on its own: 10,343, at one address, in one room.",
+      "A chain sells you a number in writing. Lena publishes a five-day free-fix guarantee that is valid at any of its four branches; it excludes knocks and picking and prices a single-nail repair at 70,000 đồng. Two Liti customers, at two different Liti branches, report the same five days with nothing in print. These two chains are two of the six Da Nang salons whose public menus sit behind <a href=\"/prices/\">the price table</a>.",
+      "The hands are what it cannot sell you. Technicians move between addresses: a reviewer's <em>Hà 38</em> is named at three different Litis, <em>Anh 75</em> at two, and a <em>Dung</em> shows up at three of the four Lenas. The numbers after those first names are a staff register. They are the most useful thing you can write down.",
+      "This piece's view: take the chain for the slot, the printed price and somewhere to walk back to within five days. Take the one-room studio for the work itself. Seventy-two of the 151 salons here have fewer than 100 reviews, and one of them is a home studio on Võ Nguyên Giáp that takes a single client at a time."
+    ],
+    "body": [
+      {
+        "h": "Eighteen addresses, six names",
+        "p": [
+          "The 151 nail salons in this guide carry 53,433 Google reviews between them and the median salon has 110. Read the names as a list and six of them appear twice or more. That is 18 addresses. The other 133 appear once each, with one caveat I will come back to.",
+          "The big one is Liti. It has six addresses: <a href=\"/salons/liti-nail-and-hair-vf5d60/\">07 Lê Quang Đạo</a> with 1,496 reviews, <a href=\"/salons/liti-nail-and-hair-2-yr4t0e/\">08 An Thượng 39</a> with 1,307, <a href=\"/salons/liti-nail-hair-my-khe-beach-bplrik/\">107A Đình Nghệ</a> with 1,218, <a href=\"/salons/liti-msojcs/\">184 Đặng Vũ Hỷ</a> with 860, <a href=\"/salons/liti-nail-and-hair-1-lwuoam/\">22 Triệu Việt Vương</a> with 751 and <a href=\"/salons/da-nang-nail-hair-liti-uyrjjg/\">93A Yên Bái</a> with 374. Four of the six are at 4.9, two at 4.8. That comes to 6,006 reviews in total.",
+          "Then <a href=\"/salons/lena-nails-and-beauty-7zcc28/\">Lena Nails and Beauty</a>, four addresses and 1,862 reviews, led by 89 Phạm Tu at 993 and trailed by 68/4 Bạch Đằng with 61. Posh has two, both inside the An Thượng grid and both sitting at a flat five: <a href=\"/salons/posh-nail-lab-dwhpgy/\">Posh Nail Lab at 2 An Thượng 32</a> with 992 reviews and Posh Nails and Spa at 6 An Thượng 9 with 794. Ciao has two, 652 at 22 Mai Thúc Lân and 147 at the newer 05 Nguyễn Thông. Quin Quin has two, 235 on Phan Thanh and 170 on Nguyễn Hoàng. Mei has two, 105 on Nguyễn Duy Hiệu and 27 on Võ Nguyên Giáp.",
+          "Two edge cases are worth naming because they are the shape of the problem. <a href=\"/salons/lalla-nail-branch-1-iqxxo0/\">Lalla Nail Branch 1</a> at 8 An Thượng 29 has 1,154 reviews and calls itself Branch 1, and no Branch 2 appears anywhere in this guide. <a href=\"/salons/r-nail-and-spa-1-nail-eyelash-eyebrow-shampoo-waxing-pjmfqa/\">R Nail &amp; Spa 1 at 1 An Thượng 4</a> and R Nail &amp; Spa 3 on Võ Nguyên Giáp hand out the same menu, literally: both listings point at one Google Drive file. The 3 is filed on Google as a spa rather than a nail salon, so it sits outside the 151 and outside my count.",
+          "This is the number that puts the chains in proportion. Together, all 18 chain addresses hold 10,990 reviews. On its own, Suzy Nails on Trần Phú holds 10,343. Eleven salons in this guide have passed 1,000 reviews, and three of those eleven are Litis. Whatever concentration looks like in this trade, branding is not how it happens."
+        ]
+      },
+      {
+        "h": "How to tell a chain from two shops that share a name",
+        "p": [
+          "Test one is the website, and it is the only one that proves anything. Lena's four branches each get their own page on lenanailsdanang.com, filed by area: an-thuong, son-tra, nguyen-van-thoai, hai-chau. Posh's two An Thượng addresses both point at poshnailsdanang.com. R Nail 1 and R Nail 3 share that single Drive link. Those three are settled.",
+          "Liti is messier than its size suggests. Lê Quang Đạo lists litinailhair.com, An Thượng 39 and Đặng Vũ Hỷ list litinailhair.vn, Yên Bái lists litinailhair.vn/liti8/, and the other two list an Instagram account. Quin Quin's pair point at two separate Facebook pages. Mei's pair point at one Instagram and nothing at all.",
+          "Test two is the clock, and it is weaker but free. Liti's six addresses all open 9am and shut 8.30pm, every day of the week, with no variation anywhere in the set. Lena's four all run 8.30 to 8.30. Ciao's two match each other, Quin Quin's two match each other. Mei's two do not: 9 to 9 on Võ Nguyên Giáp against 8.30 in the morning to 10 at night on Nguyễn Duy Hiệu. Two shops on one roster tend to keep one roster. Two shops that merely share a word do not.",
+          "Posh is where the clock test runs out. It has one website and two addresses, but different closing times: the Lab on An Thượng 32 stays open until 9pm, while An Thượng 9 shuts at 8. On a grid where <a href=\"/salons/area/my-an-and-an-thuong/\">salons sit a few doors apart</a>, quarter past eight is the entire difference between them. Both of the big chains close early against the <a href=\"/journal/nail-salon-opening-hours-da-nang/\">nine to nine that most of this city keeps</a>.",
+          "The reason any of this matters is narrow and practical. A Google review is attached to one address, not to a name, and the five-star write-up that sent you across town was written about a specific room with specific people in it. Reading Liti's 6,006 reviews as one score is reading six businesses as one."
+        ]
+      },
+      {
+        "h": "Liti counts to ten and lists seven",
+        "p": [
+          "On 13 October 2026 litinailhair.vn says the business has seven locations across Da Nang. It numbers them Outlet 1, 2, 5, 7, 8, 9 and 10. Three numbers in that run are simply absent from the page.",
+          "Outlet 5 is 07 Lê Quang Đạo, the branch with the most reviews. Outlet 7 is 01 An Thượng 26, which does not appear in this guide's nail-salon set at all. Meanwhile Google calls Lê Quang Đạo <em>Liti Nail &amp; Hair</em>, An Thượng 39 <em>Liti Nail &amp; Hair 2</em> and Triệu Việt Vương <em>Liti Nail &amp; Hair 1</em>. So the chain's own number, the name on Google and the street address are three different systems, and no two of them agree.",
+          "That leaves one identifier that works. Use the street. One customer at Lena's An Thượng 3 room spelled the warning out for everybody: the location is newer, so make sure you Grab or walk to the correct one. Give a driver in this city a brand name and he will take you to whichever pin his app likes, and <a href=\"/journal/da-nang-ward-names-salon-addresses/\">the ward reshuffle has already made the second half of every address unreliable</a>. What still holds is the house number and the street.",
+          "There is a reason the numbering is running ahead of the listings. Da Nang's official tourism portal reported about 12.1 million visitor arrivals at the city's accommodation businesses in the first seven months of 2026, up 24.8% on the same period in 2025, with international arrivals up 28.1%. My reading of what the salons did with that: a nail room is capped by chairs and by pairs of hands, and you cannot make a hand faster, so growth here means another room rather than a bigger one. Liti's own numbering has reached Outlet 10."
+        ]
+      },
+      {
+        "h": "Five days, and only one of them prints it",
+        "p": [
+          "Lena's services page carries the clearest warranty this guide has found in Da Nang. If a nail lifts, cracks or breaks because of how it was applied, the fix is free within five days, at any of the four branches. Damage from knocks or picking is excluded and a single-nail repair is 70,000 đồng. You message on WhatsApp with a photo and they arrange a time.",
+          "Liti runs the same five days without printing them. A customer at An Thượng 39 who paid 1.2 million for a full Gel X set and a pedicure writes that she was given five days to come back if she was unhappy, and adds two things that belong in the same sentence: the technicians told her the total before starting, and they worked past closing time to finish. A separate customer at Yên Bái mentions a five-day policy if anything gets messed up. Different branches, same number, no document.",
+          "<a href=\"/journal/how-long-gel-nails-last-da-nang/\">When this guide went looking for a Da Nang warranty in September</a>, it turned up published policies in Saigon and Hanoi and nothing in print here. That has changed, and scale is what changed it. Five days is shorter than the seven published by two Saigon at-home services. But it holds at four addresses rather than one, and for a visitor moving around the city that is worth more than the extra two days.",
+          "The menus come with the same logic. Lena publishes a manicure at 70K, a manicure with gel colour at 200K, tip extensions with gel at 400K, builder gel with gel at 500K, gel removal at 30K and its Special Design line at 320K. Liti publishes a gel manicure from 200K, a Gel X full set from 400K, acrylic on natural nails from 500K, BIAB from 400K with a fill at 350K and soft gel removal from 60K. Set those against <a href=\"/prices/\">the city ranges built from six published menus</a>, checked on 2 October 2026: gel colour 70K to 300K, BIAB 300K to 450K, extensions 60K to 550K, removal 10K to 150K. Both sit above the midpoint on gel, builder gel and extensions, and Lena's 30K removal sits near the floor of a band that runs to 150K. What you buy at these two is not a cheap set. It is a number you can read before you sit down.",
+          "Lena also prints something almost nobody prints: card payments carry a 4% surcharge. Take that as the honest version rather than a complaint, because <a href=\"/journal/paying-cash-card-da-nang-nail-salons/\">this city runs on cash and the surcharge is usually silent</a>. Four per cent on a 500K set is 20,000 đồng. Knowing about it in advance is worth more than avoiding it."
+        ]
+      },
+      {
+        "h": "Hà 38, Anh 75, Hà lớn: the register behind the chair",
+        "p": [
+          "Read enough Liti reviews and you notice people thanking a number. Ha38. Anh75. Linh92. One customer at Đặng Vũ Hỷ thanks <em>Nhu Nga Ha 38</em> in a single breath, which is three technicians, one of them numbered.",
+          "Names collide, which is why the numbers exist. A chain with six or seven rooms and several technicians in each will hold four Trangs and three Hàs, and Vietnamese has a short fix for that, one customers then copy down: <em>lớn</em> and <em>nhỏ</em>, elder and younger. Reviews are full of it. Ha lon and Ha Nho. Truc Lon at two separate branches. Na Nho on Đình Nghệ. When that is not enough, the shop adds a figure, and that figure is what lands in the review.",
+          "Now the part that decides how you book. Ha38 is named in reviews of three different Liti addresses: Lê Quang Đạo, Đình Nghệ and Đặng Vũ Hỷ. Anh75 turns up at both An Thượng 39 and Yên Bái. A Trang is thanked at four of the six. On the Lena side a Dung is named at three of the four branches, a Py at two, a Quynh at two, a Tam at two. First names repeat and I cannot prove from a review that two Trangs are one woman. The numbered ones are harder to argue with, and the direction of travel is clear enough: staff move between these rooms.",
+          "Picking the branch, then, does not pick the technician, and the technician is what the review was really about. Look at what specific people are credited with. At Lena's An Thượng 3 room, Hanh did a pedicure in W7 shade NP015 while Dung built up two nails split down their length, then topped them with BIAB, a cat eye finish and a chrome french. The same customer's daughter had Kiu do her toes and Quynh do her extensions and art. That is four technicians at one address in one afternoon, and the review names all four.",
+          "That afternoon has a price too, given by a different customer at the same room: a builder BIAB infill at 400K, chrome at 120K, the cat eye at 100K on top, then a pedicure at 400K plus another 120K of chrome. It took three hours in the chair, and she says plainly this is not the quick option. Because chrome and cat eye are charged flat per set rather than per nail, the bill stays under what ten hand-painted nails would cost at <a href=\"/services/nail-art/\">the 5K to 120K per nail the price table reports</a>.",
+          "Put the street and the person in the message. <a href=\"/journal/book-nail-appointment-da-nang/\">Booking here happens on WhatsApp, Instagram or Messenger anyway</a>, so there is a text field sitting right there: name the address, name the technician, quote the number if the review gave you one. Asking for Hà 38 at Đình Nghệ is a request a salon can act on. Asking for Liti is not."
+        ]
+      },
+      {
+        "h": "What the single room still does better",
+        "p": [
+          "Seventy-two of the 151 salons in this guide have fewer than 100 reviews and 31 have fewer than 50. That is not a tail of failures. It is most of the trade, and it is where the format changes.",
+          "Mei.nail, at 472/27 Võ Nguyên Giáp, is somebody's home, with 27 reviews at a flat five. Customers describe one client at a time, so the room is quiet, plus two details no chain review in this dataset mentions: she hands out gloves for the lamp, and she takes old gel off gently rather than fast. At <a href=\"/salons/mira-b-nails-szcwm0/\">MIRA B Nails, K35 on Tô Hiến Thành</a> (70 reviews at 4.9), the owner does every stage herself, which means you book instead of walking in. One of her customers brought her own nail scissors and says that was fine. Try that at a six-branch chain on a Saturday afternoon.",
+          "The thing you give up is slack. A chain absorbs a group: at Posh Nail Lab a party of three needing two sets and three pedicures had extra staff called in, and at Liti's Yên Bái room three friends with no appointment were fitted in for the evening. A one-woman studio cannot do that, which is the whole reason <a href=\"/journal/group-nail-booking-da-nang/\">booking for a group is a different exercise</a>.",
+          "And there is a trap in the other direction that a shared name creates. The second Mei, at 5 Nguyễn Duy Hiệu, has no website, different hours and no demonstrable link to the first. It also carries the harshest review in this part of the dataset: a customer who had booked a specific service the day before says her old nails were filed down to begin with, she was then told there was no technician available to do what she had come for, and the filing carried on regardless. One star. Search <em>Mei nail Da Nang</em> and you get both rooms. Nothing on Google tells you which one the good reviews belong to except the address, and that is the point of this entire piece.",
+          "The sorting rule is short. When you need a slot today, a price you can read in advance and a door you can walk back through on day four, book a chain branch by its street. For the set that gets photographed, find the room with 60 reviews and one person's name all over them, then message her two days out. <a href=\"/choosing-a-salon/\">The three questions at the door do not change either way</a>. Who answers them does: at a chain, whoever is free, and at a studio, the woman who will be holding the file."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Which nail salon chains are there in Da Nang?",
+        "Six names in this guide appear at more than one address, 18 addresses out of 151. Liti has six: Lê Quang Đạo, An Thượng 39, Đình Nghệ, Đặng Vũ Hỷ, Triệu Việt Vương and Yên Bái, with 6,006 Google reviews between them, and its own site claims seven locations numbered up to Outlet 10. Lena Nails and Beauty has four, on Phạm Tu, Nguyễn Văn Thoại, An Thượng 3 and Bạch Đằng, with 1,862 reviews. Posh has two An Thượng addresses sharing one website, Ciao has two, Quin Quin has two and Mei has two. The 18 together hold 10,990 reviews, which is only slightly more than the single most reviewed salon in the city manages at one address."
+      ],
+      [
+        "Are all the branches of a Da Nang nail chain the same?",
+        "No, and the review counts show it. Lena's Phạm Tu room has 993 reviews; its Bạch Đằng room has 61. Four Liti branches are at 4.9 and two at 4.8. Some things the chain does standardise: Liti's six addresses all open 9am to 8.30pm every day, Lena's four all run 8.30 to 8.30, both publish one price list for every branch, and Lena's five-day free-fix guarantee holds at any of the four. The technician is what it does not standardise, since staff move between addresses. Hà 38, one numbered technician, is thanked by name in reviews of three different Liti branches."
+      ],
+      [
+        "Do Da Nang nail chains guarantee their work?",
+        "On its own site, Lena publishes a five-day guarantee. If a nail lifts, cracks or breaks because of how it was applied, the repair is free within five days at any of its four branches; you arrange it by sending a photo on WhatsApp. Damage from knocks or picking is excluded, and a single-nail repair outside that costs 70,000 đồng. Liti prints no policy, though customers at two different Liti branches describe the same five-day window. Independent salons usually have no written policy at all, and the practical rule is the same: message the shop with a photo within the first week and go back."
+      ],
+      [
+        "Can I ask for a specific nail technician in Da Nang?",
+        "Yes, and at a chain you should, since the branch does not decide who works on you. Liti customers routinely credit a technician by a numbered name such as Hà 38, Anh 75 or Linh 92. Vietnamese shops also tell apart two staff with the same first name as lớn and nhỏ, elder and younger. Those numbers and tags form an internal staff register, so quoting one is unambiguous in a way a first name is not. In this city booking happens on WhatsApp, Instagram or Facebook Messenger: put the house number, the street and the technician's name or number in one message, and send your reference photo along with it."
+      ]
+    ]
+  },
+{
     "slug": "hair-wash-lashes-da-nang-nail-salons",
     "title": "Gội đầu, nối mi, waxing: the second trade named on 28 of 151 Da Nang nail shops",
     "desc": "Fourteen Da Nang nail shops advertise a hair wash in their own listing name and ten advertise lashes. In the 715 reviews behind this guide the shampoo comes up 27 times, the lashes twelve. One salon publishes both price lists, and the distance between 70K and 700K is the whole piece.",
