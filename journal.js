@@ -9,6 +9,94 @@
 
 const JOURNAL = [
 {
+    "slug": "small-nail-studios-da-nang",
+    "title": "Nailroom 1-1: the one-chair rooms, and the arithmetic behind a flat 5.0",
+    "desc": "72 of the 151 nail salons in this guide carry fewer than 100 Google reviews, and all 72 together hold 7.6% of the city's review text. Nineteen of the 31 smallest show a perfect 5.0. One of the eleven biggest does. A low count means four different things and only one of them is a warning.",
+    "date": "2026-10-24",
+    "cat": "Guides",
+    "read": 7,
+    "tldr": [
+      "Most of the board is long tail. Here the median salon has 110 Google reviews; 72 of the 151 have fewer than 100, and 31 have fewer than 50. The eleven shops with four-figure counts hold 27,115 of the city's 53,433 reviews, which is almost exactly half, while the 72 small rooms share 4,073. All 15 salons out in <a href=\"/salons/area/da-nang/\">Cẩm Lệ, Liên Chiểu, Hòa Khánh and Hòa Xuân</a> sit in that tail, and the biggest of them is on 93 reviews.",
+      "Before it is a compliment, a flat 5.0 is a sample size. Fifty-nine of the 151 salons have one. Nineteen of the 31 shops under 50 reviews do too, compared with exactly one of the eleven above a thousand: <a href=\"/salons/lalla-nail-branch-1-iqxxo0/\">Lalla Nail Branch 1</a>, with 1,154 reviews and not one of them below five stars. One bad afternoon drops a 22-review shop to 4.8, yet it moves <a href=\"/salons/suzy-nails-and-foot-massage-esqerm/\">Suzy Nails and its 10,343</a> by nothing.",
+      "There are four reasons the number runs low, and only the last of them is a reason to walk on: the shop opened this year, the listing moved along with the technician, somebody left a salon to open her own room, or it is a quiet branch of a brand you already know. <a href=\"/salons/lena-nails-and-beauty-xcd8ma/\">Lena's room at 68/4 Bạch Đằng</a> has 61 reviews. <a href=\"/salons/lena-nails-and-beauty-7zcc28/\">Lena on Phạm Tu</a> has 993. The menu is the same.",
+      "Here is what one chair cannot manage: your hands and feet at once, a walk-in queue, or every technique on request. Money runs the other way. One reported mani and pedi together at <a href=\"/salons/chuty-nailroom-fn4ihw/\">Chuty Nailroom, 169/5 Trần Phú</a>, came to 350K, compared with <a href=\"/prices/\">200K to 300K for a pedicure with gel colour alone</a> at the salons that publish their menus."
+    ],
+    "body": [
+      {
+        "h": "Seventy-two rooms that never make the listicles",
+        "p": [
+          "English-language coverage of this trade is about twenty shops wide. Vinpearl's roundup, dated 28 July 2025, carries 17 Da Nang nail salons; VinWonders runs its own version naming DzonDzon, Nail Villa, Reverie and Sora K-Nail. Those lists are not wrong. They are simply the same two dozen addresses circulating between sites, and this guide counts 151 nail salons in the city before the spas, beauticians and barbers that also take nails.",
+          "Sorted by review count, those 151 make a steep shape. The median is 110. Seventy-two fall below 100, thirty-one below 50, and the smallest listing on the board has twenty. At the far end, eleven salons have four figures, and together they hold 27,115 of the 53,433 reviews in this dataset. Eleven shops: half of the city's written experience. The 72 small rooms make up 4,073 reviews, seven and a half per cent.",
+          "On the map, the tail sits somewhere else too. Twenty-seven of the 72 are in <a href=\"/salons/area/hai-chau/\">Hải Châu</a>, thirteen are on the beachfront, eight in the An Thượng grid, and fifteen out in wards most visitors never reach; there, <a href=\"/salons/tai-nail-private-nail-ngu-hanh-son-kyrp2y/\">Tài Nail, which trades as Private Nail, at 21 Phan Hoan</a> is the most-reviewed shop in the entire outer belt, with 93.",
+          "There is one more split, and this one is useful. Twenty-eight of the 72 publish no link at all. Among those that do, Facebook beats Instagram 21 to 14, with a single TikTok. For the 79 larger salons the ratio flips: Instagram 19, Facebook 11. A shop whose only online shopfront is a Facebook page is not behind the times. What it tells you, accurately, is that its customers are Vietnamese and local, and that is also why prices in this half of the market look the way they do."
+        ]
+      },
+      {
+        "h": "Why the smallest shops have the best scores",
+        "p": [
+          "Fifty-nine of the 151 salons in this guide display a flat 5.0. It sounds like a city full of perfect technicians, at least until you sort those perfect scores by how many people produced them. Nineteen of the 31 salons with fewer than 50 reviews sit on 5.0. Of the eleven with more than a thousand, one does: Lalla Nail Branch 1, on An Thượng 29, which has 1,154 reviews without dissent in any of them. That is the only genuinely remarkable rating on the board.",
+          "Arithmetic is the mechanism, not virtue. <a href=\"/salons/nhung-brows-and-nails-syd4se/\">Nhung Brows &amp; Nails on Nguyễn Phước Nguyên</a> has 22 reviews. One of them comes from a customer who says the owner and an apprentice worked on her together and she still ended up bleeding; it is the only rating under five on the page, and it pulls the average down to 4.8. Give that identical review to Suzy Nails on Trần Phú, where 10,343 people have already voted, and the number on the sign does not shift. A small shop's score swings with each visit. The big shop's cannot.",
+          "Which inverts the way most people read these pages. Across the 72 small rooms, only six rate below 4.8, and the ones that do are the ones with enough reviews to have a bad day on record. <a href=\"/salons/chuty-nailroom-fn4ihw/\">Chuty Nailroom sits at 4.6 on 69 reviews</a>, carrying a three-star that explains in detail what went wrong, and the shop is a long way from bad: another customer calls the quality consistent across months of visits.",
+          "Here, then, is the view I will defend. A 4.6 that shows you its complaint beats a 5.0 built on 22 people, since the first has been tested and the second has not. Treat the count as a confidence interval and the stars as a rumour. Then <a href=\"/how-to-spot-fake-reviews-nail-salon-da-nang/\">sort by newest and read the past three months</a>: that is the only part of the page that describes the shop as it exists this week."
+        ]
+      },
+      {
+        "h": "Four reasons the number is small",
+        "p": [
+          "First, and most often, the shop is new. <a href=\"/salons/corte-nail-studio-vja8we/\">Corté Nail Studio at 74 Trần Phú</a> has 42 reviews, and several mention a grand-opening promotion along with prices the reviewers call very cheap. A new room pays for its first fifty customers with the menu: a real discount, but a temporary one rather than a standing one.",
+          "Second, the listing has moved. At <a href=\"/salons/saigon-nail-art-t-i0mq/\">Saigon Nail Art, 110 Nguyễn Xuân Khoát</a>, now on 44 reviews, a customer writes that Annie had recently changed address and lost all her five-star reviews in the process. What the count measures is the pin, not the pair of hands. A Google page tells you nothing about how long the technician has been working; it only shows how long this particular entry has existed.",
+          "Third, somebody has gone out on her own. At <a href=\"/salons/tiem-nail-con-ong-nail-goi-dau-uon-mi-xkh6cq/\">Tiệm Nail Con Ong, 01 Đinh Văn Chấp in Hòa Xuân</a> (54 reviews), a customer explains that she used to see the owner back when the owner was an employee at another Da Nang salon, kept in touch, and followed her as soon as she opened her own shop. This is the standard career path in the trade, and what it produces is a brand-new listing attached to ten years of experience.",
+          "Fourth, it is a branch. Lena's room at 68/4 Bạch Đằng has 61 reviews, while the Phạm Tu room has 993 and the Nguyễn Văn Thoại room 543. Liti runs six addresses the same way. <a href=\"/journal/da-nang-nail-salon-chains-branches/\">The brand is not the unit of quality here, the technician is</a>, which means a quiet branch is usually just a quiet street.",
+          "And then the fifth case, which is the one the other four are often mistaken for: the shop is small because it is not good. <a href=\"/salons/timi-nail-fwghls/\">Timi Nail on Lê Đình Dương</a>, 74 reviews at 4.8, holds a two-star from a customer who says she was charged double what she had been quoted the day before. That is the thing to screen for, and it is visible in ninety seconds of reading, not in the average."
+        ]
+      },
+      {
+        "h": "Kiệt 60/30, and the staircase with the small sign",
+        "p": [
+          "Sixteen of the 151 addresses in this guide have a slash in them, and that slash is the entire difficulty. In 169/5 Trần Phú, 169 is the house on Trần Phú next to which a lane opens, and 5 is a door inside the lane. <a href=\"/salons/lam-s-nail-academy-9d7v3a/\">Lâm's Nail Academy</a> gives its address as Kiệt60/30, Trưng Nữ Vương; kiệt is the central Vietnamese word for that lane, where Hanoi says ngõ and Saigon says hẻm. <a href=\"/salons/mira-b-nails-szcwm0/\">MIRA B Nails</a> appears at K35, 17 Tô Hiến Thành. The idea is the same, the spelling shorter.",
+          "The Chuty customer puts the experience plainly: do not let the small alleyway entrance fool you, because inside it is spacious and clean. <a href=\"/salons/mei-nail-wqzc0s/\">Mei.nail is at 472/27 Võ Nguyên Giáp</a>, which reads like a beach-road address and is not on the beach road. <a href=\"/salons/guu-nail-studio-yyy0ve/\">Guu Nail Studio on Yên Bái</a> is upstairs, and a reviewer notes that there is a small sign at street level to help you find it, easy once you know where to look, which is a sentence that only gets written about places people initially walked past.",
+          "What this means for an evening appointment. Travel by the map pin rather than the written address, because a Grab driver reads the first number and stops at the mouth of the lane, which is correct and is not the door. Allow five minutes on foot at the end. Ask the shop for a photo of its own entrance when you message, which costs nobody anything and solves this completely. And remember that the street name may be the least stable part of the whole thing after <a href=\"/journal/da-nang-ward-names-salon-addresses/\">the ward reshuffle rewrote what sits after the comma</a>."
+        ]
+      },
+      {
+        "h": "One chair, and the three things it cannot do",
+        "p": [
+          "It cannot do two services at once. At <a href=\"/salons/hehe-nail-room-a14yda/\">Hehe Nail Room, 182b Phan Châu Trinh</a>, a customer who was quoted about 750K for removal plus a new set of extensions turned up early for a one o'clock appointment and walked out at half past five. Five hours. She gives it four stars and says the nails look exactly like the reference photo; her only complaint is the clock. A staffed salon puts a second technician on the feet, and the same work finishes in two. If you are booking <a href=\"/journal/group-nail-booking-da-nang/\">for more than two people</a>, a one-chair room is entirely the wrong shape of shop.",
+          "It also cannot carry every technique. The clearest example in the dataset is the three-star at Chuty. The customer arrived in ordinary polish that needed acetone, had it treated as gel and taken off with an electric file, then asked for extensions on two nails, was told acrylic, and ended up with press-ons and glue instead of <a href=\"/services/gelx-nail-extensions/\">the GelX she was expecting</a>. None of that is malice. A small room is doing its best with whatever kit and vocabulary it has, which is why you name the method in your message, not the look.",
+          "And it cannot hold a queue. MIRA B does not take walk-ins, the Chuty regulars say a reservation is a must, and Mei.nail works on one client at a time by design. The city is forgiving about this because there is always another shop: at <a href=\"/salons/see-nails-ze9hva/\">See Nails, 197 Đặng Vũ Hỷ</a>, a customer turned away by three salons for having no booking was taken straight in. You will get your nails done. You will not get them done by the specific person whose work sent you across town.",
+          "The fourth thing is language, though it behaves unlike the other three. At <a href=\"/salons/tiem-nail-nha-may-may-nailroom-6vs2py/\">Tiệm Nail Nhà Mây on Nguyễn Phong Sắc in Cẩm Lệ</a>, which has 37 reviews, a visitor set everything up over WhatsApp in advance, discovered the owner spoke no English, ran the appointment through Google Translate, and left saying the difference from a commercial salon was obvious. <a href=\"/journal/book-nail-appointment-da-nang/\">The booking happens in a message thread anyway</a>, and message threads translate."
+        ]
+      },
+      {
+        "h": "What the small room is actually for",
+        "p": [
+          "<a href=\"/salons/thien-ban-nailroom-1-1-yykmji/\">Thiên Ban Nailroom 1-1, 9 Bàu Sen 1 in Thanh Khê</a> (38 reviews) puts the whole proposition into its own trading name. One technician, one client, no second chair. A regular calls it a 1:1 salon for people who do not like crowds, and another dropped in before a flight since it is near the airport. This is a product, not a shrunken salon, and the people who buy it are paying for the quiet.",
+          "Care details come out of the same arithmetic. A Mei.nail customer who had chrome done mentions that the old gel came off gently and that she was given protective gloves for the lamp, which is not standard anywhere in this dataset. The MIRA B customer who brought her own nail scissors says the owner was fine with it. At <a href=\"/salons/chik-nails-ipa8jq/\">Chik Nails, 19 Nguyễn Duy Hiệu</a>, one reviewer calls the place a one-woman business and notes it cost much less than the touristy spots a street away. If one person owns the room, an unusual request gets a decision, not a policy.",
+          "As for money, the reported bills cluster low. Chuty: 350K for a manicure and pedicure together. <a href=\"/salons/lynn-nailandshampoo-yj2buw/\">Lynn.Nail &amp; Shampoo on Lê Duẩn</a>: 200,000đ for a full set, which the customer photographs. MIRA B: 430,000đ for hand-painted French tips, booked by message the night before. In Cẩm Lệ, <a href=\"/salons/my-duyen-nail-cxliwm/\">Mỹ Duyên Nail</a> is described at roughly 69K a combo and <a href=\"/salons/lyn-nail-pmu-goi-dau-nail-phun-xam-tham-my-4k_-pe/\">Lyn Nail Pmu</a> at 120K to 160K for a hand-drawn design. Put those next to <a href=\"/prices/\">the published city ranges, where gel colour alone runs 70K to 300K and a pedicure with gel 200K to 300K</a>, and the difference is not quality. Rent and footfall explain it.",
+          "My rule, then. Book the small room when you want one pair of hands, a technique you can name in a message, and two or three hours nobody is going to interrupt. Book the staffed salon when you are a group, on a deadline, or buying something with equipment attached. And run <a href=\"/choosing-a-salon/\">the same ninety-second check at the door</a> either way, because a front room in a lane has exactly the same obligation to open the file in front of you as a shop with marble counters on Võ Nguyên Giáp, and it is easier to watch in a room with one chair in it."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Are the small nail salons in Da Nang any good?",
+        "Often, yes, and they make up most of the market: 72 of the 151 nail salons in this guide have fewer than 100 Google reviews, and 31 have fewer than 50. Just six of those 72 rate below 4.8. Reported bills also come in under the beach strip, with a manicure and pedicure together at 350,000đ in one Trần Phú room and a full set at 200,000đ at a Lê Duẩn shop, compared with published city ranges of 200K to 300K for a pedicure with gel colour. The trade-off is capacity, not care. With one chair, your hands and feet are done one after the other, walk-ins often get refused, and unusual techniques may not be in the room."
+      ],
+      [
+        "Why do so many Da Nang nail salons have a 5.0 rating?",
+        "Because very few people have rated most of them. Fifty-nine of the 151 nail salons in this guide display a flat 5.0, and those perfect scores bunch up at the small end: 19 of the 31 salons with fewer than 50 reviews sit on 5.0, compared with one of the eleven salons that have more than a thousand. A single unhappy customer drops a 22-review shop to 4.8, while the same review at a 10,343-review salon changes nothing. The review count is the real signal, so sort by newest and read the lowest ratings before you trust the average."
+      ],
+      [
+        "Do I need to book at a small nail studio in Da Nang?",
+        "Usually. With no second technician to absorb a walk-in, one-chair rooms run on appointments: a beachfront studio says plainly that it does not take walk-ins, regulars at a Trần Phú room call a reservation a must, and a home studio in My An takes one client at a time. Send a message a day ahead with the date, the service, whether old gel needs to come off, and a photo. You can still walk in in this city, but that works at the staffed salons, not at the particular room whose Instagram made you want to go."
+      ],
+      [
+        "What does an address like 169/5 Trần Phú or Kiệt 60/30 mean in Da Nang?",
+        "It is a lane address. The first number is the house on the main street next to which the lane opens, and the number after the slash is a door inside that lane. Kiệt is the central Vietnamese word for the lane itself, where Hanoi uses ngõ and Saigon uses hẻm; some listings shorten it to K, as in K35, 17 Tô Hiến Thành. Sixteen of the 151 salon addresses in this guide are of this type. Navigate by the map pin rather than the text, expect a Grab driver to stop at the mouth of the lane, and allow a few minutes on foot. Asking the salon for a photo of its own doorway solves it in one message."
+      ]
+    ]
+  },
+{
     "slug": "cat-eye-nails-da-nang",
     "title": "Mắt mèo: 80K where cat eye counts as a colour, 180K where it counts as art",
     "desc": "Cat eye is named in 24 of the 715 reviews behind this guide, at 20 of the 151 salons, which is more than French work and nearly three times chrome. Not one of those 24 reviews mentions a magnet, and the magnet is the whole trick. Two Da Nang menus publish a price for it, and they disagree about what kind of thing it is.",
