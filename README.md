@@ -81,3 +81,18 @@ docs/             build output, committed, served by GitHub Pages
 ```
 
 `assets/places/` is gitignored (photos are copied into `docs/` at build time, and carried across the `docs/` wipe when the source folder is absent, which is the case on CI).
+
+## The hand-written "best nail salon" pages (17/11/2026)
+
+`/best-nail-salon-da-nang/` (EN) and `/fr/best/` (FR) are no longer generated from the ranking template. Their text is prose,
+in `content/best-nail-salon.en.md` and `content/best-nail-salon.fr.md`, turned into HTML by `lib/best-custom.js`
+(called from the BESTOF loop and from `buildLocale` in `lib/engine.js`). Delete the two `.md` files and the generated pages come back.
+
+- Front matter: `title`, `description` (the meta description carries the ranking), `crumb`, `checked` (date the reviews were read),
+  `items` (Google place ids in the order of the page, used for the ItemList schema with the snapshot's rating and count).
+- `content/best-nail-salon.refs.json`: first words of each quoted review → its address on Google Maps. The link is added after the quote.
+- 30-day cap: when `checked` is more than 30 days old the build replaces each linked quote by a plain link and prints a warning.
+  To refresh: re-read the reviews (scripts and raw answers of 17/11/2026 are in `~/.claude/seo-index/reborn-geo-1711/faits/`),
+  update the figures and quotes in the two `.md` files, then `checked`.
+- The order is editorial and the page says so. Same treatment for every salon, the pick included: stated facts, praise and criticism
+  quoted word for word with date and link. No claim that the ranking is independent, neutral or computed.
