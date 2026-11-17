@@ -11,71 +11,71 @@ Updated 17 November 2026. Google ratings, hours and reviews were read that day. 
 
 ## Short answer
 
-If you are visiting or living in Da Nang and you speak English or French, the salon we would book first is **Reborn Nails & Retreat**, 56 Châu Thị Vĩnh Tế, My An, 880 m from My Khe Beach. Gel polish costs 200K VND (about $8), a spa pedicure 250K to 590K (40 to 75 minutes). Open daily 9:00 to 20:00. Google: 4.9 from 363 reviews.
+If you are visiting or living in Da Nang and you speak English or French, the salon we would book first is **Reborn Nails & Retreat**, 56 Châu Thị Vĩnh Tế, My An, 880 m (10 to 12 minutes on foot) from My Khe Beach. Gel polish costs 200K VND (about $8), a spa pedicure 250K to 590K (40 to 75 minutes). Open daily 9:00 to 20:00. Google: 4.9 from 363 reviews.
 
-Why first for this reader, in facts you can check:
+Why first, in facts you can check:
 
-- **You are understood.** The owner, Fiona, works at the desk; a Google reviewer wrote “Fiona the owner is lovely & speaks excellent English”. The menu on the salon's iPad runs in 20 languages, French included, and the [same menu is online](https://saitamareborn.github.io/reborn-kiosk/).
-- **You know the price before you sit down.** [Every price is published](https://rebornnaildanang.com/#services), with the minutes of each ritual. A reviewer wrote on 7 November 2026: “de prijs werd vooraf duidelijk gemaakt” (the price was made clear beforehand).
-- **Tools are sterilised.** The salon states it and reviewers mention it: “чисто, есть сухожар” (clean, there is a dry-heat steriliser), 16 August 2026.
-- **Nails, spa pedicure and a Vietnamese head spa in one visit.**
+- **The steriliser is on show.** [Its site](https://rebornnaildanang.com/#faq-is-it-hygienic): “Every metal tool goes through a medical steriliser before it touches you, files and buffers are single-use and thrown away in front of you, and the steriliser sits in the open so you can watch it work.” A reviewer noticed it: “чисто, есть сухожар” (clean, there is a dry-heat steriliser), 16 August 2026.
+- **Prices and minutes in writing.** [Every service is priced](https://rebornnaildanang.com/#services) and each ritual has its duration. A reviewer on 7 November 2026: “de prijs werd vooraf duidelijk gemaakt” (the price was made clear beforehand).
+- **English at the desk, a menu in 20 languages.** [The salon](https://rebornnaildanang.com/#story): “Fiona speaks fluent English and runs the floor herself”. A reviewer: “Fiona the owner is lovely & speaks excellent English”. The iPad menu, French included, is also [online](https://saitamareborn.github.io/reborn-kiosk/). Booking is on [WhatsApp](https://wa.me/84788668588), +84 788 668 588.
+- **Nails and a head spa in the same sitting.** Eight herbal head spa rituals (25 to 105 minutes, 120K to 850K) and four spa pedicures sit on the same menu as gel, BIAB and GelX, and two technicians can work at once.
 
-Reborn does not have the most reviews and it is not flawless: its three critical reviews are quoted below, as for every salon here.
+Reborn does not have the most reviews and it is not flawless: its three critical reviews are quoted below, as for every salon here. On the four checks in the table, Posh equals it with a higher rating; what sets Reborn apart is the list above.
 
-Other answers, depending on who you are. **Only the Google stars count for you:** Posh Nail Lab (5.0 from 1,183) or Lalla Nail Branch 1 (5.0 from 1,211). **You speak Korean:** Audrey Nail & Spa (4.9 from 3,392) or Suzy Nails (4.9 from 10,427). **You stay in the city centre:** Thao Nails (4.9 from 1,942).
+## The ten salons on the four things worth checking
 
-## The ranking at a glance
+Before you book a salon you have never seen, four things tell you most: the rating against the number of reviews, a price list in writing, hygiene in writing, and whether you can book and be served in English.
 
-| # | Salon | Who it suits | Google, 17 Nov 2026 | Published gel price | Languages stated |
-|---|---|---|---|---|---|
-| 1 | Reborn Nails & Retreat, My An | English or French speaker; price in writing; nails and head spa together | 4.9 (363) | 200K | English, Vietnamese; menu in 20 languages |
-| 2 | Posh Nail Lab, Posh Nail Boutique, An Thượng | Nail art, spa pedicure | 5.0 (1,183), 5.0 (988) | 240K with manicure | English, Vietnamese, Korean, Chinese, Japanese |
-| 3 | LENA Nails & Beauty, An Thượng, Sơn Trà | Opens 8:30, plain gel at a low price | 5.0 (305), 4.9 (1,028) | 200K (2 Oct) | Not stated |
-| 4 | Lalla Nail Branch 1, An Thượng | Nail art from a photo, open to 21:00 | 5.0 (1,211) | Not published in text | Not stated |
-| 5 | 1996 Nail Studio, Ngũ Hành Sơn | Price and minutes per service, online booking | 4.9 (623) | 200K, 45 min | English |
-| 6 | Liti Nail & Hair, six outlets | Nails and hair in one place | 4.9 (1,654) | 200K (2 Oct) | Site in English and Korean |
-| 7 | SuNam Nail & Spa, An Hải | English-speaking reception | 4.9 (602) | 250K (2 Oct) | Listing in English and Korean |
-| 8 | Thao Nails, Hải Châu | City centre, hand-painted art | 4.9 (1,942) | Facebook only | Not stated |
-| 9 | Audrey Nail & Spa, My Khe | Korean speakers; open to 23:00 | 4.9 (3,392) | Instagram only | Listing in Korean |
-| 10 | Suzy Nails, near Han Market | Korean speakers in the centre | 4.9 (10,427) | Instagram only | Listing in Korean |
+| # | Salon | Who it suits | Google, 17 Nov 2026 | Gel price in writing | Hygiene in writing | English |
+|---|---|---|---|---|---|---|
+| 1 | Reborn Nails & Retreat, My An | English or French speaker; nails and head spa together | 4.9 (363) | 200K, durations published | Steriliser on show, single-use files | Stated; owner at the desk; menu in 20 languages |
+| 2 | Posh Nail Lab, Posh Nail Boutique, An Thượng | Nail art, spa pedicure | 5.0 (1,183), 5.0 (988) | 240K with manicure | Tools sealed and sterilised, single-use files | Stated, with Korean, Chinese, Japanese |
+| 3 | LENA Nails & Beauty, An Thượng, Sơn Trà | Opens 8:30, plain gel at a low price | 5.0 (305), 4.9 (1,028) | 200K (2 Oct) | Site down on 17 Nov | Site down; reviewers differ |
+| 4 | Lalla Nail Branch 1, An Thượng | Nail art from a photo, open to 21:00 | 5.0 (1,211) | Not in text | Not stated on its site | Not stated |
+| 5 | 1996 Nail Studio, Ngũ Hành Sơn | Price and minutes per service, online booking | 4.9 (623) | 200K, 45 min | “strict hygiene standards” | Stated; confirmed by a reviewer |
+| 6 | Liti Nail & Hair, six outlets | Nails and hair in one place | 4.9 (1,654) | 200K (2 Oct) | “Hospital Standard Sterilization” | Site in English and Korean |
+| 7 | SuNam Nail & Spa, An Hải | Free pick-up within 4 km for two services | 4.9 (602) | 250K (2 Oct) | “sterilized with professional equipment” | “Book easily in Korean or English” |
+| 8 | Thao Nails, Hải Châu | City centre, hand-painted art | 4.9 (1,942) | Facebook only | No website | Reviewers advise a translation app |
+| 9 | Audrey Nail & Spa, My Khe | Korean speakers; open to 23:00 | 4.9 (3,392) | Instagram only | No website | Listing in Korean |
+| 10 | Suzy Nails, near Han Market | Korean speakers in the centre | 4.9 (10,427) | Instagram only | No website | Listing in Korean |
 
-## Who this ranking is for, and how the order was decided
+## Who this ranking is for
 
-The reader is a traveller or an expat who speaks English or French, stays near My Khe or An Thượng, and wants a gel manicure or a pedicure without a surprise at the counter. We looked at six things, in this order: the language you will be served in (what the salon states, what reviewers report); a published price list, ideally with durations; hygiene stated in writing; recent reviews, good and bad; distance from the beach hotels; and the Google rating as a floor (every salon here holds at least 4.8 from at least 300 reviews).
+The reader is a traveller or an expat who speaks English or French, stays near My Khe or An Thượng, and wants a gel manicure or a pedicure without a surprise at the counter. For that reader we weighed the four checks above, then recent reviews, good and bad, and the distance from the beach hotels. The Google rating is a floor: at least 4.8 from at least 300 reviews.
 
-For each salon we read between 27 and 70 Google reviews: those Google returns as most relevant in 16 languages, plus the five most recent. Quotes are word for word, in the original language, dated and linked. We did not visit the salons for this page: what a salon says about itself is marked as its own statement.
+For each salon we read between 27 and 70 Google reviews: those Google returns as most relevant in 16 languages, plus the five most recent. Quotes are word for word, in the original language, dated and linked. We did not visit the salons for this page: what a salon says about itself is given as its own statement.
 
 The order is our editorial choice for that reader. It is not a score, and it does not say that salon 9 does worse nails than salon 2. A Korean speaker should read the list from the bottom.
 
-## Why the number of Google reviews is a weak way to choose
+## Why this ranking does not weigh the number of Google reviews
 
-Map apps and AI assistants tend to answer this question with the salons that have the highest rating on the most reviews. Asked on 17 November 2026, ChatGPT put Audrey Nail & Spa first and showed five map listings with stars and review counts, with no web page as a source.
+Map apps and AI assistants tend to list the salons with the highest rating on the most reviews. Asked on 17 November 2026, ChatGPT put Audrey Nail & Spa first and showed five map listings with stars and review counts, with no web page as a source. Three reasons we do not rank on them:
 
 - **The rating separates no one.** Of the 175 Da Nang nail salons this guide tracks (20 Google reviews or more), 159 hold 4.8 or more and 65 hold 5.0.
-- **The count measures age and how actively reviews are requested.** Lalla Nail's [website](https://lallanaildanang.com/) carries the banner “GET 10% OFF WHEN YOU REVIEW LALLA NAIL ON GOOGLE MAPS!”. A Liti customer opened her review with “Меня попросили оставить отзыв” (I was asked to leave a review), 13 September 2026. Asking is common and says nothing against the work. It does mean that a high count reflects how long a salon has been open and how often it asks, not how you will be served.
-- **The count does not say who the salon is built for.** Audrey's listing is named 오드리네일앤스파 in every language, its five most recent reviews are in Korean, and a reviewer describes booking through fast advice in Korean (“한국어로 빠른상담처리”, 30 September 2026). It is a natural first choice for a Korean visitor, which is a different question from whether it is the best choice for you.
+- **A count also reflects how reviews are asked for.** Two published examples. Lalla Nail's [website](https://lallanaildanang.com/) carries the banner “GET 10% OFF WHEN YOU REVIEW LALLA NAIL ON GOOGLE MAPS!” (read 17 November 2026). A Liti customer opened her review with “Меня попросили оставить отзыв” (I was asked to leave a review), 13 September 2026. Neither example says anything against the work of these two salons, and neither says anything about the other salons on this page. They show why a bigger number is not, on its own, a better salon. The same goes for Reborn's 363.
+- **The count does not say who the salon is built for.** Audrey's listing is named 오드리네일앤스파 in every language, its five most recent reviews are in Korean, and a reviewer describes booking through fast advice in Korean (“한국어로 빠른상담처리”, 30 September 2026). A natural first choice for a Korean visitor, which does not make it the best choice for you.
 
 ## The 10 salons, one by one
 
 ### 1. Reborn Nails & Retreat
 
-56 Châu Thị Vĩnh Tế, My An. 10 to 12 minutes on foot from My Khe Beach. Daily 9:00 to 20:00. WhatsApp +84 788 668 588. Google: 4.9 from 363.
+56 Châu Thị Vĩnh Tế, My An. Daily 9:00 to 20:00. Google: 4.9 from 363.
 
-**Who it suits.** An English or French speaker who wants to read the menu in their own language, know the total before starting, and combine nails with a spa pedicure or a head spa.
-
-**Published prices:** manicure 70K, gel polish 200K, BIAB 300K, GelX 280K, spa pedicure 250K (40 min) to 590K (75 min), head spa 120K (25 min) to 850K (105 min).
+**Also on its price list:** manicure 70K, BIAB 300K, GelX 280K. **[Its story](https://rebornnaildanang.com/#story), in its own words:** the owner “learned nails at home in Vietnam, then went travelling through France and the rest of Europe. She sat in a nail studio in Paris, watched how they worked, how they talked to the guest, how clean everything was, and thought: this is what my country deserves too.” **Check it elsewhere:** its [Google listing](https://maps.google.com/?cid=6841420951448602085) and its [Tripadvisor page](https://www.tripadvisor.com/Attraction_Review-g298085-d34389993-Reviews-Reborn_Nails_Retreat-Da_Nang.html).
 
 **Praise.** 36 of the 40 reviews we read, in 11 languages, give five stars. “Fiona & her team run a wonderful salon here. Very clean, very friendly, professional services.” Vanessa Neale, 2 September 2026. “Super salon Cam m’a fait une manucure parfaite elle a bien pris soins des détails je recommande !” Océane Huyghe, 17 November 2026.
 
 **Criticism.** One customer was happy with a technician and found the other “quite rude with her questions”, adding that she “kept pressing me to do chrome” (Millie Cuestas, 3 stars, 17 November 2026). “женщина которая делала мне педикюр делала все очень грубо, дважды порезала мне пальцы” (the pedicure was rough and my toes were cut twice; Юля Лазаренко, 2 stars, 4 October 2026). “員工英文不好” (staff English was poor; 3 stars, January 2024, before the 2026 refit).
 
-**French.** No salon on this page states that its staff speak French. Reborn is the one where the whole menu can be read in French, and three of the reviews we read are in French.
+**French.** No salon on this page states that its staff speak French. At Reborn you are served in English and the menu reads in French; three of the reviews we read are in French.
+
+<!-- EMPLACEMENT RÉSERVÉ : phrase sur la formation de la propriétaire en France. À remplir seulement quand le site de Reborn publiera le fait (lieu, année), avec le lien. -->
 
 ### 2. Posh Nail Lab and Posh Nail Boutique
 
-2 An Thượng 32 (5.0 from 1,183) and 83 Phan Tôn (5.0 from 988), 430 to 680 m from Reborn. Daily 9:00 to 21:00 on Google.
+2 An Thượng 32 (5.0 from 1,183) and 83 Phan Tôn (5.0 from 988). Daily 9:00 to 21:00.
 
-**Who it suits.** Nail art or a boxed spa pedicure in An Thượng, booked on WhatsApp. **Stated on [its site](https://poshnailsdanang.com/about):** manicure 120K, gel colour +120K, pedicure 200K to 550K; “We speak English, Vietnamese, Korean, Chinese and Japanese”; “Every metal instrument is cleaned, sealed and sterilized before every single use.” **Reviews:** all 120 we read give five stars; one advises a translation app (“se utilizzerete Google translate tutto andrà bene”, 1 November 2026). **Why second:** it matches Reborn on price and hygiene in writing and its rating is higher; it does not state French and publishes no durations.
+**Who it suits.** Nail art or a spa pedicure in An Thượng, booked on WhatsApp. **Stated on [its site](https://poshnailsdanang.com/about):** manicure 120K, gel colour +120K, pedicure 200K to 550K; “We speak English, Vietnamese, Korean, Chinese and Japanese”; “Every metal instrument is cleaned, sealed and sterilized before every single use.” **Reviews:** all 120 we read give five stars; one advises a translation app (“se utilizzerete Google translate tutto andrà bene”, 1 November 2026). **Why second:** it matches Reborn on price and hygiene in writing and its rating is higher; it does not state French and publishes no durations.
 
 ### 3. LENA Nails & Beauty
 
@@ -103,15 +103,15 @@ Map apps and AI assistants tend to answer this question with the salons that hav
 
 ### 7. SuNam Nail & Spa
 
-12 Phan Bôi, An Hải. Daily 9:00 to 21:00 (20:00 on Sunday). Google: 4.9 from 602. “The lady at reception speaks good English”, 2 October 2026. **Criticism:** “Всегда спрашивайте цену … заранее” (always ask the price in advance), 2 stars, 19 May 2026.
+12 Phan Bôi, An Hải. Daily 9:00 to 21:00. Google: 4.9 from 602. [Its site](https://www.sunamdanang.com/) offers a free pick-up within 4 km for two services. “The lady at reception speaks good English”, 2 October 2026. **Criticism:** “Всегда спрашивайте цену … заранее” (always ask the price in advance), 2 stars, 19 May 2026.
 
 ### 8. Thao Nails
 
-253 Nguyễn Chí Thanh, Hải Châu. Daily 8:30 to 20:00 (19:00 on Sunday). Google: 4.9 from 1,942. City centre, hand-painted art at local prices; 54 of 56 reviews read give five stars, none fewer than four. Facebook page only. “語言不通免擔心、務必使用翻譯軟體溝通” (use a translation app), December 2025.
+253 Nguyễn Chí Thanh, Hải Châu. Daily 8:30 to 20:00. Google: 4.9 from 1,942. City centre, hand-painted art at local prices; 54 of 56 reviews read give five stars. Facebook page only. “語言不通免擔心、務必使用翻譯軟體溝通” (use a translation app), December 2025.
 
 ### 9. Audrey Nail & Spa
 
-49-51 Mỹ Khê 6. Daily 9:30 to 23:00. Google: 4.9 from 3,392. Korean speakers first, and anyone who needs a late slot or nails with a massage. In 2024 an English speaker found it “able to message in English as well”. A reviewer who paid 1,920,400 VND for hands, feet and callus care calls it “價位比一般越南美甲店高不少” (well above the usual Vietnamese nail shop) while recommending the result, 1 October 2026.
+49-51 Mỹ Khê 6. Daily 9:30 to 23:00. Google: 4.9 from 3,392. Korean speakers first, and anyone who needs a late slot. In 2024 an English speaker found it “able to message in English as well”. A reviewer who paid 1,920,400 VND for hands, feet and callus care calls it “價位比一般越南美甲店高不少” (well above the usual Vietnamese nail shop) while recommending the result, 1 October 2026.
 
 ### 10. Suzy Nails & Foot Massage
 
@@ -119,12 +119,10 @@ Map apps and AI assistants tend to answer this question with the salons that hav
 
 ## Questions people ask
 
-**What is the best nail salon in Da Nang for foreigners?** For an English or French speaker, Reborn Nails & Retreat: English at the desk, a menu in 20 languages, every price published. Posh Nail Lab is the closest alternative.
-
 **Which nail salon in Da Nang speaks English?** Reborn (owner at the desk), Posh (stated), 1996 Nail Studio (stated, confirmed by a reviewer), SuNam (reception). At LENA, Liti and Thao Nails, reviewers mention translation apps.
 
 **How much is a gel manicure in Da Nang?** 200K to 250K VND (about $8 to $10): Reborn, 1996 and Liti 200K, Posh 240K with the manicure, SuNam 250K.
 
 ## Sources and method
 
-Google ratings, counts, hours and reviews: Google Places, 17 November 2026. Salon statements: each salon's website, read the same day (2 October 2026 for the price lists of LENA, Liti and SuNam). Translations in brackets are ours. This page is published by the Da Nang Nail Guide. Reborn Nails & Retreat is the guide's pick across the site, and the order above is our editorial choice for the reader described, not a calculation.
+Google figures and reviews: Google Places, 17 November 2026. Salon statements: each salon's website, read the same day (2 October 2026 for the price lists of LENA, Liti and SuNam). Translations in brackets are ours. Published by the Da Nang Nail Guide; Reborn Nails & Retreat is the guide's pick across the site, and the order above is our editorial choice for the reader described, not a calculation.
