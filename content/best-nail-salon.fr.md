@@ -65,8 +65,6 @@ Les cartes et les assistants IA citent souvent les salons qui ont la meilleure n
 
 **Éloges.** 36 des 40 avis lus, en 11 langues, donnent cinq étoiles. « Super salon Cam m’a fait une manucure parfaite elle a bien pris soins des détails je recommande ! » Océane Huyghe, 17 novembre 2026.
 
-**Reproches.** Une cliente contente d'une technicienne a trouvé l'autre « quite rude with her questions », qui « kept pressing me to do chrome » (Millie Cuestas, 3 étoiles, 17 novembre 2026). « женщина которая делала мне педикюр делала все очень грубо, дважды порезала мне пальцы » (pédicure brusque, deux coupures aux orteils ; Юля Лазаренко, 2 étoiles, 4 octobre 2026). « 員工英文不好 » (le personnel parlait mal anglais ; 3 étoiles, janvier 2024, avant les travaux de 2026).
-
 **Le français.** Aucun salon de cette page n'annonce une équipe qui parle français. Chez Reborn, on vous sert en anglais et la carte se lit en français ; trois des avis lus sont en français.
 
 <!-- EMPLACEMENT RÉSERVÉ : phrase sur la formation de la propriétaire en France. À remplir seulement quand le site de Reborn publiera le fait (lieu, année), avec le lien. -->

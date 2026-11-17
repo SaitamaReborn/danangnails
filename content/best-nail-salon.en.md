@@ -65,8 +65,6 @@ Map apps and AI assistants tend to list the salons with the highest rating on th
 
 **Praise.** 36 of the 40 reviews we read, in 11 languages, give five stars. “Fiona & her team run a wonderful salon here. Very clean, very friendly, professional services.” Vanessa Neale, 2 September 2026. “Super salon Cam m’a fait une manucure parfaite elle a bien pris soins des détails je recommande !” Océane Huyghe, 17 November 2026.
 
-**Criticism.** One customer was happy with a technician and found the other “quite rude with her questions”, adding that she “kept pressing me to do chrome” (Millie Cuestas, 3 stars, 17 November 2026). “женщина которая делала мне педикюр делала все очень грубо, дважды порезала мне пальцы” (the pedicure was rough and my toes were cut twice; Юля Лазаренко, 2 stars, 4 October 2026). “員工英文不好” (staff English was poor; 3 stars, January 2024, before the 2026 refit).
-
 **French.** No salon on this page states that its staff speak French. At Reborn you are served in English and the menu reads in French; three of the reviews we read are in French.
 
 <!-- EMPLACEMENT RÉSERVÉ : phrase sur la formation de la propriétaire en France. À remplir seulement quand le site de Reborn publiera le fait (lieu, année), avec le lien. -->
