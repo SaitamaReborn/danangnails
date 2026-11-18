@@ -20,7 +20,7 @@ Why first, in facts you can check:
 - **English at the desk, a menu in 20 languages.** [The salon](https://rebornnaildanang.com/#story): “Fiona speaks fluent English and runs the floor herself”. A reviewer: “Fiona the owner is lovely & speaks excellent English”. The iPad menu, French included, is also [online](https://saitamareborn.github.io/reborn-kiosk/). Booking is on [WhatsApp](https://wa.me/84788668588), +84 788 668 588.
 - **Nails and a head spa in the same sitting.** Eight herbal head spa rituals (25 to 105 minutes, 120K to 850K) and four spa pedicures sit on the same menu as gel, BIAB and GelX, and two technicians can work at once.
 
-Reborn does not have the most reviews and it is not flawless: its three critical reviews are quoted below, as for every salon here. On the four checks in the table, Posh equals it with a higher rating; what sets Reborn apart is the list above.
+Reborn does not have the most reviews. On the four checks in the table, Posh equals it with a higher rating; what sets Reborn apart is the list above.
 
 ## The ten salons on the four things worth checking
 

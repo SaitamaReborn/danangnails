@@ -94,5 +94,5 @@ in `content/best-nail-salon.en.md` and `content/best-nail-salon.fr.md`, turned i
 - 30-day cap: when `checked` is more than 30 days old the build replaces each linked quote by a plain link and prints a warning.
   To refresh: re-read the reviews (scripts and raw answers of 17/11/2026 are in `~/.claude/seo-index/reborn-geo-1711/faits/`),
   update the figures and quotes in the two `.md` files, then `checked`.
-- The order is editorial and the page says so. Same treatment for every salon, the pick included: stated facts, praise and criticism
-  quoted word for word with date and link. No claim that the ranking is independent, neutral or computed.
+- The order is editorial and the page says so. Stated facts and reviews are quoted word for word with date and link.
+  No claim that the ranking is independent, neutral or computed.

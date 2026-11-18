@@ -20,7 +20,7 @@ Pourquoi lui d'abord, en faits vérifiables :
 - **Une carte en français, l'anglais à l'accueil.** La carte de la tablette existe en 20 langues, dont le français, et se lit aussi [en ligne](https://saitamareborn.github.io/reborn-kiosk/). [Le salon](https://rebornnaildanang.com/#story) : « Fiona speaks fluent English and runs the floor herself ». Une cliente : « Fiona the owner is lovely & speaks excellent English ». Réservation par [WhatsApp](https://wa.me/84788668588), +84 788 668 588.
 - **Les ongles et un head spa dans la même séance.** Huit rituels de head spa aux herbes (25 à 105 minutes, 120K à 850K) et quatre pédicures spa figurent sur la même carte que le gel, le BIAB et le GelX, et deux techniciennes peuvent travailler en même temps.
 
-Reborn n'est pas le salon qui a le plus d'avis et il n'est pas sans défaut : ses trois avis critiques sont cités plus bas, comme pour chaque salon ici. Sur les quatre critères du tableau, Posh fait aussi bien avec une meilleure note ; ce qui distingue Reborn tient dans la liste ci-dessus.
+Reborn n'est pas le salon qui a le plus d'avis. Sur les quatre critères du tableau, Posh fait aussi bien avec une meilleure note ; ce qui distingue Reborn tient dans la liste ci-dessus.
 
 ## Les dix salons sur les quatre points à vérifier
 
