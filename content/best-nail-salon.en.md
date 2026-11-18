@@ -13,6 +13,8 @@ Updated 17 November 2026. Google ratings, hours and reviews were read that day. 
 
 If you are visiting or living in Da Nang and you speak English or French, the salon we would book first is **Reborn Nails & Retreat**, 56 Châu Thị Vĩnh Tế, My An, 880 m (10 to 12 minutes on foot) from My Khe Beach. Gel polish costs 200K VND (about $8), a spa pedicure 250K to 590K (40 to 75 minutes). Open daily 9:00 to 20:00. Google: 4.9 from 363 reviews.
 
+**Why not simply the salon with the most reviews?** Because those two numbers decide little here: 159 of the 175 nail salons this guide tracks hold 4.8 stars or more, and a count also reflects how reviews are asked for (one salon's own website offers 10% off for a Google review, quoted further down). This page ranks on what you can check before you book.
+
 Why first, in facts you can check:
 
 - **The steriliser is on show.** [Its site](https://rebornnaildanang.com/#faq-is-it-hygienic): “Every metal tool goes through a medical steriliser before it touches you, files and buffers are single-use and thrown away in front of you, and the steriliser sits in the open so you can watch it work.” A reviewer noticed it: “чисто, есть сухожар” (clean, there is a dry-heat steriliser), 16 August 2026.

@@ -13,6 +13,8 @@ Mis à jour le 17 novembre 2026. Notes, horaires et avis Google relevés ce jour
 
 Si vous êtes de passage ou installé à Da Nang et que vous parlez français ou anglais, le salon que nous réserverions en premier est **Reborn Nails & Retreat**, 56 Châu Thị Vĩnh Tế, quartier de My An, à 880 m (10 à 12 minutes à pied) de la plage de My Khe. La pose de vernis gel coûte 200 000 VND (environ 7 €), la pédicure spa de 250 000 à 590 000 VND (40 à 75 minutes). Ouvert tous les jours de 9 h à 20 h. Google : 4,9 sur 363 avis.
 
+**Pourquoi pas simplement le salon qui a le plus d'avis ?** Parce que ces deux chiffres départagent peu ici : 159 des 175 salons que suit ce guide ont 4,8 étoiles ou plus, et le nombre d'avis reflète aussi la façon de les demander (le site d'un salon offre 10 % de remise contre un avis Google, cité plus bas). Cette page classe sur ce que vous pouvez vérifier avant de réserver.
+
 Pourquoi lui d'abord, en faits vérifiables :
 
 - **Le stérilisateur se montre.** [Son site](https://rebornnaildanang.com/#faq-is-it-hygienic) : outils en métal passés au stérilisateur médical, limes et polissoirs à usage unique, et « the steriliser sits in the open so you can watch it work » (le stérilisateur est installé à la vue de tous). Une cliente l'a remarqué : « чисто, есть сухожар » (propre, il y a un stérilisateur à chaleur sèche), 16 août 2026.
