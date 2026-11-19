@@ -9,6 +9,90 @@
 
 const JOURNAL = [
 {
+    "slug": "da-nang-alley-addresses-nail-salons",
+    "title": "Kiệt: what the slash in 90/10 Trần Phú means, and the floor no Da Nang nail address writes down",
+    "desc": "Twenty of the 175 nail addresses in this guide carry a slash, and the slash is a lane: Da Nang's numbering rules give an unnamed kiệt the number of the street-front house at its mouth. Not one of the 175 names a floor, and reviews put salons on the second and the sixth.",
+    "date": "2026-11-23",
+    "cat": "Guides",
+    "read": 7,
+    "tldr": [
+      "The slash is a lane, and it is numbered off the house in front of it. Da Nang's house-numbering regulation, Decision 84/2006/QĐ-UBND of 27 September 2006, treats a house inside a kiệt or hẻm separately from a street-front one, and an unnamed lane takes the number of the first street-front house at its mouth. So 90/10 Trần Phú is house 10 inside the lane that opens beside number 90. Walk to 90 and turn in. Twenty of the 175 salons here have an address like that, and <a href=\"/salons/lam-s-nail-academy-9d7v3a/\">LÂM'S NAIL ACADEMY</a> spells it out: Kiệt60/30, Trưng Nữ Vương.",
+      "None of the 175 nail addresses names a floor. Across all 255 venues in the dataset exactly one does, and it is a hotel spa on level 19. A reviewer, meanwhile, places <a href=\"/salons/lol-s-1-nail-in-danang-n88i0e/\">lol's 1 nail, 106 Nguyễn Văn Thoại</a> on the second floor behind a half-hidden door, and <a href=\"/salons/pink-nail-studio-z4lwly/\">Pink Nail Studio, 167 Trần Phú</a> on the sixth, above a shop. Before you book, ask tầng mấy; if you are carrying anything, ask about a lift as well.",
+      "What the lane costs a shop is footfall, not quality. The 21 listings behind a slash or a kiệt average 4.92, against 4.90 for the 154 on the pavement, yet the median lane shop has 79 Google ratings where the median street-front shop has 117. On Trần Phú, two reviewers at two different alley salons say the same thing about the bill. One of them puts a manicure and pedicure together at 350K.",
+      "The street list in Da Nang is still being written. Public comment opened in mid-October 2026 on a draft that named 114 streets, 61 of them after old villages and hamlets, and by the review meeting on 4 November it stood at 83 streets and one public work, headed for the city council's year-end session. Book by the pin and the phone number instead. 169 of the 175 salons publish one."
+    ],
+    "body": [
+      {
+        "h": "The slash is a lane, numbered off the house in front",
+        "p": [
+          "This guide is built on a Google Places snapshot dated 17 November 2026: 175 Da Nang nail salons, 59,527 ratings and 841 review texts. Twenty of those addresses include a number with a slash in it. A twenty-first spells the word out, LÂM'S NAIL ACADEMY at Kiệt60/30, Trưng Nữ Vương, and the word is the local one. Đà Nẵng and Huế call a lane off a street a kiệt (Hanoi says ngõ, Saigon says hẻm), and it is also the term in the city's own paperwork.",
+          "The rule behind the slash is on paper, and it is old. Decision 84/2006/QĐ-UBND, dated 27 September 2006, is Da Nang's regulation for numbering houses and fixing house plates; it divides every listing into street-front houses and houses inside a kiệt or hẻm. A lane without a name of its own takes the number of the first street-front house sitting just before its mouth. The city later reissued the rules on numbering, plating and house-number certificates as Decision 51/2019/QĐ-UBND on 6 December 2019. On the ground, this means 90/10 Trần Phú is not near number 90. It is house 10 inside the lane that opens beside number 90.",
+          "You can watch the rule hold inside this dataset. Two venues share that one Trần Phú lane mouth: <a href=\"/salons/hoang-oanh-beauty-and-nails-shampoo-massage-nicmmu/\">Hoàng Oanh Beauty &amp; Nails at 90/10</a> and a Korean-facing massage shop at 90/8, with eight metres between their map pins. Nguyễn Văn Thoại repeats the trick at number 211, where <a href=\"/salons/lena-nails-and-beauty-dcqucw/\">211/88</a> and <a href=\"/salons/lena-nails-and-beauty-xcd8ma/\">211/86</a> are ten metres apart, carry the same phone number, and are both called Lena Nails and Beauty. One of those listings has 559 Google ratings. The other has 68. Book by the name alone and you can walk into the quiet door by accident.",
+          "Within the lane, numbering follows the national habit that VnExpress described in its piece on Vietnam's odd house numbers: odd on your left and even on your right as you look in from the head of the street, and each further slash adds another sub-number, which is how you get addresses like 384/12A/1. <a href=\"/salons/street/tran-phu/\">Trần Phú carries ten of the 175 salons</a>, three of them behind a slash: <a href=\"/salons/1998-nailsroom-aqm-k4/\">1998.nailsroom at 172/5</a>, Hoàng Oanh at 90/10, <a href=\"/salons/chuty-nailroom-fn4ihw/\">Chuty Nailroom at 169/5</a>. The remaining seven sit on the pavement. Among them is the single biggest listing in the set, Suzy Nails &amp; Foot Massage at 109, with 10,427 ratings."
+        ]
+      },
+      {
+        "h": "Nobody writes the floor down",
+        "p": [
+          "Zero of the 175 nail-salon addresses mention a floor. Widen the search to all 255 venues in the snapshot, barbers and spas included, and exactly one does: Maison Spa, listed as Level 19, 216 Võ Nguyên Giáp. It is a hotel spa, so it has a lobby and a lift to do the explaining. Everywhere else, the vertical half of the address is just missing.",
+          "That absence is a problem because the shops are upstairs. In August 2026 a reviewer at lol's 1 nail, 106 Nguyễn Văn Thoại, wrote that the entrance is on the main street, the door is a little hidden, the salon is on the second floor and a cat meets you at it. Pink Nail Studio, 167 Trần Phú, was described in September 2025 as a little pink nail spa on the sixth floor above a shop. The one place a floor is recorded dependably is a business name: there is a salon at 67 Phan Huy Ôn called Chu Beauty on2nd, and a customer in June 2026 confirmed the second floor and added that there is a lift, so travellers with luggage have no trouble.",
+          "The floor can change the appointment itself. At <a href=\"/salons/nail-by-nho-studio-xkps9c/\">Nail By Nhỏ Studio, 175/22 Ông Ích Khiêm</a>, a third-time customer in July 2025 was seated on the first floor, found it too hot, and used the review to ask for the second floor with the air conditioning next time. Two words settle it before you go: tầng mấy, which floor. Ask a second question if you are arriving with a suitcase, a pushchair or a bad knee, because a lift in a Da Nang nail shop is the exception and a steep tiled staircase is the rule."
+        ]
+      },
+      {
+        "h": "When the building is the address",
+        "p": [
+          "Four of the 175 carry no house number at all. <a href=\"/salons/enny-nails-mdvmkq/\">Enny Nails</a> appears as Đỗ Thúc Tịnh, Cẩm Lệ. <a href=\"/salons/tuyen-nails-and-spa-danang-and-tuyen-spa-uwyozw/\">TUYEN NAILS &amp; SPA</a>, 4.9 across 144 ratings, is given as Hà Kỳ Ng., Sơn Trà. The address for <a href=\"/salons/xuan-lan-nail-and-beauty-privite-1-1--axjxy/\">Xuân Lan Nail &amp; Beauty</a> reads và Ngã tư, Võ Chí Công Huỳnh Lắm, which starts with the words and intersection. <a href=\"/salons/anna-nails-goi-dau-vk6mu8/\">Anna nails</a> is CĂN HỘ SUN HOME, Vân Đồn, meaning an apartment block and a street with no number, no floor and no unit.",
+          "Another handful swap the number for a building. <a href=\"/salons/lucky-spa-and-nail-shampoo-qnhftg/\">Lucky Spa &amp; Nail Shampoo</a> is Kiot 22 CHung cư, Mường Thanh Trần Bạch Đằng, a kiosk inside an apartment complex, and 4.8 across 173 ratings. <a href=\"/salons/coco-nail-krm32e/\">CoCo Nail</a> leads with the tower, Fhome Đà Nẵng, then the street. <a href=\"/salons/mira-b-nails-and-chill-cozy-studio-szcwm0/\">MIRA B Nails &amp; Chill</a> is K35, 17 Tô Hiến Thành, street, An Hải, with the English word street left sitting in the middle of it.",
+          "Then comes XN. 387, a prefix found on five listings across four different streets: <a href=\"/salons/posh-nail-boutique-x2mnx8/\">Posh Nail Boutique at 83 Phan Tôn</a>, <a href=\"/salons/liti-nail-and-hair-vf5d60/\">Liti Nail &amp; Hair at 07 Lê Quang Đạo</a>, two neighbours at 01 and 17 on that same street, and a massage shop at 124 Nguyễn Văn Thoại. Whatever it records, it is not a street. In each of those addresses the usable part is everything after the comma. This guide was caught out as well, and its street index quietly generated a page headed Top 2 nail salons on . 387. Software reads these strings no better than a driver does, and that is the whole point."
+        ]
+      },
+      {
+        "h": "The street list is still being written",
+        "p": [
+          "November 2026 is a fitting moment to point out that Da Nang's street names do not form a fixed set. In mid-October the city's culture, sport and tourism department put a draft resolution naming 114 streets out for public comment: six would continue a name already in use, fifteen are after notable people, sixty-one after old villages and hamlets, and thirty-two come from science and technology. The advisory council met on 4 November, and the proposal emerged as 83 streets plus one public work, due before the city council at its year-end session.",
+          "The thirty-two technology names are set aside for the FPT technology urban area in Ngũ Hành Sơn ward; on the list are Trí tuệ nhân tạo, Chuyển đổi số, Điện toán đám mây and Vi mạch bán dẫn. Artificial Intelligence, Digital Transformation, Cloud Computing, Semiconductor Microchip. For this guide Ngũ Hành Sơn is no abstraction. It is the ward printed on 35 of the 175 salon addresses, which accounts for most of the <a href=\"/neighbourhoods/\">beach-side cluster</a>.",
+          "In the spring the framework around all this shifted. Decision 58/2026/QĐ-UBND, dated 26 May 2026 and in force from 5 June, took the place of the 2019 regulation on naming and renaming streets and public works. When Đà Nẵng absorbed Quảng Nam, the department's published position was to keep existing street names instead of renaming the duplicates, because renaming breaks addresses on title deeds, property records and business registrations. For a filing cabinet, that is sensible. A visitor finds it awkward: the enlarged city now holds repeats, and the Trần Phú running through Hội An's old town lies thirty kilometres from the Trần Phú with ten nail salons on it. <a href=\"/journal/da-nang-ward-names-salon-addresses/\">The ward names moved last year as well.</a>",
+          "Which is the argument of this piece. A Vietnamese address is a filing code, not a set of directions. It exists so a tax office and a land registry can find you. It was never built to tell a motorbike where to stop, and pasting it whole into an app is the single most common way people end up standing on a pavement looking at a phone."
+        ]
+      },
+      {
+        "h": "What the lane costs the shop, and what it saves you",
+        "p": [
+          "Lane addresses are not worse salons. Across the 21 listings behind a slash or a kiệt the average Google rating is 4.92, against 4.90 for the 154 on the street, and that gap is noise. The real difference is traffic. The median lane shop has 79 ratings where the median street-front shop has 117, and on the mean it is 197 against 360. Roughly half the footfall at the same score, which tells you what the rent on a shopfront buys: not better work, just being seen.",
+          "Reviewers keep tying the lane to the bill. At Hoàng Oanh, 90/10 Trần Phú, an August 2026 customer called it a cosy little studio in a small alley, good if you want a small space away from the tourist crowds on the main road, and said the prices were very affordable compared with the rest. At Chuty Nailroom, 169/5 Trần Phú, a May 2026 review opens with the line that a reservation is a must, tells you not to let the small alleyway entrance fool you, and puts her total at 350K for a manicure and a pedicure together. A November 2025 review of the same shop says it is much cheaper than others in the area without the work suffering for it.",
+          "Hold that 350K against <a href=\"/prices/\">the price table</a>, where plain gel colour runs 70K to 300K and a pedicure with gel colour 200K to 300K across the six salons that publish menus, and the lane starts to look like a pricing strategy rather than an accident. My reading: the slash is a discount, not a warning. Somebody pays the rent on a Trần Phú shopfront, and it is not the landlord."
+        ]
+      },
+      {
+        "h": "Three things that get you to the door",
+        "p": [
+          "First, the pin. Every salon page in this guide carries a coordinate link next to the written address, and coordinates do not care what the ward is called this year. Google is not flawless over the last twenty metres either: a June 2026 reviewer at <a href=\"/salons/amou-nail-studio-nqswu4/\">Amou Nail studio, 175 Nguyễn Chí Thanh</a>, finished an otherwise glowing write-up with a warning that Grab sometimes tags the wrong location.",
+          "Second, the phone, which 169 of the 175 salons publish. <a href=\"/journal/book-nail-appointment-da-nang/\">Messaging it beats typing an address into anything</a>, and a shop that expects you will often come out to the lane mouth. The clearest example in the whole set is dated 9 November 2026, at Posh Nail Boutique, 83 Phan Tôn. It was a rainy day; mid-appointment, lightning knocked out the power along the entire street, so the team ordered a Grab, moved the customers to the group's other outlet and gave out umbrellas. Both appear in the guide, Posh Nail Boutique at 83 Phan Tôn and <a href=\"/salons/posh-nail-lab-dwhpgy/\">Posh Nail Lab at 2 An Thượng 32</a>: each at 5.0, 264 metres apart, with the same phone number and the same website.",
+          "Third, a landmark, since that is how people really give directions here. A Korean reviewer at <a href=\"/salons/ther-nail-room-vgkyq4/\">Ther Nail Room, 56 Phan Văn Định</a>, out in Liên Chiểu, described it as a two-minute Grab from the Mikazuki resort and much cheaper than the shops near Hàn Market, and noted that three technicians handled three customers in an hour and twenty minutes. The upstairs spa at 17 Lê Quang Đạo is recommended by way of the bún bò Huế place next door. Tell a driver the nearest hotel, market or noodle shop, then the lane number, and once you are actually at the door, run <a href=\"/choosing-a-salon/\">the ninety-second check</a>."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What does the slash mean in a Da Nang address like 90/10 Trần Phú?",
+        "It marks a lane. Under Da Nang's house-numbering regulation, Decision 84/2006/QĐ-UBND of 27 September 2006 (reissued as Decision 51/2019/QĐ-UBND in December 2019), a house inside a kiệt or hẻm is treated separately from a street-front house, and a lane with no name of its own is identified by the number of the first street-front house just before its mouth. 90/10 Trần Phú is therefore house 10 inside the lane opening beside number 90. Walk to 90 and turn in; expect odd numbers on your left and even on your right. Twenty of the 175 salons in this guide use an address of that shape."
+      ],
+      [
+        "What is a kiệt in Da Nang?",
+        "A kiệt is a lane leading off a street. Đà Nẵng and Huế use the word, where Hanoi says ngõ and Ho Chi Minh City says hẻm. In Da Nang's own numbering rules, kiệt and hẻm appear together. Most lane addresses in this guide use a slash in place of the word, though one salon, LÂM'S NAIL ACADEMY, is listed as Kiệt60/30, Trưng Nữ Vương, meaning house 30 in the lane at number 60."
+      ],
+      [
+        "Which floor is the nail salon on?",
+        "You will not learn it from the address. None of the 175 nail-salon addresses in this guide names a floor, and in the whole 255-venue snapshot only one listing does: a hotel spa on level 19. According to reviews, there are salons on the second floor at 106 Nguyễn Văn Thoại and on the sixth at 167 Trần Phú, and one shop near the river simply put the floor in its own name, Chu Beauty on2nd. Message the salon to ask tầng mấy, and if you are carrying luggage, whether there is a lift."
+      ],
+      [
+        "Are nail salons down Da Nang alleys cheaper than ones on the main street?",
+        "The reviews say so and the ratings say the work does not suffer. The 21 lane listings in this guide average 4.92 against 4.90 for the 154 street-front ones, while the median lane shop has 79 Google ratings against 117, so the lane costs the salon footfall rather than quality. One customer at Chuty Nailroom, 169/5 Trần Phú, reported 350K for a manicure and pedicure together in May 2026, against city ranges of 70K to 300K for gel colour and 200K to 300K for a pedicure with gel across the six salons that publish menus."
+      ]
+    ]
+  },
+{
     "slug": "mens-manicure-da-nang",
     "title": "Không sơn: 18 reviews in 841 mention a man, and one of them leaves with colour on",
     "desc": "Four of the six Da Nang menus behind the price table clean hands or feet with no colour on them, for 70K to 120K. The two that print a men's section start at 260K, and at Liti the same four steps cost 30K more under the men's heading than under the other one.",
