@@ -9,6 +9,85 @@
 
 const JOURNAL = [
 {
+    "slug": "nail-academy-students-da-nang",
+    "title": "Học viên: three of the 175 salons also teach, all three sit at a flat 5.0, and the class reviews are in that average",
+    "desc": "Three Da Nang nail salons put academy on the sign and hold 382 of the city's 59,527 Google ratings between them, none of it below five stars. Eleven of the 841 review texts mention a course, a student or a teacher, and four of those are rating a class rather than a manicure.",
+    "date": "2026-11-28",
+    "cat": "Guides",
+    "read": 7,
+    "tldr": [
+      "Three of the 175 nail salons in this guide put academy on the sign. <a href=\"/salons/ntn-academy-nails-beauty-ntogqi/\">NTN Academy Nails Beauty, 40/8 Phan Thanh in Thanh Khê</a>, has 5.0 from 279 ratings. <a href=\"/salons/lam-s-nail-academy-9d7v3a/\">LÂM'S NAIL ACADEMY at Kiệt60/30, Trưng Nữ Vương</a>, has 5.0 from 79, and <a href=\"/salons/trang-sala-nail-academy-oknm3q/\">TRANG SALA NAIL ACADEMY, 65 Quảng Hàm in Cẩm Lệ</a>, has 5.0 from 24. Together that makes 382 ratings with nothing under five stars, inside a dataset of 59,527.",
+      "Some of that perfection came from people who paid tuition. Seven of the 841 review texts behind this guide mention a teacher, a student, an instructor or an apprentice. Two are by students at TRANG SALA, who describe their teacher and the practice hours; a third thanks the instructor at LÂM'S, while a fourth is from a customer at LÂM'S who explains, happily, that a student did her nails. Google averages the classroom and the manicure into the same figure. <a href=\"/journal/small-nail-studios-da-nang/\">Sample size is the other reason a small shop shows 5.0</a>, and that is the one people at least know to check.",
+      "The shops that teach mostly do not mention it. Google files <strong>Lê Yến Nails &amp; Eyelash</strong>, 54/31 Ông Ích Khiêm, as an educational institution, the only venue with that type in the 255-venue snapshot, whereas all three self-declared academies are typed as plain nail salons. A review of Ka Ka Nails Salon, 392 Hùng Vương, rates a nail training programme and names its three trainers. Another, for HQ Nail on Nguyễn Hữu Thọ, says the owner runs four shops and also teaches at a nail academy.",
+      "Ask who is working on you, and order a colour if the answer is a student. The only review in all 841 that puts an apprentice at the table is a one-star for <a href=\"/salons/nhung-brows-and-nails-syd4se/\">Nhung Brows &amp; Nails</a>, from a customer who bled. No trainee line appears on any of the six menus behind <a href=\"/prices/\">the price table</a>: gel colour costs 70K to 300K and nail art 5K to 120K per nail, whoever holds the brush."
+    ],
+    "body": [
+      {
+        "h": "Three names, 382 ratings, no dissent",
+        "p": [
+          "This guide draws on a Google Places snapshot dated 17 November 2026, with 255 venues in Da Nang, 175 of them typed as nail salons, 59,527 ratings and 841 pieces of review text. Three of those 175 names contain the word academy. A fourth, Himee Academy at 117/11 Nguyễn Văn Thoại, has the beauty salon type and sells lash extensions first, so it is outside the count.",
+          "The three look nothing alike. NTN Academy Nails Beauty is the big one: 279 ratings at a flat 5.0, a Facebook page as its only link, and an hours field that says 8:30 AM to 8:00 AM on Mondays and Thursdays where the other five days have 8:30 to 20:00. It is a transcription slip for eight in the evening, made twice, and a useful reminder of how much care goes into these fields.",
+          "LÂM'S NAIL ACADEMY is the odd one. Its website slot points to a YouTube channel, the only listing among the 175 that does so, which suits a shop whose product is partly instruction. The hours claim round-the-clock opening every day of the week, which puts it among the nine Monday schedules in this guide that say the same and <a href=\"/journal/nail-salon-opening-hours-da-nang/\">should be read as an unfilled field rather than an invitation</a>. Since the address is a lane, <a href=\"/journal/da-nang-alley-addresses-nail-salons/\">walk to number 60 on Trưng Nữ Vương and turn in</a>.",
+          "TRANG SALA NAIL ACADEMY is the small one, with 24 ratings, hours of 8:00 to 19:00 on weekdays and 9:00 to 18:00 at weekends, and no link of any kind. It is out in Cẩm Lệ, where almost no visitor traffic goes, although it happens to be <a href=\"/journal/nails-before-your-flight-da-nang/\">under two kilometres from the airport terminals</a>. What a November 2025 reviewer first noticed walking in was the wall of certificates and medals, and that the lash work is done on the floor above."
+        ]
+      },
+      {
+        "h": "Who wrote the five stars",
+        "p": [
+          "Read the classroom ones and the problem is plain. At TRANG SALA in July 2026, someone writes of a teacher who follows each learner closely, of getting plenty of hands-on practice, and of techniques kept current. Another, from August 2025, describes an enjoyable class and a group that helps each other along. Neither review has one word about what the shop does to a paying customer's hands. On a page with 24 ratings in total, two of the five visible texts are school reviews.",
+          "LÂM'S has the honest version. In October 2026 a customer reports that a student did her nails, that the work was gentle and detailed, and that you can see how well the learners are supervised. It is the single most informative review on any of these three pages, since it names who was holding the brush. A June 2026 one-liner praises the technicians, then the instructor, and could have come from either side of the table.",
+          "So here is the position I will defend: a salon that teaches is not a worse salon. In a trade without an entry exam it is often the opposite, because the teaching house has the most practised pair of hands in the room and a supervisor standing two feet away. What such a house does have is a score that no longer measures its manicures. Gratitude from tuition payers and satisfaction from customers land in the same average, and Google will not separate them for you.",
+          "The workaround is to stop reading the number and read the text. <a href=\"/how-to-spot-fake-reviews-nail-salon-da-nang/\">Sort by newest, take the last three months, and keep only the reviews that describe the work</a>: a shape, a colour, a price, the time it took. Words such as teacher, class, instructor and student are the sign that you have strayed into the prospectus, and seven of the 841 texts here contain one of them. Two of those seven are a different trap altogether. Reviews of <a href=\"/salons/l-a-nails-design-lm0dfy/\">L.A Nails Design in Thanh Khê</a> and <a href=\"/salons/riee-beauty-qjobok/\">RIEE BEAUTY</a> praise student-friendly prices, which in Vietnamese means cheap enough for sinh viên: students as customers, not as staff."
+        ]
+      },
+      {
+        "h": "Teaching does not show up on the listing",
+        "p": [
+          "Google's category field is nearly useless here. Lê Yến Nails &amp; Eyelash at 54/31 Ông Ích Khiêm, 4.9 across 193 ratings, is the only one of the snapshot's 255 venues typed as an educational institution, and its name sells nails and lashes like everyone else's. The three shops with academy in their own names are all typed nail salon. That category reflects a box somebody ticked once, years ago, and nothing has corrected it since.",
+          "The truth leaks out through the reviews. Ka Ka Nails Salon at 392 Hùng Vương, typed a beauty salon, 4.9 from 104 ratings, has a long five-star review of its nail training programme that thanks three named trainers for how thoroughly they explain things. At HQ Nail Massage on Nguyễn Hữu Thọ, 4.9 from 194, a customer reports that the owner did her nails personally, operates four shops, and teaches at a nail academy. Neither listing advertises a single course.",
+          "The paperwork has moved recently, for what that is worth. Vietnam's Law on Vocational Education 124/2025/QH15, dated 10 December 2025, replaced the 2014 law from 1 January 2026, and institutions that existed before that date have sixty months to meet the new standards. None of it tells you whether the room you are sitting in is a registered school or a salon whose owner takes students on the side. According to the National Institute of Beauty's page on Vietnamese hair and beauty rules, there is no specific licensing requirement for nail services at all, beyond business registration and general health and safety obligations. Framed certificates are a market signal and are not a licence.",
+          "Money explains why the practice happens on tourists. Training is the profitable half of many small beauty businesses: diva.edu.vn, a beauty school chain writing about its own trade, prices a nail course in Da Nang at 3 to 20 million đồng depending on length and school, while trangbeauty.vn's 2026 price page has a basic course at 10 to 15 million. A student who has paid over eight figures expects hours of real hands, and real hands walk in off the street holding a phone with a screenshot on it."
+        ]
+      },
+      {
+        "h": "What changes when the hands belong to a learner",
+        "p": [
+          "Speed comes first. <a href=\"/journal/how-long-nails-take-da-nang/\">A plain gel colour in this city runs to about two hours once prep and cure time are counted</a>, and a supervised learner is slower than that, sometimes much slower, as the instructor stops the work to correct it. That is the whole point of the arrangement, and it is fine right until you have a dinner booking at seven or a check-in desk that closes at ten past ten.",
+          "Then the cuticle and the drill. <a href=\"/journal/cuticle-cutting-da-nang-nail-salons/\">The nipper and the e-file are where a Da Nang appointment actually goes wrong</a>, and they are also the two tools a learner has the least feel for. The one-star at Nhung Brows &amp; Nails from August 2026 is the only review in 841 that puts an apprentice at the table: the owner and the apprentice worked on her together, she bled anyway, and the gel chipped off almost at once. It is also the only rating under five on a page of 22, which is what drags that shop to 4.8. Back in April 2023, a customer at <a href=\"/salons/hm-nail-jnvazw/\">HM Nail</a> wrote that the young technician was sweet and careful but plainly inexperienced, and said she was leaving four stars rather than five for the shop's own good.",
+          "All of this can be answered by one question asked before you arrive. <a href=\"/journal/book-nail-appointment-da-nang/\">Booking here happens over Messenger or Zalo rather than by phone</a>, so asking costs nothing: who will be doing the work. Ai làm cho mình ạ. If you want the owner or the instructor, name her and accept a later slot. When a review has named the technician behind a set you liked, ask for that person by name, which is <a href=\"/journal/da-nang-nail-salon-chains-branches/\">how you book anything in this city that has more than one chair</a>.",
+          "If it does go wrong, a teaching room is the better place for that. <a href=\"/journal/nails-gone-wrong-da-nang-redo/\">The redo conversation in Da Nang is usually short and usually free</a>, and in an academy the person who can fix the work is already standing in the room. Speak up before you pay and before you leave, because both of those get harder afterwards."
+        ]
+      },
+      {
+        "h": "When I would book one of them anyway",
+        "p": [
+          "Order a colour and nothing else. Across the six Da Nang salons with published menus behind <a href=\"/prices/\">the price table</a>, gel polish in a full colour costs 70K to 300K, a pedicure with gel colour 200K to 300K, and removal 10K to 150K. Those jobs have a right answer, and a supervised learner will reach it, slowly, with somebody checking. A mid-trip colour change on a loose afternoon is exactly the booking for an address like this.",
+          "Refuse the per-nail work. Nail art is 5K to 120K per nail on those same menus and extensions 60K to 550K for a full set, and both of those buy somebody's judgement rather than their time: how long, how thick, where the apex sits, whether the line is clean on the pinky. <a href=\"/treatments/\">Extensions and builder gel are the services that have to be filed off again if they are wrong</a>, which is a second appointment you did not plan for.",
+          "Of the three, the one I would message first is NTN on Phan Thanh, for a reason that is arithmetic rather than affection. Its 279 ratings are the only sample among them large enough to describe a shop at all: 65 of the 175 salons in this guide show a flat 5.0, and the median one of those has 79 ratings, so a perfect score at this end of the market is a statement about how few people have voted. NTN's Facebook page also has finished work on it, which is more than TRANG SALA offers, since it publishes no link at all.",
+          "A certificate on a wall is a claim about the teacher. On these pages, only the last three months of text describe the technician, and at these three addresses you read it knowing that some of the authors came to learn rather than to be served. Then <a href=\"/choosing-a-salon/\">run the ninety-second check at the door</a> as you would anywhere else."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Will a student do my nails at a Da Nang nail academy?",
+        "Sometimes, and at least one customer puts it in writing: an October 2026 review of LÂM'S NAIL ACADEMY, Kiệt60/30 on Trưng Nữ Vương, describes a student doing the work gently and well under supervision. Three of the 175 nail salons in this guide have academy in the name, and none of them says anywhere who takes a given appointment. Since the listing will not tell you, ask in the message you send to book, and if you want the owner or the instructor, name her and take a later slot. For a plain gel colour the answer matters less than people assume, but for extensions or per-nail art it matters a great deal."
+      ],
+      [
+        "Are nail academies in Da Nang cheaper than ordinary salons?",
+        "There is no evidence that they are. None of the three academy listings in this guide publishes a menu, and not one of the six Da Nang salons with public price lists has a trainee or model line on it. Those menus give city ranges of 70K to 300K for gel polish in a full colour, 200K to 300K for a pedicure with gel, 10K to 150K for removal and 5K to 120K per nail for art. Published numbers at a training house price the course, not the manicure: diva.edu.vn puts a nail course in Da Nang at 3 to 20 million đồng. If you want a cheap set, the low end of the open menu is cheaper than a gamble on a learner."
+      ],
+      [
+        "Why do Da Nang nail salons with academy in the name have perfect 5.0 ratings?",
+        "There are two reasons, and one of them is not about manicures. All three academy listings are at a flat 5.0, across 279, 79 and 24 ratings, and seven of the 841 review texts in this guide mention a teacher, a student, an instructor or an apprentice. Two of those seven come from students at TRANG SALA writing about a dedicated teacher and plenty of practice time, while a third thanks the instructor at LÂM'S. Those five stars go into the same average as the customers'. The second reason, sample size, applies across the city: 65 of the 175 salons here have a flat 5.0, and the median one of those has 79 ratings, so most of them have never had one bad afternoon recorded against them."
+      ],
+      [
+        "Is it safe to get your nails done at a nail school in Vietnam?",
+        "The risks are the ordinary ones, concentrated in two places: the cuticle nipper and the electric file. Among 841 reviews here, the only one that names an apprentice is a one-star from a customer at Nhung Brows & Nails who bled while the owner and the apprentice worked together. Supervision also cuts the other way, because the person who can correct the work is in the room. On paper, Vietnam's Law on Vocational Education 124/2025/QH15 has governed vocational training since 1 January 2026 and says nothing about who may hold a drill, while the National Institute of Beauty's Vietnam page reports no specific licensing requirement for nail services. Judge the room instead: files that come out new, metal tools from a sealed pouch, and a technician who stops the moment you flinch."
+      ]
+    ]
+  },
+{
     "slug": "nails-before-your-flight-da-nang",
     "title": "Ra sân bay: 172 of the 175 salons sit inside 8km of the terminal, and the morning flight still beats you",
     "desc": "Da Nang's airport is in the middle of the city, so no nail salon here is far from it · the median is 4.3km. What ruins the departure-day appointment is the clock at the check-in desk and the fact that the city does not open until nine.",
