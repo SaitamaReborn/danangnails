@@ -9,6 +9,91 @@
 
 const JOURNAL = [
 {
+    "slug": "nails-before-your-flight-da-nang",
+    "title": "Ra sân bay: 172 of the 175 salons sit inside 8km of the terminal, and the morning flight still beats you",
+    "desc": "Da Nang's airport is in the middle of the city, so no nail salon here is far from it · the median is 4.3km. What ruins the departure-day appointment is the clock at the check-in desk and the fact that the city does not open until nine.",
+    "date": "2026-11-26",
+    "cat": "Guides",
+    "read": 7,
+    "tldr": [
+      "There is no such thing as a salon near Da Nang airport, since all of them are. On a straight line from the passenger terminals, 172 of the 175 nail salons in this guide fall inside eight kilometres and 133 of them inside five, with a median of 4.28km. The closest is <a href=\"/salons/bloom-nail-and-shampoo-6ta7yq/\">Bloom nail &amp; Shampoo at 232 Tố Hữu</a>, 1.8km out. Grab's own Da Nang airport page gives the run into town as 3 to 5km and 10 to 15 minutes, so pick on the work and ignore the map.",
+      "The hour you lose is at the check-in desk, not on the road. VinWonders' Da Nang airport guide puts international counters at three hours before departure, closing fifty minutes out, and domestic counters at two hours, closing forty minutes out. Terminal 2 handled 6.81 million international passengers in 2025 against a design capacity of four million, and the operator broke ground on a roughly 1.5-trillion-đồng expansion on 19 May 2026, so the queue you are budgeting for sits in a terminal that is over capacity and under construction at the same time.",
+      "A flight before midday kills the appointment outright. 159 of the 175 salons publish a Monday schedule with a real opening and closing time, and the median opening is nine o'clock. Twenty-six open at eight or earlier. Exactly one in the whole guide opens before eight: <a href=\"/salons/ther-nail-room-vgkyq4/\">Ther Nail Room at 56 Phan Văn Định</a>, at 7:30, and it is 7.5km away in Liên Chiểu.",
+      "Book the last evening instead. With a median close of 20:30, the night before departure gives you the full menu, and departure morning stays free of anything priced per nail. Across the six Da Nang salons with published menus behind <a href=\"/prices/\">the price table</a>, nail art costs 5K to 120K per nail, and per-nail work is the line that runs over."
+    ],
+    "body": [
+      {
+        "h": "Near the airport is not a category in this city",
+        "p": [
+          "Da Nang put its airport in the middle of itself. The runways lie under three kilometres west of the Hàn river, so the ride that takes forty minutes in most Asian cities takes a quarter of an hour here: Grab's own airport-rides page for Da Nang International lists 3 to 5km and 10 to 15 minutes into the centre.",
+          "Run the numbers on the dataset behind this guide, a Google Places snapshot dated 17 November 2026 that covers 175 nail salons, and the airport stops being a location at all. Straight-line from the terminals, 133 salons are inside five kilometres and 172 inside eight, with a median of 4.28km. The three nearest are <a href=\"/salons/bloom-nail-and-shampoo-6ta7yq/\">Bloom nail &amp; Shampoo, 232 Tố Hữu in Cẩm Lệ</a>, at 1.8km; Nhung Brows &amp; Nails at 315 Nguyễn Phước Nguyên, 1.9km; and TRANG SALA NAIL ACADEMY at 65 Quảng Hàm, 1.95km. All three have fewer than thirty Google ratings, so you can tell nobody is going to them for the convenience.",
+          "The clusters hardly separate either. Hải Châu's 69 salons average 3.26km from the terminals, and the eleven in Thanh Khê come to the same figure; the 37 along the <a href=\"/neighbourhoods/\">My Khe beachfront</a> average 5.01km and the 33 in My An and An Thượng 4.77km. Staying at the beach costs you under two kilometres and perhaps six minutes. Only one listing in the guide is truly far from the plane, <a href=\"/salons/local-beach-spaandnail-_o-oko/\">Local Beach Spa&amp;Nail at 151 Nguyễn Phan Vinh in Hội An Tây</a>, 20.7km out, and it is here because the city absorbed Quảng Nam.",
+          "So distance to the airport is the most useless filter you can apply to a Da Nang nail salon. Every shop in this guide bar three is a single short Grab ride from the departures door, and the fifteen minutes you might save by picking the close one will not survive one set of traffic lights on Nguyễn Hữu Thọ."
+        ]
+      },
+      {
+        "h": "The arithmetic that actually decides it",
+        "p": [
+          "Work backwards from the counter, because that is where the time goes. VinWonders' guide to the airport gives the windows: international check-in opens three hours before departure and shuts fifty minutes before takeoff, domestic opens two hours before and shuts forty minutes before. Terminal 2 was built for four million international passengers a year and took 6.18 million in 2024 and 6.81 million in 2025. Da Nang International Terminal Investment and Operation JSC started an expansion worth close to 1.5 trillion đồng on 19 May 2026 to lift the design figure to six million, with completion reported inside the 2026 to 2030 window. Translation: you are queueing in a terminal that is both oversubscribed and a worksite, and that is not where you want to be discovering you are late.",
+          "Try it on a two o'clock international departure. Counters open at eleven and you want to be in the hall by half eleven, so you leave your hotel at ten past eleven and are out of the chair by eleven. The salon opened at nine. That is a clean two hours, enough for a plain gel colour with shaping and cuticle work and nothing else. It fits.",
+          "Now try an eleven o'clock domestic flight. Check-in shuts at 10:20, you are sensibly at the desk by half nine, you leave at ten past nine, and by then the median Da Nang nail salon has been open for ten minutes. No appointment exists in that gap. The whole decision is the departure time, not the distance, and <a href=\"/journal/how-long-nails-take-da-nang/\">the two hours a Da Nang appointment really takes</a> is the number to run it against."
+        ]
+      },
+      {
+        "h": "Nine o'clock is a wall, and nine listings are lying about it",
+        "p": [
+          "Among the 175 salons, 159 publish a Monday schedule with a clock time at each end. Six publish no hours at all, and one lists Monday as closed. The other nine say open 24 hours, and I would not plan a six in the morning appointment around a field somebody left on its default; in a city where <a href=\"/journal/nail-salon-opening-hours-da-nang/\">the median close is half past eight in the evening</a>, a round-the-clock nail shop is a data artefact.",
+          "Across those 159 schedules the median opening is nine o'clock sharp and the median close 20:30. Twenty-six open at eight or earlier. One opens before eight, Ther Nail Room at 56 Phan Văn Định, at 7:30, and Liên Chiểu is 7.5km from the terminals, in the opposite direction from everything else you might be doing.",
+          "If you do need the early slot, three of the twenty-six deserve the message. <a href=\"/salons/thuy-tho-nail-da-nang-heel-scrub-foot-massage-hxfmiw/\">Thuỳ Thỏ Nail at 17 An Thượng 27</a> runs from eight in the morning to ten at night and has 4.9 across 2,096 ratings, the largest early opener in the guide by a distance. Kim Anh Nail Room at 74 Nguyễn Hoàng in Thanh Khê has a flat 5.0 across 631 ratings, opens at eight, and is 2.7km from the terminals. YaMe Nail at 173 Đống Đa works 8:00 to 19:30 and has 4.9 across 434. Everything else in the guide starts at nine or later, meaning after the moment most morning departures need you gone."
+        ]
+      },
+      {
+        "h": "What to order when you are flying, and what to refuse",
+        "p": [
+          "Gel is the right product here for one unglamorous reason: it comes out of the lamp cured, so you have no drying window to protect on the way to the airport. Air-dry polish has one, and <a href=\"/journal/gel-nails-beach-holiday-da-nang/\">the 24-hour rule belongs to it, not to gel</a>. On the six Da Nang menus behind the price table, gel polish in a full colour costs 70K to 300K and a pedicure with gel colour 200K to 300K.",
+          "Refuse two things. The first is anything billed per nail: at 5K to 120K a nail the price is a proxy for minutes of somebody's undivided attention, and a technician who knows you are watching the clock will either rush the work or run over. Second is removal plus a fresh set in one departure-morning sitting. <a href=\"/journal/gel-removal-da-nang/\">Soak-off is ten to fifteen minutes in foil at best</a>, it is billed separately at 10K to 150K depending on the house, and this is the stage that turns a one-hour booking into a two-hour one.",
+          "Pedicures carry a specific departure-day problem that nobody warns you about. <a href=\"/journal/pedicure-da-nang-foot-soak/\">The soak is its own line on the menu</a>, the finish usually involves oil or cream, and you walk out of the shop in sandals with your toes separated. Before a night flight to somewhere you will want socks and closed shoes, do the feet on the second-to-last day. If anything goes last, make it the hands.",
+          "One more thing for the bag. A bottle of polish bought off a shelf in An Thượng is a liquid as far as cabin baggage is concerned, so it goes into the 100ml bag or the hold, and any clippers or metal pusher you picked up belong in the hold too."
+        ]
+      },
+      {
+        "h": "The salon as a left-luggage office, if you ask",
+        "p": [
+          "Seven of the 841 review texts behind this guide mention a flight at all. Seven. Departure-day appointments plainly happen all the time, since the alternative is that nobody in Da Nang ever gets their nails done on the way out, and the services that make them work are advertised nowhere.",
+          "Start with <a href=\"/salons/thien-ban-nailroom-1-1-yykmji/\">Thiên Ban Nailroom 1-1 at 9 Bàu Sen 1 in Thanh Khê</a>, a flat 5.0 across 38 ratings and 2.4km from the terminals. An April 2026 reviewer spent the dead hour before her flight there and took a hair wash alongside the nails; what she recommends the shop for is how close it is to the airport. Next comes <a href=\"/salons/azit-nail-rnoqlk/\">Azit Nail at 15 Nguyễn Thái Học in Hải Châu</a>, 4.9 across 1,350 ratings and 3.8km out, where a reviewer with a few hours to kill says the shop kept their luggage at no charge and then ran them to the airport. Neither of those is on a price list.",
+          "Two more patterns are worth copying. A September 2026 customer used <a href=\"/salons/da-nang-nail-hair-liti-uyrjjg/\">Da Nang Nail Hair Liti at 93A Yên Bái</a>, 4.9 across 408 ratings, as a stop on the way from Da Nang to Hội An, the obvious move if your bed is in Hội An and your plane is here. At <a href=\"/salons/lalin-nailandlashes-0isuxg/\">Lalin.nail&amp;lashes, 73/5 Châu Thị Vĩnh Tế</a>, a March 2026 pair split the trip in two: hands on day two, feet on the way to the airport, with a technician who speaks Korean and Mandarin. Over at <a href=\"/salons/kt-beauty-nails-hair-wash-an-thuong-da-nang-wuztki/\">KT BEAUTY NAILS, 17 An Thượng 34</a>, the one observation from an August 2026 last-day customer was that the bill came in under what she had seen elsewhere.",
+          "None of this is discoverable from a listing, so ask. <a href=\"/journal/book-nail-appointment-da-nang/\">The channel that gets you a slot is a message rather than a phone call</a>, and the same message will get you an answer on bags, on a lift if the shop is upstairs, and on whether somebody can put you in a Grab at the end. If the answer on bags is no, the fix is to not carry them: <a href=\"/journal/mobile-nail-service-da-nang-hotel/\">a handful of Da Nang operators come to the hotel room</a>, and on a departure day that removes the walk there, the walk back and the twenty minutes in a plastic chair."
+        ]
+      },
+      {
+        "h": "The booking I would actually make",
+        "p": [
+          "Last evening, around six, one service and not two. That is the whole recommendation, and this is the opinion behind it: the departure-morning appointment is the only nail appointment you will ever buy with a hard deadline attached, and a deadline is the single condition under which this work reliably gets worse. The evening-before slot costs you nothing but an evening you were going to spend eating anyway.",
+          "If it has to be the feet, there is a case for leaving them late, and a reviewer at Jisu nail, 115 Trần Phú, put it better than I can in March 2026: she had been averaging fifteen thousand steps a day around the city and decided it was finally time for a foot scrub and a foot massage. A week of Da Nang pavement is hard on feet. Just do not make it the morning of the flight, and go through the <a href=\"/choosing-a-salon/\">ninety-second check</a> before you sit down in a shop you chose for its postcode.",
+          "And if your flight is at seven in the morning, accept it. The earliest door in this guide opens at 7:30, in the wrong ward, and no amount of messaging changes that. Da Nang is asleep, its nail shops are asleep, and the appointment belongs to the evening before or to the city you are flying to."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Can I get my nails done before my flight in Da Nang?",
+        "Usually yes, and the geography is on your side: 172 of the 175 nail salons in this guide are within eight kilometres of the airport terminals, with a median of 4.28km, and Grab's Da Nang airport page puts the ride into town at 10 to 15 minutes. Work backwards from check-in rather than from the flight. VinWonders' airport guide gives international counters opening three hours before departure and domestic counters two hours before, so an afternoon international departure leaves room for a plain gel colour, 70K to 300K across the six Da Nang salons with published menus. A flight before midday does not, because the median salon in this city opens at nine."
+      ],
+      [
+        "Are there nail salons near Da Nang airport?",
+        "Dozens, though none of them markets itself that way, because the airport sits inside the city. Nearest in this guide are Bloom nail & Shampoo at 232 Tố Hữu in Cẩm Lệ, 1.8km in a straight line from the terminals; Nhung Brows & Nails at 315 Nguyễn Phước Nguyên, 1.9km; TRANG SALA NAIL ACADEMY at 65 Quảng Hàm, 1.95km; Nail By Ké at 31 Tôn Thất Tùng, 2km; and Lunar.nails at 221 Huy Cận, 2km. All are small listings with twenty to thirty Google ratings. Choosing a salon because it is close to the airport saves you a few minutes in a Grab and nothing else."
+      ],
+      [
+        "I have an early morning flight out of Da Nang. Can I fit a nail appointment in first?",
+        "Almost certainly not. Of the 159 salons here that publish a Monday schedule with real clock times, the median opening is nine o'clock, twenty-six open at eight or earlier, and exactly one opens before eight: Ther Nail Room at 56 Phan Văn Định, at 7:30, which is 7.5km out in Liên Chiểu. Nine more listings claim to be open 24 hours; treat that as an unfilled field rather than an invitation. For a morning departure, book the previous evening against a median closing time of 20:30, and start the appointment by seven if it involves gel removal."
+      ],
+      [
+        "Will a Da Nang nail salon hold my luggage between hotel checkout and my flight?",
+        "Some will, though not one of them says so on a menu. A reviewer at Azit Nail, 15 Nguyễn Thái Học in Hải Châu, 4.9 across 1,350 ratings, describes the shop taking their bags at no charge for the few hours before a flight and then arranging transport to the airport. Only seven of the 841 review texts in this guide mention a flight at all, so there is no way to work out from a listing or a rating which shops do this. Ask in the message you send to book, and ask about a lift too if the salon is on an upper floor."
+      ]
+    ]
+  },
+{
     "slug": "da-nang-alley-addresses-nail-salons",
     "title": "Kiệt: what the slash in 90/10 Trần Phú means, and the floor no Da Nang nail address writes down",
     "desc": "Twenty of the 175 nail addresses in this guide carry a slash, and the slash is a lane: Da Nang's numbering rules give an unnamed kiệt the number of the street-front house at its mouth. Not one of the 175 names a floor, and reviews put salons on the second and the sixth.",
