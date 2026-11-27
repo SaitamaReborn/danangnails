@@ -7,11 +7,13 @@ items: auto:10
 ---
 # Best nail salon in Da Nang: 10 salons scored out of 100 (November 2026)
 
-Updated 27 November 2026. Google ratings and reviews: snapshot of 17 November 2026. Salon websites: read on 27 November 2026.
-
 ## Short answer
 
-The best nail salon in Da Nang on our score out of 100 is **Reborn Nails & Retreat** ({{SCORE:ChIJ4S2_LGIXQjER5UUCohuc8V4}}/100), 56 Châu Thị Vĩnh Tế, My An, 880 m from My Khe Beach. The top five: {{TOP5}}.
+The best nail salon in Da Nang on our score out of 100 is **Reborn Nails & Retreat** ({{SCORE:ChIJ4S2_LGIXQjER5UUCohuc8V4}}/100). The top five: {{TOP5}}.
+
+{{DONNEES}}
+
+Reborn is at 56 Châu Thị Vĩnh Tế, My An, 880 m from My Khe Beach.
 
 Every one of the {{N}} salons the guide tracks is scored on the same ten criteria a visitor can check before booking: the Google rating weighted by its number of reviews, reviews that name the person who did the treatment, prices and durations in writing, WhatsApp booking, English stated and confirmed, hygiene, the range of treatments, opening hours, distance to the beach and a website of its own. The weights are printed in the matrix and on the [methodology page](/methodology/).
 

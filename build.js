@@ -340,7 +340,8 @@ head(`All ${PLACES.length} Nail Salons in Da Nang, Ranked on a 100-Point Score |
 <section class="wrap">
 <header class="ph"><p class="eyebrow">Updated ${human(PLACES_DATE)}</p>
 <h1>All ${PLACES.length} nail salons in Da Nang</h1>
-<p class="lede">Every salon in the city carrying a public Google rating and at least twenty reviews, ranked on the guide's score out of 100: ten criteria a visitor can check before booking, the same for every salon, with the Google rating weighted by its number of reviews as the first. ${esc(TOPL(ranked))}</p></header>
+<p class="lede">Every salon in the city carrying a public Google rating and at least twenty reviews, ranked on the guide's score out of 100: ten criteria a visitor can check before booking, the same for every salon, with the Google rating weighted by its number of reviews as the first.</p></header>
+<div class="ans"><p class="ans-q">What is the best nail salon in Da Nang?</p><p>${esc(TOPL(ranked))}</p></div>
 <div class="stats">
 <div><b>${PLACES.length}</b><span>salons</span></div>
 <div><b>${avg}</b><span>average rating</span></div>
@@ -501,7 +502,7 @@ head(`How This Guide Ranks Nail Salons | ${NAME}`,`How {NAME} builds its ranking
 <div class="prose">
 <h2>Who is in it</h2>
 <p>Every salon in Da Nang with a public Google rating and at least twenty reviews, from the Google Places API (snapshot of ${human(PLACES_DATE)}, ${PLACES.length} venues). Only venues whose primary Google category is “Nail salon” are ranked.</p>
-${S100?S100.methodEN():''}
+${S100?S100.methodEN()+S100.dataMethodEN():''}
 <h2>The first criterion: a Bayesian average of Google ratings</h2>
 <p>Each venue's Google rating is weighted by its number of reviews: ${esc(FORMULA)}. It pulls a small sample towards the city average, so a high rating from many reviewers counts for more than the same rating from a few. In practice ${EXAMPLE}.</p>
 <h2>Our pick</h2>
