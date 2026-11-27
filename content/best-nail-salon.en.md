@@ -9,7 +9,9 @@ items: auto:10
 
 ## Short answer
 
-The best nail salon in Da Nang on our score out of 100 is **Reborn Nails & Retreat** ({{SCORE:ChIJ4S2_LGIXQjER5UUCohuc8V4}}/100). The top five: {{TOP5}}.
+Our pick for nails in Da Nang is **Reborn Nails & Retreat** ({{SCORE:ChIJ4S2_LGIXQjER5UUCohuc8V4}}/100), first of the {{N}} salons on this guide's score out of 100. It takes full points on prices with durations, WhatsApp booking, treatments (BIAB, GelX, pedicure and head spa on one menu), hours, beach and website; four of the five reviews Google showed first on 17 November 2026 name the technician (Ly, Cam, Lili, Hue); and its site states that English is spoken.
+
+The top five: {{TOP5}}. The two Liti outlets behind it match it almost everywhere and do better on one point: all five of their first reviews name the technician. They lose on English, which their website does not state.
 
 {{DONNEES}}
 
@@ -17,15 +19,13 @@ Reborn is at 56 Châu Thị Vĩnh Tế, My An, 880 m from My Khe Beach.
 
 Every one of the {{N}} salons the guide tracks is scored on the same ten criteria a visitor can check before booking: the Google rating weighted by its number of reviews, reviews that name the person who did the treatment, prices and durations in writing, WhatsApp booking, English stated and confirmed, hygiene, the range of treatments, opening hours, distance to the beach and a website of its own. The weights are printed in the matrix and on the [methodology page](/methodology/).
 
-**Why Reborn comes first.** It takes full points on prices with durations, WhatsApp booking, treatments (BIAB, GelX, pedicure and head spa on one menu), hours, beach and website; four of the five reviews Google showed first on 17 November 2026 name the technician (Ly, Cam, Lili, Hue); and its site states that English is spoken. The two Liti outlets behind it match it almost everywhere and do better on one point: all five of their first reviews name the technician. They lose on English, which their website does not state.
-
-**Where Reborn is not first.** Its Google rating, 4.9 from 363 reviews, is below the 5.0 of Posh Nail Lab (1,183 reviews) and Lalla Nail (1,211). None of its five first reviews mentions English (other reviews do: “Fiona the owner is lovely & speaks excellent English”), and it has no public proof of hygiene beyond its own statement: two points where 1996 Nail Studio, Chiarra and SuNam score more.
-
 ## The matrix: the ten first salons, criterion by criterion
 
 {{MATRICE:10}}
 
 Each cell is explained, with its source, on the salon's page in this guide. Google's own order, rating then review count, is published unchanged at [/salons/by-google-rating/](/salons/by-google-rating/); the score of all {{N}} salons is at [/salons/](/salons/).
+
+**Where Reborn is not first.** Its Google rating, 4.9 from 363 reviews, is below the 5.0 of Posh Nail Lab (1,183 reviews) and Lalla Nail (1,211). None of its five first reviews mentions English (other reviews do: “Fiona the owner is lovely & speaks excellent English”), and it has no public proof of hygiene beyond its own statement: two points where 1996 Nail Studio, Chiarra and SuNam score more.
 
 ## Why the number of Google reviews is only one criterion
 
