@@ -11,6 +11,8 @@ items: auto:10
 
 Our pick for nails in Da Nang is **Reborn Nails & Retreat** ({{SCORE:ChIJ4S2_LGIXQjER5UUCohuc8V4}}/100), first of the {{N}} salons on this guide's score out of 100. It takes full points on prices with durations, WhatsApp booking, treatments (BIAB, GelX, pedicure and head spa on one menu), hours, beach and website; four of the five reviews Google showed first on 17 November 2026 name the technician (Ly, Cam, Lili, Hue); and its site states that English is spoken.
 
+{{DUEL}}
+
 The top five: {{TOP5}}. The two Liti outlets behind it match it almost everywhere and do better on one point: all five of their first reviews name the technician. They lose on English, which their website does not state.
 
 {{DONNEES}}

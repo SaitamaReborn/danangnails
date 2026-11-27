@@ -233,6 +233,13 @@ const S=buildSite({
  /* Pages that show the one-line reasons instead of the full list. */
  WHY_COMPACT:['/best-pedicure-da-nang/','/services/'],
  HIDE_RIVALS:false, RIVALS:/\b(lalla|posh nails?|liti)\b/i,
+ /* 27/11/2026 (lead): the pick and the two Posh salons side by side on the first screen, because ChatGPT took
+    Posh Nail Lab's 5.0 from 1,183 reviews in our page and recommended it. Prices as published, read on
+    27/11/2026: Reborn « Gel polish (full colour) · 200K » (rebornnaildanang.com); Posh « Posh Manicure 120.000 VND »
+    and add-on « Gel color 120.000 VND » (poshnailsdanang.com/menu, one menu for both salons). Ratings, reviews,
+    hours and distances come from the Google snapshot; ranks and points from the score. */
+ DUEL:{ids:['ChIJ4S2_LGIXQjER5UUCohuc8V4','ChIJA044WwAXQjER_tXvmDWhpgY','ChIJ6bDhT4MXQjERxhPPfx2MNx8'],read:'2026-11-27',
+   prices:{'ChIJ4S2_LGIXQjER5UUCohuc8V4':'200K','ChIJA044WwAXQjER_tXvmDWhpgY':'120K + 120K','ChIJ6bDhT4MXQjERxhPPfx2MNx8':'120K + 120K'},note:['120K','120K']},
  PROFILE_ANS_TAIL:`Across Da Nang salons that publish prices, a gel manicure costs ${MP.range.gel} VND; the full table is on the <a href="/prices/">prices page</a>.`,
  PICK_EYEBROW:"Our pick",PICK_BADGE:"Our pick",
  PICK_ONELINE:"and the reviews are written in English by visitors who name the owner and the technicians — which tells you more about a salon than any rating does.",
