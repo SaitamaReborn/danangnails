@@ -1,6 +1,6 @@
 {
  "/de/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/de/all/",
   "to": null
  },
@@ -30,7 +30,7 @@
   "to": null
  },
  "/es/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/es/all/",
   "to": null
  },
@@ -60,7 +60,7 @@
   "to": null
  },
  "/fr/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/fr/all/",
   "to": null
  },
@@ -90,7 +90,7 @@
   "to": null
  },
  "/ja/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/ja/all/",
   "to": null
  },
@@ -120,7 +120,7 @@
   "to": null
  },
  "/ko/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/ko/all/",
   "to": null
  },
@@ -156,7 +156,7 @@
   "since": "2026-08-05"
  },
  "/ru/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/ru/all/",
   "to": null
  },
@@ -297,7 +297,7 @@
   "since": "2026-10-02"
  },
  "/salons/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/salons/",
   "to": null
  },
@@ -420,7 +420,7 @@
  "/salons/bloom-nail-and-shampoo-6ta7yq/": {
   "id": "ChIJp9fVSnsZQjERYIB796ta7YQ",
   "name": "Bloom nail & Shampoo",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -636,7 +636,7 @@
  "/salons/enny-nails-mdvmkq/": {
   "id": "ChIJu2UgfwAZQjERB3LW2MDVmkQ",
   "name": "Enny Nails",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -920,7 +920,7 @@
  "/salons/kira-nail-lab-zoivy0/": {
   "id": "ChIJv07yFwAZQjERs706izoivy0",
   "name": "Kira Nail Lab",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -1102,7 +1102,7 @@
  "/salons/local-beach-spaandnail-_o-oko/": {
   "id": "ChIJpamBegANQjERB5uha_o-oKo",
   "name": "Local Beach Spa&Nail",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -1137,14 +1137,14 @@
  "/salons/lunar-nails-zq5are/": {
   "id": "ChIJgY8CGAAZQjERnMPv3zQ5arE",
   "name": "Lunar.nails",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
  "/salons/lyn-nail-pmu-goi-dau-nail-phun-xam-tham-my-4k_-pe/": {
   "id": "ChIJn6d2UDAZQjER6LPiz4k_-PE",
   "name": "Lyn Nail Pmu - GỘI ĐẦU - NAIL - PHUN XĂM THẨM MỸ",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -1202,7 +1202,7 @@
  "/salons/mia-nail-and-eyelash-kd2z5q/": {
   "id": "ChIJw7Vz9O4XQjERP2HMcKD2Z5Q",
   "name": "Mia - Nail & Eyelash",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -1216,7 +1216,7 @@
  "/salons/min-beauty-cqr5sg/": {
   "id": "ChIJHb5Q174ZQjERdCEcwcqr5Sg",
   "name": "Min Beauty+",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -1326,7 +1326,7 @@
  "/salons/my-duyen-nail-cxliwm/": {
   "id": "ChIJiSXQX4wbQjERUeehBCXliWM",
   "name": "Mỹ Duyên Nail",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -1421,7 +1421,7 @@
  "/salons/nail-ha-tien-1wralw/": {
   "id": "ChIJX3k9AFwZQjERNVcKz1WrALw",
   "name": "Nail Hà Tiên",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -1698,7 +1698,7 @@
  "/salons/riee-beauty-qjobok/": {
   "id": "ChIJKSM-KwAZQjER1awLjqJObok",
   "name": "RIEE BEAUTY",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -1807,7 +1807,7 @@
  "/salons/shyn-nail-studio-rfvx-w/": {
   "id": "ChIJK6OPEiAZQjERxHVUTRFvx-w",
   "name": "Shyn nail studio",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -1995,7 +1995,7 @@
  },
  "/salons/street/nguyen-phan-vinh/": {
   "name": "Nguyễn Phan Vinh",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -2138,14 +2138,14 @@
  "/salons/t-nail99-g0ixwm/": {
   "id": "ChIJkfTATwAbQjER0QTzlG0iXWM",
   "name": "T.nail99",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
  "/salons/tai-nail-private-nail-ngu-hanh-son-kyrp2y/": {
   "id": "ChIJy58MbwAbQjERwu1mwkyRp2Y",
   "name": "Tài Nail – Private Nail Ngũ Hành Sơn",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -2202,7 +2202,7 @@
  "/salons/ther-nail-room-vgkyq4/": {
   "id": "ChIJO45-GgAZQjERkCuzOvGKYQ4",
   "name": "Ther Nail Room",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -2230,7 +2230,7 @@
  "/salons/tiem-nail-con-ong-nail-goi-dau-uon-mi-xkh6cq/": {
   "id": "ChIJ-REMzQ4uhW8RXCTQoXKh6CQ",
   "name": "Tiệm Nail Con Ong ( Nail-Gội đầu-Uốn mi)",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -2251,7 +2251,7 @@
  "/salons/tiem-nail-nha-may-may-nailroom-6vs2py/": {
   "id": "ChIJY72YDgAZQjERNCsds6Vs2PY",
   "name": "Tiệm Nail Nhà Mây ( Mây Nailroom)",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -2309,7 +2309,7 @@
  "/salons/trang-sala-nail-academy-oknm3q/": {
   "id": "ChIJ2-rHBGEbQjER_SNGcoknm3Q",
   "name": "TRANG SALA NAIL ACADEMY",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -2369,7 +2369,7 @@
  "/salons/xuan-lan-nail-and-beauty-privite-1-1--axjxy/": {
   "id": "ChIJaZMscgARQjER4AzaX-AXJXY",
   "name": "Xuân Lan Nail & Beauty privite 1:1",
-  "area": "Da Nang",
+  "area": "Other areas",
   "up": "/salons/area/da-nang/",
   "to": null
  },
@@ -2410,7 +2410,7 @@
   "to": null
  },
  "/th/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/th/all/",
   "to": null
  },
@@ -2446,7 +2446,7 @@
   "since": "2026-08-05"
  },
  "/vi/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/vi/all/",
   "to": null
  },
@@ -2476,7 +2476,7 @@
   "to": null
  },
  "/zh/area/da-nang/": {
-  "name": "Da Nang",
+  "name": "Other areas",
   "up": "/zh/all/",
   "to": null
  },
