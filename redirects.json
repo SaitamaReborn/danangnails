@@ -1995,8 +1995,8 @@
  },
  "/salons/street/nguyen-phan-vinh/": {
   "name": "Nguyễn Phan Vinh",
-  "area": "Son Tra",
-  "up": "/salons/area/son-tra/",
+  "area": "Da Nang",
+  "up": "/salons/area/da-nang/",
   "to": null
  },
  "/salons/street/nguyen-thai-hoc/": {
@@ -2007,8 +2007,8 @@
  },
  "/salons/street/nguyen-van-thoai/": {
   "name": "Nguyễn Văn Thoại",
-  "area": "My An & An Thuong",
-  "up": "/salons/area/my-an-and-an-thuong/",
+  "area": "My Khe beachfront",
+  "up": "/salons/area/my-khe-beachfront/",
   "to": null
  },
  "/salons/street/nguyen-xuan-khoat/": {
@@ -2095,8 +2095,8 @@
  },
  "/salons/street/vo-nguyen-giap/": {
   "name": "Võ Nguyên Giáp",
-  "area": "My An & An Thuong",
-  "up": "/salons/area/my-an-and-an-thuong/",
+  "area": "My Khe beachfront",
+  "up": "/salons/area/my-khe-beachfront/",
   "to": null
  },
  "/salons/street/yen-bai/": {
