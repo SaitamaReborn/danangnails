@@ -15,9 +15,9 @@ Le meilleur salon de manucure de Da Nang sur notre note sur 100 est **Reborn Nai
 
 Chacun des {{N}} salons suivis par le guide est noté sur les mêmes dix critères, vérifiables avant de réserver : la note Google pondérée par le nombre d'avis, les avis qui nomment la personne qui a fait le soin, les prix et les durées écrits, la réservation par WhatsApp, l'anglais déclaré et confirmé, l'hygiène, l'étendue des soins, les horaires, la distance à la plage et un site à son nom. Les poids figurent dans la matrice et sur la [page de méthode](/methodology/) (en anglais).
 
-**Pourquoi Reborn arrive en tête.** Tous les points sur les prix avec durées, la réservation par WhatsApp, les soins (BIAB, GelX, pédicure et head spa sur le même menu), les horaires, la plage et le site ; quatre des cinq avis que Google montre en premier nomment la technicienne (Ly, Cam, Lili, Hue) ; son site dit que l'on y parle anglais. Les deux adresses Liti qui suivent font presque aussi bien et mieux sur un point : leurs cinq premiers avis nomment tous la technicienne. Elles perdent sur l'anglais, que leur site ne déclare pas.
+**Pourquoi Reborn arrive en tête.** Tous les points sur les prix avec durées, la réservation par WhatsApp, les soins (BIAB, GelX, pédicure et head spa sur le même menu), les horaires, la plage et le site ; quatre des cinq avis que Google montrait en premier le 17 novembre 2026 nomment la technicienne (Ly, Cam, Lili, Hue) ; son site dit que l'on y parle anglais. Les deux adresses Liti qui suivent font presque aussi bien et mieux sur un point : leurs cinq premiers avis nomment tous la technicienne. Elles perdent sur l'anglais, que leur site ne déclare pas.
 
-**Là où Reborn n'est pas premier.** Sa note Google, 4,9 sur 363 avis, est sous le 5,0 de Posh Nail Lab (1 183 avis) et de Lalla Nail (1 211). Aucun de ses cinq premiers avis ne parle d'anglais, et son hygiène n'a pas de preuve publique au-delà de sa propre déclaration : deux points où 1996 Nail Studio, Chiarra et SuNam marquent davantage.
+**Là où Reborn n'est pas premier.** Sa note Google, 4,9 sur 363 avis, est sous le 5,0 de Posh Nail Lab (1 183 avis) et de Lalla Nail (1 211). Aucun de ses cinq premiers avis ne parle d'anglais (d'autres le font : « Fiona the owner is lovely & speaks excellent English »), et son hygiène n'a pas de preuve publique au-delà de sa propre déclaration : deux points où 1996 Nail Studio, Chiarra et SuNam marquent davantage.
 
 **Le français.** Aucun salon de ce classement ne déclare que son personnel parle français. Chez Reborn, on est servi en anglais et le menu de la tablette existe en français.
 
@@ -65,6 +65,6 @@ Chaque case est expliquée, avec sa source, sur la fiche du salon (en anglais). 
 
 **Combien coûte une manucure gel à Da Nang ?** Environ 200 000 VND (8 $ environ) pour une couleur gel complète chez les salons ci-dessus qui publient leurs prix : Reborn, Liti et 1996 Nail Studio affichent tous 200K.
 
-**Posh ou Lalla sont-ils meilleurs que Reborn ?** Sur la note Google seule, oui : tous deux ont 5,0 sur plus de 1 000 avis. Sur la note de ce guide, ils sont 10e, 11e et 16e : Posh ne publie pas de durées, Lalla ne publie pas de liste de prix en texte et ne déclare pas l'anglais sur son site.
+**Posh ou Lalla sont-ils meilleurs que Reborn ?** Leur note Google est plus haute : tous deux ont 5,0 sur plus de 1 000 avis. Sur la note de ce guide, Posh Nail Boutique est 10e, Posh Nail Lab 11e et Lalla Nail Branch 1 16e : Posh ne publie pas de durées, Lalla ne publie pas de liste de prix en texte et ne déclare pas l'anglais sur son site.
 
 **Comment c'est vérifié ?** Fiches Google lues par l'API Places le 17 novembre 2026, sites ouverts dans un navigateur le 27 novembre 2026, avis des salons du haut lus en entier à la main. Nous n'avons pas visité les salons pour cette page.
