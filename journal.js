@@ -9,6 +9,85 @@
 
 const JOURNAL = [
 {
+    "slug": "nail-salons-near-da-nang-resorts",
+    "title": "Trường Sa: the resort road carries none of the 255 addresses here, and the lane with four nail salons is 6.56 km north",
+    "desc": "None of the 255 venues in this guide lists an address on Trường Sa, the road the Non Nước hotels print. In that strip there is just one venue, a massage house that two August 2026 reviewers put a minute from their room. Its nearest nail bench is 1.75 km inland. The An Thượng lane holding four salons inside 52 metres lies 6.56 km up the coast.",
+    "date": "2026-12-03",
+    "cat": "Guides",
+    "read": 7,
+    "tldr": [
+      "Da Nang's nail trade amounts to two neighbourhoods wearing a city's name. Among the 175 nail salons in this guide, 133 sit within two kilometres of either <a href=\"/salons/casa-nail-spa-enp8gy/\">42 Mai Thúc Lân in An Thượng</a> or <a href=\"/salons/shena-nail-near-han-market-250m-4fspre/\">27 Yên Bái in Hải Châu</a>. The median salon has 22 others inside a kilometre. And 124 of the 175 have another one within 200 metres.",
+      "None of that applies on the resort coast. Not one address among the 255 is on Trường Sa, the road the Non Nước hotels print (35 for the Sheraton Grand, 23 for the Danang Marriott's Non Nuoc Beach Villas, 21 for Sandy Beach, according to the hotels' own pages and listings). In that whole strip, the guide holds a single venue: <a href=\"/salons/aura-spa-massage-nails-hair-wash-and-relaxation-in-da-nang-egkzuy/\">AURA SPA at 05 Nguyễn Thức Đường</a>, 4.9 from 334 ratings. Google types it as a spa, and two August 2026 reviewers place it in front of the Marriott, a minute from their room.",
+      "Budget a ride, not a walk. AURA has no nail salon within a kilometre and one inside three: <a href=\"/salons/xuan-lan-nail-and-beauty-privite-1-1--axjxy/\">Xuân Lan, a one-chair room at a crossroads on Võ Chí Công</a>, 1.75 km inland. The An Thượng lanes are 6.56 km up the coast. North, <a href=\"/salons/anna-nail-shop-zd4qta/\">Anna nail shop at 33 Nguyễn Phan Vinh</a> is the last of all 255 before the Sơn Trà peninsula, which holds nothing at all: 5.77 km from its door to An Thượng 3, 4.60 km to Hàn Market.",
+      "So plan nails as a town errand rather than a hotel amenity. One flat gel colour wants about two hours, which is reason enough to hang the rest of the afternoon on the same trip. Stay in the strip and what you are buying is a massage house's second trade at the top of the published city range: gel colour runs 70K to 300K and a pedicure with gel 200K to 300K across <a href=\"/prices/\">the six salons with public price lists</a>."
+    ],
+    "body": [
+      {
+        "h": "One hundred and thirty-three of the 175, around two points",
+        "p": [
+          "The guide draws on a Google Places snapshot dated 17 November 2026, which covers 255 venues in Da Nang, 175 of them typed as nail salons. On a map, that set does not spread out the way a city does. Of the 175, 133 sit within two kilometres of one of two addresses: <a href=\"/salons/casa-nail-spa-enp8gy/\">42 Mai Thúc Lân</a> in An Thượng, and <a href=\"/salons/shena-nail-near-han-market-250m-4fspre/\">27 Yên Bái</a> in Hải Châu, a shop whose own listing name says Hàn Market is 250 metres away.",
+          "Until you walk it, the crowding inside those two circles is hard to believe. Across the 175, the median salon has 22 other nail salons inside a kilometre and its nearest rival 114 metres off, while 124 of the 175 have a neighbour within 200 metres. Four of them are on the lane called An Thượng 3: <a href=\"/salons/la-spa-khruac/\">La spa at number 31</a> (4.8 from 93 ratings), <a href=\"/salons/lena-nails-and-beauty-j2cu0y/\">Lena Nails &amp; Beauty at 34</a> (5.0 from 305), <a href=\"/salons/nail-sweet-6-idz0/\">NAIL SWEET at 43</a> (4.9 from 386) and <a href=\"/salons/missha-2-nail-and-relaxing-beauty-spa-bx30i8/\">Missha 2 at 48</a> (4.9 from 264). Of those four, the two furthest apart stand 52 metres from each other. Forty-six of the 175 lie within a kilometre of 42 Mai Thúc Lân, and 20 within 400 metres of 27 Yên Bái.",
+          "The guide's own area field makes the same point in six lines: 69 in Hải Châu, 37 on the My Khe beachfront, 33 in My An and An Thượng, 11 in Thanh Khê, 6 in Sơn Trà, and 19 it cannot place, which go under the city's own name. The <a href=\"/neighbourhoods/\">neighbourhood pages</a> mostly cover those first three groups, since that is where almost every visitor sleeps.",
+          "All of which is excellent news if your hotel stands in that grid. The problem is that a good share of the most expensive beds in Da Nang do not."
+        ]
+      },
+      {
+        "h": "Two of the 175 have a beach boulevard address",
+        "p": [
+          "Võ Nguyên Giáp is the road along My Khe, the one every hotel photograph is taken from. Ten of the 255 venues here give it as their address, and two of those ten are 16 km south in Điện Bàn Đông, on a different road that happens to carry the same name. Of the eight left in the city, exactly two are nail salons: <a href=\"/salons/mei-nail-wqzc0s/\">Mei.nail at 472/27</a> and <a href=\"/salons/m-nail-and-spa-happy-hour-50-for-all-massage-treatments-12-6pm-q4mbek/\">M Nail &amp; Spa at 238</a>. The other six are massage houses, among them <a href=\"/salons/da-nang-forest-massage-and-nail-vvgb08/\">Đà Nẵng Forest at 396</a> with 3,554 ratings and Maison Spa on the nineteenth floor of 216 with 4,059.",
+          "You find the benches one street back, in the lanes: An Thượng 3, 29 and 34, Đặng Vũ Hỷ, Nguyễn Văn Thoại, Tô Hiến Thành, Trần Bạch Đằng. Boulevard rent goes to hotels and restaurants, and a nail room has no need of a sea view. What it does need is an address somebody can find, a separate problem, because half of these are written with a slash and <a href=\"/journal/da-nang-alley-addresses-nail-salons/\">the floor is never in the address at all</a>.",
+          "Mei.nail is the one at the southern end, and it shows what the boulevard addresses actually are. It is a home studio behind a 472/27, 5.0 from 32 ratings, one client at a time. A September 2026 customer booked it because it was in her own neighbourhood and reported the vending machine outside selling drinks cheaply, which is the detail you get from a neighbour rather than a tourist. It is 1.13 km from An Thượng 3.",
+          "Taken together, all this tells a visitor that in this market beachfront means a lane one block in. Roughly eight kilometres of lanes form the grid, from Sơn Trà in the north down to Mạc Thiên Tích in the south. Anywhere inside it, somebody's bench is a few hundred metres away. Outside it the arithmetic changes completely."
+        ]
+      },
+      {
+        "h": "Trường Sa, where not one of them is",
+        "p": [
+          "Trường Sa is the road the Non Nước hotels print on their own pages: 35 for the Sheraton Grand, 23 for the Danang Marriott's Non Nuoc Beach Villas, 21 for Sandy Beach Non Nuoc Resort. Not one of the 255 venues in this guide has a Trường Sa address. Not a nail salon, not a spa, not a lash room.",
+          "In that strip, the guide holds one venue of any kind: <a href=\"/salons/aura-spa-massage-nails-hair-wash-and-relaxation-in-da-nang-egkzuy/\">AURA SPA at 05 Nguyễn Thức Đường</a>, 4.9 from 334 ratings, which Google types as a spa. The reviews pin it down precisely. On 6 August 2026 somebody called it a good massage room directly opposite the Marriott, and two days later another reviewer said it was a minute's walk from her hotel. A couple had a massage and nails in the same visit in April 2026. In November 2026, two friends had pedicures and were brought drinks and watermelon.",
+          "It is a real option, and I would use it, though with my eyes open about what those 334 ratings measure. <a href=\"/journal/massage-spa-nails-da-nang/\">Across the 47 spa and massage listings in this guide, more than half of the readable review text is about something other than nails</a>. Every nail price a reviewer names in one of those rooms comes out at 300,000đ. The six Da Nang salons that publish a menu make up <a href=\"/prices/\">the city price table</a>, and there 300K is the top of the gel range and the top of the pedicure-with-gel range, not the middle of either.",
+          "The nearest actual nail bench to AURA is 1.75 km inland: <a href=\"/salons/xuan-lan-nail-and-beauty-privite-1-1--axjxy/\">Xuân Lan Nail &amp; Beauty</a>, 4.9 from 77 ratings, a one-to-one room at a crossroads on Võ Chí Công, where an October 2026 customer was sent home with a small holiday gift. Widen the circle to five kilometres and you get four nail salons in total: Xuân Lan, <a href=\"/salons/tai-nail-private-nail-ngu-hanh-son-kyrp2y/\">Tài Nail on Phan Hoan</a> at 4.00 km, <a href=\"/salons/mia-nail-and-eyelash-kd2z5q/\">Mia on Mạc Thiên Tích</a> at 4.71 km and Tiệm Nail Con Ong in Hòa Xuân at 4.79 km. Three of the four are single-chair rooms in residential streets, which is <a href=\"/journal/small-nail-studios-da-nang/\">a different sort of appointment</a>: you message first, there is no second chair, and nobody is expecting a walk-in. Mia's September 2026 reviewer admitted hesitating over whether she could turn up unannounced and whether anyone would speak English, the street being so thoroughly local. She could, and they did."
+        ]
+      },
+      {
+        "h": "The peninsula, and a 22-kilometre coincidence",
+        "p": [
+          "Heading the other way, the wall is sharper. Of all 255 venues, the northernmost is <a href=\"/salons/anna-nail-shop-zd4qta/\">Anna nail shop, 33 Nguyễn Phan Vinh</a> in Sơn Trà, 5.0 from 30 ratings with exactly one piece of review text, dated 11 November 2026, saying the service was good and the room clean. It stands where the peninsula road starts. Within a kilometre of it there is no nail salon; within three kilometres there are five, then 65 within five, because at five kilometres the city begins again.",
+          "Past Anna, there is nothing. The InterContinental Danang Sun Peninsula Resort lists its own address as the Sơn Trà peninsula, no street given, and the Michelin guide has it as Bãi Bắc Bay, which is honest, since out there the address is a bay. Anna's door is 5.77 km from An Thượng 3 and 4.60 km from Hàn Market. A resort further along the headland adds the whole of its approach road to both numbers before you reach the first bench.",
+          "At the far end comes a coincidence. <a href=\"/salons/local-beach-spaandnail-_o-oko/\">Local Beach Spa&amp;Nail sits at 151 Nguyễn Phan Vinh</a>, the same street name as Anna's, though on a road 22.8 km away in Hội An Tây; both are inside the city only because of <a href=\"/journal/da-nang-ward-names-salon-addresses/\">the 2025 reshuffle that pushed Da Nang thirty kilometres south</a>. By a distance, it is the most isolated bench in the set. No other nail salon lies within ten kilometres, and the only two venues of any kind inside that radius are a pair of spas on the other Võ Nguyên Giáp, down in Điện Bàn Đông.",
+          "The irritating part is that it is also good. In October 2026 it repaired a gel nail that had snapped at another salon and matched the pink to the rest of the hand. A technician, in August 2026, tested a cat eye polish on a sample nail before it went anywhere near the customer. Somebody had extensions with art in July 2026 and came back the next day for a facial. If you are at An Bàng, that is your bench. It is 17.9 km from the An Thượng lanes, which settles whether to go into town for nails."
+        ]
+      },
+      {
+        "h": "What I would do with a resort booking",
+        "p": [
+          "Give up looking for something near the hotel. With Non Nước or the peninsula booked, there is no near: twenty minutes zooming around your pin on Maps will turn up only the hotel spa and a massage room. Choose instead the afternoon that goes into town, then hang the nails on it alongside the market, the lunch or the museum you were going to anyway.",
+          "Allow for the clock rather than the distance. <a href=\"/journal/how-long-nails-take-da-nang/\">A flat gel colour runs to about two hours once prep and curing are counted</a>, and extensions considerably more, so a 6.56 km ride each way is not the expensive part of the plan. Message the shop before you set off, since <a href=\"/journal/book-nail-appointment-da-nang/\">Messenger and Zalo run this trade</a> and a one-chair room can be full all afternoon. The density then works for you: if the first door in the lane is busy, <a href=\"/choosing-a-salon/\">the ninety-second check</a> can be run on the next one fifty metres along.",
+          "Use the resort-strip option for what it does well. Several times a day, a massage house does a foot soak, heel and callus work, a hand massage and one flat colour, and it is open at an hour when the lanes are dark. A French line, art per nail, or a full set of <a href=\"/treatments/\">extensions or builder gel</a> comes down to brush control and structure, which belongs at a bench where nails are the only trade. So does anything you are carrying a photograph of.",
+          "My own view, after plotting all 175 of these: the ride is the smallest decision in the day. What it costs is the hour, not the money, and the hour buys you a room where the nearest competitor is fifty metres away and everybody in it knows the customer can walk. A resort spa has no such neighbour, and the 4.9 glowing on its listing was earned by somebody's hands on a back, not on a cuticle."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Are there any nail salons at Non Nuoc Beach in Da Nang?",
+        "Not on the resort road itself. None of the 255 venues in this guide has an address on Trường Sa, the road the Non Nước hotels print. In that strip the only venue of any kind is AURA SPA at 05 Nguyễn Thức Đường, 4.9 from 334 ratings, which Google types as a spa, and two August 2026 reviewers place it opposite the Marriott, a minute from their room. Xuân Lan is the nearest nail salon, a one-to-one room 1.75 km inland on Võ Chí Công. Within five kilometres of AURA sit four nail salons, three of them single-chair rooms in residential streets, while the An Thượng lanes are 6.56 km up the coast."
+      ],
+      [
+        "How far is the nearest nail salon from the Son Tra peninsula resorts?",
+        "Further than the pin suggests, because the peninsula itself has none. The northernmost of the 255 venues here is Anna nail shop at 33 Nguyễn Phan Vinh, 5.0 from 30 ratings, standing where the peninsula road begins, and no nail salon sits within a kilometre of it. From its door it is 5.77 km to An Thượng 3 and 4.60 km to Hàn Market, with the whole approach road on top if your resort is out at Bãi Bắc. The InterContinental gives its own address as the Sơn Trà peninsula, with no street at all."
+      ],
+      [
+        "Where are most of Da Nang's nail salons?",
+        "In two clusters. Among the 175 nail salons in this guide, 133 lie within two kilometres of either 42 Mai Thúc Lân in An Thượng, behind My Khe Beach, or 27 Yên Bái in Hải Châu, a few steps from Hàn Market. The guide's area field splits them as 69 in Hải Châu, 37 on the My Khe beachfront, 33 in My An and An Thượng, 11 in Thanh Khê, 6 in Sơn Trà and 19 elsewhere. The median salon has 22 others inside a kilometre and its nearest neighbour 114 metres off. That is why a full shop in those lanes costs a short walk rather than an afternoon."
+      ],
+      [
+        "Is it worth having your nails done at a resort spa in Da Nang?",
+        "For a foot soak, heel work, a hand massage and one flat colour, yes, and it may be the only room open late. For brush work, no. A rating on a massage house is mostly a rating of its massages, and every nail price named in a review of one of those rooms comes out at 300,000đ, which is the ceiling of the published city ranges: gel colour runs 70K to 300K and a pedicure with gel 200K to 300K across the six Da Nang salons with public price lists. If you are carrying a reference photograph, spend the twenty minutes and go to a bench."
+      ]
+    ]
+  },
+{
     "slug": "massage-spa-nails-da-nang",
     "title": "Combo: 36 Da Nang massage houses put nail on the sign, and the 4.9 you are reading is for the massage",
     "desc": "Forty-seven of the 255 venues in this guide are typed spa or massage rather than nail salon, and 36 of them still put nail in the name. Their median Monday closing time is 23:00 against 20:30 at the nail shops, and all four prices a reviewer names come out at 300,000 dong.",
